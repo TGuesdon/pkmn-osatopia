@@ -15490,6 +15490,43 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+
+// Osatopia
+    [ITEM_WIND_STONE] =
+    {
+        .name = ITEM_NAME("Pierre Vent"),
+        .price = (I_PRICE >= GEN_7) ? 3000 : 2100,
+        .description = COMPOUND_STRING(
+            "Pierre balayée par\n"
+            "les vents. Fait\n"
+            "évoluer certains."),
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_EVOLUTION_STONE,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .effect = gItemEffect_EvoItem,
+        .flingPower = 30,
+        .iconPic = gItemIcon_ShinyStone, // TODO: icône dédiée
+        .iconPalette = gItemIconPalette_ShinyStone,
+    },
+
+    [ITEM_EARTH_STONE] =
+    {
+        .name = ITEM_NAME("Pierre Terre"),
+        .price = (I_PRICE >= GEN_7) ? 3000 : 2100,
+        .description = COMPOUND_STRING(
+            "Pierre lourde de\n"
+            "terre. Fait\n"
+            "évoluer certains."),
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_EVOLUTION_STONE,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .effect = gItemEffect_EvoItem,
+        .flingPower = 30,
+        .iconPic = gItemIcon_MoonStone, // TODO: icône dédiée
+        .iconPalette = gItemIconPalette_MoonStone,
+    },
 };
 
 #undef ITEM_NAME
