@@ -1,0 +1,311 @@
+constante,nom_fr,nom_en,description_fr
+ABILITY_TRUANT,Absentéisme,Truant,"Lorsque le Pokémon utilise une capacité, il passe le tour suivant à paresser."
+ABILITY_WATER_ABSORB,Absorbe-Eau,Water Absorb,"Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne des PV à la place."
+ABILITY_EARTH_EATER,Absorbe-Terre,Earth Eater,"Si le Pokémon est touché par une capacité de type Sol, il regagne des PV au lieu de subir des dégâts."
+ABILITY_VOLT_ABSORB,Absorbe-Volt,Volt Absorb,"Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne des PV à la place."
+ABILITY_DEFIANT,Acharné,Defiant,Augmente beaucoup l'Attaque du Pokémon quand ses stats sont baissées par l'adversaire.
+ABILITY_ADAPTABILITY,Adaptabilité,Adaptability,"Quand le Pokémon utilise une capacité du même type que lui, le bonus de puissance qu'elle reçoit est encore plus important que normalement."
+ABILITY_HUSTLE,Agitation,Hustle,"Améliore l'Attaque du Pokémon, mais diminue la Précision."
+ABILITY_GALE_WINGS,Ailes Bourrasque,Gale Wings,"Quand les PV du Pokémon sont au maximum, ses capacités de type Vol sont prioritaires."
+ABILITY_AIR_LOCK,Air Lock,Air Lock,Annule tous les effets de la météo.
+ABILITY_SNOW_WARNING,Alerte Neige,Snow Warning,Le Pokémon invoque la neige quand il entre au combat.
+ABILITY_PARENTAL_BOND,Amour Filial,Parental Bond,La mère et son petit unissent leurs forces pour attaquer deux fois d’affilée.
+ABILITY_ANALYTIC,Analyste,Analytic,Augmente la puissance des capacités du Pokémon s’il attaque en dernier.
+ABILITY_SOUL_HEART,Animacœur,Soul-Heart,Augmente l’Attaque Spéciale du Pokémon lorsqu’un autre Pokémon est mis K.O.
+ABILITY_NO_GUARD,Annule Garde,No Guard,"Les capacités du Pokémon touchent leur cible à coup sûr, mais les capacités de l'ennemi le touchent aussi à coup sûr."
+ABILITY_SOUNDPROOF,Anti-Bruit,Soundproof,Protège le Pokémon de toutes les capacités sonores.
+ABILITY_ANTICIPATION,Anticipation,Anticipation,Le Pokémon devine si l'adversaire connaît une capacité dangereuse pour lui.
+ABILITY_WATER_BUBBLE,Aquabulle,Water Bubble,Réduit la puissance des capacités de type Feu subies par le Pokémon. Il est également immunisé contre les brûlures.
+ABILITY_MAGMA_ARMOR,Armumagma,Magma Armor,Le magma qui recouvre le corps du Pokémon le protège contre le gel.
+ABILITY_BATTLE_ARMOR,Armurbaston,Battle Armor,Le Pokémon est protégé des coups critiques par une solide carapace.
+ABILITY_ARMOR_TAIL,Armure Caudale,Armor Tail,"Une étrange queue recouvre la tête du Pokémon, ce qui empêche ce dernier et ses alliés d’être visés par une capacité prioritaire."
+ABILITY_MIRROR_ARMOR,Armure Miroir,Mirror Armor,Le Pokémon renvoie les effets réducteurs de stats qu’il reçoit.
+ABILITY_WEAK_ARMOR,Armurouillée,Weak Armor,"Quand le Pokémon est touché par une capacité physique, sa Défense baisse mais sa Vitesse augmente beaucoup."
+ABILITY_AROMA_VEIL,Aroma-Voile,Aroma Veil,Protège le Pokémon et ses alliés des effets limitant le libre arbitre.
+ABILITY_AS_ONE_ICE_RIDER,,As One,
+ABILITY_AS_ONE_SHADOW_RIDER,,As One,
+ABILITY_INNER_FOCUS,Attention,Inner Focus,Le Pokémon a un mental à toute épreuve qui empêche les attaques ennemies de lui faire peur. Il est aussi immunisé contre le talent Intimidation.
+ABILITY_FAIRY_AURA,Aura Féérique,Fairy Aura,Augmente la puissance des capacités de type Fée de tous les Pokémon.
+ABILITY_AURA_BREAK,Aura Inversée,Aura Break,Inverse l’effet des talents « Aura » afin que ceux-ci baissent la puissance des capacités affectées au lieu de l’augmenter.
+ABILITY_DARK_AURA,Aura Ténébreuse,Dark Aura,Augmente la puissance des capacités de type Ténèbres de tous les Pokémon.
+ABILITY_HOSPITALITY,Aux Petits Soins,Hospitality,"Quand il rejoint le combat, ce Pokémon est aux petits soins avec son allié et restaure quelques PV."
+ABILITY_WIND_RIDER,Aéroporté,Wind Rider,"L’Attaque du Pokémon augmente si un vent arrière souffle ou s’il est touché par une capacité faisant appel au vent. Dans ce dernier cas, il ne subit aucun dégât."
+ABILITY_SAND_RUSH,Baigne Sable,Sand Rush,Augmente la Vitesse lors des tempêtes de sable.
+ABILITY_CHEEK_POUCH,Bajoues,Cheek Pouch,Le Pokémon récupère des PV lorsqu’il consomme n’importe quelle Baie en plus de bénéficier de ses effets habituels.
+ABILITY_SCHOOLING,Banc,Schooling,"Le Pokémon se rassemble avec ses congénères quand ses PV sont élevés. Quand il ne lui reste plus beaucoup de PV, le banc se disperse."
+ABILITY_COMPETITIVE,Battant,Competitive,Augmente beaucoup l’Attaque Spéciale du Pokémon quand ses stats ont été baissées par l’adversaire.
+ABILITY_BATTERY,Batterie,Battery,Augmente la puissance des capacités spéciales des alliés.
+ABILITY_OBLIVIOUS,Benêt,Oblivious,"Le Pokémon est un grand benêt, ce qui l'immunise contre l'attraction, la provocation ou l'intimidation."
+ABILITY_WELL_BAKED_BODY,Bien Cuit,Well-Baked Body,"Si le Pokémon est touché par une capacité de type Feu, il ne subit aucun dégât et sa Défense augmente beaucoup."
+ABILITY_CHILLING_NEIGH,Blanche Ruade,Chilling Neigh,"Quand le Pokémon met un ennemi K.O., il émet un hennissement glaçant, ce qui augmente son Attaque."
+ABILITY_TABLETS_OF_RUIN,Bois du Fléau,Tablets of Ruin,Le pouvoir du bois qui appelle le fléau affaiblit l’Attaque de tous les autres Pokémon.
+ABILITY_AFTERMATH,Boom Final,Aftermath,"Si le Pokémon est mis K.O. par une attaque directe, il inflige des dégâts à l’attaquant avant de s’évanouir."
+ABILITY_STEELY_SPIRIT,Boost Acier,Steely Spirit,Augmente la puissance des attaques de type Acier du Pokémon et de ses alliés.
+ABILITY_BEAST_BOOST,Boost Chimère,Beast Boost,Augmente la stat la plus élevée du Pokémon quand il met K.O. un autre Pokémon.
+ABILITY_SHIELDS_DOWN,Bouclier-Carcan,Shields Down,"Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise et il adopte une posture offensive."
+ABILITY_FLUFFY,Boule de Poils,Fluffy,"Divise par deux les dégâts des attaques directes subies par le Pokémon, mais double les dégâts des capacités de type Feu."
+ABILITY_BLAZE,Brasier,Blaze,Augmente la puissance des capacités de type Feu du Pokémon quand il a perdu une certaine quantité de PV.
+ABILITY_CURIOUS_MEDICINE,Breuvage Suspect,Curious Medicine,"Quand il entre au combat, le Pokémon répand une substance qui annule les changements de stats de ses alliés."
+ABILITY_MOLD_BREAKER,Brise Moule,Mold Breaker,Le Pokémon ignore les talents adverses qui auraient un effet sur ses capacités.
+ABILITY_SCREEN_CLEANER,Brise-Barrière,Screen Cleaner,"Quand le Pokémon entre au combat, les effets de Mur Lumière, Protection et Voile Aurore disparaissent pour les alliés comme pour les adversaires."
+ABILITY_TRACE,Calque,Trace,"Lorsque le Pokémon entre au combat, il calque le talent d'un ennemi pour remplacer le sien."
+ABILITY_POWER_SPOT,Cercle d’Énergie,Power Spot,Augmente la puissance des capacités des Pokémon qui se trouvent à proximité.
+ABILITY_SUPER_LUCK,Chanceux,Super Luck,Le Pokémon est tellement chanceux qu'il inflige plus fréquemment des coups critiques.
+ABILITY_QUARK_DRIVE,Charge Quantique,Quark Drive,"Quand un champ électrifié est actif ou que le Pokémon tient une capsule d’Énergie Booster, sa stat la plus élevée augmente."
+ABILITY_SLUSH_RUSH,Chasse-Neige,Slush Rush,Augmente la Vitesse du Pokémon quand il neige.
+ABILITY_TOXIC_CHAIN,Chaîne Toxique,Toxic Chain,"Grâce aux pouvoirs de sa chaîne imprégnée de toxines, le Pokémon peut empoisonner gravement sa cible en la touchant avec une capacité."
+ABILITY_HONEY_GATHER,Cherche Miel,Honey Gather,Le Pokémon peut parfois trouver du Miel après un combat.
+ABILITY_GUARD_DOG,Chien de Garde,Guard Dog,L’Attaque du Pokémon augmente s’il subit l’effet du talent Intimidation. Les capacités ou objets qui font changer de Pokémon n’ont aucun effet sur lui.
+ABILITY_CHLOROPHYLL,Chlorophylle,Chlorophyll,Augmente la Vitesse du Pokémon s'il y a du soleil.
+ABILITY_CLOUD_NINE,Ciel Gris,Cloud Nine,Annule tous les effets liés à la météo.
+ABILITY_COSTAR,Collab,Costar,"Quand le Pokémon entre sur le terrain, il copie les changements de stats de son allié."
+ABILITY_HUGE_POWER,Coloforce,Huge Power,Double la puissance des attaques physiques.
+ABILITY_ANGER_POINT,Colérique,Anger Point,"Si le Pokémon subit un coup critique, il entre dans une colère noire qui augmente son Attaque au maximum."
+ABILITY_COMMANDER,Commandant,Commander,"Si un Oyacata allié est sur le terrain quand ce Pokémon rejoint le combat, ce dernier entre dans sa bouche et devient son commandant."
+ABILITY_CONTRARY,Contestation,Contrary,"Inverse les changements de stats : les augmentations de stats se transforment en baisses, et vice-versa."
+ABILITY_SHELL_ARMOR,Coque Armure,Shell Armor,Le Pokémon est protégé des coups critiques par sa carapace.
+ABILITY_FLAME_BODY,Corps Ardent,Flame Body,Peut brûler l'attaquant lorsque le Pokémon subit une attaque directe.
+ABILITY_DAZZLING,Corps Coloré,Dazzling,"L’adversaire est abasourdi par le Pokémon, ce qui l’empêche de viser ce dernier et ses alliés avec une capacité prioritaire."
+ABILITY_PERISH_BODY,Corps Condamné,Perish Body,"Lorsque le Pokémon est directement touché par une capacité, l’assaillant et lui tomberont K.O. dans trois tours, à moins qu’ils ne soient remplacés entre temps."
+ABILITY_ICE_BODY,Corps Gel,Ice Body,Régénère peu à peu les PV du Pokémon quand il neige.
+ABILITY_CURSED_BODY,Corps Maudit,Cursed Body,"Quand le Pokémon est touché par une capacité adverse, il inflige parfois Entrave sur celle-ci."
+ABILITY_CLEAR_BODY,Corps Sain,Clear Body,Empêche les stats du Pokémon de baisser à cause du talent ou d'une capacité de l'adversaire.
+ABILITY_GOOD_AS_GOLD,Corps en Or,Good as Gold,Le corps en or pur et robuste du Pokémon l’immunise contre les capacités de statut des autres Pokémon.
+ABILITY_CORROSION,Corrosion,Corrosion,Permet d’empoisonner les Pokémon de type Acier ou Poison.
+ABILITY_ANGER_SHELL,Courroupace,Anger Shell,"Le Pokémon enrage s’il a moins de la moitié de ses PV après avoir subi une attaque. Sa Déf. et sa Déf. Spé. baissent, et son Atq., son Atq. Spé. et sa Vit. augmentent."
+ABILITY_DRIZZLE,Crachin,Drizzle,Le Pokémon invoque la pluie quand il entre au combat.
+ABILITY_GUTS,Cran,Guts,Augmente l'Attaque du Pokémon s'il est affecté par une altération de statut.
+ABILITY_MERCILESS,Cruauté,Merciless,"Lorsque le Pokémon attaque un adversaire empoisonné, le coup est forcément critique."
+ABILITY_MISTY_SURGE,Créa-Brume,Misty Surge,Le Pokémon crée un champ brumeux au moment où il entre au combat.
+ABILITY_GRASSY_SURGE,Créa-Herbe,Grassy Surge,Le Pokémon crée un champ herbu au moment où il entre au combat.
+ABILITY_PSYCHIC_SURGE,Créa-Psy,Psychic Surge,Le Pokémon crée un champ psychique au moment où il entre au combat.
+ABILITY_ELECTRIC_SURGE,Créa-Élec,Electric Surge,Le Pokémon crée un champ électrifié au moment où il entre au combat.
+ABILITY_RAIN_DISH,Cuvette,Rain Dish,Le Pokémon récupère progressivement des PV lorsqu'il pleut.
+ABILITY_NEUROFORCE,Cérébro-Force,Neuroforce,Augmente encore plus la puissance des attaques super efficaces.
+ABILITY_JUSTIFIED,Cœur Noble,Justified,"Réveille la noblesse du Pokémon lorsqu’il subit une attaque de type Ténèbres, ce qui augmente son Attaque."
+ABILITY_HEALER,Cœur Soin,Healer,Soigne parfois une altération de statut d’un allié proche.
+ABILITY_BIG_PECKS,Cœur de Coq,Big Pecks,Protège des effets qui baissent la Défense.
+ABILITY_DANCER,Danseuse,Dancer,"Si n’importe quel Pokémon utilise une capacité dansante, le Pokémon utilise immédiatement cette danse lui aussi."
+ABILITY_DRAGONS_MAW,Dent de Dragon,Dragon’s Maw,Augmente la puissance des capacités de type Dragon.
+ABILITY_FLOWER_GIFT,Don Floral,Flower Gift,Augmente l’Attaque et la Défense Spéciale du Pokémon et de ses alliés lorsque le soleil brille.
+ABILITY_SLOW_START,Début Calme,Slow Start,Divise la Vitesse et l’Attaque du Pokémon par deux pendant les cinq premiers tours du combat.
+ABILITY_HUNGER_SWITCH,Déclic Fringale,Hunger Switch,"À la fin de chaque tour, le Pokémon alterne entre ses formes Mode Rassasié et Mode Affamé."
+ABILITY_STANCE_CHANGE,Déclic Tactique,Stance Change,"Le Pokémon prend la Forme Assaut lorsqu’il utilise une capacité offensive, et la Forme Parade lorsqu’il utilise Bouclier Royal."
+ABILITY_DEFEATIST,Défaitiste,Defeatist,"Le Pokémon devient défaitiste quand ses PV tombent à la moitié, et son Attaque et son Attaque Spéciale sont divisées par deux."
+ABILITY_GULP_MISSILE,Dégobage,Gulp Missile,"Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie."
+ABILITY_UNBURDEN,Délestage,Unburden,Augmente la Vitesse du Pokémon s'il perd ou utilise l'objet qu'il tenait au début du combat.
+ABILITY_TOXIC_DEBRIS,Dépôt Toxique,Toxic Debris,"Quand le Pokémon est touché par une capacité physique, il répand des pics toxiques dans le camp adverse."
+ABILITY_COTTON_DOWN,Effilochage,Cotton Down,"Quand le Pokémon est touché par une attaque, il dissémine des aigrettes qui diminuent la Vitesse de tout le monde, sauf la sienne."
+ABILITY_EMBODY_ASPECT_TEAL_MASK,,Embody Aspect,
+ABILITY_EMBODY_ASPECT_HEARTHFLAME_MASK,,Embody Aspect,
+ABILITY_EMBODY_ASPECT_WELLSPRING_MASK,,Embody Aspect,
+ABILITY_EMBODY_ASPECT_CORNERSTONE_MASK,,Embody Aspect,
+ABILITY_POISON_PUPPETEER,Emprise Toxique,Poison Puppeteer,"Lorsque Pêchaminus empoisonne un Pokémon grâce à l’une de ses capacités, ce dernier devient également confus."
+ABILITY_STAMINA,Endurance,Stamina,Augmente la Défense du Pokémon lorsqu’il subit une attaque.
+ABILITY_OVERGROW,Engrais,Overgrow,Augmente la puissance des capacités de type Plante du Pokémon quand il a perdu une certaine quantité de PV.
+ABILITY_GORILLA_TACTICS,Entêtement,Gorilla Tactics,"Augmente l’Attaque, mais empêche d’utiliser toute autre capacité que celle utilisée en premier par le Pokémon."
+ABILITY_OVERCOAT,Envelocape,Overcoat,"Protège des dégâts occasionnés par les tempêtes de sable, ainsi que des effets des capacités qui libèrent de la poudre et des spores."
+ABILITY_WIMP_OUT,Escampette,Wimp Out,Le Pokémon perd confiance quand ses PV tombent à la moitié et s’enfuit dans sa Poké Ball.
+ABILITY_VITAL_SPIRIT,Esprit Vital,Vital Spirit,Empêche le Pokémon de s'endormir.
+ABILITY_SWARM,Essaim,Swarm,Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV.
+ABILITY_STEELWORKER,Expert Acier,Steelworker,Augmente la puissance des attaques de type Acier.
+ABILITY_INNARDS_OUT,Expuls’Organes,Innards Out,Le Pokémon inflige à l’adversaire l’ayant mis K.O. des dégâts égaux au nombre de PV qu’il lui restait avant le coup de grâce.
+ABILITY_SAND_SPIT,Expul’Sable,Sand Spit,Le Pokémon déclenche une tempête de sable quand il subit une attaque.
+ABILITY_DISGUISE,Fantômasque,Disguise,Le déguisement qui recouvre le corps du Pokémon est capable de le protéger d’une attaque.
+ABILITY_PRANKSTER,Farceur,Prankster,Rend les capacités de statut du Pokémon prioritaires.
+ABILITY_STURDY,Fermeté,Sturdy,Le Pokémon encaisse toujours au moins une attaque s’il a tous ses PV. Il est également immunisé contre les capacités pouvant mettre K.O. en un coup.
+ABILITY_LEAF_GUARD,Feuille Garde,Leaf Guard,Protège le Pokémon contre les altérations de statut quand le soleil brille.
+ABILITY_STAKEOUT,Filature,Stakeout,"Lorsque le Pokémon attaque une cible qui vient d’entrer sur le terrain en remplacement d’un autre Pokémon, les dégâts infligés sont doublés."
+ABILITY_FILTER,Filtre,Filter,Diminue la puissance des attaques super efficaces subies.
+ABILITY_FLOWER_VEIL,Flora-Voile,Flower Veil,Empêche les alliés de type Plante de subir des baisses de stats et des altérations de statut.
+ABILITY_BERSERK,Folle Furie,Berserk,Augmente l’Attaque Spéciale du Pokémon lorsque ses PV tombent à la moitié à cause d’une attaque de l’adversaire.
+ABILITY_MYCELIUM_MIGHT,Force Fongique,Mycelium Might,"Le Pokémon agit toujours plus lentement quand il utilise une capacité de statut, mais il ignore les talents adverses."
+ABILITY_PURE_POWER,Force Pure,Pure Power,Le Pokémon utilise sa maîtrise du yoga pour doubler la puissance de ses attaques physiques.
+ABILITY_SAND_FORCE,Force Sable,Sand Force,"Augmente la puissance des capacités de types Roche, Sol et Acier en cas de tempête de sable."
+ABILITY_SOLAR_POWER,Force Soleil,Solar Power,"Quand le soleil brille, l'Attaque Spéciale du Pokémon augmente mais il perd des PV à chaque tour."
+ABILITY_FRISK,Fouille,Frisk,Permet de connaître l'objet tenu par l'ennemi quand le combat commence.
+ABILITY_STALL,Frein,Stall,Le Pokémon utilise toujours sa capacité en dernier.
+ABILITY_RUN_AWAY,Fuite,Run Away,Permet de fuir n'importe quel Pokémon sauvage.
+ABILITY_MAGIC_GUARD,Garde Magik,Magic Guard,Seules les attaques peuvent blesser le Pokémon.
+ABILITY_WONDER_GUARD,Garde Mystik,Wonder Guard,"Une puissance mystérieuse protège le Pokémon contre toutes les capacités, sauf celles qui sont super efficaces."
+ABILITY_FRIEND_GUARD,Garde-Ami,Friend Guard,Diminue les dégâts subis par les alliés.
+ABILITY_NEUTRALIZING_GAS,Gaz Inhibiteur,Neutralizing Gas,"Si un Pokémon avec Gaz Inhibiteur est sur le terrain, les effets des talents de tous les autres Pokémon ne s’activent pas ou sont neutralisés."
+ABILITY_SWIFT_SWIM,Glissade,Swift Swim,Augmente la Vitesse du Pokémon s'il pleut.
+ABILITY_GLUTTONY,Gloutonnerie,Gluttony,"Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu'il a perdu la moitié de ses PV."
+ABILITY_STICKY_HOLD,Glu,Sticky Hold,"Les objets sont collés au corps gluant du Pokémon, ce qui empêche ses adversaires de les dérober."
+ABILITY_SWEET_VEIL,Gluco-Voile,Sweet Veil,Le Pokémon et ses alliés ne peuvent pas s’endormir.
+ABILITY_ELECTROMORPHOSIS,Grecharge,Electromorphosis,"Si le Pokémon subit des dégâts, il se charge en électricité."
+ABILITY_TOUGH_CLAWS,Griffe Dure,Tough Claws,Augmente la puissance des attaques directes du Pokémon.
+ABILITY_SUPREME_OVERLORD,Général Suprême,Supreme Overlord,"Quand le Pokémon entre sur le terrain, son Attaque et son Attaque Spéciale augmentent légèrement pour chaque allié mis K.O. auparavant."
+ABILITY_HEAVY_METAL,Heavy Metal,Heavy Metal,Double le poids du Pokémon.
+ABILITY_SAP_SIPPER,Herbivore,Sap Sipper,Annule les attaques de type Plante subies par le Pokémon et augmente son Attaque.
+ABILITY_COLOR_CHANGE,Homochromie,Color Change,"Lorsque le Pokémon est touché par une capacité, il prend le type de celle-ci."
+ABILITY_LIQUID_VOICE,Hydrata-Son,Liquid Voice,Toutes les attaques sonores du Pokémon prennent le type Eau.
+ABILITY_HYDRATION,Hydratation,Hydration,Soigne les altérations de statut du Pokémon quand il pleut.
+ABILITY_HYPER_CUTTER,Hyper Cutter,Hyper Cutter,Le Pokémon est armé de puissantes pinces qui font sa fierté et empêchent son Attaque d'être baissée par l'adversaire.
+ABILITY_COMATOSE,Hypersommeil,Comatose,Le Pokémon rêve en permanence et ne se réveille jamais. Il est capable d’attaquer normalement tout en dormant.
+ABILITY_WATER_VEIL,Ignifu-Voile,Water Veil,Le voile qui recouvre le Pokémon le protège des brûlures.
+ABILITY_HEATPROOF,Ignifugé,Heatproof,Diminue de moitié les dégâts infligés au Pokémon par les capacités de type Feu.
+ABILITY_ILLUSION,Illusion,Illusion,Le Pokémon prend l’apparence du dernier membre de l’équipe pour tromper l’adversaire.
+ABILITY_STEADFAST,Impassible,Steadfast,Augmente la Vitesse du Pokémon quand il a peur.
+ABILITY_IMPOSTER,Imposteur,Imposter,Le Pokémon prend l’apparence du Pokémon adverse.
+ABILITY_MOXIE,Impudence,Moxie,"Quand le Pokémon met un ennemi K.O., sa confiance en lui ne connaît plus de limite et son Attaque augmente."
+ABILITY_SHARPNESS,Incisif,Sharpness,Augmente la puissance des capacités tranchantes.
+ABILITY_UNAWARE,Inconscient,Unaware,"Le Pokémon ignore les changements de stats des autres Pokémon, qu'il attaque ou soit attaqué."
+ABILITY_INFILTRATOR,Infiltration,Infiltrator,Traverse les barrières et les clones adverses pour attaquer directement.
+ABILITY_INSOMNIA,Insomnia,Insomnia,Le Pokémon est incapable de dormir.
+ABILITY_INTIMIDATE,Intimidation,Intimidate,"Le Pokémon rugit lorsqu'il arrive au combat, ce qui intimide l'ennemi et baisse son Attaque."
+ABILITY_THICK_FAT,Isograisse,Thick Fat,Le Pokémon est protégé par une épaisse couche de graisse qui diminue de moitié les dégâts qu'il subit des capacités de types Feu et Glace.
+ABILITY_CUTE_CHARM,Joli Sourire,Cute Charm,Peut séduire l'attaquant lorsque le Pokémon subit une attaque directe.
+ABILITY_INTREPID_SWORD,Lame Indomptable,Intrepid Sword,Augmente l’Attaque du Pokémon la première fois qu’il entre au combat.
+ABILITY_STORM_DRAIN,Lavabo,Storm Drain,"Le Pokémon détourne sur lui les capacités de type Eau et les neutralise, tout en augmentant son Attaque Spéciale."
+ABILITY_TINTED_LENS,Lentiteintée,Tinted Lens,Permet à une capacité qui n'est pas très efficace d'infliger des dégâts comme si elle était efficace normalement.
+ABILITY_LIBERO,Libéro,Libero,Le Pokémon prend le type de la capacité qu’il utilise. Ce talent ne peut se déclencher qu’une fois par entrée au combat du Pokémon.
+ABILITY_LIGHT_METAL,Light Metal,Light Metal,Divise par deux le poids du Pokémon.
+ABILITY_LONG_REACH,Longue Portée,Long Reach,Le Pokémon est capable d’utiliser toutes ses capacités sans entrer en contact direct avec sa cible.
+ABILITY_ILLUMINATE,Lumiattirance,Illuminate,"Le Pokémon illumine les alentours, ce qui empêche sa Précision de baisser."
+ABILITY_MOODY,Lunatique,Moody,Augmente beaucoup une stat du Pokémon et en baisse une autre au hasard à chaque tour.
+ABILITY_LEVITATE,Lévitation,Levitate,"Le Pokémon flotte, ce qui l'immunise contre les capacités de type Sol."
+ABILITY_MAGICIAN,Magicien,Magician,Les capacités volent aussi l’objet tenu par la cible.
+ABILITY_MAGNET_PULL,Magnépiège,Magnet Pull,"Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de quitter le terrain."
+ABILITY_KLUTZ,Maladresse,Klutz,Le Pokémon ne peut utiliser aucun objet tenu.
+ABILITY_SHADOW_TAG,Marque Ombre,Shadow Tag,Empêche les Pokémon ennemis de quitter le terrain.
+ABILITY_EARLY_BIRD,Matinal,Early Bird,Le Pokémon se réveille deux fois plus rapidement que les autres.
+ABILITY_BAD_DREAMS,Mauvais Rêve,Bad Dreams,Inflige des dégâts aux ennemis endormis.
+ABILITY_PRIMORDIAL_SEA,Mer Primaire,Primordial Sea,Altère les conditions météo pour neutraliser les attaques de type Feu.
+ABILITY_MIMICRY,Mimétisme,Mimicry,Le Pokémon adopte le même type que le terrain lorsqu’un champ est actif.
+ABILITY_MAGIC_BOUNCE,Miroir Magik,Magic Bounce,Annule les effets des capacités de statut subies par le Pokémon et les retourne à l’envoyeur.
+ABILITY_ZEN_MODE,Mode Transe,Zen Mode,Le Pokémon change de forme quand il lui reste moins de la moitié de ses PV.
+ABILITY_MINUS,Moins,Minus,L’Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Moins ou Plus.
+ABILITY_DAMP,Moiteur,Damp,"Le Pokémon augmente l'humidité de l'air, ce qui empêche tous les Pokémon d'utiliser des capacités explosives telles que Destruction."
+ABILITY_MUMMY,Momie,Mummy,"Lorsque le Pokémon subit une attaque directe, le talent de l’attaquant est remplacé par Momie."
+ABILITY_HADRON_ENGINE,Moteur à Hadrons,Hadron Engine,Le Pokémon crée un champ électrifié quand il rejoint le combat. Une machine du futur fait monter son Attaque Spéciale si un champ électrifié est actif.
+ABILITY_MOTOR_DRIVE,Motorisé,Motor Drive,"Si le Pokémon est touché par une capacité de type Électrik, il ne subit aucun dégât et sa Vitesse augmente."
+ABILITY_SHED_SKIN,Mue,Shed Skin,Le Pokémon soigne parfois ses altérations de statut en muant.
+ABILITY_SKILL_LINK,Multi-Coups,Skill Link,Les capacités pouvant frapper plusieurs fois frappent toujours le nombre maximal de coups.
+ABILITY_MULTITYPE,Multi-Type,Multitype,Modifie le type du Pokémon en fonction de la plaque qu’il tient.
+ABILITY_MULTISCALE,Multiécaille,Multiscale,Le Pokémon subit moins de dégâts quand ses PV sont au maximum.
+ABILITY_TANGLING_HAIR,Mèche Rebelle,Tangling Hair,Baisse la Vitesse de l’attaquant lorsque le Pokémon subit une attaque directe.
+ABILITY_NATURAL_CURE,Médic Nature,Natural Cure,Le Pokémon soigne ses altérations de statut en quittant le combat.
+ABILITY_MEGA_LAUNCHER,Méga Blaster,Mega Launcher,Augmente la puissance des capacités qui projettent une aura.
+ABILITY_FULL_METAL_BODY,Métallo-Garde,Full Metal Body,Empêche les stats du Pokémon de baisser à cause du talent ou d’une capacité de l’adversaire.
+ABILITY_FORECAST,Météo,Forecast,"Le Pokémon prend le type Eau, Feu ou Glace en fonction de la météo."
+ABILITY_RIPEN,Mûrissement,Ripen,Le Pokémon fait mûrir la Baie qu’il tient et double ainsi son effet.
+ABILITY_SUPERSWEET_SYRUP,Nectar Mielleux,Supersweet Syrup,"La première fois que le Pokémon entre au combat, une odeur de nectar sucré se répand sur le terrain, ce qui baisse l’Esquive de l’adversaire."
+ABILITY_STALWART,Nerfs d’Acier,Stalwart,Permet d’ignorer l’effet des capacités ou des talents qui attirent les capacités.
+ABILITY_NORMALIZE,Normalise,Normalize,"Toutes les capacités du Pokémon deviennent de type Normal, quel que soit leur type original. Leur puissance augmente légèrement."
+ABILITY_LINGERING_AROMA,Odeur Tenace,Lingering Aroma,"Lorsque le Pokémon subit une attaque directe, le talent de l’attaquant est remplacé par Odeur Tenace."
+ABILITY_OPPORTUNIST,Opportuniste,Opportunist,"Quand les stats de l’ennemi augmentent, le Pokémon en profite pour augmenter ses stats de la même manière."
+ABILITY_POWER_OF_ALCHEMY,Osmose,Power of Alchemy,Le Pokémon acquiert le talent d’un allié mis K.O.
+ABILITY_PROTOSYNTHESIS,Paléosynthèse,Protosynthesis,"Quand le soleil brille ou que le Pokémon tient une capsule d’Énergie Booster, sa stat la plus élevée augmente."
+ABILITY_LIGHTNING_ROD,Paratonnerre,Lightning Rod,"Le Pokémon détourne sur lui les capacités de type Électrik et les neutralise, tout en augmentant son Attaque Spéciale."
+ABILITY_BULLETPROOF,Pare-Balles,Bulletproof,Protège de certaines capacités lançant des projectiles comme des bombes et des balles.
+ABILITY_AERILATE,Peau Céleste,Aerilate,Les capacités de type Normal deviennent de type Vol. Leur puissance augmente légèrement.
+ABILITY_ROUGH_SKIN,Peau Dure,Rough Skin,Blesse l'attaquant lorsque le Pokémon subit une attaque directe.
+ABILITY_PIXILATE,Peau Féérique,Pixilate,Les capacités de type Normal deviennent de type Fée. Leur puissance augmente légèrement.
+ABILITY_REFRIGERATE,Peau Gelée,Refrigerate,Les capacités de type Normal deviennent de type Glace. Leur puissance augmente légèrement.
+ABILITY_WONDER_SKIN,Peau Miracle,Wonder Skin,Le Pokémon résiste mieux aux capacités de statut.
+ABILITY_DRY_SKIN,Peau Sèche,Dry Skin,"Quand le soleil brille, le Pokémon perd des PV et subit plus de dégâts des capacités Feu, mais il regagne des PV lorsqu'il pleut ou s'il est touché par une capacité Eau."
+ABILITY_GALVANIZE,Peau Électrique,Galvanize,Les capacités de type Normal deviennent de type Électrik. Leur puissance augmente légèrement.
+ABILITY_BEADS_OF_RUIN,Perles du Fléau,Beads of Ruin,Le pouvoir des perles qui appellent le fléau affaiblit la Défense Spéciale de tous les autres Pokémon.
+ABILITY_RATTLED,Phobique,Rattled,"Si le Pokémon est touché par le talent Intimidation ou une attaque de type Ténèbres, Spectre ou Insecte, sa phobie se révèle et sa Vitesse augmente."
+ABILITY_PICKPOCKET,Pickpocket,Pickpocket,Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.
+ABILITY_QUICK_FEET,Pied Véloce,Quick Feet,Augmente la Vitesse du Pokémon en cas d'altération de statut.
+ABILITY_TANGLED_FEET,Pieds Confus,Tangled Feet,Augmente l'Esquive du Pokémon s'il est confus.
+ABILITY_ARENA_TRAP,Piège Sable,Arena Trap,Empêche l'adversaire de quitter le terrain.
+ABILITY_PLUS,Plus,Plus,L’Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Moins ou Plus.
+ABILITY_UNSEEN_FIST,Poing Invisible,Unseen Fist,"Si le Pokémon utilise une attaque directe, celle-ci pourra toucher la cible même si elle se protège."
+ABILITY_IRON_FIST,Poing de Fer,Iron Fist,Augmente la puissance des capacités coups de poing.
+ABILITY_POISON_POINT,Point Poison,Poison Point,Peut empoisonner l'attaquant lorsque le Pokémon subit une attaque directe.
+ABILITY_GOOEY,Poisseux,Gooey,Baisse la Vitesse de l’attaquant lorsque le Pokémon subit une attaque directe.
+ABILITY_ROCKY_PAYLOAD,Porte-Roche,Rocky Payload,Augmente la puissance des capacités de type Roche.
+ABILITY_EFFECT_SPORE,Pose Spore,Effect Spore,"Peut paralyser, empoisonner ou endormir l'attaquant lorsque le Pokémon subit une attaque directe."
+ABILITY_ORICHALCUM_PULSE,Pouls Orichalque,Orichalcum Pulse,"Le Pokémon invoque le soleil quand il rejoint le combat. Quand le soleil brille, une pulsation primitive augmente son Attaque."
+ABILITY_PRESSURE,Pression,Pressure,Met la pression à l’adversaire pour le forcer à dépenser plus de PP.
+ABILITY_QUEENLY_MAJESTY,Prestance Royale,Queenly Majesty,"L’adversaire est impressionné par la majesté du Pokémon, ce qui l’empêche de viser ce dernier et ses alliés avec une capacité prioritaire."
+ABILITY_TRIAGE,Prioguérison,Triage,Rend les capacités de soin prioritaires.
+ABILITY_PRISM_ARMOR,Prisme-Armure,Prism Armor,Diminue la puissance des attaques super efficaces subies.
+ABILITY_STRONG_JAW,Prognathe,Strong Jaw,Le Pokémon a une mâchoire robuste qui augmente la puissance de ses capacités de morsure.
+ABILITY_PROPELLER_TAIL,Propulseur,Propeller Tail,Permet d’ignorer l’effet des capacités ou des talents qui attirent les capacités.
+ABILITY_PROTEAN,Protéen,Protean,Le Pokémon prend le type de la capacité qu’il utilise. Ce talent ne peut se déclencher qu’une fois par entrée au combat du Pokémon.
+ABILITY_FOREWARN,Prédiction,Forewarn,Révèle l’une des capacités de l’adversaire quand le combat commence.
+ABILITY_STENCH,Puanteur,Stench,Le Pokémon émet une odeur si nauséabonde qu'il peut effrayer sa cible en l'attaquant.
+ABILITY_PUNK_ROCK,Punk Rock,Punk Rock,Augmente la puissance des capacités basées sur le son. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités.
+ABILITY_SCRAPPY,Querelleur,Scrappy,Permet aux capacités de type Normal ou Combat du Pokémon de toucher les Pokémon de type Spectre. Immunise aussi contre le talent Intimidation.
+ABILITY_FLARE_BOOST,Rage Brûlure,Flare Boost,Augmente la puissance des capacités spéciales quand le Pokémon est brûlé.
+ABILITY_TOXIC_BOOST,Rage Poison,Toxic Boost,Augmente la puissance des capacités physiques quand le Pokémon est empoisonné.
+ABILITY_PICKUP,Ramassage,Pickup,Permet parfois au Pokémon de ramasser les objets que d’autres Pokémon ont utilisés. Il lui arrive aussi d’en trouver hors des combats.
+ABILITY_BALL_FETCH,Ramasse Ball,Ball Fetch,"Si le Pokémon ne tient aucun objet, il ramassera la Poké Ball lors du premier lancer raté du combat."
+ABILITY_POWER_CONSTRUCT,Rassemblement,Power Construct,"Lorsque le Pokémon perd la moitié de ses PV, ses Cellules se rassemblent pour l’encourager, ce qui lui permet de prendre sa Forme Parfaite."
+ABILITY_RECEIVER,Receveur,Receiver,Le Pokémon reçoit le talent d’un allié mis K.O.
+ABILITY_KEEN_EYE,Regard Vif,Keen Eye,Les yeux perçants du Pokémon empêchent sa Précision de baisser.
+ABILITY_EMERGENCY_EXIT,Repli Tactique,Emergency Exit,"Le Pokémon évite les situations inutilement dangereuses. Quand ses PV tombent à la moitié, il se réfugie dans sa Poké Ball."
+ABILITY_SNOW_CLOAK,Rideau Neige,Snow Cloak,Augmente l'Esquive du Pokémon quand il neige.
+ABILITY_RIVALRY,Rivalité,Rivalry,"Le Pokémon déteste la concurrence et inflige plus de dégâts si sa cible est du même sexe. Par contre, il en inflige moins si sa cible est du sexe opposé."
+ABILITY_CUD_CHEW,Ruminant,Cud Chew,"Quand le Pokémon mange une Baie, il la régurgite à la fin du tour suivant et la mange une nouvelle fois."
+ABILITY_HARVEST,Récolte,Harvest,Permet de réutiliser une même Baie plusieurs fois.
+ABILITY_REGENERATOR,Régé-Force,Regenerator,Restaure un peu de PV si le Pokémon est retiré du combat.
+ABILITY_WATER_COMPACTION,Sable Humide,Water Compaction,Augmente beaucoup la Défense du Pokémon quand il subit une capacité de type Eau.
+ABILITY_SAND_STREAM,Sable Volant,Sand Stream,Le Pokémon invoque une tempête de sable quand il entre au combat.
+ABILITY_SHEER_FORCE,Sans Limite,Sheer Force,"Les capacités ayant un effet additionnel le perdent, mais leur puissance augmente."
+ABILITY_PURIFYING_SALT,Sel Purificateur,Purifying Salt,"Le sel pur immunise le Pokémon contre les altérations de statut, et diminue de moitié les dégâts des capacités de type Spectre."
+ABILITY_SEED_SOWER,Semencier,Seed Sower,Le Pokémon crée un champ herbu quand il subit une attaque.
+ABILITY_SIMPLE,Simple,Simple,Les changements de stats sont deux fois plus importants pour le Pokémon.
+ABILITY_SNIPER,Sniper,Sniper,"Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d’habitude."
+ABILITY_POISON_HEAL,Soin Poison,Poison Heal,"Quand le Pokémon est empoisonné, il regagne des PV au lieu d’en perdre."
+ABILITY_SOLID_ROCK,Solide Roc,Solid Rock,Diminue la puissance des attaques super efficaces subies.
+ABILITY_GRIM_NEIGH,Sombre Ruade,Grim Neigh,"Quand le Pokémon met un ennemi K.O., il émet un hennissement terrifiant qui augmente son Attaque Spéciale."
+ABILITY_DELTA_STREAM,Souffle Delta,Delta Stream,Altère les conditions météo pour annuler les faiblesses du type Vol.
+ABILITY_SHADOW_SHIELD,Spectro-Bouclier,Shadow Shield,Le Pokémon subit moins de dégâts quand ses PV sont au maximum.
+ABILITY_STATIC,Statik,Static,"Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser."
+ABILITY_LIQUID_OOZE,Suintement,Liquid Ooze,Le Pokémon suinte un liquide toxique nauséabond qui blesse tous ceux qui tentent de voler ses PV.
+ABILITY_ZERO_TO_HERO,Supermutation,Zero to Hero,Le Pokémon prend sa Forme Super en quittant le combat.
+ABILITY_SURGE_SURFER,Surf Caudal,Surge Surfer,La Vitesse du Pokémon est doublée sur un champ électrifié.
+ABILITY_SYMBIOSIS,Symbiose,Symbiosis,"Quand les alliés utilisent l’objet qu’ils tiennent, le Pokémon leur donne l’objet qu’il tient en remplacement."
+ABILITY_SYNCHRONIZE,Synchro,Synchronize,"Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci."
+ABILITY_BATTLE_BOND,Synergie,Battle Bond,"En battant un ennemi, ce Pokémon renforce ses liens avec son Dresseur, ce qui augmente son Attaque, son Attaque Spéciale et sa Vitesse."
+ABILITY_RKS_SYSTEM,Système Alpha,RKS System,Change le type du Pokémon en fonction de la ROM équipée.
+ABILITY_DROUGHT,Sécheresse,Drought,Le Pokémon invoque le soleil quand il entre au combat.
+ABILITY_SERENE_GRACE,Sérénité,Serene Grace,Augmente les chances d'infliger des effets additionnels.
+ABILITY_TECHNICIAN,Technicien,Technician,Augmente la puissance des capacités les plus faibles.
+ABILITY_OWN_TEMPO,Tempo Perso,Own Tempo,"Le Pokémon vit sa vie à son propre rythme, ce qui l'immunise contre la confusion et l'intimidation."
+ABILITY_UNNERVE,Tension,Unnerve,"Fait stresser l’adversaire, ce qui l’empêche de manger des Baies."
+ABILITY_DESOLATE_LAND,Terre Finale,Desolate Land,Altère les conditions météo pour neutraliser les attaques de type Eau.
+ABILITY_THERMAL_EXCHANGE,Thermodynamique,Thermal Exchange,"Lorsque le Pokémon est touché par une capacité de type Feu, son Attaque augmente. Il ne peut pas être brûlé."
+ABILITY_QUICK_DRAW,Tir Vif,Quick Draw,Permet parfois au Pokémon d’agir en premier.
+ABILITY_GRASS_PELT,Toison Herbue,Grass Pelt,Augmente la Défense du Pokémon si un champ herbu est actif.
+ABILITY_FUR_COAT,Toison Épaisse,Fur Coat,Divise par deux les dégâts des capacités physiques subies par le Pokémon.
+ABILITY_FLASH_FIRE,Torche,Flash Fire,"Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer ses propres capacités Feu."
+ABILITY_TORRENT,Torrent,Torrent,Augmente la puissance des capacités de type Eau du Pokémon quand il a perdu une certaine quantité de PV.
+ABILITY_POISON_TOUCH,Toxitouche,Poison Touch,Peut empoisonner l’ennemi par simple contact.
+ABILITY_TRANSISTOR,Transistor,Transistor,Augmente la puissance des capacités de type Électrik.
+ABILITY_STEAM_ENGINE,Turbine,Steam Engine,"Lorsque le Pokémon est touché par des capacités de type Eau ou Feu, sa Vitesse augmente énormément."
+ABILITY_WIND_POWER,Turbine Éolienne,Wind Power,"Si le Pokémon est touché par une capacité faisant appel au vent, il se charge en électricité."
+ABILITY_SPEED_BOOST,Turbo,Speed Boost,La Vitesse du Pokémon augmente à chaque tour.
+ABILITY_TURBOBLAZE,Turbo Brasier,Turboblaze,Le Pokémon ignore les talents adverses qui auraient un effet sur ses capacités.
+ABILITY_DOWNLOAD,Télécharge,Download,"Le Pokémon compare la Défense et la Défense Spéciale de l’adversaire et, en fonction de la stat la plus basse, il augmente sa propre Attaque ou Attaque Spéciale."
+ABILITY_TELEPATHY,Télépathe,Telepathy,Le Pokémon anticipe et évite les attaques de ses alliés.
+ABILITY_RECKLESS,Téméraire,Reckless,Augmente la puissance des capacités occasionnant un contrecoup.
+ABILITY_TERA_SHELL,Téra-Carapace,Tera Shell,"Grâce à sa carapace qui renferme l’énergie de tous les types, les capacités subies par ce Pokémon quand ses PV sont au maximum ne sont pas très efficaces."
+ABILITY_TERAVOLT,Téra-Voltage,Teravolt,Le Pokémon ignore les talents adverses qui auraient un effet sur ses capacités.
+ABILITY_TERAFORM_ZERO,Téraformation 0,Teraform Zero,"Lorsque Terapagos prend sa Forme Stellaire, il utilise son pouvoir enfoui pour annuler les effets de la météo et des champs actifs."
+ABILITY_TERA_SHIFT,Téramorphose,Tera Shift,"Quand le Pokémon rejoint le combat, il absorbe l’énergie alentour et prend sa Forme Téracristal."
+ABILITY_ICE_FACE,Tête de Gel,Ice Face,"Le glaçon sur sa tête encaisse les attaques physiques à la place du Pokémon, mais sa destruction modifie son apparence. Le glaçon se reforme quand il neige."
+ABILITY_ROCK_HEAD,Tête de Roc,Rock Head,Le Pokémon peut utiliser des capacités occasionnant un contrecoup sans perdre de PV.
+ABILITY_VESSEL_OF_RUIN,Urne du Fléau,Vessel of Ruin,Le pouvoir de l’urne qui appelle le fléau affaiblit l’Attaque Spéciale de tous les autres Pokémon.
+ABILITY_IMMUNITY,Vaccin,Immunity,Le Pokémon est naturellement immunisé contre toute forme de poison.
+ABILITY_SUCTION_CUPS,Ventouse,Suction Cups,"Le Pokémon est solidement fixé au sol par des ventouses, ce qui le protège des capacités ou objets qui font changer de Pokémon."
+ABILITY_VICTORY_STAR,Victorieux,Victory Star,Augmente la Précision du Pokémon et de ses alliés.
+ABILITY_PASTEL_VEIL,Voile Pastel,Pastel Veil,Protège le Pokémon et ses alliés contre toutes les altérations de statut liées à l’empoisonnement.
+ABILITY_SAND_VEIL,Voile Sable,Sand Veil,Augmente l'Esquive du Pokémon lors des tempêtes de sable.
+ABILITY_WANDERING_SPIRIT,Âme Vagabonde,Wandering Spirit,"Lorsque le Pokémon est directement touché par une capacité, il échange son talent avec celui de l’assaillant."
+ABILITY_MARVEL_SCALE,Écaille Spéciale,Marvel Scale,Les écailles mystérieuses du Pokémon réagissent aux altérations de statut en augmentant sa Défense.
+ABILITY_ICE_SCALES,Écailles Glacées,Ice Scales,Le Pokémon est protégé par des écailles de glace. Les dégâts qu’il subit par des capacités spéciales sont divisés par deux.
+ABILITY_LIMBER,Échauffement,Limber,"Le Pokémon s'est suffisamment échauffé, ce qui l'immunise contre la paralysie."
+ABILITY_WHITE_SMOKE,Écran Fumée,White Smoke,Un écran de fumée empêche l’adversaire de baisser les stats du Pokémon.
+ABILITY_SHIELD_DUST,Écran Poudre,Shield Dust,Le Pokémon dispose d'un écran naturel qui le protège des effets additionnels des attaques ennemies.
+ABILITY_DAUNTLESS_SHIELD,Égide Inflexible,Dauntless Shield,Augmente la Défense du Pokémon la première fois qu’il entre au combat.
+ABILITY_IRON_BARBS,Épine de Fer,Iron Barbs,Inflige des dégâts à l’attaquant lorsque le Pokémon subit une attaque directe.
+ABILITY_SWORD_OF_RUIN,Épée du Fléau,Sword of Ruin,Le pouvoir de l’épée qui appelle le fléau affaiblit la Défense de tous les autres Pokémon.
+ABILITY_COMPOUND_EYES,Œil Composé,Compound Eyes,Les yeux à facettes du Pokémon augmentent la Précision de ses capacités.
+ABILITY_MINDS_EYE,Œil Révélateur,Mind’s Eye,Le Pokémon ignore les changements d’Esquive des cibles et peut toucher les Pokémon Spectre avec des capacités Normal ou Combat. Sa Précision ne peut pas baisser.

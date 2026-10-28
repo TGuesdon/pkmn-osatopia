@@ -1,0 +1,848 @@
+constante,nom_fr,nom_en,type,categorie,puissance,precision,pp,priorite,effet,description_fr
+MOVE_BREAKING_SWIPE,Abattage,Breaking Swipe,Dragon,Physique,60,100,15,0,HIT,Le lanceur balaie violemment le camp adverse avec son immense queue. Baisse l’Attaque de la cible.
+MOVE_SNARL,Aboiement,Snarl,Ténèbres,Spéciale,55,95,15,0,HIT,Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi.
+MOVE_PROTECT,Abri,Protect,Normal,Statut,,,10,4,PROTECT,Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite.
+MOVE_FISSURE,Abîme,Fissure,Sol,Physique,1,30,5,0,OHKO,"Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup."
+MOVE_ACID_ARMOR,Acidarmure,Acid Armor,Poison,Statut,,,20,0,DEFENSE_UP_2,Le lanceur modifie sa structure moléculaire pour se liquéfier et beaucoup augmenter sa Défense.
+MOVE_ACID,Acide,Acid,Poison,Spéciale,40,100,30,0,HIT,Le lanceur attaque l’ennemi avec un jet d’acide corrosif. Peut aussi baisser sa Défense Spéciale.
+MOVE_APPLE_ACID,Acide Malique,Apple Acid,Plante,Spéciale,80,100,10,0,HIT,Le lanceur attaque son adversaire avec un liquide corrosif créé à partir d’une pomme acide. Baisse la Défense Spéciale de la cible.
+MOVE_ACROBATICS,Acrobatie,Acrobatics,Vol,Physique,55,100,15,0,ACROBATICS,"Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts."
+MOVE_ACUPRESSURE,Acupression,Acupressure,Normal,Statut,,,30,0,ACUPRESSURE,Le lanceur utilise sa connaissance des points de pression pour beaucoup augmenter une stat.
+MOVE_BEHEMOTH_BASH,Aegis Maxima,Behemoth Bash,Acier,Physique,100,100,5,0,DYNAMAX_DOUBLE_DMG,Le lanceur se transforme en un immense bouclier et charge son adversaire. Inflige le double de dégâts aux Pokémon Dynamax.
+MOVE_LASER_FOCUS,Affilage,Laser Focus,Normal,Statut,,,30,0,LASER_FOCUS,Le lanceur se concentre pour être sûr de porter un coup critique au tour suivant.
+MOVE_SHARPEN,Affûtage,Sharpen,Normal,Statut,,,30,0,ATTACK_UP,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_HONE_CLAWS,Aiguisage,Hone Claws,Ténèbres,Statut,,,15,0,ATTACK_ACCURACY_UP,Le lanceur s’aiguise les griffes. Augmente l’Attaque et la Précision.
+MOVE_ESPER_WING,Ailes Psycho,Esper Wing,Psy,Spéciale,80,100,10,0,HIT,Le lanceur entaille la cible avec ses ailes renforcées par une émanation psychique. Taux de critiques élevé. Cela augmente la Vitesse du lanceur.
+MOVE_STEEL_WING,Ailes d’Acier,Steel Wing,Acier,Physique,70,90,25,0,HIT,Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.
+MOVE_LUCKY_CHANT,Air Veinard,Lucky Chant,Normal,Statut,,,30,0,LUCKY_CHANT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FIRE_PLEDGE,Aire de Feu,Fire Pledge,Feu,Spéciale,80,100,10,0,PLEDGE,"Une masse de feu s’abat sur l’ennemi. En l’utilisant avec Aire d’Herbe, l’effet augmente et une mer de feu apparaît."
+MOVE_WATER_PLEDGE,Aire d’Eau,Water Pledge,Eau,Spéciale,80,100,10,0,PLEDGE,"Une masse d’eau s’abat sur l’ennemi. En l’utilisant avec Aire de Feu, l’effet augmente et un arc-en-ciel apparaît."
+MOVE_GRASS_PLEDGE,Aire d’Herbe,Grass Pledge,Plante,Spéciale,80,100,10,0,PLEDGE,"Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît."
+MOVE_AUTOTOMIZE,Allègement,Autotomize,Acier,Statut,,,15,0,AUTOTOMIZE,Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente beaucoup.
+MOVE_SHORE_UP,Amass’Sable,Shore Up,Sol,Statut,,,5,0,SHORE_UP,"Le lanceur récupère jusqu’à la moitié de ses PV max. Durant une tempête de sable, il en récupère encore plus."
+MOVE_AMNESIA,Amnésie,Amnesia,Psy,Statut,,,20,0,SPECIAL_DEFENSE_UP_2,Le lanceur fait le vide dans son esprit pour oublier ses soucis. Augmente beaucoup sa Défense Spéciale.
+MOVE_MAGNITUDE,Ampleur,Magnitude,Sol,Physique,1,100,30,0,MAGNITUDE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ANCHOR_SHOT,Ancrage,Anchor Shot,Acier,Physique,80,100,20,0,HIT,"Le lanceur jette son ancre sur la cible pour l’attaquer. Une fois accrochée, elle l’empêche de s’enfuir."
+MOVE_AQUA_RING,Anneau Hydro,Aqua Ring,Eau,Statut,,,20,0,AQUA_RING,Un voile d’eau recouvre le lanceur et régénère ses PV à chaque tour.
+MOVE_SMACK_DOWN,Anti-Air,Smack Down,Roche,Physique,50,100,15,0,SMACK_DOWN,"Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol."
+MOVE_DEFOG,Anti-Brume,Defog,Vol,Statut,,,15,0,DEFOG,Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive.
+MOVE_HEAL_BLOCK,Anti-Soin,Heal Block,Psy,Statut,,100,15,0,HEAL_BLOCK,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ATTACK_ORDER,Appel Attaque,Attack Order,Insecte,Physique,90,100,15,0,HIT,Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critiques élevé.
+MOVE_DEFEND_ORDER,Appel Défense,Defend Order,Insecte,Statut,,,10,0,COSMIC_POWER,Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale.
+MOVE_HEAL_ORDER,Appel Soins,Heal Order,Insecte,Statut,,,10,0,RESTORE_HP,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_AFTER_YOU,Après Vous,After You,Normal,Statut,,,15,0,AFTER_YOU,"S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui."
+MOVE_LIQUIDATION,Aqua-Brèche,Liquidation,Eau,Physique,85,100,10,0,HIT,Le lanceur utilise la force de l’eau pour attaquer. Peut aussi baisser la Défense de la cible.
+MOVE_AQUA_JET,Aqua-Jet,Aqua Jet,Eau,Physique,40,100,20,1,HIT,Le lanceur fonce sur l’ennemi si rapidement qu’on parvient à peine à le discerner. Frappe en priorité.
+MOVE_WAVE_CRASH,Aquatacle,Wave Crash,Eau,Physique,120,100,10,0,RECOIL,Le lanceur se recouvre entièrement d'eau avant de charger sa cible. Cela blesse aussi gravement le lanceur.
+MOVE_SPARKLING_ARIA,Aria de l’Écume,Sparkling Aria,Eau,Spéciale,90,100,10,0,HIT,Le lanceur émet plusieurs bulles en chantant. Soigne les brûlures des Pokémon touchés par ces bulles.
+MOVE_HARDEN,Armure,Harden,Normal,Statut,,,30,0,DEFENSE_UP,Le lanceur contracte tous ses muscles pour augmenter sa Défense.
+MOVE_AROMATHERAPY,Aromathérapie,Aromatherapy,Plante,Statut,,,5,0,HEAL_BELL,Le lanceur libère un parfum apaisant qui guérit toutes les altérations de statut de l’équipe.
+MOVE_POWER_TRIP,Arrogance,Power Trip,Ténèbres,Physique,20,100,10,0,STORED_POWER,"Ivre de puissance, le lanceur attaque de toutes ses forces. Plus ses stats ont été augmentées, plus la puissance de l’attaque est élevée."
+MOVE_HEADLONG_RUSH,Assaut Frontal,Headlong Rush,Sol,Physique,120,100,5,0,HIT,"Le lanceur charge la cible de toutes ses forces, ce qui baisse la Défense et la Défense Spéciale du lanceur."
+MOVE_ASSIST,Assistance,Assist,Normal,Statut,,,20,0,ASSIST,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ASSURANCE,Assurance,Assurance,Ténèbres,Physique,60,100,10,0,ASSURANCE,Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.
+MOVE_POWER_TRICK,Astuce Force,Power Trick,Psy,Statut,,,10,0,POWER_TRICK,Le lanceur utilise ses pouvoirs psychiques pour échanger sa Défense et son Attaque.
+MOVE_TRUMP_CARD,Atout,Trump Card,Normal,Spéciale,1,,5,0,TRUMP_CARD,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ROOST,Atterrissage,Roost,Vol,Statut,,,5,0,ROOST,Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max.
+MOVE_ATTRACT,Attraction,Attract,Normal,Statut,,100,15,0,ATTRACT,"Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer."
+MOVE_CHIP_AWAY,Attrition,Chip Away,Normal,Physique,70,100,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_AURA_SPHERE,Aurasphère,Aura Sphere,Combat,Spéciale,80,,20,0,HIT,Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais.
+MOVE_MORNING_SUN,Aurore,Morning Sun,Normal,Statut,,,5,0,MORNING_SUN,Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.
+MOVE_AVALANCHE,Avalanche,Avalanche,Glace,Physique,60,100,10,-4,REVENGE,Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant le tour.
+MOVE_SWALLOW,Avale,Swallow,Normal,Statut,,,10,0,SWALLOW,Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV.
+MOVE_AEROBLAST,Aéroblast,Aeroblast,Vol,Spéciale,100,95,5,0,HIT,Le lanceur projette une tornade sur l’ennemi pour infliger des dégâts. Taux de critiques élevé.
+MOVE_AERIAL_ACE,Aéropique,Aerial Ace,Vol,Physique,60,,20,0,HIT,Le lanceur prend l’ennemi de vitesse et le lacère. N’échoue jamais.
+MOVE_CHATTER,Babil,Chatter,Vol,Spéciale,65,100,20,0,HIT,Attaque avec les ondes sonores assourdissantes qu’il émet en bavardant. Rend l’ennemi confus.
+MOVE_CLEAR_SMOG,Bain de Smog,Clear Smog,Poison,Spéciale,50,,15,0,HIT,Le lanceur jette un tas de détritus spéciaux sur la cible. Les changements de stats de la cible sont annulés.
+MOVE_PAIN_SPLIT,Balance,Pain Split,Normal,Statut,,,20,0,PAIN_SPLIT,Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement.
+MOVE_LOW_KICK,Balayage,Low Kick,Combat,Physique,1,100,20,0,LOW_KICK,Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.
+MOVE_LOW_SWEEP,Balayette,Low Sweep,Combat,Physique,65,100,20,0,HIT,Un coup rapide qui affecte la mobilité de l’ennemi et diminue sa Vitesse.
+MOVE_BULLET_SEED,Balle Graine,Bullet Seed,Plante,Physique,25,100,30,0,MULTI_HIT,Le lanceur mitraille l’ennemi avec une rafale de graines. De deux à cinq rafales sont lancées à la suite.
+MOVE_PYRO_BALL,Ballon Brûlant,Pyro Ball,Feu,Physique,120,90,5,0,HIT,Le lanceur attaque avec un ballon fait à partir d’un caillou enflammé. Peut aussi brûler la cible.
+MOVE_MIST_BALL,Ball’Brume,Mist Ball,Psy,Spéciale,95,100,5,0,HIT,Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale.
+MOVE_ICE_BALL,Ball’Glace,Ice Ball,Glace,Physique,30,90,20,0,ROLLOUT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_WEATHER_BALL,Ball’Météo,Weather Ball,Normal,Spéciale,50,100,10,0,WEATHER_BALL,Une attaque dont la puissance et le type varient en fonction du temps qu’il fait.
+MOVE_SHADOW_BALL,Ball’Ombre,Shadow Ball,Spectre,Spéciale,80,100,15,0,HIT,Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale.
+MOVE_BOOMBURST,Bang Sonique,Boomburst,Normal,Spéciale,140,100,10,0,HIT,Attaque les Pokémon alentour grâce à une onde sonore assourdissante qui détruit tout sur son passage.
+MOVE_BLOCK,Barrage,Block,Normal,Statut,,,5,0,MEAN_LOOK,Le lanceur bloque la route de l’ennemi pour empêcher sa fuite.
+MOVE_BEAT_UP,Baston,Beat Up,Ténèbres,Physique,1,100,10,0,BEAT_UP,"Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques."
+MOVE_DRILL_PECK,Bec Vrille,Drill Peck,Vol,Physique,80,100,20,0,HIT,Une attaque utilisant le bec comme une perceuse.
+MOVE_BEAK_BLAST,Bec-Canon,Beak Blast,Vol,Physique,100,100,15,-3,BEAK_BLAST,"Le lanceur fait chauffer son bec avant d’attaquer. S’il subit une attaque directe pendant la montée en température, l’attaquant sera brûlé."
+MOVE_SING,Berceuse,Sing,Normal,Statut,,55,15,0,NON_VOLATILE_STATUS,Une berceuse plonge l’ennemi dans un profond sommeil.
+MOVE_BODY_PRESS,Big Splash,Body Press,Combat,Physique,80,100,10,0,BODY_PRESS,"Le lanceur utilise son corps pour attaquer sa cible. Plus la Défense du lanceur est élevée, plus les dégâts infligés sont importants."
+MOVE_MOUNTAIN_GALE,Bise Glaciaire,Mountain Gale,Glace,Physique,100,85,10,0,HIT,"Le lanceur envoie un bloc de glace de la taille d'un iceberg sur la cible, ce qui peut aussi l'apeurer."
+MOVE_SLEEP_TALK,Blabla Dodo,Sleep Talk,Normal,Statut,,,10,0,SLEEP_TALK,Le lanceur utilise une de ses capacités au hasard pendant qu’il dort.
+MOVE_BLIZZARD,Blizzard,Blizzard,Glace,Spéciale,110,70,5,0,HIT,Une violente tempête de neige s’abat sur l’ennemi. Peut aussi le geler.
+MOVE_OBSTRUCT,Blocage,Obstruct,Ténèbres,Statut,,100,10,4,PROTECT,Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite. Baisse beaucoup la Défense de l’assaillant s’il utilise une attaque directe.
+MOVE_BANEFUL_BUNKER,Blockhaus,Baneful Bunker,Poison,Statut,,,10,4,PROTECT,Protège le lanceur contre les attaques de l’ennemi et empoisonne ce dernier s’il utilise une attaque directe sur le lanceur.
+MOVE_FAKE_OUT,Bluff,Fake Out,Normal,Physique,40,100,10,3,FIRST_TURN_ONLY,Permet de frapper en priorité et apeure l’ennemi. Ne fonctionne qu’au premier tour.
+MOVE_ACID_SPRAY,Bombe Acide,Acid Spray,Poison,Spéciale,40,100,20,0,HIT,Projette un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup.
+MOVE_MAGNET_BOMB,Bombe Aimant,Magnet Bomb,Acier,Physique,60,,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SLUDGE_BOMB,Bombe Beurk,Sludge Bomb,Poison,Spéciale,90,100,10,0,HIT,Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.
+MOVE_SYRUP_BOMB,Bombe au Sirop,Syrup Bomb,Plante,Spéciale,60,85,10,0,HIT,Le lanceur jette une bombe qui recouvre la cible de sirop gluant et fait progressivement baisser la Vitesse de la cible pendant trois tours.
+MOVE_EGG_BOMB,Bombe Œuf,Egg Bomb,Normal,Physique,100,75,10,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_POUNCE,Bond,Pounce,Insecte,Physique,50,100,20,0,HIT,"Le lanceur attaque en bondissant sur la cible, ce qui baisse la Vitesse de celle-ci."
+MOVE_PSYCH_UP,Boost,Psych Up,Normal,Statut,,,10,0,PSYCH_UP,Une autohypnose qui permet au lanceur de copier les changements de stats de la cible.
+MOVE_TROP_KICK,Botte Sucrette,Trop Kick,Plante,Physique,70,100,15,0,HIT,Un coup de pied chaud comme les tropiques qui inflige des dégâts à la cible et baisse son Attaque.
+MOVE_BARRIER,Bouclier,Barrier,Psy,Statut,,,20,0,DEFENSE_UP_2,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_KINGS_SHIELD,Bouclier Royal,King’s Shield,Acier,Statut,,,10,4,PROTECT,Prend une posture défensive pour bloquer les dégâts. Diminue l’Attaque de tout Pokémon qui entre en contact avec le lanceur.
+MOVE_MUD_BOMB,Boue-Bombe,Mud Bomb,Sol,Spéciale,65,85,10,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_POLLEN_PUFF,Boule Pollen,Pollen Puff,Insecte,Spéciale,90,100,15,0,HIT_ENEMY_HEAL_ALLY,"Utilisée sur l’ennemi, envoie une boule explosive qui fait des dégâts ; sur un allié, donne du bon pollen nutritif qui fait récupérer des PV."
+MOVE_ROCK_BLAST,Boule Roc,Rock Blast,Roche,Physique,25,90,10,0,MULTI_HIT,Le lanceur projette un rocher sur l’ennemi de deux à cinq fois d’affilée.
+MOVE_ELECTRO_BALL,Boule Élek,Electro Ball,Électrik,Spéciale,1,100,10,0,ELECTRO_BALL,"Le lanceur envoie une boule d’électricité. Si sa Vitesse est plus grande que celle de l’ennemi, les dégâts augmentent d’autant."
+MOVE_DEFENSE_CURL,Boul’Armure,Defense Curl,Normal,Statut,,,40,0,DEFENSE_CURL,"Le lanceur s’enroule pour cacher ses points faibles, ce qui augmente sa Défense."
+MOVE_BUG_BUZZ,Bourdon,Bug Buzz,Insecte,Spéciale,90,100,10,0,HIT,Le lanceur fait vibrer son corps pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.
+MOVE_FLARE_BLITZ,Boutefeu,Flare Blitz,Feu,Physique,120,100,15,0,RECOIL,Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.
+MOVE_FISHIOUS_REND,Branchicrok,Fishious Rend,Eau,Physique,85,100,10,0,BOLT_BEAK,"Le lanceur mord sa cible avec ses solides branchies. Si cette capacité est lancée avant que la cible n’attaque, elle infligera deux fois plus de dégâts."
+MOVE_UPROAR,Brouhaha,Uproar,Normal,Spéciale,90,100,10,0,UPROAR,"Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir."
+MOVE_SMOKESCREEN,Brouillard,Smokescreen,Normal,Statut,,100,20,0,ACCURACY_DOWN,Le lanceur disperse un nuage d’encre ou de fumée. Réduit la Précision de l’ennemi.
+MOVE_MIST,Brume,Mist,Glace,Statut,,,30,0,MIST,Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours.
+MOVE_AROMATIC_MIST,Brume Capiteuse,Aromatic Mist,Fée,Statut,,,20,0,AROMATIC_MIST,"Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié."
+MOVE_STEAMROLLER,Bulldoboule,Steamroller,Insecte,Physique,65,100,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_BUBBLE_BEAM,Bulles d’O,Bubble Beam,Eau,Spéciale,65,100,20,0,HIT,Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse.
+MOVE_HAZE,Buée Noire,Haze,Glace,Statut,,,30,0,HAZE,Crée un brouillard qui annule les changements de stats de tous les Pokémon au combat.
+MOVE_YAWN,Bâillement,Yawn,Normal,Statut,,,10,0,YAWN,Fait bâiller l’ennemi qui s’endort au tour suivant.
+MOVE_TAKE_DOWN,Bélier,Take Down,Normal,Physique,90,85,20,0,RECOIL,Une charge violente qui blesse aussi légèrement le lanceur.
+MOVE_MIND_BLOWN,Caboche-Kaboum,Mind Blown,Feu,Spéciale,150,100,5,0,MAX_HP_50_RECOIL,Le lanceur fait exploser sa tête pour attaquer toutes les cibles autour de lui. Il subit aussi des dégâts.
+MOVE_PRESENT,Cadeau,Present,Normal,Physique,1,90,15,0,PRESENT,Le lanceur attaque en offrant un cadeau piégé à la cible. Peut cependant restaurer certains de ses PV.
+MOVE_THUNDER_WAVE,Cage Éclair,Thunder Wave,Électrik,Statut,,90,20,0,NON_VOLATILE_STATUS,"Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé."
+MOVE_INCINERATE,Calcination,Incinerate,Feu,Spéciale,60,100,15,0,HIT,"Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable."
+MOVE_PLAY_NICE,Camaraderie,Play Nice,Normal,Statut,,,20,0,ATTACK_DOWN,"L’ennemi se lie d’amitié avec le lanceur et perd sa combativité, diminuant son Attaque."
+MOVE_CAMOUFLAGE,Camouflage,Camouflage,Normal,Statut,,,20,0,CAMOUFLAGE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_HEAT_WAVE,Canicule,Heat Wave,Feu,Spéciale,95,90,10,0,HIT,Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.
+MOVE_ARMOR_CANNON,Canon Blindé,Armor Cannon,Feu,Spéciale,120,100,5,0,HIT,Le lanceur tire un boulet de canon ardent provenant de sa propre armure sur la cible. Cela baisse la Défense et la Défense Spéciale du lanceur.
+MOVE_DYNAMAX_CANNON,Canon Dynamax,Dynamax Cannon,Dragon,Spéciale,100,100,5,0,DYNAMAX_DOUBLE_DMG,Le lanceur attaque en émettant un laser depuis son noyau. Cette capacité inflige deux fois plus de dégâts si l’adversaire est un Pokémon Dynamax.
+MOVE_FLEUR_CANNON,Canon Floral,Fleur Cannon,Fée,Spéciale,130,90,5,0,HIT,Envoie un rayon laser dévastateur. Baisse beaucoup l’Attaque Spéciale du lanceur.
+MOVE_SEED_BOMB,Canon Graine,Seed Bomb,Plante,Physique,80,100,15,0,HIT,Le lanceur fait pleuvoir un déluge de graines explosives sur l’ennemi.
+MOVE_SHELL_TRAP,Carapiège,Shell Trap,Feu,Spéciale,150,100,5,-3,SHELL_TRAP,"Pose une carapace piégée. Si l’adversaire utilise une capacité physique, la carapace explose et lui inflige des dégâts."
+MOVE_WATERFALL,Cascade,Waterfall,Eau,Physique,80,100,15,0,HIT,"Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer."
+MOVE_BRICK_BREAK,Casse-Brique,Brick Break,Combat,Physique,75,100,15,0,BRICK_BREAK,Le lanceur attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection.
+MOVE_RUINATION,Cataclysme,Ruination,Ténèbres,Spéciale,1,90,10,0,FIXED_PERCENT_DAMAGE,Le lanceur déclenche un cataclysme qui baisse les PV de la cible de moitié.
+MOVE_NIGHTMARE,Cauchemar,Nightmare,Spectre,Statut,,100,15,0,NIGHTMARE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_HIGH_HORSEPOWER,Cavalerie Lourde,High Horsepower,Sol,Physique,95,95,10,0,HIT,Le lanceur attaque violemment en utilisant tout son poids.
+MOVE_LASH_OUT,Cent Rancunes,Lash Out,Ténèbres,Physique,75,100,5,0,LASH_OUT,"Le lanceur frappe l’ennemi avec toute sa rancune. Si les stats du lanceur ont diminué pendant ce tour, la puissance de cette attaque est doublée."
+MOVE_BRUTAL_SWING,Centrifugifle,Brutal Swing,Ténèbres,Physique,60,100,20,0,HIT,Le lanceur pivote pour prendre de l’élan et infliger des dégâts.
+MOVE_MISTY_TERRAIN,Champ Brumeux,Misty Terrain,Fée,Statut,,,10,0,MISTY_TERRAIN,"Pendant cinq tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et la puissance des capacités de type Dragon est divisée par deux."
+MOVE_GRASSY_TERRAIN,Champ Herbu,Grassy Terrain,Plante,Statut,,,10,0,GRASSY_TERRAIN,"Pendant cinq tours, les Pokémon au sol récupèrent quelques PV à chaque tour et la puissance des capacités de type Plante augmente."
+MOVE_PSYCHIC_TERRAIN,Champ Psychique,Psychic Terrain,Psy,Statut,,,10,0,PSYCHIC_TERRAIN,"Pendant cinq tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente."
+MOVE_ELECTRIC_TERRAIN,Champ Électrifié,Electric Terrain,Électrik,Statut,,,10,0,ELECTRIC_TERRAIN,"Pendant cinq tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance des capacités de type Électrik augmente."
+MOVE_TERRAIN_PULSE,Champlification,Terrain Pulse,Normal,Spéciale,50,100,10,0,TERRAIN_PULSE,Une attaque qui tire sa force des champs. Son type et sa puissance varient selon le champ actif.
+MOVE_VOLT_SWITCH,Change Éclair,Volt Switch,Électrik,Spéciale,70,100,20,0,HIT_ESCAPE,"Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat."
+MOVE_COURT_CHANGE,Change-Côté,Court Change,Normal,Statut,,100,10,0,COURT_CHANGE,Une force mystérieuse intervertit les effets affectant chaque côté du terrain.
+MOVE_RELIC_SONG,Chant Antique,Relic Song,Normal,Spéciale,75,100,10,0,HIT,Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut l’endormir.
+MOVE_ROUND,Chant Canon,Round,Normal,Spéciale,60,100,15,0,ROUND,"Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente."
+MOVE_TORCH_SONG,Chant Flamboyant,Torch Song,Feu,Spéciale,80,100,10,0,HIT,Le lanceur carbonise la cible en projetant sur elle de vives flammes créées par un chant. Cette capacité augmente l'Attaque Spéciale du lanceur.
+MOVE_TACKLE,Charge,Tackle,Normal,Physique,40,100,35,0,HIT,Le lanceur charge l’ennemi et le percute de tout son poids.
+MOVE_BOLT_STRIKE,Charge Foudre,Bolt Strike,Électrik,Physique,130,85,5,0,HIT,Le lanceur s’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser.
+MOVE_GLAIVE_RUSH,Charge Glaive,Glaive Rush,Dragon,Physique,120,100,5,0,GLAIVE_RUSH,"Le lanceur se jette dans une charge inconsciente sur la cible. Une fois cette capacité utilisée, toute attaque sur le lanceur inflige le double de dégâts et n'échoue jamais."
+MOVE_BONE_RUSH,Charge Os,Bone Rush,Sol,Physique,25,90,10,0,MULTI_HIT,Le lanceur frappe l’ennemi avec un os de deux à cinq fois d’affilée.
+MOVE_CHARGE,Chargeur,Charge,Électrik,Statut,,,20,0,CHARGE,Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale.
+MOVE_CHARM,Charme,Charm,Fée,Statut,,100,20,0,ATTACK_DOWN_2,Le lanceur fait les yeux doux pour berner l’ennemi et beaucoup réduire son Attaque.
+MOVE_TICKLE,Chatouille,Tickle,Normal,Statut,,100,20,0,TICKLE,"Le lanceur chatouille l’ennemi, ce qui baisse son Attaque et sa Défense."
+MOVE_MALIGNANT_CHAIN,Chaîne Malsaine,Malignant Chain,Poison,Spéciale,100,100,5,0,HIT,"Le lanceur ligote la cible avec une chaîne faite de poison et lui injecte un venin corrosif, ce qui peut aussi gravement l'empoisonner."
+MOVE_SHIFT_GEAR,Chgt Vitesse,Shift Gear,Acier,Statut,,,10,0,SHIFT_GEAR,Le lanceur fait tourner ses engrenages. Cela augmente son Attaque et augmente beaucoup sa Vitesse.
+MOVE_CONFUSION,Choc Mental,Confusion,Psy,Spéciale,50,100,25,0,HIT,Une faible vague télékinétique frappe l’ennemi. Peut aussi le plonger dans la confusion.
+MOVE_SUNSTEEL_STRIKE,Choc Météore,Sunsteel Strike,Acier,Physique,100,100,5,0,HIT,Le lanceur fonce sur la cible à la vitesse d’une météorite. Ignore le talent de l’ennemi.
+MOVE_PSYSHOCK,Choc Psy,Psyshock,Psy,Spéciale,80,100,10,0,PSYSHOCK,Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.
+MOVE_VENOSHOCK,Choc Venin,Venoshock,Poison,Spéciale,65,100,10,0,DOUBLE_POWER_ON_ARG_STATUS,Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.
+MOVE_SPIRIT_BREAK,Choc Émotionnel,Spirit Break,Fée,Physique,75,100,15,0,HIT,Le lanceur attaque son adversaire avec une telle force que ce dernier peut s’en retrouver profondément troublé. Baisse l’Attaque Spéciale de la cible.
+MOVE_ICICLE_CRASH,Chute Glace,Icicle Crash,Glace,Physique,85,90,10,0,HIT,Envoie de gros blocs de glace sur l’ennemi pour lui infliger des dégâts. Peut aussi l’apeurer.
+MOVE_SKY_DROP,Chute Libre,Sky Drop,Vol,Physique,60,100,10,0,SKY_DROP,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SNOWSCAPE,Chute de Neige,Snowscape,Glace,Statut,,,10,0,HAIL,"Le lanceur invoque une tempête de neige qui dure cinq tours, ce qui augmente la Défense des Pokémon de type Glace."
+MOVE_HEX,Châtiment,Hex,Spectre,Spéciale,65,100,10,0,DOUBLE_POWER_ON_ARG_STATUS,Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.
+MOVE_FORESIGHT,Clairvoyance,Foresight,Normal,Statut,,,40,0,FORESIGHT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_CLAMP,Claquoir,Clamp,Eau,Physique,35,85,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SPECTRAL_THIEF,Clepto-Mânes,Spectral Thief,Spectre,Physique,90,100,10,0,SPECTRAL_THIEF,"Le lanceur plonge dans l’ombre de la cible, vole ses augmentations de stats et l’attaque."
+MOVE_SUBSTITUTE,Clonage,Substitute,Normal,Statut,,,10,0,SUBSTITUTE,Le lanceur crée un clone en sacrifiant quelques PV. Ce clone sert de leurre.
+MOVE_CLOSE_COMBAT,Close Combat,Close Combat,Combat,Physique,120,100,5,0,HIT,Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale.
+MOVE_COACHING,Coaching,Coaching,Combat,Statut,,,10,0,COACHING,"Le lanceur coache ses alliés, augmentant ainsi leur Attaque et leur Défense."
+MOVE_ARM_THRUST,Cogne,Arm Thrust,Combat,Physique,15,100,20,0,MULTI_HIT,Un déluge de coups adressés avec la paume qui frappe de deux à cinq fois d’affilée.
+MOVE_BELLY_DRUM,Cognobidon,Belly Drum,Normal,Statut,,,10,0,BELLY_DRUM,Améliore l’Attaque au maximum en sacrifiant la moitié des PV max.
+MOVE_OUTRAGE,Colère,Outrage,Dragon,Physique,120,100,10,0,HIT,Le lanceur enrage et attaque pendant deux ou trois tours avant de devenir confus.
+MOVE_FURY_SWIPES,Combo-Griffe,Fury Swipes,Normal,Physique,18,80,15,0,MULTI_HIT,L’ennemi est lacéré par des faux ou des griffes de deux à cinq fois d’affilée.
+MOVE_CONFIDE,Confidence,Confide,Normal,Statut,,,20,0,SPECIAL_ATTACK_DOWN,"Dévoile des secrets à l’ennemi, qui perd alors sa concentration et voit son Attaque Spéciale diminuer."
+MOVE_CONSTRICT,Constriction,Constrict,Normal,Physique,10,100,35,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_REVERSAL,Contre,Reversal,Combat,Physique,1,100,15,0,FLAIL,"Le lanceur ne retient plus ses coups. Plus ses PV sont bas, plus l’attaque est puissante."
+MOVE_CONVERSION,Conversion,Conversion,Normal,Statut,,,30,0,CONVERSION,Le lanceur change de type pour prendre celui de la première capacité de sa liste.
+MOVE_CONVERSION_2,Conversion 2,Conversion 2,Normal,Statut,,,30,0,CONVERSION_2,Le lanceur change de type pour être résistant au type de la dernière attaque lancée par sa cible.
+MOVE_MIMIC,Copie,Mimic,Normal,Statut,,,10,0,MIMIC,Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat.
+MOVE_REFLECT_TYPE,Copie-Type,Reflect Type,Normal,Statut,,,15,0,REFLECT_TYPE,Le lanceur copie le type de la cible et devient du même type.
+MOVE_RAZOR_SHELL,Coqui-Lame,Razor Shell,Eau,Physique,75,95,10,0,HIT,Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense.
+MOVE_VITAL_THROW,Corps Perdu,Vital Throw,Combat,Physique,70,,10,-1,HIT,"Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais."
+MOVE_INFERNAL_PARADE,Cortège Funèbre,Infernal Parade,Spectre,Spéciale,60,100,15,0,DOUBLE_POWER_ON_ARG_STATUS,"Une multitude de boules de feu frappent la cible, ce qui peut aussi la brûler. La puissance est doublée si celle-ci souffre d'une altération de statut."
+MOVE_COTTON_GUARD,Cotogarde,Cotton Guard,Plante,Statut,,,10,0,DEFENSE_UP_3,Le lanceur se protège en s’emmitouflant dans du coton. Sa Défense augmente énormément.
+MOVE_MUD_SLAP,Coud’Boue,Mud-Slap,Sol,Spéciale,20,100,10,0,HIT,Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision.
+MOVE_SKULL_BASH,Coud’Krâne,Skull Bash,Normal,Physique,130,100,10,0,TWO_TURNS_ATTACK,Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second.
+MOVE_SUCKER_PUNCH,Coup Bas,Sucker Punch,Ténèbres,Physique,70,100,5,1,SUCKER_PUNCH,Permet au lanceur de frapper en priorité. Échoue si l’ennemi ne prépare pas une attaque.
+MOVE_CROSS_CHOP,Coup Croix,Cross Chop,Combat,Physique,100,80,5,0,HIT,Le lanceur délivre un coup double en croisant les avant-bras. Taux de critiques élevé.
+MOVE_DOUBLE_HIT,Coup Double,Double Hit,Normal,Physique,35,90,10,0,HIT,"Le lanceur frappe l’ennemi deux fois d’affilée à l’aide de sa queue, de lianes ou d’un autre membre."
+MOVE_THUNDEROUS_KICK,Coup Fulgurant,Thunderous Kick,Combat,Physique,90,100,10,0,HIT,Le lanceur assène un coup de pied à la cible à la vitesse de l’éclair. Baisse aussi la Défense de la cible.
+MOVE_MULTI_ATTACK,Coup Varia-Type,Multi-Attack,Normal,Physique,120,100,10,0,CHANGE_TYPE_ON_ITEM,Le Pokémon s’entoure d’une puissante énergie avant de foncer sur sa cible. Le type de la capacité dépend de la ROM installée.
+MOVE_V_CREATE,Coup Victoire,V-create,Feu,Physique,180,95,5,0,HIT,"Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse."
+MOVE_HEADBUTT,Coup d’Boule,Headbutt,Normal,Physique,70,100,15,0,HIT,Le lanceur donne un coup de tête. Peut apeurer l’ennemi.
+MOVE_DISCHARGE,Coup d’Jus,Discharge,Électrik,Spéciale,80,100,15,0,HIT,Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi les paralyser.
+MOVE_HELPING_HAND,Coup d’Main,Helping Hand,Normal,Statut,,,20,5,HELPING_HAND,Une capacité qui augmente la puissance d’attaque d’un allié.
+MOVE_CUT,Coupe,Cut,Normal,Physique,50,95,30,0,HIT,Coupe l’ennemi avec des lames ou des griffes.
+MOVE_PSYCHO_CUT,Coupe Psycho,Psycho Cut,Psy,Physique,70,100,20,0,HIT,Le lanceur entaille l’ennemi grâce à des lames faites d’énergie psychique. Taux de critiques élevé.
+MOVE_RAZOR_WIND,Coupe-Vent,Razor Wind,Normal,Spéciale,80,100,10,0,TWO_TURNS_ATTACK,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SLUDGE_WAVE,Cradovague,Sludge Wave,Poison,Spéciale,95,100,10,0,HIT,Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.
+MOVE_BLAZING_TORQUE,Crash Brûlant,Blazing Torque,Feu,Physique,80,100,10,0,HIT,
+MOVE_MAGICAL_TORQUE,Crash Magique,Magical Torque,Fée,Physique,100,100,10,0,HIT,
+MOVE_COMBAT_TORQUE,Crash Musclé,Combat Torque,Combat,Physique,100,100,10,0,HIT,
+MOVE_WICKED_TORQUE,Crash Obscur,Wicked Torque,Ténèbres,Physique,80,100,10,0,HIT,
+MOVE_NOXIOUS_TORQUE,Crash Toxique,Noxious Torque,Poison,Physique,100,100,10,0,HIT,
+MOVE_DRAGON_CHEER,Cri Draconique,Dragon Cheer,Dragon,Statut,,,15,0,DRAGON_CHEER,Le lanceur galvanise ses alliés avec un encouragement draconique qui augmente leur taux de critiques. L'effet est plus puissant si les alliés ont le type Dragon.
+MOVE_SUPER_FANG,Croc Fatal,Super Fang,Normal,Physique,1,90,10,0,FIXED_PERCENT_DAMAGE,Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi.
+MOVE_HYPER_FANG,Croc de Mort,Hyper Fang,Normal,Physique,80,90,15,0,HIT,Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi l’apeurer.
+MOVE_POISON_FANG,Crochet Venin,Poison Fang,Poison,Physique,50,100,15,0,HIT,Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement.
+MOVE_FAKE_TEARS,Croco Larme,Fake Tears,Ténèbres,Statut,,100,20,0,SPECIAL_DEFENSE_DOWN_2,Le lanceur fait semblant de pleurer pour troubler l’ennemi et beaucoup baisser sa Défense Spéciale.
+MOVE_FIRE_FANG,Crocs Feu,Fire Fang,Feu,Physique,65,95,15,0,HIT,Le lanceur utilise une morsure enflammée. Peut aussi brûler ou apeurer l’ennemi.
+MOVE_ICE_FANG,Crocs Givre,Ice Fang,Glace,Physique,65,95,15,0,HIT,Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.
+MOVE_THUNDER_FANG,Crocs Éclair,Thunder Fang,Électrik,Physique,65,95,15,0,HIT,Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.
+MOVE_GROWTH,Croissance,Growth,Normal,Statut,,,20,0,GROWTH,Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale.
+MOVE_JAW_LOCK,Croque Fort,Jaw Lock,Ténèbres,Physique,80,100,10,0,HIT,Le lanceur et sa cible ne peuvent plus quitter le terrain jusqu’à ce que l’un d’entre eux tombe K.O. L’effet est annulé si l’un des deux Pokémon disparaît.
+MOVE_WING_ATTACK,Cru-Ailes,Wing Attack,Vol,Physique,60,100,35,0,HIT,L’ennemi est frappé par de larges ailes déployées pour infliger des dégâts.
+MOVE_ICE_SPINNER,Cryo-Pirouette,Ice Spinner,Glace,Physique,80,100,15,0,ICE_SPINNER,Le lanceur enveloppe ses jambes d'une fine couche de glace et heurte la cible en tournant sur lui-même. Ses rotations détruisent le champ actif sur le terrain.
+MOVE_HEART_STAMP,Crève-Cœur,Heart Stamp,Psy,Physique,60,100,25,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_WHIRLWIND,Cyclone,Whirlwind,Normal,Statut,,,20,-6,ROAR,"Éjecte le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat."
+MOVE_PLAY_ROUGH,Câlinerie,Play Rough,Fée,Physique,90,90,10,0,HIT,Attaque l’ennemi avec un câlin. Peut diminuer son Attaque.
+MOVE_CELEBRATE,Célébration,Celebrate,Normal,Statut,,,40,0,CELEBRATE,Le Pokémon vous souhaite plein de bonnes choses pour cet évènement spécial.
+MOVE_BITTER_MALICE,Cœur de Rancœur,Bitter Malice,Spectre,Spéciale,75,100,15,0,HIT,Une rancœur glaciale frappe la cible et baisse son Attaque.
+MOVE_DOUBLE_EDGE,Damoclès,Double-Edge,Normal,Physique,120,100,15,0,RECOIL,Une charge dangereuse et imprudente. Blesse aussi gravement le lanceur.
+MOVE_AQUA_STEP,Danse Aquatique,Aqua Step,Eau,Physique,80,100,10,0,HIT,Le lanceur se joue de la cible et lui inflige des dégâts avec ses pas de danse gracieux et légers. Cette capacité augmente la Vitesse du lanceur.
+MOVE_DRAGON_DANCE,Danse Draco,Dragon Dance,Dragon,Statut,,,20,0,DRAGON_DANCE,Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.
+MOVE_FIRE_SPIN,Danse Flammes,Fire Spin,Feu,Spéciale,35,85,15,0,HIT,Un tourbillon de flammes emprisonne l’ennemi pendant quatre à cinq tours.
+MOVE_PETAL_DANCE,Danse Fleurs,Petal Dance,Plante,Spéciale,120,100,10,0,HIT,Le lanceur attaque en projetant des pétales pendant deux à trois tours avant de céder à la confusion.
+MOVE_TEETER_DANCE,Danse Folle,Teeter Dance,Normal,Statut,,100,20,0,CONFUSE,Danse qui rend confus tous les Pokémon autour du lanceur.
+MOVE_SWORDS_DANCE,Danse Lames,Swords Dance,Normal,Statut,,,20,0,ATTACK_UP_2,Une danse frénétique qui exalte l’esprit combatif. Augmente beaucoup l’Attaque du lanceur.
+MOVE_LUNAR_DANCE,Danse Lune,Lunar Dance,Psy,Statut,,,10,0,LUNAR_DANCE,Le lanceur tombe K.O. pour soigner le statut et les PV du Pokémon qui prendra sa place au combat.
+MOVE_RAIN_DANCE,Danse Pluie,Rain Dance,Eau,Statut,,,5,0,RAIN_DANCE,"Invoque de fortes pluies qui durent cinq tours, augmentant la puissance des capacités de type Eau et baissant celle des capacités de type Feu."
+MOVE_FEATHER_DANCE,Danse Plumes,Feather Dance,Vol,Statut,,100,15,0,ATTACK_DOWN_2,Une montagne de plumes ensevelit l’ennemi et réduit beaucoup son Attaque.
+MOVE_VICTORY_DANCE,Danse Victoire,Victory Dance,Combat,Statut,,,20,0,VICTORY_DANCE,"Le lanceur danse vigoureusement pour invoquer la victoire, ce qui augmente son Attaque, sa Défense et sa Vitesse."
+MOVE_FIERY_DANCE,Danse du Feu,Fiery Dance,Feu,Spéciale,80,100,10,0,HIT,Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur.
+MOVE_REVELATION_DANCE,Danse Éveil,Revelation Dance,Normal,Spéciale,90,100,15,0,REVELATION_DANCE,Le lanceur attaque en dansant avec enthousiasme. Le type de la capacité est le même que celui du lanceur.
+MOVE_FELL_STINGER,Dard Mortel,Fell Stinger,Insecte,Physique,50,100,25,0,FELL_STINGER,Augmente énormément l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité.
+MOVE_PIN_MISSILE,Dard-Nuée,Pin Missile,Insecte,Physique,25,95,20,0,MULTI_HIT,Envoie une rafale de dards. Peut toucher de deux à cinq fois.
+MOVE_POISON_STING,Dard-Venin,Poison Sting,Poison,Physique,15,100,35,0,HIT,Un dard toxique qui transperce l’ennemi. Peut aussi l’empoisonner.
+MOVE_DARKEST_LARIAT,Dark Lariat,Darkest Lariat,Ténèbres,Physique,85,100,10,0,HIT,Le Pokémon étend les bras et frappe l’adversaire en tournant violemment. Inflige des dégâts et ignore les changements de stats de la cible.
+MOVE_U_TURN,Demi-Tour,U-turn,Insecte,Physique,70,100,20,0,HIT_ESCAPE,"Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat."
+MOVE_PARTING_SHOT,Dernier Mot,Parting Shot,Ténèbres,Statut,,100,20,0,PARTING_SHOT,Menace l’ennemi dans une ultime tirade avant de changer de place avec un autre Pokémon. Réduit l’Attaque et l’Attaque Spéciale de l’ennemi.
+MOVE_LAST_RESORT,Dernier Recours,Last Resort,Normal,Physique,140,100,5,0,LAST_RESORT,Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres.
+MOVE_SELF_DESTRUCT,Destruction,Self-Destruct,Normal,Physique,200,100,5,0,EXPLOSION,Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O.
+MOVE_POISON_JAB,Direct Toxik,Poison Jab,Poison,Physique,80,100,20,0,HIT,"Attaque l’ennemi avec un tentacule, un bras, ou un autre membre plein de poison. Peut aussi l’empoisonner."
+MOVE_PSYCHIC_NOISE,Dissonance Psy,Psychic Noise,Psy,Spéciale,75,100,10,0,HIT,"Le lanceur attaque avec des ondes sonores dissonantes. Cela empêche la cible de récupérer des PV à l'aide de capacités, talents ou objets tenus pendant 2 tours."
+MOVE_TRICK_ROOM,Distorsion,Trick Room,Psy,Statut,,,5,-7,TRICK_ROOM,Le lanceur crée une zone mystérieuse où les Pokémon les plus lents frappent en priorité pendant cinq tours.
+MOVE_NATURAL_GIFT,Don Naturel,Natural Gift,Normal,Physique,1,100,15,0,NATURAL_GIFT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_DUAL_CHOP,Double Baffe,Dual Chop,Dragon,Physique,40,90,15,0,HIT,Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps.
+MOVE_TWINEEDLE,Double Dard,Twineedle,Insecte,Physique,25,100,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_DOUBLE_SHOCK,Double Décharge,Double Shock,Électrik,Physique,120,100,5,0,FAIL_IF_NOT_ARG_TYPE,Le lanceur libère toute l'électricité contenue dans son corps pour infliger des dégâts élevés à la cible. Le lanceur perd le type Électrik.
+MOVE_TWIN_BEAM,Double Laser,Twin Beam,Psy,Spéciale,40,100,10,0,HIT,Le lanceur projette d'étranges rayons lumineux avec ses yeux et inflige des dégâts deux fois d'affilée.
+MOVE_DOUBLE_KICK,Double Pied,Double Kick,Combat,Physique,30,100,30,0,HIT,Deux coups de pied qui frappent l’ennemi deux fois d’affilée.
+MOVE_DUAL_WINGBEAT,Double Volée,Dual Wingbeat,Vol,Physique,40,90,10,0,HIT,Le lanceur frappe l’ennemi avec ses ailes deux fois d’affilée.
+MOVE_CHILLING_WATER,Douche Froide,Chilling Water,Eau,Spéciale,50,100,20,0,HIT,Le lanceur attaque la cible en l'arrosant d'une eau si froide qu'elle détériore son esprit combatif. Baisse l'Attaque de la cible.
+MOVE_SWEET_KISS,Doux Baiser,Sweet Kiss,Fée,Statut,,75,10,0,CONFUSE,Le lanceur envoie un bisou si mignon et désarmant qu’il plonge l’ennemi dans la confusion.
+MOVE_SWEET_SCENT,Doux Parfum,Sweet Scent,Normal,Statut,,100,20,0,EVASION_DOWN_2,Un doux parfum qui réduit beaucoup l’Esquive de l’ennemi.
+MOVE_CLANGOROUS_SOUL,Dracacophonie,Clangorous Soul,Dragon,Statut,,100,5,0,CLANGOROUS_SOUL,Le lanceur sacrifie une partie de ses PV pour augmenter toutes ses stats.
+MOVE_DRAGON_ASCENT,Draco-Ascension,Dragon Ascent,Vol,Physique,120,100,5,0,HIT,Le Pokémon s’abat à toute vitesse sur la cible depuis les hautes couches de l’atmosphère. Baisse la Défense et la Défense Spéciale du lanceur.
+MOVE_DRAGON_RUSH,Draco-Charge,Dragon Rush,Dragon,Physique,100,75,10,0,HIT,Le lanceur frappe l’ennemi en prenant un air menaçant. Peut aussi l’apeurer.
+MOVE_DRAGON_PULSE,Draco-Choc,Dragon Pulse,Dragon,Spéciale,85,100,10,0,HIT,Le lanceur ouvre la bouche pour envoyer une onde de choc qui frappe l’ennemi.
+MOVE_DRAGON_DARTS,Draco-Flèches,Dragon Darts,Dragon,Physique,50,100,10,0,DRAGON_DARTS,"Le lanceur attaque en propulsant deux Fantyrm. S’il y a deux adversaires, chacun d’entre eux est frappé par un Fantyrm."
+MOVE_DRAGON_CLAW,Draco-Griffe,Dragon Claw,Dragon,Physique,80,100,15,0,HIT,Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.
+MOVE_DRAGON_HAMMER,Draco-Marteau,Dragon Hammer,Dragon,Physique,90,100,15,0,HIT,Le lanceur utilise son corps comme un véritable marteau pour écraser la cible.
+MOVE_DRACO_METEOR,Draco-Météore,Draco Meteor,Dragon,Spéciale,130,90,5,0,HIT,Le lanceur invoque des comètes. Le contrecoup réduit beaucoup son Attaque Spéciale.
+MOVE_DRAGON_TAIL,Draco-Queue,Dragon Tail,Dragon,Physique,60,90,10,-6,HIT_SWITCH_TARGET,"Un coup puissant qui blesse la cible et l’envoie au loin. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat."
+MOVE_DRAGON_RAGE,Draco-Rage,Dragon Rage,Dragon,Spéciale,1,100,10,0,FIXED_HP_DAMAGE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_DRAGON_BREATH,Draco-Souffle,Dragon Breath,Dragon,Spéciale,60,100,20,0,HIT,Le lanceur souffle fort sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.
+MOVE_DRAGON_ENERGY,Draco-Énergie,Dragon Energy,Dragon,Spéciale,150,100,5,0,POWER_BASED_ON_USER_HP,"Le lanceur utilise son énergie vitale pour attaquer l’ennemi. Moins il a de PV, moins l’attaque est puissante."
+MOVE_DYNAMIC_PUNCH,Dynamo-Poing,Dynamic Punch,Combat,Physique,100,50,5,0,HIT,Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. Rend ce dernier confus.
+MOVE_DOODLE,Décalquage,Doodle,Normal,Statut,,100,10,0,DOODLE,Le lanceur capture l'essence de la cible et la décalque. Le talent du lanceur et de ses alliés devient alors identique à celui de la cible.
+MOVE_FILLET_AWAY,Décharnement,Fillet Away,Normal,Statut,,,10,0,FILLET_AWAY,"Le lanceur sacrifie des PV pour beaucoup augmenter son Attaque, son Attaque Spéciale, et sa Vitesse."
+MOVE_FIRE_BLAST,Déflagration,Fire Blast,Feu,Spéciale,110,85,5,0,HIT,Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.
+MOVE_FLING,Dégommage,Fling,Ténèbres,Physique,1,100,10,0,FLING,Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.
+MOVE_ION_DELUGE,Déluge Plasmique,Ion Deluge,Électrik,Statut,,,25,1,ION_DELUGE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SPITE,Dépit,Spite,Spectre,Statut,,100,10,0,SPITE,Le lanceur exprime son ressentiment en retirant 4 PP de la dernière capacité de l’ennemi.
+MOVE_SPIN_OUT,Dérapage,Spin Out,Acier,Physique,100,100,5,0,HIT,"Le lanceur met tout son poids sur ses pattes et effectue de violentes rotations, ce qui inflige des dégâts à la cible, mais baisse beaucoup la Vitesse du lanceur."
+MOVE_TRAILBLAZE,Désherbaffe,Trailblaze,Plante,Physique,50,100,20,0,HIT,Le lanceur surgit des hautes herbes pour attaquer la cible. Les mouvements agiles du lanceur augmentent sa Vitesse.
+MOVE_DETECT,Détection,Detect,Combat,Statut,,,5,4,PROTECT,Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite.
+MOVE_SOAK,Détrempage,Soak,Eau,Statut,,100,20,0,SOAK,"Le lanceur projette beaucoup d’eau sur sa cible, qui devient de type Eau."
+MOVE_GUNK_SHOT,Détricanon,Gunk Shot,Poison,Physique,120,80,5,0,HIT,Le lanceur envoie des détritus sur l’ennemi. Peut aussi l’empoisonner.
+MOVE_SLUDGE,Détritus,Sludge,Poison,Spéciale,65,100,20,0,HIT,Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.
+MOVE_DREAM_EATER,Dévorêve,Dream Eater,Psy,Spéciale,100,100,15,0,DREAM_EATER,Le lanceur mange le rêve de l’ennemi endormi et récupère en PV la moitié des dégâts infligés.
+MOVE_SOFT_BOILED,E-Coque,Soft-Boiled,Normal,Statut,,,5,0,SOFTBOILED,Le lanceur récupère jusqu’à la moitié de ses PV max.
+MOVE_FLIP_TURN,Eau Revoir,Flip Turn,Eau,Physique,60,100,20,0,HIT_ESCAPE,"Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat."
+MOVE_ENDEAVOR,Effort,Endeavor,Normal,Physique,1,100,5,0,ENDEAVOR,Une attaque qui réduit les PV de l’ennemi au niveau des PV du lanceur.
+MOVE_EMBARGO,Embargo,Embargo,Ténèbres,Statut,,100,15,0,EMBARGO,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_HORN_DRILL,Empal’Korne,Horn Drill,Normal,Physique,1,30,5,0,OHKO,"Un coup de corne en vrille qui empale l’ennemi, le mettant K.O. sur le coup s’il est touché."
+MOVE_ENCORE,Encore,Encore,Normal,Statut,,100,5,0,ENCORE,Oblige l’ennemi à répéter la dernière capacité utilisée durant trois tours.
+MOVE_HORN_LEECH,Encornebois,Horn Leech,Plante,Physique,75,100,10,0,ABSORB,Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur.
+MOVE_GEAR_UP,Engrenage,Gear Up,Acier,Statut,,,20,0,GEAR_UP,Change de réglage pour augmenter l’Attaque et l’Attaque Spéciale des alliés ayant les talents Plus ou Moins.
+MOVE_COIL,Enroulement,Coil,Poison,Statut,,,20,0,COIL,"Le lanceur s’enroule sur lui-même et se concentre. Son Attaque, sa Défense et sa Précision augmentent."
+MOVE_DISABLE,Entrave,Disable,Normal,Statut,,100,20,0,DISABLE,Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours.
+MOVE_ROCK_CLIMB,Escalade,Rock Climb,Normal,Physique,90,85,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FIRST_IMPRESSION,Escarmouche,First Impression,Insecte,Physique,90,100,10,2,FIRST_TURN_ONLY,"Une capacité très puissante, mais qui ne fonctionne qu’au premier tour."
+MOVE_POLTERGEIST,Esprit Frappeur,Poltergeist,Spectre,Physique,110,90,5,0,POLTERGEIST,Le lanceur manipule l’objet tenu par l’ennemi pour l’attaquer. Échoue si la cible ne tient rien.
+MOVE_WRING_OUT,Essorage,Wring Out,Normal,Spéciale,120,100,5,0,POWER_BASED_ON_TARGET_HP,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SMART_STRIKE,Estocorne,Smart Strike,Acier,Physique,70,,10,0,HIT,Le lanceur transperce la cible avec sa corne effilée. Touche toujours l’ennemi.
+MOVE_MISTY_EXPLOSION,Explo-Brume,Misty Explosion,Fée,Spéciale,100,100,5,0,MISTY_EXPLOSION,"Le lanceur frappe tous les Pokémon autour de lui en explosant, ce qui le met K.O. La puissance de cette attaque augmente si un Champ Brumeux est actif."
+MOVE_FOCUS_BLAST,Exploforce,Focus Blast,Combat,Spéciale,120,70,5,0,HIT,Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.
+MOVE_NIGHT_DAZE,Explonuit,Night Daze,Ténèbres,Spéciale,85,95,10,0,HIT,Le lanceur attaque l’ennemi avec une onde de choc ténébreuse. Peut aussi baisser sa Précision.
+MOVE_EXPLOSION,Explosion,Explosion,Normal,Physique,250,100,5,0,EXPLOSION,Le lanceur explose et inflige des dégâts à tous les Pokémon autour de lui. Met K.O. le lanceur.
+MOVE_EXTRASENSORY,Extrasenseur,Extrasensory,Psy,Spéciale,80,100,20,0,HIT,Le lanceur attaque avec un pouvoir étrange et invisible. Peut aussi apeurer l’ennemi.
+MOVE_TAKE_HEART,Extravaillance,Take Heart,Psy,Statut,,,10,0,TAKE_HEART,Le lanceur fait preuve de bravoure pour soigner ses altérations de statut et augmenter son Attaque Spéciale ainsi que sa Défense Spéciale.
+MOVE_SHELL_SMASH,Exuviation,Shell Smash,Normal,Statut,,,15,0,SHELL_SMASH,"Le lanceur brise sa coquille. Il baisse sa Défense et sa Défense Spéciale, mais augmente beaucoup son Attaque, son Attaque Spéciale et sa Vitesse."
+MOVE_THROAT_CHOP,Exécu-Son,Throat Chop,Ténèbres,Physique,80,100,15,0,HIT,Inflige une douleur tellement violente à la cible qu’elle ne peut plus émettre de sons pendant deux tours.
+MOVE_THUNDER,Fatal-Foudre,Thunder,Électrik,Spéciale,110,70,10,0,HIT,La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.
+MOVE_FALSE_SWIPE,Faux-Chage,False Swipe,Normal,Physique,40,100,40,0,FALSE_SWIPE,Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.
+MOVE_FACADE,Façade,Facade,Normal,Physique,70,100,20,0,FACADE,"Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé."
+MOVE_FEINT_ATTACK,Feinte,Feint Attack,Ténèbres,Physique,60,,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ROTOTILLER,Fertilisation,Rototiller,Sol,Statut,,,10,0,ROTOTILLER,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_MYSTICAL_FIRE,Feu Ensorcelé,Mystical Fire,Feu,Spéciale,75,100,10,0,HIT,Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi.
+MOVE_BURNING_JEALOUSY,Feu Envieux,Burning Jealousy,Feu,Spéciale,70,100,5,0,HIT,Le lanceur attaque sa cible avec toute sa jalousie. Cette capacité brûle tout Pokémon dont les stats ont augmenté pendant ce tour.
+MOVE_WILL_O_WISP,Feu Follet,Will-O-Wisp,Feu,Statut,,85,15,0,NON_VOLATILE_STATUS,Lance un bouquet de flammes maléfiques à l’ennemi pour lui infliger une brûlure.
+MOVE_ICE_BURN,Feu Glacé,Ice Burn,Glace,Spéciale,140,90,5,0,TWO_TURNS_ATTACK,"Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut aussi le brûler."
+MOVE_SACRED_FIRE,Feu Sacré,Sacred Fire,Feu,Physique,100,95,5,0,HIT,Le lanceur génère un feu mystique d’une intensité redoutable pour attaquer l’ennemi. Peut aussi le brûler.
+MOVE_INFERNO,Feu d’Enfer,Inferno,Feu,Spéciale,100,50,5,0,HIT,L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent.
+MOVE_LEAFAGE,Feuillage,Leafage,Plante,Physique,40,100,40,0,HIT,Le lanceur attaque l’ennemi avec des feuilles.
+MOVE_MAGICAL_LEAF,Feuille Magik,Magical Leaf,Plante,Spéciale,60,,20,0,HIT,Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.
+MOVE_TOXIC_THREAD,Fil Toxique,Toxic Thread,Poison,Statut,,100,20,0,TOXIC_THREAD,Tisse un fil imprégné de venin. Empoisonne la cible et baisse sa Vitesse.
+MOVE_ODOR_SLEUTH,Flair,Odor Sleuth,Normal,Statut,,,40,0,FORESIGHT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_BLUE_FLARE,Flamme Bleue,Blue Flare,Feu,Spéciale,130,85,5,0,HIT,De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler.
+MOVE_FUSION_FLARE,Flamme Croix,Fusion Flare,Feu,Spéciale,100,100,5,0,FUSION_COMBO,Projette une boule de feu gigantesque. L’effet augmente sous l’influence d’Éclair Croix.
+MOVE_BURN_UP,Flamme Ultime,Burn Up,Feu,Spéciale,130,100,5,0,FAIL_IF_NOT_ARG_TYPE,Le Pokémon se consume et les flammes de son corps infligent des dégâts élevés à la cible. Le lanceur perd le type Feu.
+MOVE_EMBER,Flammèche,Ember,Feu,Spéciale,40,100,25,0,HIT,L’ennemi est attaqué par une faible flamme. Peut aussi le brûler.
+MOVE_FLASH,Flash,Flash,Normal,Statut,,100,20,0,ACCURACY_DOWN,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FLATTER,Flatterie,Flatter,Ténèbres,Statut,,100,15,0,FLATTER,"Rend la cible confuse, mais augmente son Attaque Spéciale."
+MOVE_FLYING_PRESS,Flying Press,Flying Press,Combat,Physique,100,95,10,0,TWO_TYPED_MOVE,"Une attaque en piqué depuis le ciel, à la fois de type Combat et de type Vol."
+MOVE_LIFE_DEW,Fontaine de Vie,Life Dew,Eau,Statut,,,10,0,LIFE_DEW,Le lanceur projette une eau mystérieuse autour du terrain pour restaurer ses PV et ceux de ses alliés au combat.
+MOVE_STRENGTH,Force,Strength,Normal,Physique,80,100,15,0,HIT,Le lanceur cogne l’ennemi de toutes ses forces.
+MOVE_STORED_POWER,Force Ajoutée,Stored Power,Psy,Spéciale,20,100,10,0,STORED_POWER,"Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace."
+MOVE_SECRET_POWER,Force Cachée,Secret Power,Normal,Physique,70,100,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_LANDS_WRATH,Force Chtonienne,Land’s Wrath,Sol,Physique,90,100,10,0,HIT,Utilise la puissance du sol et la concentre sur l’ennemi pour infliger des dégâts.
+MOVE_COSMIC_POWER,Force Cosmique,Cosmic Power,Psy,Statut,,,20,0,COSMIC_POWER,Le lanceur absorbe un pouvoir mystique spatial qui augmente sa Défense et sa Défense Spéciale.
+MOVE_GRAV_APPLE,Force G,Grav Apple,Plante,Physique,80,100,10,0,GRAV_APPLE,Le lanceur attaque son adversaire avec une pomme qu’il fait tomber de très haut. Baisse la Défense de la cible.
+MOVE_MYSTICAL_POWER,Force Mystique,Mystical Power,Psy,Spéciale,70,90,10,0,HIT,Le lanceur attaque en libérant un pouvoir mystique. Cela augmente également son Attaque Spéciale.
+MOVE_NATURE_POWER,Force Nature,Nature Power,Normal,Statut,1,,20,0,NATURE_POWER,Une attaque qui tire sa force de la nature. Son type varie selon le terrain.
+MOVE_VISE_GRIP,Force Poigne,Vise Grip,Normal,Physique,55,100,30,0,HIT,L’ennemi est attrapé et compressé par les côtés.
+MOVE_FORCE_PALM,Forte-Paume,Force Palm,Combat,Physique,60,100,10,0,HIT,Une onde de choc frappe l’ennemi. Peut aussi paralyser la cible.
+MOVE_VINE_WHIP,Fouet Lianes,Vine Whip,Plante,Physique,45,100,25,0,HIT,Fouette l’ennemi avec de fines lianes pour infliger des dégâts.
+MOVE_FIRE_LASH,Fouet de Feu,Fire Lash,Feu,Physique,80,100,15,0,HIT,Frappe la cible avec un fouet incandescent et baisse sa Défense.
+MOVE_FALSE_SURRENDER,Fourbette,False Surrender,Ténèbres,Physique,80,,10,0,HIT,Le lanceur fait semblant de se prosterner et utilise ses cheveux pour poignarder sa cible. Touche à tous les coups.
+MOVE_HEAD_SMASH,Fracass’Tête,Head Smash,Roche,Physique,150,80,5,0,RECOIL,Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur.
+MOVE_SEISMIC_TOSS,Frappe Atlas,Seismic Toss,Combat,Physique,1,100,20,0,LEVEL_DAMAGE,L’ennemi est projeté grâce au pouvoir de la gravité. Inflige des dégâts équivalents au niveau du lanceur.
+MOVE_PSYSTRIKE,Frappe Psy,Psystrike,Psy,Spéciale,100,100,10,0,PSYSHOCK,Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.
+MOVE_NUZZLE,Frotte-Frimousse,Nuzzle,Électrik,Physique,20,100,20,0,HIT,Le lanceur attaque en frottant ses bajoues chargées d’électricité. Paralyse l’ennemi.
+MOVE_FRUSTRATION,Frustration,Frustration,Normal,Physique,1,100,20,0,FRUSTRATION,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_RAGE,Frénésie,Rage,Normal,Physique,20,100,20,0,RAGE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ELECTRO_SHOT,Fulgurayon,Electro Shot,Électrik,Spéciale,130,100,10,0,TWO_TURNS_ATTACK,"Le lanceur absorbe de l'électricité au premier tour, ce qui augmente son Attaque Spéciale, et envoie une puissante décharge au second. S'il pleut, il l'envoie au premier tour."
+MOVE_METAL_BURST,Fulmifer,Metal Burst,Acier,Physique,1,100,10,0,METAL_BURST,Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort.
+MOVE_SEED_FLARE,Fulmigraine,Seed Flare,Plante,Spéciale,120,85,5,0,HIT,Le corps du lanceur émet une onde de choc. Peut aussi beaucoup baisser la Défense Spéciale de la cible.
+MOVE_FIERY_WRATH,Fureur Ardente,Fiery Wrath,Ténèbres,Spéciale,90,100,10,0,HIT,"Le lanceur canalise sa colère et la transforme en aura brûlante, avec laquelle il attaque l’ennemi. Peut aussi l’apeurer."
+MOVE_FURY_ATTACK,Furie,Fury Attack,Normal,Physique,15,85,20,0,MULTI_HIT,"Frappe l’ennemi deux à cinq fois d’affilée avec un bec ou une corne, par exemple."
+MOVE_HYPERSPACE_FURY,Furie Dimension,Hyperspace Fury,Ténèbres,Physique,100,,5,0,HYPERSPACE_FURY,Le Pokémon utilise sa multitude de bras pour infliger une nuée de coups qui ignorent les capacités telles qu’Abri ou Détection. Baisse la Défense du lanceur.
+MOVE_LUNGE,Furie-Bond,Lunge,Insecte,Physique,80,100,15,0,HIT,Le lanceur se jette sur la cible de toutes ses forces pour lui infliger des dégâts et baisser son Attaque.
+MOVE_FLOWER_SHIELD,Garde Florale,Flower Shield,Fée,Statut,,,10,0,FLOWER_SHIELD,"Grâce à une force mystérieuse, la Défense de tous les Pokémon Plante au combat augmente."
+MOVE_WIDE_GUARD,Garde Large,Wide Guard,Roche,Statut,,,10,3,PROTECT,Annule les attaques visant toute l’équipe pendant un tour.
+MOVE_STUFF_CHEEKS,Garde-à-Joues,Stuff Cheeks,Normal,Statut,,,10,0,STUFF_CHEEKS,"Le lanceur mange la Baie qu’il tient, ce qui augmente beaucoup sa Défense."
+MOVE_CORROSIVE_GAS,Gaz Corrosif,Corrosive Gas,Poison,Statut,,100,40,0,CORROSIVE_GAS,Un gaz corrosif qui enveloppe tous les Pokémon alentour et qui dissout les objets qu’ils tiennent.
+MOVE_POISON_GAS,Gaz Toxik,Poison Gas,Poison,Statut,,90,40,0,NON_VOLATILE_STATUS,Un nuage de gaz toxique est projeté au visage de l’ennemi pour l’empoisonner.
+MOVE_WATER_SPOUT,Giclédo,Water Spout,Eau,Spéciale,150,100,5,0,POWER_BASED_ON_USER_HP,Le lanceur attaque avec un jet d’eau. Moins il a de PV et moins l’attaque est puissante.
+MOVE_GIGA_IMPACT,Giga Impact,Giga Impact,Normal,Physique,150,90,5,0,HIT,Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant.
+MOVE_GIGA_DRAIN,Giga-Sangsue,Giga Drain,Plante,Spéciale,75,100,10,0,ABSORB,Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.
+MOVE_FLAIL,Gigotage,Flail,Normal,Physique,1,100,15,0,FLAIL,"Le lanceur attaque en gigotant dans tous les sens. Plus ses PV sont bas, plus l’attaque est puissante."
+MOVE_SHEER_COLD,Glaciation,Sheer Cold,Glace,Spéciale,1,30,5,0,SHEER_COLD,Une vague de froid glacial frappe l’ennemi pour le mettre K.O. en un coup. A peu de chances de réussir si le lanceur ne possède pas le type Glace.
+MOVE_BEHEMOTH_BLADE,Gladius Maximus,Behemoth Blade,Acier,Physique,100,100,5,0,DYNAMAX_DOUBLE_DMG,Le lanceur se transforme en une immense épée et pourfend son adversaire. Inflige le double de dégâts aux Pokémon Dynamax.
+MOVE_HEAL_BELL,Glas de Soin,Heal Bell,Normal,Statut,,,5,0,HEAL_BELL,Carillon apaisant qui soigne les altérations de statut de tous les Pokémon de l’équipe.
+MOVE_GRASSY_GLIDE,Gliss’Herbe,Grassy Glide,Plante,Physique,55,100,20,0,GRASSY_GLIDE,Le lanceur attaque l’ennemi en glissant sur le terrain. Frappe toujours en priorité si un Champ Herbu est actif.
+MOVE_BULK_UP,Gonflette,Bulk Up,Combat,Statut,,,20,0,BULK_UP,"Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense."
+MOVE_TAR_SHOT,Goudronnage,Tar Shot,Roche,Statut,,100,15,0,TAR_SHOT,Le lanceur recouvre sa cible de goudron liquide pour baisser sa Vitesse et la rendre vulnérable au feu.
+MOVE_RAGING_FURY,Grand Courroux,Raging Fury,Feu,Physique,120,100,10,0,HIT,Le lanceur se déchaîne et attaque en projetant de violentes flammes pendant deux ou trois tours. Il devient ensuite confus.
+MOVE_TIDY_UP,Grand Nettoyage,Tidy Up,Normal,Statut,,,10,0,TIDY_UP,"Le lanceur fait le ménage sur le terrain, ce qui annule les effets de Picots, Piège de Roc, Toile Gluante, Pics Toxik, et Clonage. Augmente l'Attaque et la Vitesse du lanceur."
+MOVE_GRAVITY,Gravité,Gravity,Psy,Statut,,,5,0,GRAVITY,"Pendant cinq tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables."
+MOVE_SKETCH,Gribouille,Sketch,Normal,Statut,,,1,0,SKETCH,Le lanceur apprend la dernière capacité utilisée par la cible. Gribouille disparaît après utilisation.
+MOVE_SCRATCH,Griffe,Scratch,Normal,Physique,40,100,35,0,HIT,Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts.
+MOVE_METAL_CLAW,Griffe Acier,Metal Claw,Acier,Physique,50,95,35,0,HIT,Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur.
+MOVE_SHADOW_CLAW,Griffe Ombre,Shadow Claw,Spectre,Physique,70,100,15,0,HIT,Attaque avec une griffe puissante faite d’ombres. Taux de critiques élevé.
+MOVE_DIRE_CLAW,Griffes Funestes,Dire Claw,Poison,Physique,80,100,15,0,HIT,"Le lanceur attaque avec des griffes destructrices en visant les points faibles. La cible peut aussi être empoisonnée, paralysée, ou endormie."
+MOVE_SCARY_FACE,Grimace,Scary Face,Normal,Statut,,100,10,0,SPEED_DOWN_2,Le lanceur fait une grimace qui effraie l’ennemi et réduit beaucoup sa Vitesse.
+MOVE_SCREECH,Grincement,Screech,Normal,Statut,,85,40,0,DEFENSE_DOWN_2,Le lanceur émet un son strident qui baisse beaucoup la Défense de l’ennemi.
+MOVE_LOVELY_KISS,Grobisou,Lovely Kiss,Normal,Statut,,75,10,0,NON_VOLATILE_STATUS,Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi.
+MOVE_HOWL,Grondement,Howl,Normal,Statut,,,40,0,ATTACK_UP_USER_ALLY,"Le lanceur grogne pour se rassurer, ce qui augmente son Attaque et celle de ses alliés."
+MOVE_LEER,Groz’Yeux,Leer,Normal,Statut,,100,30,0,DEFENSE_DOWN,Le lanceur fait les gros yeux à l’ennemi pour l’intimider et baisser sa Défense.
+MOVE_HAIL,Grêle,Hail,Glace,Statut,,,10,0,SNOWSCAPE,"Invoque une tempête de grêle qui dure cinq tours. Blesse tous les Pokémon, sauf ceux de type Glace."
+MOVE_GUILLOTINE,Guillotine,Guillotine,Normal,Physique,1,30,5,0,OHKO,"Des pinces lacèrent violemment l’ennemi, le mettant K.O. sur le coup s’il est touché."
+MOVE_GYRO_BALL,Gyroballe,Gyro Ball,Acier,Physique,1,100,5,0,GYRO_BALL,"Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il inflige de dégâts."
+MOVE_KOWTOW_CLEAVE,Génusection,Kowtow Cleave,Ténèbres,Physique,85,,10,0,HIT,Le lanceur se prosterne devant la cible et profite de cette distraction pour l'attaquer avec une lame. N'échoue jamais.
+MOVE_GEOMANCY,Géo-Contrôle,Geomancy,Fée,Statut,,,10,0,GEOMANCY,"Le lanceur absorbe de l’énergie au premier tour et augmente beaucoup son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second."
+MOVE_SPICY_EXTRACT,Habanerage,Spicy Extract,Plante,Statut,,,15,0,SPICY_EXTRACT,"Le lanceur relâche un concentré extrêmement pimenté sur la cible, ce qui augmente beaucoup l'Attaque de celle-ci, mais baisse aussi beaucoup sa Défense."
+MOVE_STONE_AXE,Hache de Pierre,Stone Axe,Roche,Physique,65,90,15,0,STONE_AXE,Le lanceur attaque le point faible de sa cible avec sa hache de pierre. Les débris de pierre se mettent alors à flotter autour de la cible.
+MOVE_TRICK_OR_TREAT,Halloween,Trick-or-Treat,Spectre,Statut,,100,20,0,THIRD_TYPE,"Insuffle à la cible l’esprit d’Halloween, et ajoute le type Spectre à ses types actuels."
+MOVE_PHANTOM_FORCE,Hantise,Phantom Force,Spectre,Physique,90,100,10,0,SEMI_INVULNERABLE,Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections.
+MOVE_INFESTATION,Harcèlement,Infestation,Insecte,Spéciale,20,100,20,0,HIT,Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période.
+MOVE_CHLOROBLAST,Herblast,Chloroblast,Plante,Spéciale,150,95,5,0,CHLOROBLAST,"Le lanceur tire un concentré de sa propre chlorophylle sur la cible, ce qui le blesse également."
+MOVE_LAST_RESPECTS,Hommage Posthume,Last Respects,Spectre,Physique,50,100,10,0,LAST_RESPECTS,"Le lanceur attaque pour venger ses alliés. Plus le nombre de Pokémon alliés mis K.O. est élevé, plus la puissance de cette capacité augmente."
+MOVE_ROAR_OF_TIME,Hurle-Temps,Roar of Time,Dragon,Spéciale,150,90,5,0,HIT,Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant.
+MOVE_ROAR,Hurlement,Roar,Normal,Statut,,,20,-6,ROAR,"Effraie le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat."
+MOVE_AQUA_TAIL,Hydro-Queue,Aqua Tail,Eau,Physique,90,90,10,0,HIT,Le lanceur attaque en balançant sa queue comme une lame de fond en pleine tempête.
+MOVE_HYDRO_CANNON,Hydroblast,Hydro Cannon,Eau,Spéciale,150,90,5,0,HIT,Une trombe d’eau heurte l’ennemi. Le lanceur doit se reposer au tour suivant.
+MOVE_HYDRO_PUMP,Hydrocanon,Hydro Pump,Eau,Spéciale,110,80,5,0,HIT,Un puissant jet d’eau est dirigé sur l’ennemi.
+MOVE_HYDRO_STEAM,Hydrovapeur,Hydro Steam,Eau,Spéciale,80,100,15,0,HYDRO_STEAM,"Le lanceur asperge la cible avec un puissant jet d'eau bouillante. Quand le soleil brille, la puissance de cette capacité augmente de 50 % au lieu de baisser."
+MOVE_HYPER_DRILL,Hyperceuse,Hyper Drill,Normal,Physique,100,100,5,0,HIT,Le lanceur fait tourner à toute vitesse la partie pointue de son corps afin de transpercer la cible. Ignore même les capacités comme Abri ou Détection.
+MOVE_HYPNOSIS,Hypnose,Hypnosis,Psy,Statut,,60,20,0,NON_VOLATILE_STATUS,Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil.
+MOVE_AGILITY,Hâte,Agility,Psy,Statut,,,30,0,SPEED_UP_2,Le lanceur se relaxe et allège son corps pour beaucoup augmenter sa Vitesse.
+MOVE_ROLE_PLAY,Imitation,Role Play,Psy,Statut,,,10,0,ROLE_PLAY,Imite la cible et copie son talent.
+MOVE_COVET,Implore,Covet,Normal,Physique,60,100,25,0,STEAL_ITEM,Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient.
+MOVE_SEARING_SHOT,Incendie,Searing Shot,Feu,Spéciale,100,100,5,0,HIT,Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler.
+MOVE_TEMPER_FLARE,Indignition,Temper Flare,Feu,Physique,75,100,10,0,STOMPING_TANTRUM,"Le lanceur utilise la force de son dépit pour attaquer. S'il a utilisé une capacité qui a échoué au tour précédent, la puissance d'Indignition est doublée."
+MOVE_ALLY_SWITCH,Interversion,Ally Switch,Psy,Statut,,,15,2,ALLY_SWITCH,Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.
+MOVE_NATURES_MADNESS,Ire de la Nature,Nature’s Madness,Fée,Spéciale,1,90,10,0,FIXED_PERCENT_DAMAGE,Le lanceur déchaîne toute la colère de la nature pour baisser les PV de la cible de moitié.
+MOVE_PAY_DAY,Jackpot,Pay Day,Normal,Physique,40,100,20,0,HIT,Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.
+MOVE_SAND_ATTACK,Jet de Sable,Sand Attack,Sol,Statut,,100,15,0,ACCURACY_DOWN,Lance du sable au visage de l’ennemi pour baisser sa Précision.
+MOVE_STEAM_ERUPTION,Jet de Vapeur,Steam Eruption,Eau,Spéciale,110,95,5,0,HIT,Plonge l’ennemi dans une chaleur étouffante. Peut le brûler.
+MOVE_ROCK_THROW,Jet-Pierres,Rock Throw,Roche,Physique,50,90,15,0,HIT,Le lanceur lâche une pierre sur l’ennemi.
+MOVE_METEOR_ASSAULT,Joute Astrale,Meteor Assault,Combat,Physique,150,100,5,0,HIT,"Le lanceur attaque son adversaire avec son poireau. Toutefois, cette action le fait vaciller et il doit se reposer au tour suivant."
+MOVE_JUDGMENT,Jugement,Judgment,Normal,Spéciale,100,100,10,0,CHANGE_TYPE_ON_ITEM,Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur.
+MOVE_SHELL_SIDE_ARM,Kokiyarme,Shell Side Arm,Poison,Spéciale,90,100,10,0,SHELL_SIDE_ARM,"Une attaque physique ou spéciale, en fonction de ce qui est le plus efficace contre la cible. Peut aussi empoisonner."
+MOVE_HORN_ATTACK,Koud’Korne,Horn Attack,Normal,Physique,65,100,25,0,HIT,Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts.
+MOVE_MILK_DRINK,Lait à Boire,Milk Drink,Normal,Statut,,,5,0,SOFTBOILED,Le lanceur récupère jusqu’à la moitié de ses PV max.
+MOVE_LEAF_BLADE,Lame Feuille,Leaf Blade,Plante,Physique,90,100,15,0,HIT,Une feuille coupante comme une lame entaille l’ennemi. Taux de critiques élevé.
+MOVE_SECRET_SWORD,Lame Ointe,Secret Sword,Combat,Spéciale,85,100,10,0,PSYSHOCK,L’ennemi est lacéré par une longue corne. Son pouvoir mystérieux inflige des dégâts physiques.
+MOVE_PRECIPICE_BLADES,Lame Pangéenne,Precipice Blades,Sol,Physique,120,85,10,0,HIT,Le Pokémon transforme la puissance de la terre et attaque la cible avec une lame acérée.
+MOVE_PSYBLADE,Lame Psychique,Psyblade,Psy,Physique,80,100,15,0,PSYBLADE,"Le lanceur lacère la cible à l'aide d'une lame intangible. S'il se trouve dans un champ électrifié, la puissance de cette capacité augmente de 50 %."
+MOVE_MIGHTY_CLEAVE,Lame Puissante,Mighty Cleave,Roche,Physique,95,100,5,0,HIT,Le lanceur pourfend la cible avec la lumière accumulée sur sa tête. Cette attaque passe outre les protections.
+MOVE_SACRED_SWORD,Lame Sainte,Sacred Sword,Combat,Physique,90,100,15,0,HIT,Un coup de corne violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats.
+MOVE_SOLAR_BLADE,Lame Solaire,Solar Blade,Plante,Physique,125,100,10,0,SOLAR_BEAM,Le lanceur absorbe la lumière au premier tour et attaque au second tour en libérant cette énergie sous forme de lames.
+MOVE_TACHYON_CUTTER,Lame Tachyonique,Tachyon Cutter,Acier,Spéciale,50,,10,0,HIT,Le lanceur concentre des particules élémentaires pour créer une lame qui inflige des dégâts à la cible deux fois d'affilée. N'échoue jamais.
+MOVE_STONE_EDGE,Lame de Roc,Stone Edge,Roche,Physique,100,80,5,0,HIT,Fait surgir des pierres aiguisées sous l’ennemi. Taux de critiques élevé.
+MOVE_AIR_SLASH,Lame d’Air,Air Slash,Vol,Spéciale,75,95,15,0,HIT,Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi.
+MOVE_BITTER_BLADE,Lame en Peine,Bitter Blade,Feu,Physique,90,100,10,0,ABSORB,Le lanceur concentre son amertume du monde des vivants dans la pointe de ses épées et tranche la cible. La moitié des dégâts infligés sont convertis en PV pour le lanceur.
+MOVE_GLACIAL_LANCE,Lance de Glace,Glacial Lance,Glace,Physique,120,100,5,0,HIT,Le lanceur attaque l’ennemi avec une lance de glace entourée d’un blizzard.
+MOVE_MUD_SPORT,Lance-Boue,Mud Sport,Sol,Statut,,,15,0,MUD_SPORT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FLAMETHROWER,Lance-Flammes,Flamethrower,Feu,Spéciale,90,100,15,0,HIT,L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.
+MOVE_SOLAR_BEAM,Lance-Soleil,Solar Beam,Plante,Spéciale,120,100,10,0,SOLAR_BEAM,Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.
+MOVE_GEAR_GRIND,Lancécrou,Gear Grind,Acier,Physique,50,85,15,0,HIT,Le lanceur jette deux écrous d’acier qui frappent l’ennemi deux fois d’affilée.
+MOVE_THIEF,Larcin,Thief,Ténèbres,Physique,60,100,25,0,STEAL_ITEM,Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.
+MOVE_TEARFUL_LOOK,Larme à l’Œil,Tearful Look,Normal,Statut,,,20,0,NOBLE_ROAR,Le lanceur jette un regard plein de larmes à la cible. Celle-ci perd toute velléité de combat et voit son Attaque et son Attaque Spéciale baisser.
+MOVE_ICE_BEAM,Laser Glace,Ice Beam,Glace,Spéciale,90,100,10,0,HIT,Un rayon de glace frappe l’ennemi. Peut aussi le geler.
+MOVE_FICKLE_BEAM,Laser Hasard,Fickle Beam,Dragon,Spéciale,80,100,5,0,FICKLE_BEAM,"Le lanceur attaque en tirant un rayon lumineux. Il arrive parfois que toutes les têtes agissent ensemble, ce qui double la puissance de la capacité."
+MOVE_ETERNABEAM,Laser Infinimax,Eternabeam,Dragon,Spéciale,160,90,5,0,HIT,"L’attaque la plus puissante d’Éthernatos sous sa forme originelle. S’il l’utilise, il devra se reposer au tour suivant."
+MOVE_METEOR_BEAM,Laser Météore,Meteor Beam,Roche,Spéciale,120,90,10,0,TWO_TURNS_ATTACK,"Le lanceur concentre l’énergie cosmique au premier tour, ce qui augmente son Attaque Spéciale, et frappe au second."
+MOVE_PRISMATIC_LASER,Laser Prisme,Prismatic Laser,Psy,Spéciale,160,100,10,0,HIT,"Le lanceur utilise la puissance d’un prisme pour envoyer un laser destructeur, mais il doit se reposer au tour suivant."
+MOVE_DESTINY_BOND,Lien du Destin,Destiny Bond,Spectre,Statut,,,5,0,DESTINY_BOND,"Si un ennemi porte un coup fatal au lanceur après qu’il a activé cette capacité, ils sont tous les deux mis K.O. La capacité échoue si elle est immédiatement réutilisée."
+MOVE_WRAP,Ligotage,Wrap,Normal,Physique,15,90,20,0,HIT,Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours.
+MOVE_MINIMIZE,Lilliput,Minimize,Normal,Statut,,,10,0,MINIMIZE,Le lanceur comprime son corps pour se faire tout petit et beaucoup augmenter son Esquive.
+MOVE_MIND_READER,Lire-Esprit,Mind Reader,Normal,Statut,,,5,0,LOCK_ON,Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant.
+MOVE_TAIL_GLOW,Lumi-Queue,Tail Glow,Insecte,Statut,,,20,0,SPECIAL_ATTACK_UP_3,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_LUSTER_PURGE,Lumi-Éclat,Luster Purge,Psy,Spéciale,95,100,5,0,HIT,Le lanceur libère un éclair lumineux. Peut aussi baisser la Défense Spéciale de l’ennemi.
+MOVE_LUMINA_CRASH,Lumino-Impact,Lumina Crash,Psy,Spéciale,80,100,10,0,HIT,Le lanceur attaque en émettant une étrange lumière qui ébranle l'esprit de la cible. Cela baisse beaucoup la Défense Spéciale de la cible.
+MOVE_FLASH_CANNON,Luminocanon,Flash Cannon,Acier,Spéciale,80,100,10,0,HIT,Le lanceur concentre son énergie lumineuse et la fait exploser. Peut aussi baisser la Défense Spéciale de l’ennemi.
+MOVE_LIGHT_OF_RUIN,Lumière du Néant,Light of Ruin,Fée,Spéciale,140,90,5,0,RECOIL,Utilise la puissance de la fleur Éternelle pour lancer un formidable rayon d’énergie. Blesse aussi gravement le lanceur.
+MOVE_BLOOD_MOON,Lune Rouge,Blood Moon,Normal,Spéciale,140,100,5,0,HIT,Le lanceur concentre toute son énergie dans la lune rouge sang sur son front et la projette sur la cible. Cette capacité ne peut pas être utilisée deux fois d'affilée.
+MOVE_STRUGGLE,Lutte,Struggle,Normal,Physique,50,,1,0,STRUGGLE,"Une attaque désespérée, utilisée quand le lanceur n’a plus de PP. Le blesse aussi légèrement."
+MOVE_FREEZE_DRY,Lyophilisation,Freeze-Dry,Glace,Spéciale,70,100,20,0,SUPER_EFFECTIVE_ON_ARG,Refroidit violemment l’ennemi et peut le geler. Super efficace sur les Pokémon de type Eau.
+MOVE_LICK,Léchouille,Lick,Spectre,Physique,30,100,30,0,HIT,Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser.
+MOVE_TELEKINESIS,Lévikinésie,Telekinesis,Psy,Statut,,,15,0,TELEKINESIS,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_MACH_PUNCH,Mach Punch,Mach Punch,Combat,Physique,40,100,30,1,HIT,Coup de poing fulgurant. Frappe en priorité.
+MOVE_NASTY_PLOT,Machination,Nasty Plot,Ténèbres,Statut,,,20,0,SPECIAL_ATTACK_UP_2,Stimule l’esprit par de mauvaises pensées. Augmente beaucoup l’Attaque Spéciale du lanceur.
+MOVE_FLOWER_TRICK,Magie Florale,Flower Trick,Plante,Physique,70,,10,0,HIT,Le lanceur attaque en jetant un bouquet de fleurs piégé sur la cible. N'échoue jamais et inflige toujours un coup critique.
+MOVE_MAGNETIC_FLUX,Magné-Contrôle,Magnetic Flux,Électrik,Statut,,,20,0,MAGNETIC_FLUX,Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Moins.
+MOVE_HOLD_HANDS,Mains Jointes,Hold Hands,Normal,Statut,,,40,0,HOLD_HANDS,"Le lanceur et un allié se prennent la main, ce qui les rend heureux."
+MOVE_CURSE,Malédiction,Curse,Spectre,Statut,,,10,0,CURSE,Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non.
+MOVE_FORESTS_CURSE,Maléfice Sylvain,Forest’s Curse,Plante,Statut,,100,20,0,THIRD_TYPE,La cible est charmée par l’esprit de la forêt. Le type Plante est ajouté à ses types actuels.
+MOVE_THRASH,Mania,Thrash,Normal,Physique,120,100,10,0,HIT,Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus.
+MOVE_GIGATON_HAMMER,Marteau Mastoc,Gigaton Hammer,Acier,Physique,160,100,5,0,HIT,Le lanceur met tout son corps à contribution pour attaquer la cible avec un immense marteau. Cette capacité ne peut pas être utilisée deux fois d'affilée.
+MOVE_ICE_HAMMER,Marteau de Glace,Ice Hammer,Glace,Physique,100,90,10,0,HIT,Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.
+MOVE_HAMMER_ARM,Marto-Poing,Hammer Arm,Combat,Physique,100,90,10,0,HIT,Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.
+MOVE_WOOD_HAMMER,Martobois,Wood Hammer,Plante,Physique,120,100,15,0,RECOIL,Le lanceur heurte l’ennemi de son corps robuste. Blesse aussi gravement le lanceur.
+MOVE_BONE_CLUB,Massd’Os,Bone Club,Sol,Physique,65,85,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_IVY_CUDGEL,Massue Liane,Ivy Cudgel,Plante,Physique,100,100,10,0,IVY_CUDGEL,"Le lanceur frappe avec un gourdin enveloppé de lierre. Le type de cette capacité change selon le masque porté par le lanceur, et a un taux de critiques élevé."
+MOVE_ROLLING_KICK,Mawashi Geri,Rolling Kick,Combat,Physique,60,85,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_TAIL_WHIP,Mimi-Queue,Tail Whip,Normal,Statut,,100,30,0,DEFENSE_DOWN,Le lanceur remue son adorable queue pour tromper la vigilance de l’ennemi et baisser sa Défense.
+MOVE_MIRROR_MOVE,Mimique,Mirror Move,Vol,Statut,,,20,0,MIRROR_MOVE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_MIRROR_SHOT,Miroi-Tir,Mirror Shot,Acier,Spéciale,65,85,10,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FOCUS_PUNCH,Mitra-Poing,Focus Punch,Combat,Physique,150,100,20,-3,FOCUS_PUNCH,Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé.
+MOVE_ME_FIRST,Moi d’Abord,Me First,Normal,Statut,,,20,0,ME_FIRST,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_RISING_VOLTAGE,Monte-Tension,Rising Voltage,Électrik,Spéciale,70,100,20,0,RISING_VOLTAGE,Des éclairs surgissent du sol et frappent l’ennemi. La puissance de cette attaque est doublée si la cible est sur un Champ Électrifié.
+MOVE_TRANSFORM,Morphing,Transform,Normal,Statut,,,10,0,TRANSFORM,Le lanceur devient une copie de sa cible et obtient la même palette de capacités.
+MOVE_BITE,Morsure,Bite,Ténèbres,Physique,60,100,25,0,HIT,L’ennemi est mordu par de tranchantes canines. Peut l’apeurer.
+MOVE_MATCHA_GOTCHA,Mortier Matcha,Matcha Gotcha,Plante,Spéciale,80,90,15,0,ABSORB,Le lanceur remue son thé et en bombarde la cible. La moitié des dégâts infligés sont convertis en PV pour le lanceur. Cette capacité peut aussi brûler la cible.
+MOVE_OBLIVION_WING,Mort’Ailes,Oblivion Wing,Vol,Spéciale,80,100,10,0,ABSORB,Vole l’énergie de la cible. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.
+MOVE_BARB_BARRAGE,Multitoxik,Barb Barrage,Poison,Physique,60,100,10,0,DOUBLE_POWER_ON_ARG_STATUS,Une multitude de pointes toxiques frappent la cible et peuvent l'empoisonner. La puissance est doublée si celle-ci est déjà empoisonnée.
+MOVE_SHELTER,Mur Fumigène,Shelter,Acier,Statut,,,10,0,DEFENSE_UP_2,"Rend la peau du lanceur dure comme un mur de fer, ce qui augmente beaucoup sa Défense."
+MOVE_LIGHT_SCREEN,Mur Lumière,Light Screen,Psy,Statut,,,30,0,LIGHT_SCREEN,Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales pendant cinq tours.
+MOVE_IRON_DEFENSE,Mur de Fer,Iron Defense,Acier,Statut,,,15,0,DEFENSE_UP_2,"L’épiderme du lanceur devient dur comme du fer, ce qui augmente beaucoup sa Défense."
+MOVE_THOUSAND_ARROWS,Myria-Flèches,Thousand Arrows,Sol,Physique,90,100,10,0,SMACK_DOWN,"Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol."
+MOVE_THOUSAND_WAVES,Myria-Vagues,Thousand Waves,Sol,Physique,90,100,10,0,HIT,Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper.
+MOVE_CRUNCH,Mâchouille,Crunch,Ténèbres,Physique,80,100,15,0,HIT,Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser sa Défense.
+MOVE_MEGA_DRAIN,Méga-Sangsue,Mega Drain,Plante,Spéciale,40,100,15,0,ABSORB,Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.
+MOVE_MEGAHORN,Mégacorne,Megahorn,Insecte,Physique,120,85,10,0,HIT,Le lanceur utilise ses gigantesques cornes pour charger l’ennemi.
+MOVE_POWER_WHIP,Mégafouet,Power Whip,Plante,Physique,120,85,10,0,HIT,Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.
+MOVE_HYPER_VOICE,Mégaphone,Hyper Voice,Normal,Spéciale,90,100,10,0,HIT,Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts à l’ennemi.
+MOVE_STEEL_BEAM,Métalaser,Steel Beam,Acier,Spéciale,140,95,5,0,MAX_HP_50_RECOIL,Le lanceur concentre du métal issu de tout son corps en un rayon qu’il projette violemment sur sa cible. Il subit aussi des dégâts.
+MOVE_STEEL_ROLLER,Métalliroue,Steel Roller,Acier,Physique,130,100,5,0,STEEL_ROLLER,"Une attaque qui inflige des dégâts et fait disparaître le champ actif, mais qui échoue s’il n’y en a pas à ce moment."
+MOVE_METRONOME,Métronome,Metronome,Normal,Statut,,,10,0,METRONOME,Le lanceur agite un doigt et stimule son cerveau pour utiliser presque n’importe quelle capacité au hasard.
+MOVE_SWIFT,Météores,Swift,Normal,Spéciale,60,,20,0,HIT,Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi.
+MOVE_DECORATE,Nappage,Decorate,Fée,Statut,,,15,0,DECORATE,Le lanceur augmente beaucoup l’Attaque et l’Attaque Spéciale de la cible en la nappant de glaçage.
+MOVE_CHILLY_RECEPTION,Neigeux de Mots,Chilly Reception,Glace,Statut,,,10,0,CHILLY_RECEPTION,Le lanceur fait un si mauvais jeu de mots qu'il jette un froid et échange sa place avec un Pokémon de l'équipe prêt à combattre. La neige tombe pendant cinq tours.
+MOVE_COLLISION_COURSE,Nitro Crash,Collision Course,Combat,Physique,100,100,5,0,COLLISION_COURSE,"Le lanceur change de forme et s'écrase sur la cible dans une explosion antique. Si la capacité est super efficace, elle inflige encore plus de dégâts que d'ordinaire."
+MOVE_FLAME_CHARGE,Nitrocharge,Flame Charge,Feu,Physique,50,100,20,0,HIT,Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente.
+MOVE_POWDER,Nuée de Poudre,Powder,Insecte,Statut,,100,20,1,POWDER,"L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts."
+MOVE_GRASS_KNOT,Nœud Herbe,Grass Knot,Plante,Spéciale,1,100,20,0,LOW_KICK,"L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts."
+MOVE_MUDDY_WATER,Ocroupi,Muddy Water,Eau,Spéciale,90,85,10,0,HIT,Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.
+MOVE_OCTAZOOKA,Octazooka,Octazooka,Eau,Spéciale,65,85,10,0,HIT,Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser sa Précision.
+MOVE_OCTOLOCK,Octoprise,Octolock,Combat,Statut,,100,15,0,OCTOLOCK,"Le lanceur empêche l’adversaire de fuir. À chaque tour qui passe, cette capacité baisse la Défense et la Défense Spéciale de la cible."
+MOVE_NIGHT_SHADE,Ombre Nocturne,Night Shade,Spectre,Spéciale,1,100,15,0,LEVEL_DAMAGE,Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur.
+MOVE_SHADOW_SNEAK,Ombre Portée,Shadow Sneak,Spectre,Physique,40,100,30,1,HIT,Le lanceur étend son ombre pour frapper par-derrière. Frappe en priorité.
+MOVE_AURORA_BEAM,Onde Boréale,Aurora Beam,Glace,Spéciale,65,100,20,0,HIT,Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque.
+MOVE_CONFUSE_RAY,Onde Folie,Confuse Ray,Spectre,Statut,,100,10,0,CONFUSE,Un rayon sinistre qui plonge l’ennemi dans un état de confusion.
+MOVE_ORIGIN_PULSE,Onde Originelle,Origin Pulse,Eau,Spéciale,110,85,10,0,HIT,D’innombrables rayons lumineux d’un bleu étincelant s’abattent sur la cible.
+MOVE_VACUUM_WAVE,Onde Vide,Vacuum Wave,Combat,Spéciale,40,100,30,1,HIT,Le lanceur agite son poing pour projeter une onde de vide. Frappe en priorité.
+MOVE_SHOCK_WAVE,Onde de Choc,Shock Wave,Électrik,Spéciale,60,,20,0,HIT,Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver.
+MOVE_EERIE_IMPULSE,Ondes Étranges,Eerie Impulse,Électrik,Statut,,100,15,0,SPECIAL_ATTACK_DOWN_2,Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent beaucoup son Attaque Spéciale.
+MOVE_DIAMOND_STORM,Orage Adamantin,Diamond Storm,Roche,Physique,100,95,5,0,HIT,Provoque une tempête de diamants qui inflige des dégâts. Peut beaucoup augmenter la Défense du lanceur.
+MOVE_SHADOW_BONE,Os Ombre,Shadow Bone,Spectre,Physique,85,100,10,0,HIT,Le lanceur frappe avec un os possédé par l’âme d’un défunt. Peut aussi baisser la Défense de la cible.
+MOVE_BONEMERANG,Osmerang,Bonemerang,Sol,Physique,50,90,10,0,HIT,Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour.
+MOVE_TWISTER,Ouragan,Twister,Dragon,Spéciale,40,100,20,0,HIT,Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer.
+MOVE_OVERDRIVE,Overdrive,Overdrive,Électrik,Spéciale,80,100,10,0,HIT,Le lanceur gratte ses cordes de guitare ou de basse pour créer de violentes vibrations sonores qui blessent la cible.
+MOVE_QUIVER_DANCE,Papillodanse,Quiver Dance,Insecte,Statut,,,20,0,QUIVER_DANCE,"Une danse mystique dont le rythme parfait augmente l’Attaque Spéciale, la Défense Spéciale et la Vitesse du lanceur."
+MOVE_FOLLOW_ME,Par Ici,Follow Me,Normal,Statut,,,20,2,FOLLOW_ME,Attire l’attention des ennemis pour les forcer à n’attaquer que le lanceur.
+MOVE_STUN_SPORE,Para-Spore,Stun Spore,Plante,Statut,,75,30,0,NON_VOLATILE_STATUS,Le lanceur répand sur l’ennemi une poudre qui le paralyse.
+MOVE_PARABOLIC_CHARGE,Parabocharge,Parabolic Charge,Électrik,Spéciale,65,100,20,0,ABSORB,Inflige des dégâts à tous les Pokémon autour du lanceur. Il récupère en PV la moitié des dégâts infligés.
+MOVE_SLACK_OFF,Paresse,Slack Off,Normal,Statut,,,5,0,RESTORE_HP,Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max.
+MOVE_POWER_SPLIT,Partage Force,Power Split,Psy,Statut,,,10,0,POWER_SPLIT,Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux.
+MOVE_GUARD_SPLIT,Partage Garde,Guard Split,Psy,Statut,,,10,0,GUARD_SPLIT,Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux.
+MOVE_BESTOW,Passe-Cadeau,Bestow,Normal,Statut,,,15,0,BESTOW,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SWITCHEROO,Passe-Passe,Switcheroo,Ténèbres,Statut,,100,10,0,TRICK,Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre.
+MOVE_BIDE,Patience,Bide,Normal,Physique,1,,10,1,BIDE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_HEAD_CHARGE,Peignée,Head Charge,Normal,Physique,120,100,15,0,RECOIL,Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur.
+MOVE_HEART_SWAP,Permucœur,Heart Swap,Psy,Statut,,,10,0,HEART_SWAP,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_POWER_SWAP,Permuforce,Power Swap,Psy,Statut,,,10,0,POWER_SWAP,Pouvoir qui échange les modifications de l’Attaque Spéciale et de l’Attaque du lanceur avec la cible.
+MOVE_GUARD_SWAP,Permugarde,Guard Swap,Psy,Statut,,,10,0,GUARD_SWAP,Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.
+MOVE_SPEED_SWAP,Permuvitesse,Speed Swap,Psy,Statut,,,10,0,SPEED_SWAP,Intervertit la Vitesse du lanceur et celle de la cible.
+MOVE_PHOTON_GEYSER,Photo-Geyser,Photon Geyser,Psy,Spéciale,100,100,5,0,PHOTON_GEYSER,"Le lanceur fait jaillir un pilier de lumière. Compare l’Attaque et l’Attaque Spéciale, et utilise celle qui infligera le plus de dégâts."
+MOVE_COPYCAT,Photocopie,Copycat,Normal,Statut,,,20,0,COPYCAT,Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée.
+MOVE_LEAF_TORNADO,Phytomixeur,Leaf Tornado,Plante,Spéciale,65,90,10,0,HIT,L’ennemi est pris dans un tourbillon de feuilles acérées. Peut aussi baisser sa Précision.
+MOVE_SPIKE_CANNON,Picanon,Spike Cannon,Normal,Physique,20,100,15,0,MULTI_HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SPIKY_SHIELD,Pico-Défense,Spiky Shield,Plante,Statut,,,10,4,PROTECT,"Protège des attaques, et diminue les PV de tout attaquant qui entre en contact avec le lanceur."
+MOVE_PLUCK,Picore,Pluck,Vol,Physique,60,100,20,0,HIT,"Le lanceur picore la cible. Si cette dernière tient une Baie, le lanceur la mange et profite de ses effets."
+MOVE_SPIKES,Picots,Spikes,Sol,Statut,,,20,0,SPIKES,Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat.
+MOVE_PECK,Picpic,Peck,Vol,Physique,35,100,35,0,HIT,Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts.
+MOVE_TOXIC_SPIKES,Pics Toxik,Toxic Spikes,Poison,Statut,,,20,0,TOXIC_SPIKES,Lance des pics autour de l’ennemi. Ils empoisonnent les ennemis qui entrent au combat.
+MOVE_BLAZE_KICK,Pied Brûleur,Blaze Kick,Feu,Physique,85,90,10,0,HIT,Le lanceur envoie un coup de pied au taux de critiques élevé. Peut aussi brûler la cible.
+MOVE_JUMP_KICK,Pied Sauté,Jump Kick,Combat,Physique,100,95,10,0,RECOIL_IF_MISS,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_HIGH_JUMP_KICK,Pied Voltige,High Jump Kick,Combat,Physique,130,90,10,0,RECOIL_IF_MISS,"Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse."
+MOVE_PIKA_PAPOW,Pika-Fracas,Pika Papow,Électrik,Spéciale,1,,20,0,RETURN,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FLOATY_FALL,Pika-Piqué,Floaty Fall,Vol,Physique,90,95,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SPLISHY_SPLASH,Pika-Splash,Splishy Splash,Eau,Spéciale,90,100,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ZIPPY_ZAP,Pika-Sprint,Zippy Zap,Électrik,Physique,80,100,10,2,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_BARRAGE,Pilonnage,Barrage,Normal,Physique,15,85,20,0,MULTI_HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_CRABHAMMER,Pince-Masse,Crabhammer,Eau,Physique,100,90,10,0,HIT,Une grande pince martèle l’ennemi. Taux de critiques élevé.
+MOVE_SKY_ATTACK,Piqué,Sky Attack,Vol,Physique,140,90,5,0,TWO_TURNS_ATTACK,Une attaque en deux tours au taux de critiques élevé. Peut aussi apeurer l’ennemi.
+MOVE_BUG_BITE,Piqûre,Bug Bite,Insecte,Physique,60,100,20,0,HIT,"Le lanceur pique l’ennemi. Si ce dernier tient une Baie, le lanceur la dévore et obtient son effet."
+MOVE_BULLET_PUNCH,Pisto-Poing,Bullet Punch,Acier,Physique,40,100,30,1,HIT,Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe en priorité.
+MOVE_WATER_GUN,Pistolet à O,Water Gun,Eau,Spéciale,40,100,25,0,HIT,De l’eau est projetée avec force sur l’ennemi.
+MOVE_SILK_TRAP,Piège de Fil,Silk Trap,Insecte,Statut,,,10,4,PROTECT,"Le lanceur déploie un piège de fil pour se protéger contre les attaques, et si un assaillant utilise une attaque directe contre lui, la Vitesse de l'assaillant baisse."
+MOVE_STEALTH_ROCK,Piège de Roc,Stealth Rock,Roche,Statut,,,20,0,STEALTH_ROCK,"Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat."
+MOVE_VENOM_DRENCH,Piège de Venin,Venom Drench,Poison,Statut,,100,20,0,VENOM_DRENCH,"Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné."
+MOVE_BULLDOZE,Piétisol,Bulldoze,Sol,Physique,60,100,20,0,EARTHQUAKE,Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse.
+MOVE_X_SCISSOR,Plaie Croix,X-Scissor,Insecte,Physique,80,100,15,0,HIT,Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.
+MOVE_BODY_SLAM,Plaquage,Body Slam,Normal,Physique,85,100,15,0,HIT,Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut aussi le paralyser.
+MOVE_PLASMA_FISTS,Plasma Punch,Plasma Fists,Électrik,Physique,100,100,15,0,HIT,Le lanceur attaque en projetant de l’électricité avec ses poings. Convertit les capacités de type Normal en type Électrik.
+MOVE_ORDER_UP,Plat du Jour,Order Up,Dragon,Physique,80,100,10,0,ORDER_UP,"Le lanceur attaque avec grâce et élégance. Si le lanceur a un Nigirigon dans sa bouche, cette capacité augmente une des statistiques du lanceur selon la forme du Nigirigon."
+MOVE_DIVE,Plongée,Dive,Eau,Physique,80,100,10,0,SEMI_INVULNERABLE,Le lanceur plonge sous l’eau au premier tour et frappe au second.
+MOVE_TERA_STARSTORM,Pluie Térastrale,Tera Starstorm,Normal,Spéciale,120,100,5,0,TERA_STARSTORM,"Le lanceur bombarde la cible afin de l'éliminer grâce au pouvoir des cristaux. Si le lanceur est Terapagos sous sa Forme Stellaire, la capacité touche tous les ennemis."
+MOVE_TAIL_SLAP,Plumo-Queue,Tail Slap,Normal,Physique,25,85,10,0,MULTI_HIT,Le lanceur frappe l’ennemi de deux à cinq fois d’affilée avec sa queue robuste.
+MOVE_CALM_MIND,Plénitude,Calm Mind,Psy,Statut,,,20,0,CALM_MIND,Le lanceur se concentre et fait le vide dans son esprit pour augmenter son Attaque Spéciale et sa Défense Spéciale.
+MOVE_POWER_UP_PUNCH,Poing Boost,Power-Up Punch,Combat,Physique,40,100,20,0,HIT,"À force de frapper, les poings deviennent plus durs. Augmente l’Attaque du lanceur si l’ennemi est touché."
+MOVE_COMET_PUNCH,Poing Comète,Comet Punch,Normal,Physique,18,85,15,0,MULTI_HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_NEEDLE_ARM,Poing Dard,Needle Arm,Plante,Physique,60,100,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FIRE_PUNCH,Poing Feu,Fire Punch,Feu,Physique,75,100,15,0,HIT,Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.
+MOVE_ICE_PUNCH,Poing Glace,Ice Punch,Glace,Physique,75,100,15,0,HIT,Un coup de poing glacé vient frapper l’ennemi. Peut le geler.
+MOVE_KARATE_CHOP,Poing Karaté,Karate Chop,Combat,Physique,50,100,25,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_METEOR_MASH,Poing Météore,Meteor Mash,Acier,Physique,90,90,10,0,HIT,Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur.
+MOVE_WICKED_BLOW,Poing Obscur,Wicked Blow,Ténèbres,Physique,75,100,5,0,HIT,Le lanceur assène un coup puissant à l’ennemi. Cette technique qui inflige toujours un coup critique est réservée à ceux qui maîtrisent la puissance des Ténèbres.
+MOVE_SHADOW_PUNCH,Poing Ombre,Shadow Punch,Spectre,Physique,60,,20,0,HIT,Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais.
+MOVE_JET_PUNCH,Poing Sonique,Jet Punch,Eau,Physique,60,100,15,1,HIT,Le lanceur enveloppe son poing d'un torrent furieux et attaque si rapidement qu'on peine à le discerner. Frappe en priorité.
+MOVE_RAGE_FIST,Poing de Colère,Rage Fist,Spectre,Physique,50,100,10,0,RAGE_FIST,"Le lanceur transforme sa colère en énergie pour attaquer. Plus il a subi d'attaques, plus la puissance de cette capacité augmente."
+MOVE_THUNDER_PUNCH,Poing Éclair,Thunder Punch,Électrik,Physique,75,100,15,0,HIT,Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.
+MOVE_CROSS_POISON,Poison Croix,Cross Poison,Poison,Physique,70,100,20,0,HIT,Un coup tranchant qui peut empoisonner l’ennemi. Taux de critiques élevé.
+MOVE_ROCK_POLISH,Poliroche,Rock Polish,Roche,Statut,,,20,0,SPEED_UP_2,Le lanceur polit son corps pour diminuer sa résistance au vent. Augmente beaucoup la Vitesse.
+MOVE_IMPRISON,Possessif,Imprison,Psy,Statut,,,10,0,IMPRISON,"Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser."
+MOVE_SLEEP_POWDER,Poudre Dodo,Sleep Powder,Plante,Statut,,75,15,0,NON_VOLATILE_STATUS,Le lanceur répand une poudre soporifique qui endort la cible.
+MOVE_RAGE_POWDER,Poudre Fureur,Rage Powder,Insecte,Statut,,,20,2,FOLLOW_ME,Le lanceur s’asperge d’une poudre irritante pour attirer l’attention. Il attire toutes les attaques ennemies.
+MOVE_MAGIC_POWDER,Poudre Magique,Magic Powder,Psy,Statut,,100,20,0,SOAK,Le lanceur recouvre sa cible d’une poudre magique qui change son type en Psy.
+MOVE_POISON_POWDER,Poudre Toxik,Poison Powder,Poison,Statut,,75,35,0,NON_VOLATILE_STATUS,Une poudre toxique empoisonne l’ennemi.
+MOVE_POWDER_SNOW,Poudreuse,Powder Snow,Glace,Spéciale,40,100,25,0,HIT,Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi.
+MOVE_PURSUIT,Poursuite,Pursuit,Ténèbres,Physique,40,100,20,0,PURSUIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ANCIENT_POWER,Pouvoir Antique,Ancient Power,Roche,Spéciale,60,100,5,0,HIT,Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup.
+MOVE_MOONBLAST,Pouvoir Lunaire,Moonblast,Fée,Spéciale,95,100,15,0,HIT,Attaque l’ennemi grâce au pouvoir de la lune. Peut diminuer son Attaque Spéciale.
+MOVE_FUTURE_SIGHT,Prescience,Future Sight,Psy,Spéciale,120,100,10,0,FUTURE_SIGHT,De l’énergie psychique vient frapper l’ennemi deux tours après l’utilisation de cette capacité.
+MOVE_CRUSH_GRIP,Presse,Crush Grip,Normal,Physique,120,100,5,0,POWER_BASED_ON_TARGET_HP,Une force puissante écrase l’ennemi. Plus il lui reste de PV et plus l’attaque est puissante.
+MOVE_HARD_PRESS,Pression Extrême,Hard Press,Acier,Physique,100,100,10,0,POWER_BASED_ON_TARGET_HP,"Le lanceur écrase la cible avec ses bras ou ses pinces. Plus il reste de PV à la cible, plus la puissance de la capacité augmente."
+MOVE_UPPER_HAND,Prio-Parade,Upper Hand,Combat,Physique,65,100,15,3,UPPER_HAND,Le lanceur réagit instinctivement au moindre mouvement et donne un coup de paume qui apeure la cible. Échoue si cette dernière n'a pas utilisé une attaque prioritaire.
+MOVE_BOLT_BEAK,Prise de Bec,Bolt Beak,Électrik,Physique,85,100,10,0,BOLT_BEAK,"Le lanceur transperce sa cible avec son bec chargé d’électricité. Si cette attaque est lancée avant que la cible n’attaque, elle infligera deux fois plus de dégâts."
+MOVE_LUNAR_BLESSING,Prière Lunaire,Lunar Blessing,Psy,Statut,,,10,0,JUNGLE_HEALING,Le lanceur adresse une prière à la lune pour restaurer les PV et soigner ses altérations de statut ainsi que celles de ses alliés.
+MOVE_SPOTLIGHT,Projecteur,Spotlight,Normal,Statut,,,15,3,FOLLOW_ME,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_CIRCLE_THROW,Projection,Circle Throw,Combat,Physique,60,90,10,-6,HIT_SWITCH_TARGET,"Projette le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat."
+MOVE_POPULATION_BOMB,Prolifération,Population Bomb,Normal,Physique,20,90,10,0,POPULATION_BOMB,Le lanceur et ses congénères prolifèrent en masse et attaquent ensemble d'une à dix fois d'affilée.
+MOVE_REFLECT,Protection,Reflect,Psy,Statut,,,20,0,REFLECT,Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités physiques pendant cinq tours.
+MOVE_TAUNT,Provoc,Taunt,Ténèbres,Statut,,100,20,0,TAUNT,Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.
+MOVE_QUICK_GUARD,Prévention,Quick Guard,Combat,Statut,,,15,3,PROTECT,Le lanceur et son équipe sont protégés contre les attaques prioritaires.
+MOVE_PSYCHO_BOOST,Psycho-Boost,Psycho Boost,Psy,Spéciale,140,90,5,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_PSYCHIC_FANGS,Psycho-Croc,Psychic Fangs,Psy,Physique,85,100,15,0,BRICK_BREAK,Le lanceur mord la cible avec ses pouvoirs psychiques. Brise aussi les barrières comme Mur Lumière et Protection.
+MOVE_PSYCHIC,Psyko,Psychic,Psy,Spéciale,90,100,10,0,HIT,Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.
+MOVE_ZEN_HEADBUTT,Psykoud’Boul,Zen Headbutt,Psy,Physique,80,90,15,0,HIT,Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.
+MOVE_FOCUS_ENERGY,Puissance,Focus Energy,Normal,Statut,,,30,0,FOCUS_ENERGY,Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critiques.
+MOVE_HIDDEN_POWER,Puissance Cachée,Hidden Power,Normal,Spéciale,60,100,15,0,HIDDEN_POWER,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_PUNISHMENT,Punition,Punishment,Ténèbres,Physique,60,100,5,0,PUNISHMENT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_PURIFY,Purification,Purify,Poison,Statut,,,20,0,PURIFY,"Le lanceur soigne les altérations de statut de la cible, ce qui lui permet de regagner des PV."
+MOVE_SMOG,Purédpois,Smog,Poison,Spéciale,30,70,20,0,HIT,Le lanceur attaque à l’aide d’une éruption de gaz répugnants. Peut aussi empoisonner l’ennemi.
+MOVE_IRON_TAIL,Queue de Fer,Iron Tail,Acier,Physique,100,75,15,0,HIT,Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense.
+MOVE_POISON_TAIL,Queue-Poison,Poison Tail,Poison,Physique,50,100,25,0,HIT,Attaque à taux de critiques élevé. Peut aussi empoisonner l’ennemi.
+MOVE_SHED_TAIL,Queulonage,Shed Tail,Normal,Statut,,,10,0,SHED_TAIL,"Le lanceur crée un clone en sacrifiant des PV, puis il revient et échange sa place avec un Pokémon de l'équipe prêt à combattre."
+MOVE_INGRAIN,Racines,Ingrain,Plante,Statut,,,20,0,INGRAIN,"Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir."
+MOVE_BLAST_BURN,Rafale Feu,Blast Burn,Feu,Spéciale,150,90,5,0,HIT,Une explosion ardente souffle l’adversaire. Le lanceur doit se reposer au tour suivant.
+MOVE_PSYBEAM,Rafale Psy,Psybeam,Psy,Spéciale,65,100,20,0,HIT,Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus.
+MOVE_SCALE_SHOT,Rafale Écailles,Scale Shot,Dragon,Physique,25,90,20,0,MULTI_HIT,"Le lanceur projette des écailles sur la cible de deux à cinq fois d’affilée. Augmente la Vitesse, mais diminue la Défense."
+MOVE_GRUDGE,Rancune,Grudge,Spectre,Statut,,,5,0,GRUDGE,"Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée par l’ennemi pour le mettre K.O."
+MOVE_BRAVE_BIRD,Rapace,Brave Bird,Vol,Physique,120,100,15,0,RECOIL,Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur.
+MOVE_SKITTER_SMACK,Ravage Rampant,Skitter Smack,Insecte,Physique,70,90,10,0,HIT,Le lanceur rampe derrière l’ennemi pour l’attaquer. Baisse l’Attaque Spéciale de la cible.
+MOVE_CHARGE_BEAM,Rayon Chargé,Charge Beam,Électrik,Spéciale,50,90,10,0,HIT,Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.
+MOVE_POWER_GEM,Rayon Gemme,Power Gem,Roche,Spéciale,80,100,20,0,HIT,Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes.
+MOVE_MOONLIGHT,Rayon Lune,Moonlight,Fée,Statut,,,5,0,MOONLIGHT,Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.
+MOVE_SIGNAL_BEAM,Rayon Signal,Signal Beam,Insecte,Spéciale,75,100,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SIMPLE_BEAM,Rayon Simple,Simple Beam,Normal,Statut,,100,15,0,OVERWRITE_ABILITY,Le lanceur envoie des ondes mystérieuses à l’ennemi. Son talent devient Simple.
+MOVE_MOONGEIST_BEAM,Rayon Spectral,Moongeist Beam,Spectre,Spéciale,100,100,5,0,HIT,Le lanceur attaque avec un rayon de lumière mystérieux. Ignore le talent de la cible.
+MOVE_BOUNCE,Rebond,Bounce,Vol,Physique,85,85,5,0,SEMI_INVULNERABLE,Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser.
+MOVE_FLAME_BURST,Rebondifeu,Flame Burst,Feu,Spéciale,70,100,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_RECYCLE,Recyclage,Recycle,Normal,Statut,,,10,0,RECYCLE,Recycle un objet tenu à usage unique déjà utilisé lors du combat pour pouvoir l’utiliser à nouveau.
+MOVE_DOUBLE_TEAM,Reflet,Double Team,Normal,Statut,,,15,0,EVASION_UP,"Le lanceur se déplace si vite qu’il crée des copies illusoires de lui-même, augmentant son Esquive."
+MOVE_MAGIC_COAT,Reflet Magik,Magic Coat,Psy,Statut,,,15,4,MAGIC_COAT,Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats.
+MOVE_FREEZING_GLARE,Regard Glaçant,Freezing Glare,Psy,Spéciale,90,100,10,0,HIT,Les yeux du lanceur tirent des rayons psychiques. Peut aussi geler l’ennemi.
+MOVE_GLARE,Regard Médusant,Glare,Normal,Statut,,100,30,0,NON_VOLATILE_STATUS,Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser.
+MOVE_MEAN_LOOK,Regard Noir,Mean Look,Normal,Statut,,,5,0,MEAN_LOOK,Le lanceur pétrifie l’ennemi en lui lançant un regard noir. Il devient incapable de s’enfuir.
+MOVE_BABY_DOLL_EYES,Regard Touchant,Baby-Doll Eyes,Fée,Statut,,100,30,1,ATTACK_DOWN,Fixe l’ennemi d’un air très attendrissant qui le touche et diminue son Attaque. Agit en priorité.
+MOVE_BATON_PASS,Relais,Baton Pass,Normal,Statut,,,40,0,BATON_PASS,Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.
+MOVE_SPIT_UP,Relâche,Spit Up,Normal,Spéciale,1,100,10,0,SPIT_UP,Libère dans une attaque la puissance précédemment accumulée avec Stockage.
+MOVE_BURNING_BULWARK,Rempart Brûlant,Burning Bulwark,Feu,Statut,,,10,4,PROTECT,"Le lanceur se protège contre les attaques grâce à son pelage incandescent, et si un assaillant utilise une attaque directe contre lui, il le brûle."
+MOVE_WORK_UP,Rengorgement,Work Up,Normal,Statut,,,30,0,ATTACK_SPATK_UP,Le lanceur se rengorge. Augmente l’Attaque et l’Attaque Spéciale.
+MOVE_TOPSY_TURVY,Renversement,Topsy-Turvy,Ténèbres,Statut,,,20,0,TOPSY_TURVY,Inverse tous les changements de stats de la cible.
+MOVE_WITHDRAW,Repli,Withdraw,Eau,Statut,,,40,0,DEFENSE_UP,"Le lanceur se recroqueville dans sa carapace, ce qui augmente sa Défense."
+MOVE_REST,Repos,Rest,Psy,Statut,,,5,0,REST,"Le lanceur regagne tous ses PV et soigne ses altérations de statut, puis il dort pendant deux tours."
+MOVE_PAYBACK,Représailles,Payback,Ténèbres,Physique,50,100,10,0,PAYBACK,"Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi."
+MOVE_PERISH_SONG,Requiem,Perish Song,Normal,Statut,,,5,0,PERISH_SONG,Tout Pokémon qui entend ce requiem est K.O. dans trois tours à moins qu’il ne soit remplacé.
+MOVE_HOLD_BACK,Retenue,Hold Back,Normal,Physique,40,100,40,0,FALSE_SWIPE,"Le lanceur attaque avec retenue, et laisse au moins 1 PV à l’ennemi."
+MOVE_RETURN,Retour,Return,Normal,Physique,1,100,20,0,RETURN,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SHADOW_FORCE,Revenant,Shadow Force,Spectre,Physique,120,100,5,0,SEMI_INVULNERABLE,Le lanceur disparaît et frappe l’ennemi au second tour. Fonctionne même si l’ennemi se protège.
+MOVE_COUNTER,Riposte,Counter,Combat,Physique,1,100,20,-5,COUNTER,Une riposte qui répond à toute capacité physique en infligeant le double de dégâts.
+MOVE_ROCK_WRECKER,Roc-Boulet,Rock Wrecker,Roche,Physique,150,90,5,0,HIT,Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant.
+MOVE_SNORE,Ronflement,Snore,Normal,Spéciale,50,100,15,0,SNORE,Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.
+MOVE_AURA_WHEEL,Roue Libre,Aura Wheel,Électrik,Physique,110,100,10,0,AURA_WHEEL,Morpeko libère l’énergie stockée dans ses joues pour attaquer et augmenter sa Vitesse. Le type de cette capacité change en fonction de la forme de Morpeko.
+MOVE_FLAME_WHEEL,Roue de Feu,Flame Wheel,Feu,Physique,60,100,25,0,HIT,Le lanceur s’entoure de feu et charge l’ennemi. Peut aussi le brûler.
+MOVE_ROLLOUT,Roulade,Rollout,Roche,Physique,30,90,20,0,ROLLOUT,Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup.
+MOVE_GROWL,Rugissement,Growl,Normal,Statut,,100,40,0,ATTACK_DOWN,Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque.
+MOVE_SAFEGUARD,Rune Protect,Safeguard,Normal,Statut,,,25,0,SAFEGUARD,Crée un champ protecteur qui empêche toutes les altérations de statut pendant cinq tours.
+MOVE_FEINT,Ruse,Feint,Normal,Physique,30,100,10,2,HIT,Une attaque capable de toucher un ennemi qui utilise une capacité comme Détection ou Abri. Annule l’effet de ces capacités.
+MOVE_MAKE_IT_RAIN,Ruée d'Or,Make It Rain,Acier,Spéciale,120,100,5,0,HIT,"Le lanceur attaque en lançant de nombreuses pièces, ce qui baisse son Attaque Spéciale. Permet d'obtenir plus d'argent à la fin du combat."
+MOVE_NOBLE_ROAR,Râle Mâle,Noble Roar,Normal,Statut,,100,30,0,NOBLE_ROAR,Le lanceur pousse un rugissement qui intimide l’ennemi et diminue son Attaque et son Attaque Spéciale.
+MOVE_REFRESH,Régénération,Refresh,Normal,Statut,,,20,0,REFRESH,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_WAKE_UP_SLAP,Réveil Forcé,Wake-Up Slap,Combat,Physique,70,100,10,0,DOUBLE_POWER_ON_ARG_STATUS,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SCORCHING_SANDS,Sable Ardent,Scorching Sands,Sol,Spéciale,70,100,10,0,HIT,Le lanceur projette du sable chauffé à blanc sur l’ennemi. Peut aussi brûler la cible.
+MOVE_KNOCK_OFF,Sabotage,Knock Off,Ténèbres,Physique,65,100,20,0,KNOCK_OFF,"Fait plus de dégâts aux cibles qui tiennent un objet. De plus, fait tomber cet objet et empêche la cible de l’utiliser jusqu’à la fin du combat."
+MOVE_SUBMISSION,Sacrifice,Submission,Combat,Physique,80,80,20,0,RECOIL,Le lanceur agrippe l’ennemi et l’écrase au sol. Blesse aussi légèrement le lanceur.
+MOVE_SNATCH,Saisie,Snatch,Ténèbres,Statut,,,10,4,SNATCH,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SALT_CURE,Salaison,Salt Cure,Roche,Physique,40,100,15,0,HIT,"Le lanceur couvre la cible de sel, ce qui lui inflige des dégâts à chaque tour. Si la cible est de type Acier ou Eau, ces dégâts sont plus élevés."
+MOVE_CORE_ENFORCER,Sanction Suprême,Core Enforcer,Dragon,Spéciale,100,100,10,0,HIT,"La cible subit des dégâts et, si elle a déjà agi à ce tour, elle perd aussi son talent."
+MOVE_BRINE,Saumure,Brine,Eau,Spéciale,65,100,10,0,BRINE,Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.
+MOVE_REVIVAL_BLESSING,Second Souffle,Revival Blessing,Normal,Statut,,,1,0,REVIVAL_BLESSING,"Dans un élan de compassion, le lanceur adresse une prière afin de ranimer un Pokémon de l'équipe K.O. en lui rendant la moitié de ses PV."
+MOVE_JUNGLE_HEALING,Selve Salvatrice,Jungle Healing,Plante,Statut,,,10,0,JUNGLE_HEALING,Le lanceur fait appel au pouvoir de la jungle pour restaurer les PV et soigner les altérations d’état de ses alliés et de lui-même.
+MOVE_WATER_SHURIKEN,Sheauriken,Water Shuriken,Eau,Spéciale,15,100,20,1,MULTI_HIT,Attaque l’ennemi avec des shuriken de mucus. Frappe en priorité deux à cinq fois d’affilée en un tour.
+MOVE_GRASS_WHISTLE,Siffl’Herbe,Grass Whistle,Plante,Statut,,55,15,0,NON_VOLATILE_STATUS,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_WHIRLPOOL,Siphon,Whirlpool,Eau,Spéciale,35,85,15,0,HIT,Piège l’ennemi dans une trombe d’eau pendant quatre à cinq tours.
+MOVE_RECOVER,Soin,Recover,Normal,Statut,,,5,0,RESTORE_HP,Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max.
+MOVE_FLORAL_HEALING,Soin Floral,Floral Healing,Fée,Statut,,,10,0,HEAL_PULSE,Rend la moitié de ses PV max à la cible. Plus efficace sur un Champ Herbu.
+MOVE_INSTRUCT,Sommation,Instruct,Psy,Statut,,,15,0,INSTRUCT,Force la cible à lancer immédiatement la dernière capacité qu’elle a utilisée.
+MOVE_SONIC_BOOM,Sonic Boom,Sonic Boom,Normal,Spéciale,1,90,20,0,FIXED_HP_DAMAGE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_EERIE_SPELL,Sort Sinistre,Eerie Spell,Psy,Spéciale,80,100,5,0,HIT,Le lanceur attaque avec de puissants pouvoirs psychiques et retire 3 PP de la dernière capacité de l’ennemi.
+MOVE_WORRY_SEED,Soucigraine,Worry Seed,Plante,Statut,,100,10,0,OVERWRITE_ABILITY,"Plante sur la cible une graine qui la rend soucieuse et remplace son talent par Insomnia, l’empêchant ainsi de dormir."
+MOVE_FROST_BREATH,Souffle Glacé,Frost Breath,Glace,Spéciale,60,90,10,0,HIT,Un souffle froid blesse l’ennemi. L’effet est toujours critique.
+MOVE_SLAM,Souplesse,Slam,Normal,Physique,80,75,20,0,HIT,"Fouette l’ennemi avec la queue ou une liane, par exemple, pour infliger des dégâts."
+MOVE_MEMENTO,Souvenir,Memento,Ténèbres,Statut,,100,10,0,MEMENTO,"Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup."
+MOVE_SPACIAL_REND,Spatio-Rift,Spacial Rend,Dragon,Spéciale,100,95,5,0,HIT,Le lanceur déchire l’ennemi et l’espace autour de lui. Taux de critiques élevé.
+MOVE_SPORE,Spore,Spore,Plante,Statut,,100,15,0,NON_VOLATILE_STATUS,Le lanceur répand un nuage de spores qui endort.
+MOVE_COTTON_SPORE,Spore Coton,Cotton Spore,Plante,Statut,,100,40,0,SPEED_DOWN_2,Le lanceur libère des spores cotonneuses qui collent à l’ennemi et baissent beaucoup sa Vitesse.
+MOVE_PSYSHIELD_BASH,Sprint Bouclier,Psyshield Bash,Psy,Physique,70,90,10,0,HIT,Le lanceur s'enveloppe d'énergie psychique et frappe sa cible de plein fouet. Cela augmente également la Défense du lanceur.
+MOVE_ICICLE_SPEAR,Stalactite,Icicle Spear,Glace,Physique,25,100,30,0,MULTI_HIT,"Le lanceur jette des pics de glace sur l’ennemi, de deux à cinq fois de suite."
+MOVE_SMELLING_SALTS,Stimulant,Smelling Salts,Normal,Physique,70,100,10,0,DOUBLE_POWER_ON_ARG_STATUS,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_STOCKPILE,Stockage,Stockpile,Normal,Statut,,,20,0,STOCKPILE,Le lanceur accumule de la puissance et augmente sa Défense et sa Défense Spéciale. Peut être utilisée trois fois.
+MOVE_SKY_UPPERCUT,Stratopercut,Sky Uppercut,Combat,Physique,85,90,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_METAL_SOUND,Strido-Son,Metal Sound,Acier,Statut,,85,40,0,SPECIAL_DEFENSE_DOWN_2,Un cri horrible tel un crissement métallique qui réduit beaucoup la Défense Spéciale de l’ennemi.
+MOVE_GASTRO_ACID,Suc Digestif,Gastro Acid,Poison,Statut,,100,10,0,GASTRO_ACID,Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise le talent de l’ennemi.
+MOVE_OVERHEAT,Surchauffe,Overheat,Feu,Spéciale,130,90,5,0,HIT,Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur.
+MOVE_SURF,Surf,Surf,Eau,Spéciale,90,100,15,0,HIT,Une énorme vague s’abat sur le champ de bataille et inflige des dégâts à tous les Pokémon autour du lanceur.
+MOVE_SUPERPOWER,Surpuissance,Superpower,Combat,Physique,120,100,5,0,HIT,"Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur."
+MOVE_STRUGGLE_BUG,Survinsecte,Struggle Bug,Insecte,Spéciale,50,100,20,0,HIT,"Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi."
+MOVE_SYNCHRONOISE,Synchropeine,Synchronoise,Psy,Spéciale,120,100,10,0,SYNCHRONOISE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SYNTHESIS,Synthèse,Synthesis,Plante,Statut,,,5,0,SYNTHESIS,Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.
+MOVE_STRING_SHOT,Sécrétion,String Shot,Insecte,Statut,,95,40,0,SPEED_DOWN_2,Le lanceur crache de la soie pour ligoter l’ennemi et beaucoup baisser sa Vitesse.
+MOVE_CAPTIVATE,Séduction,Captivate,Normal,Statut,,100,20,0,CAPTIVATE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_EARTHQUAKE,Séisme,Earthquake,Sol,Physique,100,100,10,0,EARTHQUAKE,Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.
+MOVE_HEAT_CRASH,Tacle Feu,Heat Crash,Feu,Physique,1,100,10,0,HEAT_CRASH,"Le lanceur projette son corps enflammé contre l’ennemi. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence."
+MOVE_HEAVY_SLAM,Tacle Lourd,Heavy Slam,Acier,Physique,1,100,10,0,HEAT_CRASH,"Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence."
+MOVE_FURY_CUTTER,Taillade,Fury Cutter,Insecte,Physique,40,95,20,0,FURY_CUTTER,Un coup de faux ou de griffe dont la force augmente quand il touche plusieurs fois d’affilée.
+MOVE_AXE_KICK,Talon-Marteau,Axe Kick,Combat,Physique,120,90,10,0,RECOIL_IF_MISS,"Le lanceur donne un coup de talon descendant à la cible, ce qui peut aussi la rendre confuse. S'il échoue, le lanceur se blesse."
+MOVE_DRUM_BEATING,Tambour Battant,Drum Beating,Plante,Physique,80,100,10,0,HIT,"Le lanceur bat son tambour pour en diriger les racines sur la cible, l’attaquer, et baisser sa Vitesse."
+MOVE_BRANCH_POKE,Tapotige,Branch Poke,Plante,Physique,40,100,40,0,HIT,Le lanceur attaque sa cible en la piquant avec une branche pointue.
+MOVE_MAT_BLOCK,Tatamigaeshi,Mat Block,Combat,Statut,,,15,0,MAT_BLOCK,"Retourne un tatami pour bloquer, comme avec un bouclier, les capacités visant le lanceur ou ses alliés. N’a pas d’effet sur les attaques de statut."
+MOVE_RAGING_BULL,Taurogne,Raging Bull,Normal,Physique,90,100,10,0,RAGING_BULL,Le lanceur effectue un plaquage comme un taureau enragé. Le type de cette capacité dépend de la forme du lanceur. Peut aussi briser les barrières comme Mur Lumière et Protection.
+MOVE_TECHNO_BLAST,Techno-Buster,Techno Blast,Normal,Spéciale,120,100,5,0,CHANGE_TYPE_ON_ITEM,Le lanceur projette un rayon lumineux sur l’ennemi. Le type varie selon le Module que tient le lanceur.
+MOVE_EARTH_POWER,Telluriforce,Earth Power,Sol,Spéciale,90,100,10,0,HIT,De terribles séismes secouent l’ennemi. Peut aussi baisser sa Défense Spéciale.
+MOVE_PETAL_BLIZZARD,Tempête Florale,Petal Blizzard,Plante,Physique,90,100,15,0,HIT,Déclenche une violente tempête de fleurs qui inflige des dégâts à tous les Pokémon alentour.
+MOVE_LEAF_STORM,Tempête Verte,Leaf Storm,Plante,Spéciale,130,90,5,0,HIT,Invoque une tempête de feuilles acérées. Le contrecoup réduit beaucoup l’Attaque Spéciale du lanceur.
+MOVE_SANDSTORM,Tempête de Sable,Sandstorm,Roche,Statut,,,10,0,SANDSTORM,"Une tempête de sable blesse tous les Pokémon pendant cinq tours, sauf ceux de type Roche, Sol ou Acier. Augmente la Défense Spéciale des Pokémon Roche."
+MOVE_ENTRAINMENT,Ten-Danse,Entrainment,Normal,Statut,,100,15,0,ENTRAINMENT,"Le lanceur danse sur un rythme étrange. Il force sa cible à l’imiter, ce qui lui fait adopter son talent."
+MOVE_TEATIME,Thérémonie,Teatime,Normal,Statut,,,10,0,TEATIME,Le lanceur invite tous les Pokémon sur le terrain à prendre le goûter autour d’une tasse de thé. Ceux qui tiennent une Baie la mangent.
+MOVE_MUD_SHOT,Tir de Boue,Mud Shot,Sol,Spéciale,55,95,15,0,HIT,Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.
+MOVE_SNIPE_SHOT,Tir de Précision,Snipe Shot,Eau,Spéciale,80,100,15,0,SNIPE_SHOT,"Le lanceur parvient toujours à viser la cible voulue, en ignorant l’effet des talents et des capacités capables de détourner les attaques."
+MOVE_SPIRIT_SHACKLE,Tisse Ombre,Spirit Shackle,Spectre,Physique,80,100,10,0,HIT,"Une attaque qui coud l’ennemi à son ombre, ce qui l’empêche de s’enfuir."
+MOVE_SPIDER_WEB,Toile,Spider Web,Insecte,Statut,,,10,0,MEAN_LOOK,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_STICKY_WEB,Toile Gluante,Sticky Web,Insecte,Statut,,,20,0,STICKY_WEB,Déploie une toile visqueuse autour de l’ennemi qui ralentit la Vitesse de tout adversaire entrant au combat.
+MOVE_ELECTROWEB,Toile Élek,Electroweb,Électrik,Spéciale,55,95,15,0,HIT,Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.
+MOVE_ROCK_TOMB,Tomberoche,Rock Tomb,Roche,Physique,60,95,15,0,HIT,Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.
+MOVE_THUNDERBOLT,Tonnerre,Thunderbolt,Électrik,Spéciale,90,100,15,0,HIT,Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.
+MOVE_DOUBLE_SLAP,Torgnoles,Double Slap,Normal,Physique,15,85,10,0,MULTI_HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_GUST,Tornade,Gust,Vol,Spéciale,40,100,35,0,HIT,Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi.
+MOVE_SURGING_STRIKES,Torrent de Coups,Surging Strikes,Eau,Physique,25,100,5,0,HIT,Le lanceur assène trois coups fluides à l’ennemi. Cette technique qui inflige toujours un coup critique est réservée à ceux qui maîtrisent la puissance de l’Eau.
+MOVE_MORTAL_SPIN,Toupie Éclat,Mortal Spin,Poison,Physique,30,100,15,0,RAPID_SPIN,"Le lanceur attaque en tournant sur lui-même et empoisonne la cible. Il se libère également des effets de capacités comme Étreinte, Ligotage ou Vampigraine."
+MOVE_RAPID_SPIN,Tour Rapide,Rapid Spin,Normal,Physique,50,100,40,0,RAPID_SPIN,"Une attaque tournoyante pouvant aussi annuler, par exemple, Étreinte, Ligotage ou Vampigraine. Augmente également la Vitesse du lanceur."
+MOVE_TRICK,Tour de Magie,Trick,Psy,Statut,,100,10,0,TRICK,Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.
+MOVE_SAND_TOMB,Tourbi-Sable,Sand Tomb,Sol,Physique,35,85,15,0,HIT,Le lanceur emprisonne l’ennemi dans une tempête de sable terrifiante qui dure de quatre à cinq tours.
+MOVE_TORMENT,Tourmente,Torment,Ténèbres,Statut,,100,15,0,TORMENT,Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite.
+MOVE_WATER_SPORT,Tourniquet,Water Sport,Eau,Statut,,,15,0,WATER_SPORT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FINAL_GAMBIT,Tout ou Rien,Final Gambit,Combat,Spéciale,1,100,5,0,FINAL_GAMBIT,Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à l’ennemi.
+MOVE_TOXIC,Toxik,Toxic,Poison,Statut,,90,10,0,NON_VOLATILE_STATUS,Empoisonne gravement l’ennemi. Les dégâts dus au poison augmentent à chaque tour.
+MOVE_AQUA_CUTTER,Tranch'Aqua,Aqua Cutter,Eau,Physique,70,100,20,0,HIT,Le lanceur projette de l'eau pressurisée qui entaille la cible comme une lame. Taux de critiques élevé.
+MOVE_SLASH,Tranche,Slash,Normal,Physique,70,100,20,0,HIT,Un coup de griffe ou autre tranche l’ennemi. Taux de critiques élevé.
+MOVE_NIGHT_SLASH,Tranche-Nuit,Night Slash,Ténèbres,Physique,70,100,15,0,HIT,Le lanceur lacère l’ennemi à la première occasion. Taux de critiques élevé.
+MOVE_AIR_CUTTER,Tranch’Air,Air Cutter,Vol,Spéciale,60,95,25,0,HIT,Le lanceur appelle des vents tranchants qui lacèrent l’ennemi. Taux de critiques élevé.
+MOVE_RAZOR_LEAF,Tranch’Herbe,Razor Leaf,Plante,Physique,55,95,25,0,HIT,Des feuilles aiguisées comme des rasoirs entaillent l’ennemi. Taux de critiques élevé.
+MOVE_SPLASH,Trempette,Splash,Normal,Statut,,,40,0,DO_NOTHING,Le lanceur barbote et éclabousse les environs. Cette capacité n’a aucun effet.
+MOVE_FOUL_PLAY,Tricherie,Foul Play,Ténèbres,Physique,95,100,15,0,FOUL_PLAY,"Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts."
+MOVE_TRI_ATTACK,Triplattaque,Tri Attack,Normal,Spéciale,80,100,10,0,HIT,"Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi."
+MOVE_TRIPLE_AXEL,Triple Axel,Triple Axel,Glace,Physique,20,90,10,0,TRIPLE_KICK,Une salve composée de un à trois coups de pied dont la puissance augmente à chaque coup porté.
+MOVE_TRIPLE_ARROWS,Triple Flèche,Triple Arrows,Combat,Physique,90,100,10,0,HIT,"Le lanceur donne un coup de pied et tire trois flèches simultanément, ce qui peut baisser la Défense de la cible ou l'apeurer. Taux de critiques élevé."
+MOVE_TRIPLE_KICK,Triple Pied,Triple Kick,Combat,Physique,10,90,10,0,TRIPLE_KICK,Une salve de un à trois coups de pied dont la puissance augmente à chaque coup porté.
+MOVE_TRIPLE_DIVE,Triple Plongeon,Triple Dive,Eau,Physique,30,95,10,0,HIT,Le lanceur effectue des plongeons parfaitement cadencés pour éclabousser la cible et lui infliger des dégâts trois fois d'affilée.
+MOVE_SNAP_TRAP,Troquenard,Snap Trap,Plante,Physique,35,100,15,0,HIT,Le lanceur piège sa cible dans son Troquenard d’acier et lui inflige des dégâts pendant quatre ou cinq tours.
+MOVE_DARK_VOID,Trou Noir,Dark Void,Ténèbres,Statut,,50,10,0,DARK_VOID,L’ennemi est plongé dans les ténèbres. Il tombe dans un profond sommeil.
+MOVE_HYPERSPACE_HOLE,TrouDimensionnel,Hyperspace Hole,Psy,Spéciale,80,,5,0,HIT,Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même les capacités comme Abri ou Détection.
+MOVE_STOMPING_TANTRUM,Trépignement,Stomping Tantrum,Sol,Physique,75,100,10,0,STOMPING_TANTRUM,"Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée."
+MOVE_DIG,Tunnel,Dig,Sol,Physique,80,100,10,0,SEMI_INVULNERABLE,Le lanceur creuse au premier tour et frappe au second.
+MOVE_DRILL_RUN,Tunnelier,Drill Run,Sol,Physique,80,95,10,0,HIT,Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critiques élevé.
+MOVE_ELECTRO_DRIFT,Turbo Volt,Electro Drift,Électrik,Spéciale,100,100,5,0,COLLISION_COURSE,"Le lanceur change de forme et fonce sur la cible en la perforant d'électricité futuriste. Si la capacité est super efficace, sa puissance augmente encore plus."
+MOVE_WILDBOLT_STORM,Typhon Fulgurant,Wildbolt Storm,Électrik,Spéciale,100,80,10,0,HIT,"Le lanceur déclenche un violent typhon orageux dont les rafales et la foudre frappent la cible, ce qui peut aussi la paralyser."
+MOVE_BLEAKWIND_STORM,Typhon Hivernal,Bleakwind Storm,Vol,Spéciale,100,80,10,0,HIT,"Le lanceur déclenche un typhon froid et brutal qui fait trembler le cœur et le corps de la cible, ce qui peut aussi baisser sa Vitesse."
+MOVE_SPRINGTIDE_STORM,Typhon Passionné,Springtide Storm,Fée,Spéciale,100,80,5,0,HIT,Le lanceur déclenche un violent typhon de haine et d'amour qui s'abat sur la cible. Peut baisser l'Attaque de celle-ci.
+MOVE_SANDSEAR_STORM,Typhon Pyrosable,Sandsear Storm,Sol,Spéciale,100,80,10,0,HIT,"Le lanceur déclenche un violent typhon mêlé à du sable ardent qui s'abat sur la cible, ce qui peut la brûler."
+MOVE_KINESIS,Télékinésie,Kinesis,Psy,Statut,,80,15,0,ACCURACY_DOWN,"Le lanceur distrait l’ennemi en pliant une cuillère, ce qui baisse sa Précision."
+MOVE_TELEPORT,Téléport,Teleport,Psy,Statut,,,20,-6,TELEPORT,"Permet de changer de place avec un autre Pokémon de l’équipe s’il y en a. Quand cette capacité est utilisée par un Pokémon sauvage, celui-ci fuit le combat."
+MOVE_ENDURE,Ténacité,Endure,Normal,Statut,,,10,4,ENDURE,Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite.
+MOVE_TERA_BLAST,Téra Explosion,Tera Blast,Normal,Spéciale,80,100,10,0,TERA_BLAST,"Si le lanceur est Téracristallisé, il libère l'énergie de son Type Téracristal. Cette capacité inflige des dégâts en utilisant l'Attaque ou l'Attaque Spéciale du lanceur, selon la statistique la plus élevée."
+MOVE_IRON_HEAD,Tête de Fer,Iron Head,Acier,Physique,80,100,15,0,HIT,Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer.
+MOVE_MEGA_PUNCH,Ultimapoing,Mega Punch,Normal,Physique,80,85,20,0,HIT,L’ennemi reçoit un coup de poing d’une puissance incroyable.
+MOVE_MEGA_KICK,Ultimawashi,Mega Kick,Normal,Physique,120,75,5,0,HIT,Un coup de pied surpuissant qui frappe l’ennemi.
+MOVE_NO_RETREAT,Ultime Bastion,No Retreat,Combat,Statut,,,5,0,NO_RETREAT,"Le lanceur voit toutes ses stats augmenter, mais en contrepartie, il ne peut plus fuir ou se retirer du combat."
+MOVE_HYPER_BEAM,Ultralaser,Hyper Beam,Normal,Spéciale,150,90,5,0,HIT,Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant.
+MOVE_SUPERSONIC,Ultrason,Supersonic,Normal,Statut,,55,20,0,CONFUSE,Le lanceur produit d’étranges ondes sonores qui rendent la cible confuse.
+MOVE_DIZZY_PUNCH,Uppercut,Dizzy Punch,Normal,Physique,70,100,10,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_PSYWAVE,Vague Psy,Psywave,Psy,Spéciale,1,100,15,0,PSYWAVE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_CEASELESS_EDGE,Vagues à Lames,Ceaseless Edge,Ténèbres,Physique,65,90,15,0,CEASELESS_EDGE,Des lames de coquillages entaillent la cible en visant ses points faibles. Les débris de coquillage se répandent sous la forme de picots aux pieds de la cible.
+MOVE_DRAIN_PUNCH,Vampi-Poing,Drain Punch,Combat,Physique,75,100,10,0,ABSORB,Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.
+MOVE_DRAINING_KISS,Vampibaiser,Draining Kiss,Fée,Spéciale,50,100,10,0,ABSORB,Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.
+MOVE_LEECH_SEED,Vampigraine,Leech Seed,Plante,Statut,,90,10,0,LEECH_SEED,"Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère."
+MOVE_LEECH_LIFE,Vampirisme,Leech Life,Insecte,Physique,80,100,10,0,ABSORB,Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.
+MOVE_SWAGGER,Vantardise,Swagger,Normal,Statut,,85,15,0,SWAGGER,"Fait enrager la cible et la plonge dans la confusion, mais augmente beaucoup son Attaque."
+MOVE_STRANGE_STEAM,Vapeur Féérique,Strange Steam,Fée,Spéciale,90,95,10,0,HIT,Le lanceur émet de la vapeur pour attaquer sa cible. Peut aussi la rendre confuse.
+MOVE_EXPANDING_FORCE,Vaste Pouvoir,Expanding Force,Psy,Spéciale,80,100,10,0,EXPANDING_FORCE,"Le lanceur attaque la cible avec ses pouvoirs psychiques. Si un Champ Psychique est actif, la puissance de cette capacité augmente et elle touche tous les ennemis."
+MOVE_REVENGE,Vendetta,Revenge,Combat,Physique,60,100,10,-4,REVENGE,Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.
+MOVE_RETALIATE,Vengeance,Retaliate,Normal,Physique,70,100,5,0,RETALIATE,"Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente."
+MOVE_SILVER_WIND,Vent Argenté,Silver Wind,Insecte,Spéciale,60,100,5,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_TAILWIND,Vent Arrière,Tailwind,Vol,Statut,,,15,0,TAILWIND,Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant quatre tours.
+MOVE_FAIRY_WIND,Vent Féérique,Fairy Wind,Fée,Spéciale,40,100,30,0,HIT,Déchaîne un vent magique qui cingle l’ennemi.
+MOVE_ICY_WIND,Vent Glace,Icy Wind,Glace,Spéciale,55,95,15,0,HIT,Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse.
+MOVE_OMINOUS_WIND,Vent Mauvais,Ominous Wind,Spectre,Spéciale,60,100,5,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_HURRICANE,Vent Violent,Hurricane,Vol,Spéciale,110,70,10,0,HIT,Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus.
+MOVE_FAIRY_LOCK,Verrou Enchanté,Fairy Lock,Fée,Statut,,,10,0,FAIRY_LOCK,"Des chaînes entourent la zone de combat, empêchant tous les Pokémon de fuir au prochain tour."
+MOVE_LOCK_ON,Verrouillage,Lock-On,Normal,Statut,,,5,0,LOCK_ON,Verrouille l’ennemi pour ne pas le rater au tour suivant.
+MOVE_HEAL_PULSE,Vibra Soin,Heal Pulse,Psy,Statut,,,10,0,HEAL_PULSE,Une aura de bien-être fait récupérer la moitié de ses PV max à la cible.
+MOVE_WATER_PULSE,Vibraqua,Water Pulse,Eau,Spéciale,60,100,20,0,HIT,Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut le rendre confus.
+MOVE_DARK_PULSE,Vibrobscur,Dark Pulse,Ténèbres,Spéciale,80,100,15,0,HIT,Le lanceur dégage une horrible aura chargée de pensées maléfiques. Peut aussi apeurer l’ennemi.
+MOVE_CLANGING_SCALES,Vibrécaille,Clanging Scales,Dragon,Spéciale,110,100,5,0,HIT,Le lanceur déclenche un vacarme en frottant ses écailles les unes contre les autres pour attaquer. Baisse la Défense du lanceur.
+MOVE_ACCELEROCK,Vif Roc,Accelerock,Roche,Physique,40,100,20,1,HIT,Le lanceur charge l’ennemi à toute vitesse. Frappe en priorité.
+MOVE_THUNDERCLAP,Vif Éclair,Thunderclap,Électrik,Spéciale,70,100,5,1,SUCKER_PUNCH,Permet au lanceur d'attaquer la cible en priorité avec une décharge électrique. Échoue si la cible ne prépare pas une attaque.
+MOVE_CRAFTY_SHIELD,Vigilance,Crafty Shield,Fée,Statut,,,10,3,PROTECT,Utilise une force mystérieuse pour protéger l’équipe des capacités de statut. Ne protège pas des autres capacités.
+MOVE_COMEUPPANCE,Vindicte,Comeuppance,Ténèbres,Physique,1,100,10,0,METAL_BURST,Le lanceur contre-attaque avec un coup infligeant des dégâts supérieurs à ceux de la dernière capacité qui l'a blessé.
+MOVE_EXTREME_SPEED,Vitesse Extrême,Extreme Speed,Normal,Physique,80,100,5,2,HIT,Le lanceur charge à une vitesse renversante. Frappe en priorité.
+MOVE_QUICK_ATTACK,Vive-Attaque,Quick Attack,Normal,Physique,40,100,30,1,HIT,Le lanceur fonce sur l’ennemi si rapidement qu’on parvient à peine à le discerner. Frappe en priorité.
+MOVE_AURORA_VEIL,Voile Aurore,Aurora Veil,Glace,Statut,,,20,0,AURORA_VEIL,Réduit les dégâts causés par les capacités physiques et spéciales durant cinq tours. Ne peut être utilisée que lorsqu’il grêle.
+MOVE_MIRROR_COAT,Voile Miroir,Mirror Coat,Psy,Spéciale,1,100,20,-5,MIRROR_COAT,Une riposte qui contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis.
+MOVE_DISARMING_VOICE,Voix Enjôleuse,Disarming Voice,Fée,Spéciale,40,,15,0,HIT,Laisse s’échapper une voix enchanteresse qui inflige des dégâts psychiques à l’ennemi. Touche à coup sûr.
+MOVE_ALLURING_VOICE,Voix Envoûtante,Alluring Voice,Fée,Spéciale,80,100,10,0,HIT,Le lanceur attaque la cible avec sa voix angélique. Cette capacité rend la cible confuse si ses stats ont augmenté pendant ce tour.
+MOVE_FLY,Vol,Fly,Vol,Physique,90,95,15,0,SEMI_INVULNERABLE,Le lanceur s’envole au premier tour et frappe au second.
+MOVE_MAGNET_RISE,Vol Magnétik,Magnet Rise,Électrik,Statut,,,10,0,MAGNET_RISE,Le lanceur utilise l’électricité pour générer un champ magnétique et léviter durant cinq tours.
+MOVE_STRENGTH_SAP,Vole-Force,Strength Sap,Plante,Statut,,100,10,0,STRENGTH_SAP,"Rend au lanceur une quantité de PV équivalente à la stat d’Attaque de la cible, puis baisse celle-ci."
+MOVE_ABSORB,Vole-Vie,Absorb,Plante,Spéciale,20,100,25,0,ABSORB,Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.
+MOVE_SUPERCELL_SLAM,Volt Assaut,Supercell Slam,Électrik,Physique,100,95,15,0,RECOIL_IF_MISS,"Le lanceur se charge en électricité et fond sur la cible. S'il échoue, le lanceur se blesse."
+MOVE_THUNDER_CAGE,Voltageôle,Thunder Cage,Électrik,Spéciale,80,90,15,0,HIT,"Le lanceur frappe l’ennemi, et le piège dans une prison électrique qui dure de quatre à cinq tours."
+MOVE_MAGMA_STORM,Vortex Magma,Magma Storm,Feu,Spéciale,100,75,5,0,HIT,L’ennemi est pris dans un tourbillon de feu qui dure de quatre à cinq tours.
+MOVE_FRENZY_PLANT,Végé-Attaque,Frenzy Plant,Plante,Spéciale,150,90,5,0,HIT,Un violent coup de racines s’abat sur l’ennemi. Immobilise le lanceur au tour suivant.
+MOVE_WISH,Vœu,Wish,Normal,Statut,,,10,0,WISH,Un vœu qui permet au lanceur ou au Pokémon entrant sur le terrain au tour suivant de récupérer la moitié des PV max du lanceur.
+MOVE_DOOM_DESIRE,Vœu Destructeur,Doom Desire,Acier,Spéciale,140,100,5,0,FUTURE_SIGHT,Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi deux tours plus tard.
+MOVE_HEALING_WISH,Vœu Soin,Healing Wish,Psy,Statut,,,10,0,HEALING_WISH,Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui.
+MOVE_STORM_THROW,Yama Arashi,Storm Throw,Combat,Physique,60,100,10,0,HIT,Un coup très puissant dont l’effet est toujours critique.
+MOVE_MEDITATE,Yoga,Meditate,Psy,Statut,,,40,0,ATTACK_UP,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_MAGIC_ROOM,Zone Magique,Magic Room,Psy,Statut,,,10,0,MAGIC_ROOM,Le lanceur crée une zone mystérieuse où les objets tenus par tous les Pokémon n’ont plus aucun effet pendant cinq tours.
+MOVE_WONDER_ROOM,Zone Étrange,Wonder Room,Psy,Statut,,,10,0,WONDER_ROOM,Le lanceur crée une zone mystérieuse où la Défense et la Défense Spéciale de tous les Pokémon sont inversées pendant cinq tours.
+MOVE_SUNNY_DAY,Zénith,Sunny Day,Feu,Statut,,,5,0,SUNNY_DAY,"Fait briller le soleil pendant cinq tours, augmentant la puissance des capacités de type Feu et baissant celle des capacités de type Eau."
+MOVE_QUASH,À la Queue,Quash,Ténèbres,Statut,,100,15,0,QUASH,"Retient la cible de force, l’obligeant à agir en dernier."
+MOVE_GLACIATE,Ère Glaciaire,Glaciate,Glace,Spéciale,65,95,10,0,HIT,Un souffle de vent qui congèle tout sur son passage s’abat sur l’ennemi. Réduit aussi sa Vitesse.
+MOVE_ROCK_SLIDE,Éboulement,Rock Slide,Roche,Physique,75,90,10,0,HIT,Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.
+MOVE_LAVA_PLUME,Ébullilave,Lava Plume,Feu,Spéciale,80,100,15,0,HIT,Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler.
+MOVE_SCALD,Ébullition,Scald,Eau,Spéciale,80,100,15,0,HIT,L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.
+MOVE_SKILL_SWAP,Échange,Skill Swap,Psy,Statut,,,10,0,SKILL_SWAP,Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible.
+MOVE_POWER_SHIFT,Échange Force,Power Shift,Normal,Statut,,,10,0,POWER_TRICK,Le lanceur échange son Attaque avec sa Défense.
+MOVE_PSYCHO_SHIFT,Échange Psy,Psycho Shift,Psy,Statut,,100,10,0,PSYCHO_SHIFT,Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion.
+MOVE_ECHOED_VOICE,Écho,Echoed Voice,Normal,Spéciale,40,100,15,0,ECHOED_VOICE,"Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente."
+MOVE_THUNDER_SHOCK,Éclair,Thunder Shock,Électrik,Spéciale,40,100,30,0,HIT,Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.
+MOVE_FUSION_BOLT,Éclair Croix,Fusion Bolt,Électrik,Physique,100,100,5,0,FUSION_COMBO,Projette un orbe électrique gigantesque. L’effet augmente sous l’influence de Flamme Croix.
+MOVE_WILD_CHARGE,Éclair Fou,Wild Charge,Électrik,Physique,90,100,15,0,RECOIL,Une charge électrique violente qui blesse aussi légèrement le lanceur.
+MOVE_FREEZE_SHOCK,Éclair Gelé,Freeze Shock,Glace,Physique,140,90,5,0,TWO_TURNS_ATTACK,Projette un bloc de glace électrifié sur l’ennemi au second tour. Peut aussi le paralyser.
+MOVE_DAZZLING_GLEAM,Éclat Magique,Dazzling Gleam,Fée,Spéciale,80,100,10,0,HIT,Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.
+MOVE_ASTRAL_BARRAGE,Éclat Spectral,Astral Barrage,Spectre,Spéciale,120,100,5,0,HIT,Le lanceur attaque l’ennemi avec une multitude de petits spectres.
+MOVE_CRUSH_CLAW,Éclate Griffe,Crush Claw,Normal,Physique,75,95,10,0,HIT,Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense.
+MOVE_ROCK_SMASH,Éclate-Roc,Rock Smash,Combat,Physique,40,100,15,0,HIT,Porte un coup de poing à l’ennemi qui peut baisser sa Défense.
+MOVE_ICE_SHARD,Éclats Glace,Ice Shard,Glace,Physique,40,100,30,1,HIT,Le lanceur crée des éclats de glace qu’il envoie sur l’ennemi. Frappe en priorité.
+MOVE_ENERGY_BALL,Éco-Sphère,Energy Ball,Plante,Spéciale,90,100,10,0,HIT,Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale.
+MOVE_STOMP,Écrasement,Stomp,Normal,Physique,65,100,20,0,HIT,Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer.
+MOVE_POUND,Écras’Face,Pound,Normal,Physique,40,100,35,0,HIT,"Écrase l’ennemi avec les pattes avant ou la queue, par exemple."
+MOVE_DOUBLE_IRON_BASH,Écrous d’Poing,Double Iron Bash,Acier,Physique,60,100,5,0,HIT,Le lanceur fait pivoter l’écrou de sa poitrine deux fois d’affilée pour frapper l’adversaire avec ses bras. Peut apeurer l’ennemi.
+MOVE_BUBBLE,Écume,Bubble,Eau,Spéciale,40,100,30,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_ZAP_CANNON,Élecanon,Zap Cannon,Électrik,Spéciale,120,50,5,0,HIT,Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi.
+MOVE_VOLT_TACKLE,Électacle,Volt Tackle,Électrik,Physique,120,100,15,0,RECOIL,Le lanceur électrifie son corps avant de charger. Le choc blesse aussi gravement le lanceur et peut paralyser l’ennemi.
+MOVE_ZING_ZAP,Électrikipik,Zing Zap,Électrik,Physique,80,100,10,0,HIT,Le lanceur fonce sur la cible et lui envoie un puissant choc électrique. Peut aussi l’effrayer.
+MOVE_ELECTRIFY,Électrisation,Electrify,Électrik,Statut,,,20,0,ELECTRIFY,"Si le lanceur attaque avant la cible, les capacités de celle-ci seront de type Électrik jusqu’à la fin du tour."
+MOVE_BELCH,Éructation,Belch,Poison,Spéciale,120,90,10,0,BELCH,"Le lanceur se tourne vers l’ennemi et lui éructe dessus, infligeant des dégâts. Ne fonctionne que si le lanceur consomme la Baie qu’il tient."
+MOVE_ERUPTION,Éruption,Eruption,Feu,Spéciale,150,100,5,0,POWER_BASED_ON_USER_HP,"Le lanceur laisse exploser sa colère. Plus ses PV sont bas, moins l’attaque est puissante."
+MOVE_SPARK,Étincelle,Spark,Électrik,Physique,65,100,20,0,HIT,Lance une charge électrique sur l’ennemi. Peut aussi le paralyser.
+MOVE_ASTONISH,Étonnement,Astonish,Spectre,Physique,30,100,15,0,HIT,Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer.
+MOVE_BIND,Étreinte,Bind,Normal,Physique,15,85,20,0,HIT,Ligote l’ennemi avec les tentacules ou le corps pour l’écraser durant quatre à cinq tours.
+MOVE_HAPPY_HOUR,Étrennes,Happy Hour,Normal,Statut,,,30,0,HAPPY_HOUR,"Utilisée pendant un combat, multiplie par deux l’argent gagné à la fin."
+MOVE_VEEVEE_VOLLEY,Évo-Chardasso,Veevee Volley,Normal,Physique,1,,20,0,RETURN,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_FREEZY_FROST,Évo-Congélo,Freezy Frost,Glace,Spéciale,100,90,10,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_BUZZY_BUZZ,Évo-Dynamo,Buzzy Buzz,Électrik,Spéciale,60,100,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SPARKLY_SWIRL,Évo-Fabulo,Sparkly Swirl,Fée,Spéciale,120,85,5,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SIZZLY_SLIDE,Évo-Flambo,Sizzly Slide,Feu,Physique,60,100,20,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_GLITZY_GLOW,Évo-Psycho,Glitzy Glow,Psy,Spéciale,80,95,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_BOUNCY_BUBBLE,Évo-Thalasso,Bouncy Bubble,Eau,Spéciale,60,100,20,0,ABSORB,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_BADDY_BAD,Évo-Ténébro,Baddy Bad,Ténèbres,Spéciale,80,95,15,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_SAPPY_SEED,Évo-Écolo,Sappy Seed,Plante,Physique,100,90,10,0,HIT,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+MOVE_MIRACLE_EYE,Œil Miracle,Miracle Eye,Psy,Statut,,,40,0,MIRACLE_EYE,"Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
