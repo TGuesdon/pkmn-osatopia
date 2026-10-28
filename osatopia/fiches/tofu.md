@@ -6,7 +6,8 @@
 > Évolutions : Tofu → Gwotofu (niv. 16) → Tofu Royal (niv. 32).
 > Maletofu (Tofu maléfique) est une espèce à part.
 
-**État : validée.** Pas de capacité custom.
+**État : validée et intégrée** (`species_info.h`, `gen_9.h`,
+`teachable_learnsets.h`). Pas de capacité custom.
 
 ## Intention
 

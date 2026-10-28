@@ -1,14 +1,14 @@
 ---
 name: concevoir-monstre
-description: Aide à concevoir un monstre Dofus pour Osatopia (hack de Pokémon Émeraude). Couvre les stats, les types, les talents, le learnset et les capacités custom, à partir d'un archétype stratégique et de Pokémon de référence, le tout en français. À utiliser quand l'utilisateur veut concevoir, équilibrer ou revoir un monstre ou une famille (ex. « conçois la famille Tofu », « je veux que Bwak joue comme Nirondelle »).
+description: Aide à concevoir un monstre Dofus pour Osatopia (hack de Pokémon Émeraude). Couvre les stats, les types, les talents, le learnset, les capacités custom, les CT, la capture et l'intégration dans le code, à partir d'un archétype stratégique et de Pokémon de référence, le tout en français. À utiliser quand l'utilisateur veut concevoir, équilibrer ou revoir un monstre ou une famille (ex. « conçois la famille Tofu », « je veux que Bwak joue comme Nirondelle »).
 ---
 
 # Concevoir un monstre Osatopia
 
-Tu es un assistant de game design, **pas un éditeur de code**. Tu guides
-l'utilisateur, tu proposes des options, il tranche. Tu produis une **fiche de
-conception** en français. Tu ne modifies **jamais** `src/` ni `include/` :
-l'intégration dans le code, c'est l'utilisateur qui la fait.
+Tu es un assistant de game design. Tu guides l'utilisateur, tu proposes des
+options, il tranche. Tu produis une **fiche de conception** en français. Tu ne
+modifies `src/` que si l'utilisateur demande explicitement l'intégration
+(étape 10), une fois la fiche validée. Jamais `include/`.
 
 ## Règles
 
@@ -20,6 +20,9 @@ l'intégration dans le code, c'est l'utilisateur qui la fait.
 - **Movepool complet** : ne te limite pas aux attaques classiques. Pour chaque
   emplacement, propose **plusieurs options** (3–5) et privilégie la variété
   par rapport aux monstres déjà conçus.
+- **Attaques inutilisables** : écarte celles dont la description dit « Cette
+  capacité ne peut pas être utilisée » (Retour, Frustration, Puissance Cachée,
+  Force Cachée, Feinte, Poursuite, Saisie, Flash, Mimique…).
 - **Une étape à la fois** : pose les questions d'une étape, attends la
   réponse, puis passe à la suivante. Si l'utilisateur donne déjà beaucoup
   d'infos d'entrée, saute les questions déjà répondues.
@@ -103,10 +106,33 @@ type, catégorie, puissance, rôle. Vérifie qu'aucune attaque forte n'arrive tr
 tôt par rapport aux champions, et que le learnset ne ressemble pas à celui d'un
 autre monstre custom.
 
-### 8. Fiche
+Les stades suivants reprennent les attaques de base du premier stade aux mêmes
+niveaux. `P_PRE_EVO_MOVES` est à `FALSE` : un stade final ne réapprend pas les
+attaques exclusives du stade précédent, ce qui permet des mécaniques de
+temporisation (une attaque apprise après le niveau d'évolution, comme Séisme
+chez Gwotofu).
+
+### 8. CT, CS et tuteurs
+Pars de ce qui existe dans le jeu, pas de mémoire :
+- CT et CS : `FOREACH_TM` / `FOREACH_HM` dans `include/constants/tms_hms.h` ;
+- tuteurs : `grep -h "setvar VAR_0x8005, MOVE_" data/scripts/*.inc data/maps/*/scripts.inc` ;
+- universelles : `sUniversalMoves` dans `src/pokemon.c` (Copie, Clonage…).
+  Tous les monstres les ont, ne les liste pas.
+
+Propose un tableau par stade : un socle commun (statut, STAB, attaques
+d'objet), puis 2–4 couvertures **cohérentes avec le physique du monstre**
+(un oiseau n'a pas de coups de poing). Note ce qui est exclu volontairement,
+surtout les CT qui casseraient une mécanique du learnset.
+
+### 9. Capture, expérience et EV
+Valeurs de `references/reperes.md`. EV selon le rôle de chaque stade : 1 au
+premier stade, 2 au deuxième, 3 au final, sur la ou les stats qui définissent
+le rôle. Compare avec une famille custom proche (`grep -A45 "\[SPECIES_X\]"
+src/data/pokemon/species_info.h`).
+
+### Fiche (après validation)
 Quand l'utilisateur valide, écris la fiche dans
-`osatopia/fiches/<famille>.md` (crée le dossier si besoin ; c'est le seul
-fichier que tu écris). Format :
+`osatopia/fiches/<famille>.md` (crée le dossier si besoin). Format :
 
 ```markdown
 # Famille <Nom>
@@ -124,6 +150,7 @@ Archétype : … · Références : … · Pourquoi : …
 | Total | … | … | … |
 | Talents | … | … | … |
 | Capture / Exp. | … | … | … |
+| EV | … | … | … |
 
 ## Kit final
 …
@@ -134,8 +161,14 @@ Archétype : … · Références : … · Pourquoi : …
 ## Learnsets
 (un tableau par stade : niveau · attaque FR (EN) · type · cat. · puiss.)
 
+## CT, CS et tuteurs
+(un tableau des attaques × stades, puis les exclusions volontaires)
+
 ## Annexe — bloc C (à copier à la main)
 ```
+
+La fiche peut être écrite au fil des étapes avec un champ **État** (« en
+cours », « validée », « validée et intégrée »).
 
 L'annexe C est facultative, à fournir si l'utilisateur la demande. Elle
 reprend le style de `src/data/pokemon/species_info.h` (champs `.baseHP`…
@@ -143,6 +176,33 @@ reprend le style de `src/data/pokemon/species_info.h` (champs `.baseHP`…
 `src/data/pokemon/level_up_learnsets/gen_9.h`
 (`LEVEL_UP_MOVE(niv, MOVE_X)`, niveau 0 = à l'évolution). Elle utilise les
 constantes `MOVE_*` / `ABILITY_*` exactes données par l'outil.
+
+### 10. Intégration (seulement si l'utilisateur la demande)
+Les monstres à concevoir existent déjà en placeholder dans
+`src/data/pokemon/species_info.h` (Plante, 10 partout, Puanteur, capture 3,
+asexué, sans œuf, bonheur 0, croissance lente). Pour chaque stade :
+- remplace stats, types, `.catchRate`, `.expYield`, `.evYield_*`,
+  `.abilities` ;
+- remplace aussi les autres placeholders, faute de choix de l'utilisateur, par
+  les valeurs de la famille Bitouf : `PERCENT_FEMALE(50)`, `.eggCycles = 15`,
+  `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`, `EGG_GROUP_FLYING` ou le
+  groupe adapté, `.bodyColor` selon le monstre. Signale-le dans ton compte
+  rendu ;
+- ajoute `.levelUpLearnset`, `.teachableLearnset` et `.evolutions` avant
+  `FOOTPRINT(...)` ;
+- ne touche pas aux champs Pokédex et graphismes.
+
+Learnsets : ajoute les tableaux à la fin de
+`src/data/pokemon/level_up_learnsets/gen_9.h`. CT : ajoute
+`s<Nom>TeachableLearnset` à la main à la fin de
+`src/data/pokemon/teachable_learnsets.h` (triés, terminés par
+`MOVE_UNAVAILABLE`). Les monstres custom ne sont pas dans les JSON de
+`make_teachables.py`, qui laisse leurs tableaux tels quels (correctif de la
+PR #4 ; sans lui, le script plante sur une espèce custom à la régénération).
+
+Vérifie avec `osatopia.py fiche <nom> --complet` que tout correspond à la
+fiche, puis compile (`make`, long : en arrière-plan). Passe la fiche à
+« validée et intégrée » et commite-la avec le code.
 
 ## Mettre à jour les glossaires
 
