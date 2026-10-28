@@ -8,9 +8,11 @@
 **État : validée et intégrée** (`species_info.h`, `gen_9.h`,
 `teachable_learnsets.h`). Pas de capacité custom.
 
+Croissance `GROWTH_FAST` : insecte de début de jeu.
+
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
-`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` ; groupe
-d'œuf `EGG_GROUP_BUG`, couleur `BODY_COLOR_BROWN` (inchangée).
+`.eggCycles = 15`, `STANDARD_FRIENDSHIP` ; groupe d'œuf `EGG_GROUP_BUG`,
+couleur `BODY_COLOR_BROWN` (inchangée).
 
 ## Intention
 
