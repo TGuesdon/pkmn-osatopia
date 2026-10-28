@@ -97,7 +97,8 @@ Furie-Bond, Escarmouche.
   (`EFFECT_ABSORB`, `MOVEEND_ABSORB`) mais aussi, comme la Grosse Racine, à
   Vampigraine, Racines et Anneau Hydro : Sève Avide les renforce aussi.
   Contre Suintement, le contrecoup est amplifié de la même façon.
-  L'IA ne connaît pas l'effet (pas de prise en compte dans `battle_ai_main.c`).
+  L'IA le traite comme la Grosse Racine (`AI_HasDrainBoost` dans
+  `battle_ai_main.c`) : petit bonus de score aux attaques de drain.
 - Écartée : l'attaque custom *Saignée* (drain Ténèbres), jugée trop
   caricaturale.
 
