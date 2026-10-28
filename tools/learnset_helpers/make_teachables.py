@@ -115,7 +115,9 @@ def prepare_output(all_learnables: dict[str, set[str]], repo_teachables: set[str
             cursor = match_e + 1
             continue
 
-        if species_upper == "MEW":
+        # MEW learns everything; species absent from the source JSON (Osatopia's
+        # custom monsters) have hand-written teachables. Keep both untouched.
+        if species_upper == "MEW" or species_upper not in all_learnables:
             new += old[cursor:match_e + 1] # copy the original content and skip.
             cursor = match_e + 1
             continue
