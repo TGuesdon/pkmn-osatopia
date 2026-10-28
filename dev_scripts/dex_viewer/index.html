@@ -111,7 +111,9 @@ details summary { cursor: pointer; color: var(--muted); font-size: 12px; text-tr
       <option value="done">Complets</option>
       <option value="todo">Incomplets</option>
       <option value="untouched">Non commencés (placeholder)</option>
+      <option value="sprites">Aperçus sprites à vérifier</option>
     </select>
+    <label class="chk"><input id="cmp" type="checkbox" style="width:auto"> Comparer avec l'aperçu sprites</label>
   </header>
   <div id="list"></div>
 </nav>
@@ -134,6 +136,7 @@ const SRC = {
   wild: 'src/data/wild_encounters.json',
   levelUp: [1, 2, 3, 4, 5, 6, 7, 8, 9].map(g => `src/data/pokemon/level_up_learnsets/gen_${g}.h`),
 };
+const PREVIEW = 'dev_scripts/sprite_import/preview/';
 
 const TYPES = {
   NORMAL: ['Normal', '#9fa19f'], FIRE: ['Feu', '#e62829'], WATER: ['Eau', '#2980ef'], GRASS: ['Plante', '#3fa129'],
@@ -301,6 +304,12 @@ async function loadAll() {
   } catch (e) { console.warn('wild_encounters.json', e); }
 
   const res = buildMons(mons, { order, gfxPaths, moveData, abilityData, lvlSets, teachSets, encounters });
+  // Sprite previews from dev_scripts/sprite_import (optional, gitignored).
+  const previews = await fetchText(PREVIEW + 'index.json').then(JSON.parse).catch(() => ({}));
+  for (const m of res.mons) {
+    const folder = m.img.front?.match(/^graphics\/pokemon\/(.+)\/[^/]+$/)?.[1];
+    if (folder && previews[folder]) m.preview = { folder, ...previews[folder] };
+  }
   await Promise.all(res.mons.map(async m => {
     const [a, b] = await Promise.all([m.img.pal && loadPal(m.img.pal), m.img.shiny && loadPal(m.img.shiny)]);
     m.checks.shiny = !!(a && b) && JSON.stringify(a) !== JSON.stringify(b);
@@ -509,6 +518,10 @@ function renderCard(m) {
     </div>
     <div class="spr">
       <div class="box"><canvas data-sprite="front" width="64" height="64"></canvas></div>
+      ${$('#cmp').checked && m.preview ? `
+      <div class="muted" style="font-size:12px">Aperçu ${m.preview.protected ? `<span class="warn">· protégé (${esc(m.preview.protected)})</span>` : ''}</div>
+      <div class="box"><canvas data-preview width="64" height="64"></canvas></div>
+      ${m.preview.flags.map(f => `<div class="warn" style="font-size:12px">⚠ ${esc(f)}</div>`).join('')}` : ''}
       <div class="tog">
         <button data-view="front" class="on">Face</button><button data-view="back">Dos</button><button data-shiny>Shiny</button>
       </div>
@@ -588,7 +601,7 @@ function filtered() {
   return state.mons.filter(m =>
     (!q || q.split(/\s+/).every(w => m.searchText.includes(w))) &&
     (!t || m.types.includes(t)) &&
-    (!s || (s === 'done' ? m.score >= 1 : s === 'todo' ? m.score < 1 : m.untouched)));
+    (!s || (s === 'done' ? m.score >= 1 : s === 'todo' ? m.score < 1 : s === 'sprites' ? !!m.preview?.flags.length : m.untouched)));
 }
 
 let observer;
@@ -615,6 +628,11 @@ function paintCard(el, m) {
   const view = el.querySelector('[data-view].on').dataset.view;
   const shiny = el.querySelector('[data-shiny]').classList.contains('on');
   drawSprite(el.querySelector('[data-sprite]'), m.img[view], 64, 64, shiny ? m.img.shiny : m.img.pal);
+  const prev = el.querySelector('[data-preview]');
+  if (prev) {
+    const dir = PREVIEW + m.preview.folder + '/';
+    drawSprite(prev, dir + (view === 'back' ? 'back.png' : 'anim_front.png'), 64, 64, dir + (shiny ? 'shiny.pal' : 'normal.pal'));
+  }
 }
 
 document.addEventListener('click', e => {
@@ -638,7 +656,7 @@ $('#main').addEventListener('scroll', () => {
   if (a) { a.classList.add('active'); a.scrollIntoView({ block: 'nearest' }); }
 }, { passive: true });
 
-['#q', '#ftype', '#fstate'].forEach(s => $(s).addEventListener('input', render));
+['#q', '#ftype', '#fstate', '#cmp'].forEach(s => $(s).addEventListener('input', render));
 
 async function boot() {
   const anchor = location.hash.slice(1);
