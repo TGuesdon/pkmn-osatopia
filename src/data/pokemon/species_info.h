@@ -562,6 +562,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .shinyPalette = gMonShinyPalette_Crachefoux,
         .iconSprite = gMonIcon_Crachefoux,
         .iconPalIndex = 3,
+        .levelUpLearnset = sCrachefouxLevelUpLearnset,
         FOOTPRINT(Crachefoux)
     },
     [SPECIES_TITARDO] =
