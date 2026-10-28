@@ -2412,4 +2412,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+
+    [ABILITY_SEVE_AVIDE] =
+    {
+        .name = _("Sève Avide"),
+        .description = COMPOUND_STRING("Drains plus efficaces."),
+        .aiRating = 5,
+    },
 };

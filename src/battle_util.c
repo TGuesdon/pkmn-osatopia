@@ -1852,6 +1852,8 @@ s32 GetDrainedBigRootHp(u32 battler, s32 hp)
 {
     if (GetBattlerHoldEffect(battler) == HOLD_EFFECT_BIG_ROOT)
         hp = (hp * 1300) / 1000;
+    if (GetBattlerAbility(battler) == ABILITY_SEVE_AVIDE)
+        hp = (hp * 1500) / 1000;
     if (hp == 0)
         hp = 1;
 
