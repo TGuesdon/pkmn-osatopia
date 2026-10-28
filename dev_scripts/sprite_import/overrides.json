@@ -1,0 +1,131 @@
+{
+ "defaults": {
+  "segmentation": "rembg",
+  "rembg_model": "birefnet-general-lite",
+  "flood_step": 3,
+  "shadow_lum": 90,
+  "shadow_sat": 80,
+  "line_lum": 70,
+  "line_fraction": 0.12,
+  "line_weight": 4,
+  "visible_alpha": 0.12,
+  "alpha_cut": 0.5,
+  "min_island": 4,
+  "scale": 1.0,
+  "front_place": {
+   "size": 60,
+   "bottom": 60
+  },
+  "back_place": {
+   "size": 54,
+   "bottom": 57
+  },
+  "thin_cut": 0.15,
+  "shadow_alpha": 140,
+  "shadow_from": 0.6,
+  "outline": 0
+ },
+ "monsters": {
+  "bebe_crocoburio": {
+   "source": "crocoburio"
+  },
+  "boufton": {
+   "source": "boufton_blanc"
+  },
+  "chacha": {
+   "source": "chachaton"
+  },
+  "dieubouftou": {
+   "source": "belier_divin",
+   "visible_alpha": 0.6
+  },
+  "bouftou_royal": {
+   "segmentation": "flood"
+  },
+  "dragodinde": {
+   "source": "dragodindo"
+  },
+  "gwo_tofu": {
+   "source": "tofu_ventripotent"
+  },
+  "kwakere_feu": {
+   "source": "kwakere_flamme"
+  },
+  "marcacin": {
+   "source": "barnabe"
+  },
+  "skyboufton": {
+   "source": "jeune_boufton_celeste"
+  },
+  "skybouftou": {
+   "source": "bouftou_celeste"
+  },
+  "crocoburio": {
+   "source": "crocoburio_big"
+  },
+  "kitsou": {
+   "segmentation": "flood"
+  },
+  "lapino": {
+   "back": {
+    "ground_color": [
+     4,
+     44,
+     52
+    ]
+   }
+  },
+  "larve_champetre": {
+   "visible_alpha": 0.5
+  },
+  "mouchame": {
+   "visible_alpha": 0.04
+  },
+  "morfrelon": {
+   "visible_alpha": 0.04
+  },
+  "lapino_mutant": {
+   "back": {
+    "ground_color": [
+     4,
+     40,
+     44
+    ]
+   }
+  },
+  "moskito": {
+   "translucent_over": [
+    232,
+    236,
+    224
+   ],
+   "thin_cut": 0.05
+  },
+  "minoskito": {
+   "translucent_over": [
+    232,
+    236,
+    224
+   ],
+   "visible_alpha": 0.2,
+   "thin_cut": 0.05
+  },
+  "cameliache": {
+   "front": {
+    "shadow_alpha": 250,
+    "shadow_sat": 120,
+    "shadow_lum": 110,
+    "shadow_from": 0.5
+   },
+   "line_lum": 35
+  },
+  "mol_usk": {
+   "visible_alpha": 0.85
+  },
+  "maltrio": {
+   "line_lum": 25,
+   "line_fraction": 0.3,
+   "thin_cut": 0.06
+  }
+ }
+}
