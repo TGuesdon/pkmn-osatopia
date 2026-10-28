@@ -562,6 +562,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .shinyPalette = gMonShinyPalette_Crachefoux,
         .iconSprite = gMonIcon_Crachefoux,
         .iconPalIndex = 3,
+        .levelUpLearnset = sCrachefouxLevelUpLearnset,
         FOOTPRINT(Crachefoux)
     },
     [SPECIES_TITARDO] =
@@ -1140,7 +1141,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .shinyPalette = gMonShinyPalette_TournesolSauvage,
         .iconSprite = gMonIcon_TournesolSauvage,
         .iconPalIndex = 3,
-        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_TOURNESOL_SAUVAGE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_TOURNESOL_AFFAME}),
         .levelUpLearnset = sTournesolSauvageLevelUpLearnset,
         FOOTPRINT(TournesolSauvage)
     },
