@@ -306,7 +306,18 @@ enum EvolutionConditions {
     IF_BAG_ITEM_COUNT,                  // The Player has the specific amount of an item in the bag. It then removes those items.
     IF_REGION,                          // The Player is in the specific region.
     IF_NOT_REGION,                      // The Player is NOT in the specific region.
+    // Osatopia
+    IF_IN_EVO_ZONE,                     // The Player is in the specific evolution zone (EVO_ZONE_*).
     CONDITIONS_END
+};
+
+// Zones used by IF_IN_EVO_ZONE (Osatopia).
+enum EvoZone {
+    EVO_ZONE_NONE,
+    EVO_ZONE_WATER,                     // Surfing, diving, Abandoned Ship, Aqua Hideout.
+    EVO_ZONE_VOLCANO,                   // Mt. Chimney and its surroundings, Magma Hideout.
+    EVO_ZONE_DESERT,                    // Sandstorm, Desert Ruins, Desert Underpass, Mirage Tower.
+    EVO_ZONE_CAVE,                      // Any other underground map.
 };
 
 enum EvolutionMethods {
