@@ -5,7 +5,8 @@
 > éléments des sorts, zone, lien exact avec les invocations.)*
 > Évolutions : Gobgob → Gobglouton (niv. 32).
 
-**État : validée** (pas encore intégrée dans `src/`). Pas de capacité custom.
+**État : validée et intégrée** (`species_info.h`, `gen_9.h`,
+`teachable_learnsets.h`). Pas de capacité custom.
 
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
 `.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` ; groupe d'œuf
@@ -38,7 +39,7 @@ Rappel de nommage : **Protection = Reflect** (écran physique) et
 | Atq. Spé | 55 | 85 |
 | Déf. Spé | 50 | 80 |
 | Vitesse | 60 | 80 |
-| **Total** | **295** | **470** |
+| **Total** | **295** | **465** |
 | Talents | Farceur / Infiltration / Fouille (caché) | idem |
 | Capture / Exp. | 120 / 68 | 45 / 175 |
 | EV | 1 PV | 1 PV + 1 Déf. Spé |
@@ -81,12 +82,13 @@ attaques aux mêmes niveaux et reçoit Queulonage à l'évolution
 | Évo (32) | Queulonage (Shed Tail) | Normal | Statut | - | Signature, pivot |
 | 34 | Voix Envoûtante (Alluring Voice) | Fée | Spé | 80 | STAB principal |
 | 38 | Stockage (Stockpile) | Normal | Statut | - | Boost défensif (×3) |
+| 38 | Relâche (Spit Up) | Normal | Spé | 1 | Libère Stockage |
+| 38 | Avale (Swallow) | Normal | Statut | - | Soin via Stockage |
 | 42 | Vibrobscur (Dark Pulse) | Ténèbres | Spé | 80 | STAB Ténèbres |
 | 46 | Vœu (Wish) | Normal | Statut | - | Soutien |
 | 50 | Relais (Baton Pass) | Normal | Statut | - | Passe les boosts |
 
-Avale et Relâche (suite naturelle de Stockage) ne sont pas au learnset : à
-ajouter en tuteur si on le souhaite (non vérifié dans les scripts de tuteurs).
+Avale et Relâche sont apprises au niveau 38, avec Stockage (comme Avaltout).
 
 ## CT, CS et tuteurs
 
@@ -101,7 +103,7 @@ Copie…) sont déjà incluses pour tous les monstres.
 | Façade, Larcin | CT | les deux |
 | Ball'Ombre, Psyko | CT | Gobglouton seul |
 | Vantardise, Cage Éclair, Boost, E-Coque, Ténacité, Blabla Dodo | Tuteur | les deux |
-| Coupe | CS | Gobglouton seul, à confirmer à l'intégration |
+| Coupe | CS | Gobglouton seul |
 
 Exclusions volontaires : Plénitude et Gonflette (pas d'auto-boost offensif),
 Danse-Lames, Pouvoir Lunaire, Poing Feu / Glace / Éclair, Séisme, Surf,
