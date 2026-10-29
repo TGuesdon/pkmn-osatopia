@@ -6852,6 +6852,17 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                     StringAppend(gStringVar4, gStringVar2);
                     StringAppend(gStringVar4, COMPOUND_STRING(" in bag"));
                     break;
+                // Osatopia
+                case IF_IN_EVO_ZONE:
+                    switch ((enum EvoZone)evolutions[i].params[j].arg1)
+                    {
+                    case EVO_ZONE_WATER:   StringAppend(gStringVar4, COMPOUND_STRING("in water")); break;
+                    case EVO_ZONE_VOLCANO: StringAppend(gStringVar4, COMPOUND_STRING("near volcano")); break;
+                    case EVO_ZONE_DESERT:  StringAppend(gStringVar4, COMPOUND_STRING("in desert")); break;
+                    case EVO_ZONE_CAVE:    StringAppend(gStringVar4, COMPOUND_STRING("in cave")); break;
+                    case EVO_ZONE_NONE:    StringAppend(gStringVar4, COMPOUND_STRING("???")); break;
+                    }
+                    break;
                 case CONDITIONS_END:
                     break;
                 }
