@@ -3470,6 +3470,15 @@ BattleScript_EffectSpikes::
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_MoveEnd
 
+BattleScript_EffectPotager::
+	attackcanceler
+	trysetpotager BattleScript_ButItFailed
+	attackanimation
+	waitanimation
+	printstring STRINGID_POTAGERPLANTED
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_MoveEnd
+
 BattleScript_EffectForesight::
 	attackcanceler
 	accuracycheck BattleScript_ButItFailed, NO_ACC_CALC_CHECK_LOCK_ON
@@ -8224,6 +8233,19 @@ BattleScript_HealReplacementZMove::
 	waitmessage B_WAIT_TIME_LONG
 	healthbarupdate BS_SCRIPTING, PASSIVE_HP_UPDATE
 	datahpupdate BS_SCRIPTING, PASSIVE_HP_UPDATE
+	return
+
+BattleScript_PotagerHeal::
+	playanimation BS_SCRIPTING, B_ANIM_WISH_HEAL, 0x0
+	printstring STRINGID_POTAGERHEAL
+	waitmessage B_WAIT_TIME_LONG
+	healthbarupdate BS_SCRIPTING, PASSIVE_HP_UPDATE
+	datahpupdate BS_SCRIPTING, PASSIVE_HP_UPDATE
+	return
+
+BattleScript_PotagerCleared::
+	printstring STRINGID_POTAGERCLEARED
+	waitmessage B_WAIT_TIME_LONG
 	return
 
 BattleScript_EffectExtremeEvoboost::

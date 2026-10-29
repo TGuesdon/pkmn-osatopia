@@ -21290,6 +21290,28 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_MalignantChain,
     },
 
+    // Osatopia
+    [MOVE_POTAGER] =
+    {
+        .name = COMPOUND_STRING("Potager"),
+        .description = COMPOUND_STRING(
+            "Plante des cawottes qui\n"
+            "soignent les alliés."),
+        .effect = EFFECT_POTAGER,
+        .power = 0,
+        .type = TYPE_NORMAL,
+        .accuracy = 0,
+        .pp = 20,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        .zMove = { .effect = Z_EFFECT_RECOVER_HP },
+        .ignoresProtect = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .snatchAffected = TRUE,
+        .battleAnimScript = gBattleAnimMove_Ingrain,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

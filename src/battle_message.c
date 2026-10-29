@@ -873,6 +873,9 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_POWERCONSTRUCTPRESENCEOFMANY]         = COMPOUND_STRING("You sense the presence of many!"),
     [STRINGID_POWERCONSTRUCTTRANSFORM]              = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} transformed into its Complete Forme!"),
     [STRINGID_ABILITYSHIELDPROTECTS]                = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s Ability is protected by the effects of its {B_LAST_ITEM}!"),
+    [STRINGID_POTAGERPLANTED]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} plante des cawottes!"),
+    [STRINGID_POTAGERHEAL]                          = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} croque une cawotte!"),
+    [STRINGID_POTAGERCLEARED]                       = COMPOUND_STRING("Les cawottes ont disparu!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =

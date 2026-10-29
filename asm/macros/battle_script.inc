@@ -1510,6 +1510,11 @@
 	.4byte \jumpInstr
 	.endm
 
+	.macro trysetpotager failInstr:req
+	callnative BS_TrySetPotager
+	.4byte \failInstr
+	.endm
+
 	.macro tryreflecttype failInstr:req
 	callnative BS_TryReflectType
 	.4byte \failInstr

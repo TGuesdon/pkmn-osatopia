@@ -528,6 +528,8 @@ extern const u8 BattleScript_ZEffectPrintString[];
 extern const u8 BattleScript_RecoverHPZMove[];
 extern const u8 BattleScript_StatUpZMove[];
 extern const u8 BattleScript_HealReplacementZMove[];
+extern const u8 BattleScript_PotagerHeal[];
+extern const u8 BattleScript_PotagerCleared[];
 extern const u8 BattleScript_EffectExtremeEvoboost[];
 
 // max moves
@@ -644,6 +646,7 @@ extern const u8 BattleScript_EffectCurse[];
 extern const u8 BattleScript_EffectHealingWish[];
 extern const u8 BattleScript_EffectProtect[];
 extern const u8 BattleScript_EffectSpikes[];
+extern const u8 BattleScript_EffectPotager[];
 extern const u8 BattleScript_EffectForesight[];
 extern const u8 BattleScript_EffectPerishSong[];
 extern const u8 BattleScript_EffectSandstorm[];

@@ -2419,4 +2419,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Drains plus efficaces."),
         .aiRating = 5,
     },
+
+    [ABILITY_TERRIER] =
+    {
+        .name = _("Terrier"),
+        .description = COMPOUND_STRING("Touche les ennemis sous terre."),
+        .aiRating = 4,
+    },
 };
