@@ -8026,6 +8026,21 @@ static bool32 DoSwitchInEffectsForBattler(u32 battler)
             gBattleStruct->hazardsCounter = 0;
         }
     }
+    else if (!gDisableStructs[battler].potagerDone)
+    {
+        // Potager : les cawottes soignent les alliés au sol qui entrent au combat.
+        gDisableStructs[battler].potagerDone = TRUE;
+        if (gSideTimers[side].potagerAmount != 0
+         && IsBattlerAlive(battler)
+         && gBattleMons[battler].hp != gBattleMons[battler].maxHP
+         && !gBattleMons[battler].volatiles.healBlock
+         && IsBattlerGrounded(battler, GetBattlerAbility(battler), GetBattlerHoldEffect(battler)))
+        {
+            SetHealAmount(battler, GetNonDynamaxMaxHP(battler) / (10 - 2 * gSideTimers[side].potagerAmount));
+            gBattleScripting.battler = battler;
+            BattleScriptCall(BattleScript_PotagerHeal);
+        }
+    }
     else if (gBattleMons[battler].hp != gBattleMons[battler].maxHP && gBattleStruct->zmove.healReplacement)
     {
         gBattleStruct->zmove.healReplacement = FALSE;
@@ -9399,6 +9414,20 @@ static void RemoveAllTerrains(void)
 
 static bool32 DefogClearHazards(u32 saveBattler, u32 side, bool32 clear)
 {
+    if (gSideTimers[side].potagerAmount != 0)
+    {
+        if (clear)
+        {
+            gSideTimers[side].potagerAmount = 0;
+            BattleScriptCall(BattleScript_PotagerCleared);
+        }
+        else
+        {
+            gBattlerAttacker = saveBattler;
+        }
+        return TRUE;
+    }
+
     if (!AreAnyHazardsOnSide(side))
         return FALSE;
 
@@ -15189,6 +15218,23 @@ void BS_JumpIfTerrainAffected(void)
         gBattlescriptCurrInstr = cmd->jumpInstr;
     else
         gBattlescriptCurrInstr = cmd->nextInstr;
+}
+
+void BS_TrySetPotager(void)
+{
+    NATIVE_ARGS(const u8 *failInstr);
+
+    u32 side = GetBattlerSide(gBattlerAttacker);
+
+    if (gSideTimers[side].potagerAmount == 3)
+    {
+        gBattlescriptCurrInstr = cmd->failInstr;
+    }
+    else
+    {
+        gSideTimers[side].potagerAmount++;
+        gBattlescriptCurrInstr = cmd->nextInstr;
+    }
 }
 
 void BS_TryReflectType(void)

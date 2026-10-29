@@ -8214,9 +8214,10 @@ static inline uq4_12_t GetMinimizeModifier(u32 move, u32 battlerDef)
     return UQ_4_12(1.0);
 }
 
-static inline uq4_12_t GetUndergroundModifier(u32 move, u32 battlerDef)
+static inline uq4_12_t GetUndergroundModifier(u32 move, u32 battlerDef, enum Ability abilityAtk)
 {
-    if (MoveDamagesUnderground(move) && gBattleMons[battlerDef].volatiles.semiInvulnerable == STATE_UNDERGROUND)
+    if ((MoveDamagesUnderground(move) || abilityAtk == ABILITY_TERRIER)
+     && gBattleMons[battlerDef].volatiles.semiInvulnerable == STATE_UNDERGROUND)
         return UQ_4_12(2.0);
     return UQ_4_12(1.0);
 }
@@ -8429,7 +8430,7 @@ static inline uq4_12_t GetOtherModifiers(struct DamageContext *ctx)
 
     //TODO: Behemoth Blade, Behemoth Bash, Dynamax Cannon (Dynamax)
     DAMAGE_MULTIPLY_MODIFIER(GetMinimizeModifier(ctx->move, ctx->battlerDef));
-    DAMAGE_MULTIPLY_MODIFIER(GetUndergroundModifier(ctx->move, ctx->battlerDef));
+    DAMAGE_MULTIPLY_MODIFIER(GetUndergroundModifier(ctx->move, ctx->battlerDef, ctx->abilityAtk));
     DAMAGE_MULTIPLY_MODIFIER(GetDiveModifier(ctx->move, ctx->battlerDef));
     DAMAGE_MULTIPLY_MODIFIER(GetAirborneModifier(ctx->move, ctx->battlerDef));
     DAMAGE_MULTIPLY_MODIFIER(GetScreensModifier(ctx));
@@ -10818,6 +10819,14 @@ bool32 CanMoveSkipAccuracyCalc(u32 battlerAtk, u32 battlerDef, enum Ability abil
     {
         effect = TRUE;
         ability = ABILITY_NO_GUARD;
+    }
+    // Terrier : les capacités du lanceur atteignent une cible sous terre.
+    else if (abilityAtk == ABILITY_TERRIER
+          && gBattleMons[battlerDef].volatiles.semiInvulnerable == STATE_UNDERGROUND)
+    {
+        effect = TRUE;
+        if (option == RUN_SCRIPT)
+            RecordAbilityBattle(battlerAtk, ABILITY_TERRIER);
     }
     // If the target is under the effects of Telekinesis, and the move isn't a OH-KO move, move hits.
     else if (gBattleMons[battlerDef].volatiles.telekinesis

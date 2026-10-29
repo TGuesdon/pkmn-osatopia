@@ -1864,6 +1864,11 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                     ADJUST_SCORE(-8);
             }
             break;
+        case EFFECT_POTAGER:
+            if (gSideTimers[GetBattlerSide(battlerAtk)].potagerAmount >= 3
+             || CountUsablePartyMons(battlerAtk) == 0)
+                ADJUST_SCORE(-10);
+            break;
         case EFFECT_SPIKES:
             if (gSideTimers[GetBattlerSide(battlerDef)].spikesAmount >= 3)
                 ADJUST_SCORE(-10);
@@ -4705,6 +4710,15 @@ static s32 AI_CalcMoveEffectScore(u32 battlerAtk, u32 battlerDef, u32 move, stru
             else if ((gBattleMons[battlerAtk].hp > 1) // Only spam endure for Flail/Reversal if you're not at Min Health
              && (HasMoveWithEffect(battlerAtk, EFFECT_FLAIL) || HasMoveWithEffect(battlerAtk, EFFECT_ENDEAVOR)))
                 ADJUST_SCORE(GOOD_EFFECT);
+        }
+        break;
+    case EFFECT_POTAGER:
+        if (CountUsablePartyMons(battlerAtk) != 0)
+        {
+            if (gSideTimers[GetBattlerSide(battlerAtk)].potagerAmount == 0)
+                ADJUST_SCORE(DECENT_EFFECT);
+            else
+                ADJUST_SCORE(WEAK_EFFECT);
         }
         break;
     case EFFECT_CEASELESS_EDGE:
