@@ -4343,6 +4343,36 @@ u32 GetGMaxTargetSpecies(u32 species)
     return species;
 }
 
+// Osatopia: the zones are checked in this order, so the first matching zone wins
+// (e.g. Fiery Path is underground but belongs to the volcano).
+static enum EvoZone GetPlayerEvoZone(void)
+{
+    switch (gMapHeader.regionMapSectionId)
+    {
+    case MAPSEC_ABANDONED_SHIP:
+    case MAPSEC_AQUA_HIDEOUT:
+        return EVO_ZONE_WATER;
+    case MAPSEC_MT_CHIMNEY:
+    case MAPSEC_FIERY_PATH:
+    case MAPSEC_JAGGED_PASS:
+    case MAPSEC_ROUTE_112:
+    case MAPSEC_MAGMA_HIDEOUT:
+        return EVO_ZONE_VOLCANO;
+    case MAPSEC_DESERT_RUINS:
+    case MAPSEC_DESERT_UNDERPASS:
+    case MAPSEC_MIRAGE_TOWER:
+        return EVO_ZONE_DESERT;
+    }
+
+    if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING) || gMapHeader.mapType == MAP_TYPE_UNDERWATER)
+        return EVO_ZONE_WATER;
+    if (GetCurrentWeather() == WEATHER_SANDSTORM)
+        return EVO_ZONE_DESERT;
+    if (gMapHeader.mapType == MAP_TYPE_UNDERGROUND)
+        return EVO_ZONE_CAVE;
+    return EVO_ZONE_NONE;
+}
+
 bool32 DoesMonMeetAdditionalConditions(struct Pokemon *mon, const struct EvolutionParam *params, struct Pokemon *tradePartner, u32 partyId, bool32 *canStopEvo, enum EvoState evoState)
 {
     u32 i, j;
@@ -4645,6 +4675,11 @@ bool32 DoesMonMeetAdditionalConditions(struct Pokemon *mon, const struct Evoluti
             break;
         case IF_NOT_REGION:
             if (GetCurrentRegion() != params[i].arg1)
+                currentCondition = TRUE;
+            break;
+        // Osatopia
+        case IF_IN_EVO_ZONE:
+            if (GetPlayerEvoZone() == params[i].arg1)
                 currentCondition = TRUE;
             break;
         case CONDITIONS_END:
