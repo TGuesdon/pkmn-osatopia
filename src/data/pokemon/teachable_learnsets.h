@@ -36905,3 +36905,25 @@ static const u16 sLapinoMutantTeachableLearnset[] = {
     MOVE_TOXIC,
     MOVE_UNAVAILABLE,
 };
+
+static const u16 sSherpoaTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_BODY_SLAM,
+    MOVE_BRICK_BREAK,
+    MOVE_DOUBLE_TEAM,
+    MOVE_ENDURE,
+    MOVE_FACADE,
+    MOVE_IRON_TAIL,
+    MOVE_PROTECT,
+    MOVE_REST,
+    MOVE_ROAR,
+    MOVE_ROCK_SMASH,
+    MOVE_SLEEP_TALK,
+    MOVE_STRENGTH,
+    MOVE_SWAGGER,
+    MOVE_TAUNT,
+    MOVE_THIEF,
+    MOVE_TORMENT,
+    MOVE_TOXIC,
+    MOVE_UNAVAILABLE,
+};
