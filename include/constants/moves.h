@@ -912,8 +912,9 @@
 
 // Osatopia
 #define MOVE_POTAGER (MOVES_COUNT_GEN9 + 0)
+#define MOVE_FILON_DOR (MOVES_COUNT_GEN9 + 1)
 
-#define MOVES_COUNT         (MOVES_COUNT_GEN9 + 1)
+#define MOVES_COUNT         (MOVES_COUNT_GEN9 + 2)
 
 // Z Moves
 #define MOVE_BREAKNECK_BLITZ (MOVES_COUNT + 0)

@@ -21312,6 +21312,26 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_Ingrain,
     },
 
+    [MOVE_FILON_DOR] =
+    {
+        .name = COMPOUND_STRING("Filon d'Or"),
+        .description = COMPOUND_STRING(
+            "Lance des pépites sur l'ennemi.\n"
+            "Rapporte de l'argent après."),
+        .effect = EFFECT_HIT,
+        .power = 75,
+        .type = TYPE_GROUND,
+        .accuracy = 100,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_PAYDAY,
+        }),
+        .battleAnimScript = gBattleAnimMove_PayDay,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
