@@ -36906,6 +36906,53 @@ static const u16 sLapinoMutantTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+static const u16 sGobgobTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_DOUBLE_TEAM,
+    MOVE_ENDURE,
+    MOVE_FACADE,
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_PSYCH_UP,
+    MOVE_REFLECT,
+    MOVE_REST,
+    MOVE_SAFEGUARD,
+    MOVE_SKILL_SWAP,
+    MOVE_SLEEP_TALK,
+    MOVE_SOFT_BOILED,
+    MOVE_SWAGGER,
+    MOVE_TAUNT,
+    MOVE_THIEF,
+    MOVE_THUNDER_WAVE,
+    MOVE_TORMENT,
+    MOVE_TOXIC,
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sGobgobGloutonTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_CUT,
+    MOVE_DOUBLE_TEAM,
+    MOVE_ENDURE,
+    MOVE_FACADE,
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_PSYCHIC,
+    MOVE_PSYCH_UP,
+    MOVE_REFLECT,
+    MOVE_REST,
+    MOVE_SAFEGUARD,
+    MOVE_SHADOW_BALL,
+    MOVE_SKILL_SWAP,
+    MOVE_SLEEP_TALK,
+    MOVE_SOFT_BOILED,
+    MOVE_SWAGGER,
+    MOVE_TAUNT,
+    MOVE_THIEF,
+    MOVE_THUNDER_WAVE,
+    MOVE_UNAVAILABLE,
+};
+
 static const u16 sSherpoaTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BODY_SLAM,
