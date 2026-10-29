@@ -2426,4 +2426,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Touche les ennemis sous terre."),
         .aiRating = 4,
     },
+
+    [ABILITY_SOIN_ALCHIMIQUE] =
+    {
+        .name = _("Soin Alchimique"),
+        .description = COMPOUND_STRING("Récupère des PV à chaque tour."),
+        .aiRating = 6,
+    },
 };
