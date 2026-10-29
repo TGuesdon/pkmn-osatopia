@@ -4664,6 +4664,15 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, u32 battler, enum Ability ab
                     effect++;
                 }
                 break;
+            case ABILITY_SOIN_ALCHIMIQUE:
+                if (!IsBattlerAtMaxHp(battler)
+                 && !gBattleMons[battler].volatiles.healBlock)
+                {
+                    SetHealAmount(battler, GetNonDynamaxMaxHP(battler) / 16);
+                    BattleScriptExecute(BattleScript_RainDishActivates);
+                    effect++;
+                }
+                break;
             case ABILITY_DRY_SKIN:
                 if (IsBattlerWeatherAffected(battler, B_WEATHER_SUN))
                     goto SOLAR_POWER_HP_DROP;

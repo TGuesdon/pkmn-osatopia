@@ -337,6 +337,7 @@ enum __attribute__((packed)) Ability
     // Osatopia
     ABILITY_SEVE_AVIDE = ABILITIES_COUNT_GEN9,
     ABILITY_TERRIER,
+    ABILITY_SOIN_ALCHIMIQUE,
     ABILITIES_COUNT,
 };
 
