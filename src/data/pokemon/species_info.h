@@ -296,7 +296,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Tronknyde,
         .shinyPalette = gMonShinyPalette_Tronknyde,
         .iconSprite = gMonIcon_Tronknyde,
-        .iconPalIndex = 0,
+        .iconPalIndex = 5,
         FOOTPRINT(Tronknyde)
         .levelUpLearnset = sTronknydeLevelUpLearnset,
         .teachableLearnset = sTronknydeTeachableLearnset,
@@ -350,7 +350,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Abraknyde,
         .shinyPalette = gMonShinyPalette_Abraknyde,
         .iconSprite = gMonIcon_Abraknyde,
-        .iconPalIndex = 2,
+        .iconPalIndex = 5,
         .levelUpLearnset = sAbraknydeLevelUpLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_ABRAKLEUR}),
         FOOTPRINT(Abraknyde)
@@ -455,7 +455,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Tifoux,
         .shinyPalette = gMonShinyPalette_Tifoux,
         .iconSprite = gMonIcon_Tifoux,
-        .iconPalIndex = 3,
+        .iconPalIndex = 5,
         .levelUpLearnset = sTifouxLevelUpLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_ROUQUETTE}),
         FOOTPRINT(Tifoux)
@@ -508,7 +508,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Rouquette,
         .shinyPalette = gMonShinyPalette_Rouquette,
         .iconSprite = gMonIcon_Rouquette,
-        .iconPalIndex = 3,
+        .iconPalIndex = 0,
         .levelUpLearnset = sRouquetteLevelUpLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_CRACHEFOUX}),
         FOOTPRINT(Rouquette)
@@ -561,7 +561,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Crachefoux,
         .shinyPalette = gMonShinyPalette_Crachefoux,
         .iconSprite = gMonIcon_Crachefoux,
-        .iconPalIndex = 3,
+        .iconPalIndex = 5,
         .levelUpLearnset = sCrachefouxLevelUpLearnset,
         FOOTPRINT(Crachefoux)
     },
@@ -613,7 +613,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Titardo,
         .shinyPalette = gMonShinyPalette_Titardo,
         .iconSprite = gMonIcon_Titardo,
-        .iconPalIndex = 3,
+        .iconPalIndex = 5,
         .levelUpLearnset = sTitardoLevelUpLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_CRAPODO}),
         FOOTPRINT(Titardo)
@@ -666,7 +666,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Crapodo,
         .shinyPalette = gMonShinyPalette_Crapodo,
         .iconSprite = gMonIcon_Crapodo,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         .levelUpLearnset = sCrapodoLevelUpLearnset,
         FOOTPRINT(Crapodo)
     },
@@ -718,7 +718,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Grenn,
         .shinyPalette = gMonShinyPalette_Grenn,
         .iconSprite = gMonIcon_Grenn,
-        .iconPalIndex = 2,
+        .iconPalIndex = 5,
         .levelUpLearnset = sGrennLevelUpLearnset,
         FOOTPRINT(Grenn)
     },
@@ -770,7 +770,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Sousouris,
         .shinyPalette = gMonShinyPalette_Sousouris,
         .iconSprite = gMonIcon_Sousouris,
-        .iconPalIndex = 3,
+        .iconPalIndex = 5,
         .levelUpLearnset = sSousourisLevelUpLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_MILIRAT}),
         FOOTPRINT(Sousouris)
@@ -1034,7 +1034,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_BouftouRoyal,
         .shinyPalette = gMonShinyPalette_BouftouRoyal,
         .iconSprite = gMonIcon_BouftouRoyal,
-        .iconPalIndex = 2,
+        .iconPalIndex = 3,
         .levelUpLearnset = sBouftouRoyalLevelUpLearnset,
         FOOTPRINT(BouftouRoyal)
     },
@@ -1086,7 +1086,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_GardienneChampetre,
         .shinyPalette = gMonShinyPalette_GardienneChampetre,
         .iconSprite = gMonIcon_GardienneChampetre,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         .evolutions = EVOLUTION({EVO_LEVEL, 14, SPECIES_TOURNESOL_SAUVAGE}),
         .levelUpLearnset = sGardienneChampetreLevelUpLearnset,
         FOOTPRINT(GardienneChampetre)
@@ -1194,7 +1194,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_TournesolAffame,
         .shinyPalette = gMonShinyPalette_TournesolAffame,
         .iconSprite = gMonIcon_TournesolAffame,
-        .iconPalIndex = 3,
+        .iconPalIndex = 5,
         .levelUpLearnset = sTournesolAffameLevelUpLearnset,
         FOOTPRINT(TournesolAffame)
     },
@@ -1352,7 +1352,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_ShinLarve,
         .shinyPalette = gMonShinyPalette_ShinLarve,
         .iconSprite = gMonIcon_ShinLarve,
-        .iconPalIndex = 2,
+        .iconPalIndex = 3,
         .levelUpLearnset = sShinLarveLevelUpLearnset,
         FOOTPRINT(ShinLarve)
     },
@@ -1404,7 +1404,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_DiscipleDuKimbo,
         .shinyPalette = gMonShinyPalette_DiscipleDuKimbo,
         .iconSprite = gMonIcon_DiscipleDuKimbo,
-        .iconPalIndex = 3,
+        .iconPalIndex = 5,
         .levelUpLearnset = sDiscipleDuKimboLevelUpLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_BITOUF_PLAINE}),
         FOOTPRINT(DiscipleDuKimbo)
@@ -1457,7 +1457,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_BitoufPlaine,
         .shinyPalette = gMonShinyPalette_BitoufPlaine,
         .iconSprite = gMonIcon_BitoufPlaine,
-        .iconPalIndex = 0,
+        .iconPalIndex = 5,
         .levelUpLearnset = sBitoufPlaineLevelUpLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_BITOUF_AERIEN}),
         FOOTPRINT(BitoufPlaine)
@@ -1510,7 +1510,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_BitoufAerien,
         .shinyPalette = gMonShinyPalette_BitoufAerien,
         .iconSprite = gMonIcon_BitoufAerien,
-        .iconPalIndex = 3,
+        .iconPalIndex = 5,
         .levelUpLearnset = sBitoufAerienLevelUpLearnset,
         FOOTPRINT(BitoufAerien)
     },
@@ -1562,7 +1562,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_LaFolle,
         .shinyPalette = gMonShinyPalette_LaFolle,
         .iconSprite = gMonIcon_LaFolle,
-        .iconPalIndex = 2,
+        .iconPalIndex = 5,
         .levelUpLearnset = sFolleLevelUpLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_LA_BLOQUEUSE}),
         FOOTPRINT(LaFolle)
@@ -1615,7 +1615,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_LaBloqueuse,
         .shinyPalette = gMonShinyPalette_LaBloqueuse,
         .iconSprite = gMonIcon_LaBloqueuse,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         .levelUpLearnset = sBloqueuseLevelUpLearnset,
         FOOTPRINT(LaBloqueuse)
     },
@@ -1667,7 +1667,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Tofu,
         .shinyPalette = gMonShinyPalette_Tofu,
         .iconSprite = gMonIcon_Tofu,
-        .iconPalIndex = 0,
+        .iconPalIndex = 5,
         .levelUpLearnset = sTofuLevelUpLearnset,
         .teachableLearnset = sTofuTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_GWO_TOFU}),
@@ -1721,7 +1721,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_GwoTofu,
         .shinyPalette = gMonShinyPalette_GwoTofu,
         .iconSprite = gMonIcon_GwoTofu,
-        .iconPalIndex = 0,
+        .iconPalIndex = 3,
         .levelUpLearnset = sGwoTofuLevelUpLearnset,
         .teachableLearnset = sGwoTofuTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_TOFU_ROYAL}),
@@ -1776,7 +1776,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_TofuRoyal,
         .shinyPalette = gMonShinyPalette_TofuRoyal,
         .iconSprite = gMonIcon_TofuRoyal,
-        .iconPalIndex = 0,
+        .iconPalIndex = 3,
         .levelUpLearnset = sTofuRoyalLevelUpLearnset,
         .teachableLearnset = sTofuRoyalTeachableLearnset,
         FOOTPRINT(TofuRoyal)
@@ -1829,7 +1829,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_BwakGlace,
        .shinyPalette = gMonShinyPalette_BwakGlace,
        .iconSprite = gMonIcon_BwakGlace,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sBwakGlaceLevelUpLearnset,
        .teachableLearnset = sBwakGlaceTeachableLearnset,
        .evolutions = EVOLUTION({EVO_ITEM, ITEM_ICE_STONE, SPECIES_KWAKERE_GLACE}),
@@ -1884,7 +1884,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_KwakereGlace,
        .shinyPalette = gMonShinyPalette_KwakereGlace,
        .iconSprite = gMonIcon_KwakereGlace,
-       .iconPalIndex = 0,
+       .iconPalIndex = 2,
        .levelUpLearnset = sKwakereGlaceLevelUpLearnset,
        .teachableLearnset = sKwakereGlaceTeachableLearnset,
        FOOTPRINT(KwakereGlace)
@@ -1937,7 +1937,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_BwakVent,
        .shinyPalette = gMonShinyPalette_BwakVent,
        .iconSprite = gMonIcon_BwakVent,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        .levelUpLearnset = sBwakVentLevelUpLearnset,
        .teachableLearnset = sBwakVentTeachableLearnset,
        .evolutions = EVOLUTION({EVO_ITEM, ITEM_WIND_STONE, SPECIES_KWAKERE_VENT}),
@@ -1992,7 +1992,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_KwakereVent,
        .shinyPalette = gMonShinyPalette_KwakereVent,
        .iconSprite = gMonIcon_KwakereVent,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        .levelUpLearnset = sKwakereVentLevelUpLearnset,
        .teachableLearnset = sKwakereVentTeachableLearnset,
        FOOTPRINT(KwakereVent)
@@ -2045,7 +2045,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_BwakFeu,
        .shinyPalette = gMonShinyPalette_BwakFeu,
        .iconSprite = gMonIcon_BwakFeu,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        .levelUpLearnset = sBwakFeuLevelUpLearnset,
        .teachableLearnset = sBwakFeuTeachableLearnset,
        .evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_KWAKERE_FEU}),
@@ -2099,7 +2099,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_KwakereFeu,
        .shinyPalette = gMonShinyPalette_KwakereFeu,
        .iconSprite = gMonIcon_KwakereFeu,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        .levelUpLearnset = sKwakereFeuLevelUpLearnset,
        .teachableLearnset = sKwakereFeuTeachableLearnset,
        FOOTPRINT(KwakereFeu)
@@ -2152,7 +2152,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_BwakTerre,
        .shinyPalette = gMonShinyPalette_BwakTerre,
        .iconSprite = gMonIcon_BwakTerre,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        .levelUpLearnset = sBwakTerreLevelUpLearnset,
        .teachableLearnset = sBwakTerreTeachableLearnset,
        .evolutions = EVOLUTION({EVO_ITEM, ITEM_EARTH_STONE, SPECIES_KWAKERE_TERRE}),
@@ -2207,7 +2207,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_KwakereTerre,
        .shinyPalette = gMonShinyPalette_KwakereTerre,
        .iconSprite = gMonIcon_KwakereTerre,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        .levelUpLearnset = sKwakereTerreLevelUpLearnset,
        .teachableLearnset = sKwakereTerreTeachableLearnset,
        FOOTPRINT(KwakereTerre)
@@ -2260,7 +2260,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Tigrimas,
        .shinyPalette = gMonShinyPalette_Tigrimas,
        .iconSprite = gMonIcon_Tigrimas,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        .levelUpLearnset = sTigrimasLevelUpLearnset,
        .teachableLearnset = sTigrimasTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_RONRONCHON}),
@@ -2315,7 +2315,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Ronronchon,
        .shinyPalette = gMonShinyPalette_Ronronchon,
        .iconSprite = gMonIcon_Ronronchon,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sRonronchonLevelUpLearnset,
        .teachableLearnset = sRonronchonTeachableLearnset,
        FOOTPRINT(Ronronchon)
@@ -2368,7 +2368,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Arakne,
        .shinyPalette = gMonShinyPalette_Arakne,
        .iconSprite = gMonIcon_Arakne,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sArakneLevelUpLearnset,
        .teachableLearnset = sArakneTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_ARAKNOTRON}),
@@ -2477,7 +2477,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Abrakne,
        .shinyPalette = gMonShinyPalette_Abrakne,
        .iconSprite = gMonIcon_Abrakne,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sAbrakneLevelUpLearnset,
        .teachableLearnset = sAbrakneTeachableLearnset,
        FOOTPRINT(Abrakne)
@@ -2530,7 +2530,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Moskito,
         .shinyPalette = gMonShinyPalette_Moskito,
         .iconSprite = gMonIcon_Moskito,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
        .levelUpLearnset = sMoskitoLevelUpLearnset,
        .teachableLearnset = sMoskitoTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_MINOSKITO}),
@@ -2584,7 +2584,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Minoskito,
        .shinyPalette = gMonShinyPalette_Minoskito,
        .iconSprite = gMonIcon_Minoskito,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        .levelUpLearnset = sMinoskitoLevelUpLearnset,
        .teachableLearnset = sMinoskitoTeachableLearnset,
        FOOTPRINT(Minoskito)
@@ -2637,7 +2637,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_ChampChamp,
         .shinyPalette = gMonShinyPalette_ChampChamp,
        .iconSprite = gMonIcon_ChampChamp,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        .levelUpLearnset = sChampChampLevelUpLearnset,
        .teachableLearnset = sChampChampTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_CHAMP_A_GNON}),
@@ -2744,7 +2744,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Marcacin,
        .shinyPalette = gMonShinyPalette_Marcacin,
        .iconSprite = gMonIcon_Marcacin,
-       .iconPalIndex = 0,
+       .iconPalIndex = 2,
        .levelUpLearnset = sMarcacinLevelUpLearnset,
        .teachableLearnset = sMarcacinTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_SANGLIER}),
@@ -2799,7 +2799,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Sanglier,
        .shinyPalette = gMonShinyPalette_Sanglier,
        .iconSprite = gMonIcon_Sanglier,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sSanglierLevelUpLearnset,
        .teachableLearnset = sSanglierTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SANGLIER_AGRESSIF}),
@@ -2854,7 +2854,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_SanglierAgressif,
        .shinyPalette = gMonShinyPalette_SanglierAgressif,
        .iconSprite = gMonIcon_SanglierAgressif,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        .levelUpLearnset = sSanglierAgressifLevelUpLearnset,
        .teachableLearnset = sSanglierAgressifTeachableLearnset,
        FOOTPRINT(SanglierAgressif)
@@ -2907,7 +2907,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_ElScarador,
        .shinyPalette = gMonShinyPalette_ElScarador,
        .iconSprite = gMonIcon_ElScarador,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sElScaradorLevelUpLearnset,
        .teachableLearnset = sElScaradorTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_SCARAFEUILLE_BLEU, CONDITIONS({IF_IN_EVO_ZONE, EVO_ZONE_WATER})},
@@ -2966,7 +2966,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_ScarafeuilleVert,
         .shinyPalette = gMonShinyPalette_ScarafeuilleVert,
         .iconSprite = gMonIcon_ScarafeuilleVert,
-        .iconPalIndex = 0,
+        .iconPalIndex = 5,
        .levelUpLearnset = sScarafeuilleVertLevelUpLearnset,
        .teachableLearnset = sScarafeuilleVertTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SCARABOSSE_DORE}),
@@ -3021,7 +3021,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_ScarafeuilleBleu,
         .shinyPalette = gMonShinyPalette_ScarafeuilleBleu,
         .iconSprite = gMonIcon_ScarafeuilleBleu,
-        .iconPalIndex = 0,
+        .iconPalIndex = 3,
        .levelUpLearnset = sScarafeuilleBleuLevelUpLearnset,
        .teachableLearnset = sScarafeuilleBleuTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SCARABOSSE_DORE}),
@@ -3076,7 +3076,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_ScarafeuilleBlanc,
         .shinyPalette = gMonShinyPalette_ScarafeuilleBlanc,
         .iconSprite = gMonIcon_ScarafeuilleBlanc,
-        .iconPalIndex = 0,
+        .iconPalIndex = 3,
        .levelUpLearnset = sScarafeuilleBlancLevelUpLearnset,
        .teachableLearnset = sScarafeuilleBlancTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SCARABOSSE_DORE}),
@@ -3130,7 +3130,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_ScarafeuilleRouge,
         .shinyPalette = gMonShinyPalette_ScarafeuilleRouge,
         .iconSprite = gMonIcon_ScarafeuilleRouge,
-        .iconPalIndex = 0,
+        .iconPalIndex = 5,
        .levelUpLearnset = sScarafeuilleRougeLevelUpLearnset,
        .teachableLearnset = sScarafeuilleRougeTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SCARABOSSE_DORE}),
@@ -3185,7 +3185,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_ScarafeuilleNoir,
         .shinyPalette = gMonShinyPalette_ScarafeuilleNoir,
        .iconSprite = gMonIcon_ScarafeuilleNoir,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sScarafeuilleNoirLevelUpLearnset,
        .teachableLearnset = sScarafeuilleNoirTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SCARABOSSE_DORE}),
@@ -3240,7 +3240,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_ScarabosseDore,
         .shinyPalette = gMonShinyPalette_ScarabosseDore,
        .iconSprite = gMonIcon_ScarabosseDore,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sScarabosseDoreLevelUpLearnset,
        .teachableLearnset = sScarabosseDoreTeachableLearnset,
        FOOTPRINT(ScarabosseDore)
@@ -3293,7 +3293,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Tiwabbit,
        .shinyPalette = gMonShinyPalette_Tiwabbit,
        .iconSprite = gMonIcon_Tiwabbit,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sTiwabbitLevelUpLearnset,
        .teachableLearnset = sTiwabbitTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_WABBIT}),
@@ -3348,7 +3348,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Wabbit,
        .shinyPalette = gMonShinyPalette_Wabbit,
        .iconSprite = gMonIcon_Wabbit,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        .levelUpLearnset = sWabbitLevelUpLearnset,
        .teachableLearnset = sWabbitTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_WO_WABBIT}),
@@ -3403,7 +3403,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_WoWabbit,
        .shinyPalette = gMonShinyPalette_WoWabbit,
        .iconSprite = gMonIcon_WoWabbit,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        .levelUpLearnset = sWoWabbitLevelUpLearnset,
        .teachableLearnset = sWoWabbitTeachableLearnset,
        FOOTPRINT(WoWabbit)
@@ -3456,7 +3456,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Gobet,
        .shinyPalette = gMonShinyPalette_Gobet,
        .iconSprite = gMonIcon_Gobet,
-       .iconPalIndex = 0,
+       .iconPalIndex = 2,
        .levelUpLearnset = sGobetLevelUpLearnset,
        .teachableLearnset = sGobetTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_GOB_TROTTEUR}),
@@ -3511,7 +3511,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_GobTrotteur,
         .shinyPalette = gMonShinyPalette_GobTrotteur,
         .iconSprite = gMonIcon_GobTrotteur,
-        .iconPalIndex = 0,
+        .iconPalIndex = 2,
         .levelUpLearnset = sGobTrotteurLevelUpLearnset,
         .teachableLearnset = sGobTrotteurTeachableLearnset,
         FOOTPRINT(GobTrotteur)
@@ -3565,7 +3565,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Sherpoa,
        .shinyPalette = gMonShinyPalette_Sherpoa,
        .iconSprite = gMonIcon_Sherpoa,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sSherpoaLevelUpLearnset,
        .teachableLearnset = sSherpoaTeachableLearnset,
        FOOTPRINT(Sherpoa)
@@ -3618,7 +3618,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Lapino,
        .shinyPalette = gMonShinyPalette_Lapino,
        .iconSprite = gMonIcon_Lapino,
-       .iconPalIndex = 0,
+       .iconPalIndex = 2,
        .levelUpLearnset = sLapinoLevelUpLearnset,
        .teachableLearnset = sLapinoTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_LAPINO_MUTANT}),
@@ -3673,7 +3673,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_LapinoMutant,
        .shinyPalette = gMonShinyPalette_LapinoMutant,
        .iconSprite = gMonIcon_LapinoMutant,
-       .iconPalIndex = 0,
+       .iconPalIndex = 2,
        .levelUpLearnset = sLapinoMutantLevelUpLearnset,
        .teachableLearnset = sLapinoMutantTeachableLearnset,
        FOOTPRINT(LapinoMutant)
@@ -3726,7 +3726,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Gobgob,
        .shinyPalette = gMonShinyPalette_Gobgob,
        .iconSprite = gMonIcon_Gobgob,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sGobgobLevelUpLearnset,
        .teachableLearnset = sGobgobTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_GOBGOB_GLOUTON}),
@@ -3781,7 +3781,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_GobgobGlouton,
         .shinyPalette = gMonShinyPalette_GobgobGlouton,
         .iconSprite = gMonIcon_GobgobGlouton,
-        .iconPalIndex = 0,
+        .iconPalIndex = 3,
         .levelUpLearnset = sGobgobGloutonLevelUpLearnset,
        .teachableLearnset = sGobgobGloutonTeachableLearnset,
        FOOTPRINT(GobgobGlouton)
@@ -3834,7 +3834,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Phorreveur,
        .shinyPalette = gMonShinyPalette_Phorreveur,
        .iconSprite = gMonIcon_Phorreveur,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sPhorreveurLevelUpLearnset,
        .teachableLearnset = sPhorreveurTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_METAPHORREUR}),
@@ -3889,7 +3889,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Metaphorreur,
        .shinyPalette = gMonShinyPalette_Metaphorreur,
        .iconSprite = gMonIcon_Gobgob,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sMetaphorreurLevelUpLearnset,
        .teachableLearnset = sMetaphorreurTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_PHOSSILE}),
@@ -3997,7 +3997,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Raphaela,
        .shinyPalette = gMonShinyPalette_Raphaela,
        .iconSprite = gMonIcon_Raphaela,
-       .iconPalIndex = 0,
+       .iconPalIndex = 4,
        .levelUpLearnset = sRaphaelaLevelUpLearnset,
        .teachableLearnset = sRaphaelaTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_TORTUE_BLEU}),
@@ -4052,7 +4052,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_TortueBleu,
        .shinyPalette = gMonShinyPalette_TortueBleu,
        .iconSprite = gMonIcon_TortueBleu,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        .levelUpLearnset = sTortueBleuLevelUpLearnset,
        .teachableLearnset = sTortueBleuTeachableLearnset,
        FOOTPRINT(TortueBleu)
@@ -4105,7 +4105,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Dolbinos,
        .shinyPalette = gMonShinyPalette_Dolbinos,
        .iconSprite = gMonIcon_Dolbinos,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_DOKACHU}),
        .levelUpLearnset = sDolbinosLevelUpLearnset,
        .teachableLearnset = sDolbinosTeachableLearnset,
@@ -4160,7 +4160,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Dokachu,
        .shinyPalette = gMonShinyPalette_Dokachu,
        .iconSprite = gMonIcon_Dokachu,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sDokachuLevelUpLearnset,
        .teachableLearnset = sDokachuTeachableLearnset,
        FOOTPRINT(Dokachu)
@@ -4214,7 +4214,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Kitsou,
        .shinyPalette = gMonShinyPalette_Kitsou,
        .iconSprite = gMonIcon_Kitsou,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        .levelUpLearnset = sKitsouLevelUpLearnset,
        .teachableLearnset = sKitsouTeachableLearnset,
        FOOTPRINT(Kitsou)
@@ -4267,7 +4267,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Bourgeon,
        .shinyPalette = gMonShinyPalette_Bourgeon,
        .iconSprite = gMonIcon_Bourgeon,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        .levelUpLearnset = sBourgeonLevelUpLearnset,
        .teachableLearnset = sBourgeonTeachableLearnset,
        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_BULBISAUGE}),
@@ -4322,7 +4322,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Bulbisauge,
        .shinyPalette = gMonShinyPalette_Bulbisauge,
        .iconSprite = gMonIcon_Bulbisauge,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        .levelUpLearnset = sBulbisaugeLevelUpLearnset,
        .teachableLearnset = sBulbisaugeTeachableLearnset,
        FOOTPRINT(Bulbisauge)
@@ -4375,7 +4375,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Sarkapwane,
        .shinyPalette = gMonShinyPalette_Sarkapwane,
        .iconSprite = gMonIcon_Sarkapwane,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Sarkapwane)
     },
     [SPECIES_SERPENTIN] =
@@ -4477,7 +4477,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Serpiplume,
        .shinyPalette = gMonShinyPalette_Serpiplume,
        .iconSprite = gMonIcon_Serpiplume,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Serpiplume)
     },
     [SPECIES_DAGON] =
@@ -4528,7 +4528,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Dagon,
        .shinyPalette = gMonShinyPalette_Dagon,
        .iconSprite = gMonIcon_Dagon,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Dagon)
     },
     [SPECIES_PICHON] =
@@ -4579,7 +4579,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Pichon,
        .shinyPalette = gMonShinyPalette_Pichon,
        .iconSprite = gMonIcon_Pichon,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Pichon)
     },
     [SPECIES_RAUL_MOPS] =
@@ -4630,7 +4630,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_RaulMops,
        .shinyPalette = gMonShinyPalette_RaulMops,
        .iconSprite = gMonIcon_RaulMops,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(RaulMops)
     },
     [SPECIES_TIMANSOT] =
@@ -4681,7 +4681,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Timansot,
        .shinyPalette = gMonShinyPalette_Timansot,
        .iconSprite = gMonIcon_Timansot,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Timansot)
     },
     [SPECIES_MANSOBESE] =
@@ -4732,7 +4732,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Mansobese,
        .shinyPalette = gMonShinyPalette_Mansobese,
        .iconSprite = gMonIcon_Mansobese,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Mansobese)
     },
     [SPECIES_MAMANSOT] =
@@ -4783,7 +4783,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Mamansot,
        .shinyPalette = gMonShinyPalette_Mamansot,
        .iconSprite = gMonIcon_Mamansot,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Mamansot)
     },
     [SPECIES_FU_MANSOT] =
@@ -4834,7 +4834,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_FuMansot,
        .shinyPalette = gMonShinyPalette_FuMansot,
        .iconSprite = gMonIcon_FuMansot,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(FuMansot)
     },
     [SPECIES_MOFETTE] =
@@ -4885,7 +4885,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Mofette,
        .shinyPalette = gMonShinyPalette_Mofette,
        .iconSprite = gMonIcon_Mofette,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Mofette)
     },
     [SPECIES_OBSIDIANTRE] =
@@ -4987,7 +4987,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Crapeur,
        .shinyPalette = gMonShinyPalette_Crapeur,
        .iconSprite = gMonIcon_Crapeur,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Crapeur)
     },
     [SPECIES_MOUCHAME] =
@@ -5038,7 +5038,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Mouchame,
        .shinyPalette = gMonShinyPalette_Mouchame,
        .iconSprite = gMonIcon_Mouchame,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Mouchame)
     },
     [SPECIES_MORFRELON] =
@@ -5089,7 +5089,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Morfrelon,
        .shinyPalette = gMonShinyPalette_Morfrelon,
        .iconSprite = gMonIcon_Morfrelon,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Morfrelon)
     },
     [SPECIES_VOLKORNE] =
@@ -5140,7 +5140,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Volkorne,
        .shinyPalette = gMonShinyPalette_Volkorne,
        .iconSprite = gMonIcon_Volkorne,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Volkorne)
     },
     [SPECIES_VORACLE] =
@@ -5191,7 +5191,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Voracle,
        .shinyPalette = gMonShinyPalette_Voracle,
        .iconSprite = gMonIcon_Voracle,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Voracle)
     },
     [SPECIES_COCHON_DE_FARLE] =
@@ -5242,7 +5242,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_CochonDeFarle,
        .shinyPalette = gMonShinyPalette_CochonDeFarle,
        .iconSprite = gMonIcon_CochonDeFarle,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(CochonDeFarle)
     },
     [SPECIES_DRAGON_COCHON] =
@@ -5293,7 +5293,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_DragonCochon,
        .shinyPalette = gMonShinyPalette_DragonCochon,
        .iconSprite = gMonIcon_DragonCochon,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(DragonCochon)
     },
     [SPECIES_SCORPIQUE] =
@@ -5344,7 +5344,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Scorpique,
        .shinyPalette = gMonShinyPalette_Scorpique,
        .iconSprite = gMonIcon_Scorpique,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Scorpique)
     },
     [SPECIES_SCORDION] =
@@ -5395,7 +5395,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Scordion,
        .shinyPalette = gMonShinyPalette_Scordion,
        .iconSprite = gMonIcon_Scordion,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Scordion)
     },
     [SPECIES_GAMINO] =
@@ -5446,7 +5446,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Gamino,
        .shinyPalette = gMonShinyPalette_Gamino,
        .iconSprite = gMonIcon_Gamino,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Gamino)
     },
     [SPECIES_MINOTOT] =
@@ -5497,7 +5497,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Minotot,
        .shinyPalette = gMonShinyPalette_Minotot,
        .iconSprite = gMonIcon_Minotot,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Minotot)
     },
     [SPECIES_OUROBOULOS] =
@@ -5548,7 +5548,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Ouroboulos,
        .shinyPalette = gMonShinyPalette_Ouroboulos,
        .iconSprite = gMonIcon_Ouroboulos,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Ouroboulos)
     },
     [SPECIES_MANTISCORE] =
@@ -5650,7 +5650,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Pampactus,
        .shinyPalette = gMonShinyPalette_Pampactus,
        .iconSprite = gMonIcon_Pampactus,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Pampactus)
     },
     [SPECIES_CACTOBLONGO] =
@@ -5701,7 +5701,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Cactoblongo,
        .shinyPalette = gMonShinyPalette_Cactoblongo,
        .iconSprite = gMonIcon_Cactoblongo,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Cactoblongo)
     },
     [SPECIES_CHIENCHIEN_ENRAGE] =
@@ -5752,7 +5752,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_ChienchienEnrage,
        .shinyPalette = gMonShinyPalette_ChienchienEnrage,
        .iconSprite = gMonIcon_ChienchienEnrage,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(ChienchienEnrage)
     },
     [SPECIES_LEOLHYENE] =
@@ -5803,7 +5803,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Leolhyene,
        .shinyPalette = gMonShinyPalette_Leolhyene,
        .iconSprite = gMonIcon_Leolhyene,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Leolhyene)
     },
     [SPECIES_SKYBOUFTON] =
@@ -5905,7 +5905,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Skybouftou,
        .shinyPalette = gMonShinyPalette_Skybouftou,
        .iconSprite = gMonIcon_Skybouftou,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Skybouftou)
     },
     [SPECIES_DIEUBOUFTOU] =
@@ -5956,7 +5956,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Dieubouftou,
        .shinyPalette = gMonShinyPalette_Dieubouftou,
        .iconSprite = gMonIcon_Dieubouftou,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Dieubouftou)
     },
     [SPECIES_CHIENCHIEN_NOIR] =
@@ -6109,7 +6109,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Ecurouille,
        .shinyPalette = gMonShinyPalette_Ecurouille,
        .iconSprite = gMonIcon_Ecurouille,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Ecurouille)
     },
     [SPECIES_PRESPIC] =
@@ -6160,7 +6160,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Prespic,
        .shinyPalette = gMonShinyPalette_Prespic,
        .iconSprite = gMonIcon_Prespic,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Prespic)
     },
     [SPECIES_CHACHA] =
@@ -6211,7 +6211,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Chacha,
        .shinyPalette = gMonShinyPalette_Chacha,
        .iconSprite = gMonIcon_Chacha,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Chacha)
     },
     [SPECIES_CHAGOUAR] =
@@ -6262,7 +6262,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Chagouar,
        .shinyPalette = gMonShinyPalette_Chagouar,
        .iconSprite = gMonIcon_Chagouar,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Chagouar)
     },
     [SPECIES_SOLDALIA] =
@@ -6313,7 +6313,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Soldalia,
        .shinyPalette = gMonShinyPalette_Soldalia,
        .iconSprite = gMonIcon_Soldalia,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Soldalia)
     },
     [SPECIES_COQUELICOGNE] =
@@ -6364,7 +6364,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Coquelicogne,
        .shinyPalette = gMonShinyPalette_Coquelicogne,
        .iconSprite = gMonIcon_Coquelicogne,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Coquelicogne)
     },
     [SPECIES_CAMELIACHE] =
@@ -6415,7 +6415,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Cameliache,
        .shinyPalette = gMonShinyPalette_Cameliache,
        .iconSprite = gMonIcon_Cameliache,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Cameliache)
     },
     [SPECIES_GROKILLAGE] =
@@ -6466,7 +6466,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Grokillage,
        .shinyPalette = gMonShinyPalette_Grokillage,
        .iconSprite = gMonIcon_Grokillage,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Grokillage)
     },
     [SPECIES_MOUMOULE] =
@@ -6517,7 +6517,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Moumoule,
        .shinyPalette = gMonShinyPalette_Moumoule,
        .iconSprite = gMonIcon_Moumoule,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Moumoule)
     },
     [SPECIES_CRAQUELOPE] =
@@ -6568,7 +6568,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Craquelope,
        .shinyPalette = gMonShinyPalette_Craquelope,
        .iconSprite = gMonIcon_Craquelope,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Craquelope)
     },
     [SPECIES_CRAQUEBOULE] =
@@ -6670,7 +6670,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Craqueleur,
        .shinyPalette = gMonShinyPalette_Craqueleur,
        .iconSprite = gMonIcon_Craqueleur,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Craqueleur)
     },
     [SPECIES_GERMINION] =
@@ -6721,7 +6721,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Germinion,
        .shinyPalette = gMonShinyPalette_Germinion,
        .iconSprite = gMonIcon_Germinion,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Germinion)
     },
     [SPECIES_GANGREDOGUE] =
@@ -6772,7 +6772,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Gangredogue,
        .shinyPalette = gMonShinyPalette_Gangredogue,
        .iconSprite = gMonIcon_Gangredogue,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Gangredogue)
     },
     [SPECIES_BEBE_CROCOBURIO] =
@@ -6823,7 +6823,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_BebeCrocoburio,
        .shinyPalette = gMonShinyPalette_BebeCrocoburio,
        .iconSprite = gMonIcon_BebeCrocoburio,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(BebeCrocoburio)
     },
     [SPECIES_CROCODAILLE] =
@@ -7129,7 +7129,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Dragodinde,
        .shinyPalette = gMonShinyPalette_Dragodinde,
        .iconSprite = gMonIcon_Dragodinde,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Dragodinde)
     },
     [SPECIES_BIBLOP] =
@@ -7180,7 +7180,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Biblop,
        .shinyPalette = gMonShinyPalette_Biblop,
        .iconSprite = gMonIcon_Biblop,
-       .iconPalIndex = 0,
+       .iconPalIndex = 4,
        FOOTPRINT(Biblop)
     },
     [SPECIES_BLOP] =
@@ -7333,7 +7333,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_KoalakImmature,
        .shinyPalette = gMonShinyPalette_KoalakImmature,
        .iconSprite = gMonIcon_KoalakImmature,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(KoalakImmature)
     },
     [SPECIES_KOALAK_INDIGO] =
@@ -7435,7 +7435,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Crasper,
        .shinyPalette = gMonShinyPalette_Crasper,
        .iconSprite = gMonIcon_Crasper,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Crasper)
     },
     [SPECIES_FANTOMAYTE] =
@@ -7537,7 +7537,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_VigiePirate,
        .shinyPalette = gMonShinyPalette_VigiePirate,
        .iconSprite = gMonIcon_VigiePirate,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(VigiePirate)
     },
     [SPECIES_TOFU_MALEFIQUE] =
@@ -7588,7 +7588,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Maletofu,
        .shinyPalette = gMonShinyPalette_Maletofu,
        .iconSprite = gMonIcon_Maletofu,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Maletofu)
     },
     [SPECIES_KARNHELL] =
@@ -7639,7 +7639,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Karnhell,
         .shinyPalette = gMonShinyPalette_Karnhell,
        .iconSprite = gMonIcon_Karnhell,
-       .iconPalIndex = 0,
+       .iconPalIndex = 2,
        FOOTPRINT(Karnhell)
     },
     [SPECIES_KWOAN] =
@@ -7690,7 +7690,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Kwoan,
        .shinyPalette = gMonShinyPalette_Kwoan,
        .iconSprite = gMonIcon_Kwoan,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Kwoan)
     },
     [SPECIES_CHAFER] =
@@ -7741,7 +7741,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Chafer,
        .shinyPalette = gMonShinyPalette_Chafer,
        .iconSprite = gMonIcon_Chafer,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Chafer)
     },
     [SPECIES_NODKOKO] =
@@ -7792,7 +7792,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Nodkoko,
        .shinyPalette = gMonShinyPalette_Nodkoko,
        .iconSprite = gMonIcon_Nodkoko,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Nodkoko)
     },
     [SPECIES_TIKOKO] =
@@ -7843,7 +7843,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Tikoko,
        .shinyPalette = gMonShinyPalette_Tikoko,
        .iconSprite = gMonIcon_Tikoko,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Tikoko)
     },
     [SPECIES_GROKOKO] =
@@ -7894,7 +7894,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Grokoko,
        .shinyPalette = gMonShinyPalette_Grokoko,
        .iconSprite = gMonIcon_Grokoko,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Grokoko)
     },
     [SPECIES_KOKULTE] =
@@ -7996,7 +7996,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Kaskargo,
        .shinyPalette = gMonShinyPalette_Kaskargo,
        .iconSprite = gMonIcon_Kaskargo,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Kaskargo)
     },
     [SPECIES_NERBE] =
@@ -8200,7 +8200,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Rainikrone,
        .shinyPalette = gMonShinyPalette_Rainikrone,
        .iconSprite = gMonIcon_Rainikrone,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Rainikrone)
     },
     [SPECIES_MALEPIK] =
@@ -8251,7 +8251,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Malepik,
        .shinyPalette = gMonShinyPalette_Malepik,
        .iconSprite = gMonIcon_Malepik,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Malepik)
     },
     [SPECIES_MALTRIO] =
@@ -8455,7 +8455,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_MaitreCorbac,
        .shinyPalette = gMonShinyPalette_MaitreCorbac,
        .iconSprite = gMonIcon_MaitreCorbac,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(MaitreCorbac)
     },
     [SPECIES_KANIGLOUPS] =
@@ -8506,7 +8506,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Kanigloups,
        .shinyPalette = gMonShinyPalette_Kanigloups,
        .iconSprite = gMonIcon_Kanigloups,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Kanigloups)
     },
     [SPECIES_KANIGLOU] =
@@ -8557,7 +8557,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Kaniglou,
        .shinyPalette = gMonShinyPalette_Kaniglou,
        .iconSprite = gMonIcon_Kaniglou,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Kaniglou)
     },
     [SPECIES_BISOUGLOURS] =
@@ -8608,7 +8608,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Bisouglours,
        .shinyPalette = gMonShinyPalette_Bisouglours,
        .iconSprite = gMonIcon_Bisouglours,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Bisouglours)
     },
     [SPECIES_GLOURAGAN] =
@@ -8761,7 +8761,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Wolvero,
        .shinyPalette = gMonShinyPalette_Wolvero,
        .iconSprite = gMonIcon_Wolvero,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Wolvero)
     },
     [SPECIES_BLEROM] =
@@ -8812,7 +8812,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Blerom,
        .shinyPalette = gMonShinyPalette_Blerom,
        .iconSprite = gMonIcon_Blerom,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Blerom)
     },
     [SPECIES_TILAMPROIE] =
@@ -8914,7 +8914,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Mantaze,
        .shinyPalette = gMonShinyPalette_Mantaze,
        .iconSprite = gMonIcon_Mantaze,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Mantaze)
     },
     [SPECIES_MULDO] =
@@ -8965,7 +8965,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Muldo,
        .shinyPalette = gMonShinyPalette_Muldo,
        .iconSprite = gMonIcon_Muldo,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Muldo)
     },
     [SPECIES_CORAILLEUR] =
@@ -9067,7 +9067,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_MolUsk,
        .shinyPalette = gMonShinyPalette_MolUsk,
        .iconSprite = gMonIcon_MolUsk,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(MolUsk)
     },
     [SPECIES_DEMOLOCH] =
@@ -9118,7 +9118,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Demoloch,
        .shinyPalette = gMonShinyPalette_Demoloch,
        .iconSprite = gMonIcon_Demoloch,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Demoloch)
     },
     [SPECIES_DIABELIAL] =
@@ -9169,7 +9169,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Diabelial,
        .shinyPalette = gMonShinyPalette_Diabelial,
        .iconSprite = gMonIcon_Diabelial,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Diabelial)
     },
     [SPECIES_TYPHOMET] =
@@ -9220,7 +9220,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Typhomet,
        .shinyPalette = gMonShinyPalette_Typhomet,
        .iconSprite = gMonIcon_Typhomet,
-       .iconPalIndex = 0,
+       .iconPalIndex = 3,
        FOOTPRINT(Typhomet)
     },
     [SPECIES_HALBARDENT] =
@@ -9322,7 +9322,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Klemor,
        .shinyPalette = gMonShinyPalette_Klemor,
        .iconSprite = gMonIcon_Klemor,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Klemor)
     },
     [SPECIES_DRAGOUNE] =
@@ -9373,7 +9373,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Dragoune,
        .shinyPalette = gMonShinyPalette_Dragoune,
        .iconSprite = gMonIcon_Dragoune,
-       .iconPalIndex = 0,
+       .iconPalIndex = 2,
        FOOTPRINT(Dragoune)
     },
     [SPECIES_DRAGONNET] =
@@ -9424,7 +9424,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Dragonnet,
        .shinyPalette = gMonShinyPalette_Dragonnet,
        .iconSprite = gMonIcon_Dragonnet,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Dragonnet)
     },
     [SPECIES_CROCABULIA] =
@@ -9475,7 +9475,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Crocabulia,
        .shinyPalette = gMonShinyPalette_Crocabulia,
        .iconSprite = gMonIcon_Crocabulia,
-       .iconPalIndex = 0,
+       .iconPalIndex = 1,
        FOOTPRINT(Crocabulia)
     },
     [SPECIES_SINISTROFU] =
@@ -9526,7 +9526,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Sinistrofu,
        .shinyPalette = gMonShinyPalette_Sinistrofu,
        .iconSprite = gMonIcon_Sinistrofu,
-       .iconPalIndex = 0,
+       .iconPalIndex = 5,
        FOOTPRINT(Sinistrofu)
     },
     [SPECIES_NOCTURLABE] =
