@@ -8306,6 +8306,7 @@ static inline uq4_12_t GetDefenderAbilitiesModifier(struct DamageContext *ctx)
     switch (ctx->abilityDef)
     {
     case ABILITY_MULTISCALE:
+    case ABILITY_COUPELLE_PLEINE:
     case ABILITY_SHADOW_SHIELD:
         if (IsBattlerAtMaxHp(ctx->battlerDef))
         {
