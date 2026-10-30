@@ -164,7 +164,8 @@
    "taille": "grand"
   },
   "abrakleur": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "source": "abrakleur_quadrupede"
   },
   "tifoux": {
    "taille": "moyen"
