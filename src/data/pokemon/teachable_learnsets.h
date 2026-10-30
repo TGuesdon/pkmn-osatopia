@@ -37130,3 +37130,28 @@ static const u16 sTortueBleuTeachableLearnset[] = {
     MOVE_WATER_PULSE,
     MOVE_UNAVAILABLE,
 };
+
+static const u16 sKitsouTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_CUT,
+    MOVE_ENDURE,
+    MOVE_FACADE,
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_PSYCHIC,
+    MOVE_REFLECT,
+    MOVE_REST,
+    MOVE_SAFEGUARD,
+    MOVE_SHADOW_BALL,
+    MOVE_SKILL_SWAP,
+    MOVE_SLEEP_TALK,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_TAUNT,
+    MOVE_THIEF,
+    MOVE_THUNDERBOLT,
+    MOVE_THUNDER_WAVE,
+    MOVE_TORMENT,
+    MOVE_TOXIC,
+    MOVE_UNAVAILABLE,
+};

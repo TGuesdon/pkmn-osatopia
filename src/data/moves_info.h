@@ -21332,6 +21332,23 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_PayDay,
     },
 
+    [MOVE_FILANTE] =
+    {
+        .name = COMPOUND_STRING("Filante"),
+        .description = COMPOUND_STRING(
+            "Une traînée d'étoiles frappe,\n"
+            "puis le lanceur est remplacé."),
+        .effect = EFFECT_HIT_ESCAPE,
+        .power = 70,
+        .type = TYPE_FAIRY,
+        .accuracy = 100,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .battleAnimScript = gBattleAnimMove_Swift,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
