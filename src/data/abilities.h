@@ -2433,4 +2433,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Récupère des PV à chaque tour."),
         .aiRating = 6,
     },
+
+    [ABILITY_COUPELLE_PLEINE] =
+    {
+        .name = _("Coupelle Pleine"),
+        .description = COMPOUND_STRING("Dégâts réduits si PV au max."),
+        .aiRating = 8,
+        .breakable = TRUE,
+    },
 };
