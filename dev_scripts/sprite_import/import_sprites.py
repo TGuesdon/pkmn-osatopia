@@ -12,7 +12,10 @@ Workflow:
   4. touch up graphics/pokemon/<name>/*.png by hand (indexed 16 colours, e.g. Aseprite); later
      --apply runs skip those files automatically (applied.json remembers what the script wrote)
 
-Per-monster tuning and explicitly protected sprites live in overrides.json.
+Per-monster tuning and explicitly protected sprites live in overrides.json. Every artwork is fitted
+to the same box, so each monster gets a "taille" (minuscule, petit, moyen, grand, enorme; see
+defaults.tailles) to keep their relative sizes readable; without one it fills the whole box.
+./sizes.py opens a page to pick them with the sprites shown side by side, family by family.
 """
 import argparse
 import hashlib
@@ -48,6 +51,11 @@ def config_for(name, defaults, monsters):
             cfg[key].update(value)
         else:
             cfg[key] = value
+    if "taille" in cfg:
+        # relative size between monsters; "scale" stays available to fine-tune within a tier
+        if cfg["taille"] not in cfg["tailles"]:
+            sys.exit(f"{name} : taille « {cfg['taille']} » inconnue ({', '.join(cfg['tailles'])})")
+        cfg["scale"] = cfg["tailles"][cfg["taille"]] * cfg.get("scale", 1.0)
     return cfg
 
 
@@ -308,11 +316,11 @@ def save_indexed(path, idx, palette):
 
 # ---------- Audit ----------
 
-def audit(name, sprites, palette):
+def audit(name, sprites, palette, scale):
     flags = []
     for view, (rgb, opaque, _line), idx in sprites:
         cover = opaque.mean()
-        if cover < 0.08:
+        if cover < 0.08 * scale ** 2:  # small monsters are meant to cover less
             flags.append(f"{view} : très peu de pixels opaques ({cover:.0%})")
         islands = sum(1 for c in components(opaque)) - 1
         if islands > 3:
@@ -392,7 +400,7 @@ def generate(name, src, art, cfg):
         if (old_n != old_s).any():
             shiny = [TRANSPARENT] + [tuple(c) for c in carry_shiny(pal, old_n, old_s)]
     write_pal(out / "shiny.pal", shiny)
-    return audit(name, [("face", front, f_idx), ("dos", back, b_idx)], palette)
+    return audit(name, [("face", front, f_idx), ("dos", back, b_idx)], palette, cfg["scale"])
 
 
 def cmd_generate(args, defaults, monsters):
