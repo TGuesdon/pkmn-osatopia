@@ -2,7 +2,7 @@
 
 > Dans le lore Dofus (à vérifier : éléments des sorts, zone), le Kitsou est un renard magique très mobile qui envoie des étoiles. — Évolutions : aucune (stade unique, `SPECIES_KITSOU`).
 
-**État** : validée (non intégrée dans `src/`)
+**État** : validée et intégrée
 
 ## Intention
 Archétype : balayeur rapide, spécial dominant, canon de verre (secondaire : attaquant mixte léger) · Références : Rubombelle (Vit et AtqSpé), Gob Trotteur (rareté, capture, exp.), Farfaduvet (Fée rapide) · Pourquoi : un renard Fée fragile mais qui frappe le premier ; la mobilité vient de la Vit (120), de Turbo et d'une capacité pivot Fée custom.
