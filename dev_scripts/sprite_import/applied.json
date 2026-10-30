@@ -14,46 +14,46 @@
   "shiny.pal": "e7eb4953a0e38def"
  },
  "abraknyde": {
-  "anim_front.png": "6539e274a833033d",
-  "back.png": "81441b5800b87c68",
-  "front.png": "8a93f2ec295019c3",
-  "normal.pal": "164d5c91d863551f",
-  "shiny.pal": "164d5c91d863551f"
+  "anim_front.png": "05bff1f1a52e4d67",
+  "back.png": "e6a4e9d58cf1669a",
+  "front.png": "b6ab6e7319a58fe7",
+  "normal.pal": "0a142dd818808d82",
+  "shiny.pal": "0a142dd818808d82"
  },
  "arakne": {
-  "anim_front.png": "390afbcd0fa00962",
-  "back.png": "08ea46316077695b",
-  "front.png": "750c2541a9d4f2ad",
-  "normal.pal": "a91a8d377f595de5",
-  "shiny.pal": "a91a8d377f595de5"
+  "anim_front.png": "0226dbc5465329ad",
+  "back.png": "3a319b3ba9e4bcad",
+  "front.png": "ce26197cb40d20c7",
+  "normal.pal": "70cb2e1276f2ec03",
+  "shiny.pal": "70cb2e1276f2ec03"
  },
  "araknotron": {
-  "anim_front.png": "c12add8df85de239",
-  "back.png": "b6473fd787c3e5c6",
-  "front.png": "6679bfab38a40718",
-  "normal.pal": "6039e58af1af82c8",
-  "shiny.pal": "6039e58af1af82c8"
+  "anim_front.png": "1ffc0eed63e57dac",
+  "back.png": "f24a1a4437ae688d",
+  "front.png": "0541e0b49c060931",
+  "normal.pal": "f002060de6efaccc",
+  "shiny.pal": "f002060de6efaccc"
  },
  "bebe_crocoburio": {
-  "anim_front.png": "902d090c8ba5d267",
-  "back.png": "6f84c38cce5bee24",
-  "front.png": "9819082ead1c46ae",
-  "normal.pal": "996c06ac23cf84a6",
-  "shiny.pal": "996c06ac23cf84a6"
+  "anim_front.png": "d461c90026756588",
+  "back.png": "aa0b441aa975dbef",
+  "front.png": "245f29f4578b507a",
+  "normal.pal": "e3b423c2b6e7b8a2",
+  "shiny.pal": "e3b423c2b6e7b8a2"
  },
  "biblop": {
-  "anim_front.png": "e979f746dbfbeb76",
-  "back.png": "5bd1bb88aac6b2cc",
-  "front.png": "b233adf818d7dc4c",
-  "normal.pal": "352eaa8c23fce4f4",
-  "shiny.pal": "352eaa8c23fce4f4"
+  "anim_front.png": "dddd423d8268040b",
+  "back.png": "8f5d5bf64c0c5c1e",
+  "front.png": "3423cf915eba44d2",
+  "normal.pal": "b43475e28f579338",
+  "shiny.pal": "b43475e28f579338"
  },
  "bisouglours": {
-  "anim_front.png": "5f4da4feb354d401",
-  "back.png": "86faab8c73b75c0f",
-  "front.png": "63d16d7bcb727387",
-  "normal.pal": "bf37d5a406caf9fc",
-  "shiny.pal": "bf37d5a406caf9fc"
+  "anim_front.png": "8072e75d2a66ce66",
+  "back.png": "66278f2e07f377fc",
+  "front.png": "58f4d45e1e9903cf",
+  "normal.pal": "167a359893404543",
+  "shiny.pal": "167a359893404543"
  },
  "bitouf_aerien": {
   "anim_front.png": "8372ffe3a94cd99a",
@@ -70,11 +70,11 @@
   "shiny.pal": "08ebbe1b0bd12dd6"
  },
  "blerodoudou": {
-  "anim_front.png": "0d028d029a476082",
-  "back.png": "cbd43a09f85ab5fe",
-  "front.png": "a785b19fe437e804",
-  "normal.pal": "9de622264631e268",
-  "shiny.pal": "9de622264631e268"
+  "anim_front.png": "aa08544fb102e38c",
+  "back.png": "49eb45c14cb943b2",
+  "front.png": "2c84dc6f87b04229",
+  "normal.pal": "7941b5ac32795fe4",
+  "shiny.pal": "7941b5ac32795fe4"
  },
  "blerom": {
   "anim_front.png": "4a8b1554a5941f48",
@@ -84,32 +84,32 @@
   "shiny.pal": "c6ff924cfc71f2a4"
  },
  "blop": {
-  "anim_front.png": "b4a5453b4fb54fee",
-  "back.png": "ff15a5bf0f5b28c6",
-  "front.png": "2a7424bb8d1b4a92",
-  "normal.pal": "bc8cc67dbdf148fd",
-  "shiny.pal": "bc8cc67dbdf148fd"
+  "anim_front.png": "4f98fd205549ca27",
+  "back.png": "ab0ae8b08f874745",
+  "front.png": "63b4121261b2b3d1",
+  "normal.pal": "80c449a903a04f31",
+  "shiny.pal": "80c449a903a04f31"
  },
  "bloqueuse": {
-  "anim_front.png": "7f18bf2066b37493",
-  "back.png": "10ce4cc30569e2f9",
-  "front.png": "dfe31cd4122dc9a3",
-  "normal.pal": "d8af8663ff334ad4",
-  "shiny.pal": "d8af8663ff334ad4"
+  "anim_front.png": "ea9e2e4bc6e4fd92",
+  "back.png": "5eb107a27b07dbb5",
+  "front.png": "e54cca06e0395eb4",
+  "normal.pal": "d59b5388060e7bc1",
+  "shiny.pal": "d59b5388060e7bc1"
  },
  "boufton": {
-  "anim_front.png": "0b6d364efcd48b83",
-  "back.png": "063f8d1c2c66c8a5",
-  "front.png": "65d330dae5fc5222",
-  "normal.pal": "1e922c6c2e361eaf",
-  "shiny.pal": "1e922c6c2e361eaf"
+  "anim_front.png": "54521510dec955ee",
+  "back.png": "e0dba0d9bad6eb63",
+  "front.png": "288dab57b0cb4acd",
+  "normal.pal": "75079219d2365fe1",
+  "shiny.pal": "75079219d2365fe1"
  },
  "bouftou": {
-  "anim_front.png": "53a773089fd151e3",
-  "back.png": "58fd4751500dfb13",
-  "front.png": "b96e4f469340daaa",
-  "normal.pal": "0a4edfd706d6cc70",
-  "shiny.pal": "0a4edfd706d6cc70"
+  "anim_front.png": "2a33e4361da7b10e",
+  "back.png": "a6ccf509fe781e29",
+  "front.png": "e892fe14c956ddef",
+  "normal.pal": "9694cad8d56c31b0",
+  "shiny.pal": "9694cad8d56c31b0"
  },
  "bouftou_royal": {
   "anim_front.png": "fa4eb3a55445f645",
@@ -125,11 +125,11 @@
   "shiny.pal": "e2b1abbc03bdb421"
  },
  "bourgeon": {
-  "anim_front.png": "6f2c998a006fec6f",
-  "back.png": "acdbfbb488af5d31",
-  "front.png": "6d5f4efdaa992657",
-  "normal.pal": "eaecd66c170d76e9",
-  "shiny.pal": "eaecd66c170d76e9"
+  "anim_front.png": "889156870b8687f6",
+  "back.png": "f06da2d107dc6030",
+  "front.png": "3f319447f30deb53",
+  "normal.pal": "42b3595271c07a73",
+  "shiny.pal": "42b3595271c07a73"
  },
  "bulbisauge": {
   "anim_front.png": "f0dae95188878c57",
@@ -139,32 +139,32 @@
   "shiny.pal": "4535681f94081efc"
  },
  "bwak_feu": {
-  "anim_front.png": "8053ebf10e499473",
-  "back.png": "98c1ea555cca0247",
-  "front.png": "bb9ae24c4ea7c232",
-  "normal.pal": "e5373e8c5af24329",
-  "shiny.pal": "e5373e8c5af24329"
+  "anim_front.png": "1b51b9cec3569d04",
+  "back.png": "dfbac412f5ce8b49",
+  "front.png": "9243c01093b9c5ec",
+  "normal.pal": "fd893246774d6eb8",
+  "shiny.pal": "fd893246774d6eb8"
  },
  "bwak_glace": {
-  "anim_front.png": "b20b63e27775bf56",
-  "back.png": "ff98dff66485c4a7",
-  "front.png": "b1f852b713db68e3",
-  "normal.pal": "297be8a86a51018d",
-  "shiny.pal": "297be8a86a51018d"
+  "anim_front.png": "9ecb62bd982572cd",
+  "back.png": "eaf9f7cb861630ad",
+  "front.png": "ad43b8a338b3e330",
+  "normal.pal": "3b495f862f9151ac",
+  "shiny.pal": "3b495f862f9151ac"
  },
  "bwak_terre": {
-  "anim_front.png": "7f63d2796c1d34d0",
-  "back.png": "af28c6176739e465",
-  "front.png": "357ba6d8b4328d40",
-  "normal.pal": "1e096e5f6f83feba",
-  "shiny.pal": "1e096e5f6f83feba"
+  "anim_front.png": "f349a6c56eebaa20",
+  "back.png": "d0e4682eab22737a",
+  "front.png": "ef25d559d387c206",
+  "normal.pal": "88904ad65cd51ee1",
+  "shiny.pal": "88904ad65cd51ee1"
  },
  "bwak_vent": {
-  "anim_front.png": "a925a51b6280eba8",
-  "back.png": "56673a9d9ad42c89",
-  "front.png": "cb8deb1e94c87e94",
-  "normal.pal": "603067e03dbc30f0",
-  "shiny.pal": "603067e03dbc30f0"
+  "anim_front.png": "b2d87cb888f84dfa",
+  "back.png": "f9babdb1f11a2ddb",
+  "front.png": "097153c64d845963",
+  "normal.pal": "245b12de905bdce6",
+  "shiny.pal": "245b12de905bdce6"
  },
  "cactoblongo": {
   "anim_front.png": "229091ab8d3b039d",
@@ -195,11 +195,11 @@
   "shiny.pal": "aa36ec2b59c2517a"
  },
  "chacha": {
-  "anim_front.png": "3bc6792b0d2d4ecd",
-  "back.png": "c8aeddfe549d81cb",
-  "front.png": "9e02b877eecf6e75",
-  "normal.pal": "c851f659b80e8182",
-  "shiny.pal": "c851f659b80e8182"
+  "anim_front.png": "0187eb8e9cdd6b7a",
+  "back.png": "2ebe0d26712e2829",
+  "front.png": "d3630da9d9ed4e52",
+  "normal.pal": "b27c7293c4276b68",
+  "shiny.pal": "b27c7293c4276b68"
  },
  "chafer": {
   "anim_front.png": "cc38e7e263500318",
@@ -216,39 +216,39 @@
   "shiny.pal": "ef063b72f5b0f1d8"
  },
  "champ_a_gnon": {
-  "anim_front.png": "c5a4bb7010b71cc3",
-  "back.png": "1425d494fc8e5c20",
-  "front.png": "6155152f76cbbd0d",
-  "normal.pal": "f26e66267d87740b",
-  "shiny.pal": "f26e66267d87740b"
+  "anim_front.png": "705b36b610ad2145",
+  "back.png": "6a6e0b3a69266a3a",
+  "front.png": "72f91b7aff15cfe6",
+  "normal.pal": "89af603475a0e576",
+  "shiny.pal": "89af603475a0e576"
  },
  "champchamp": {
-  "anim_front.png": "5ecc4a5fc70a2baa",
-  "back.png": "ec172b31f7b3dd52",
-  "front.png": "f749ccab3782af23",
-  "normal.pal": "ccae37bcc933fac6",
-  "shiny.pal": "ccae37bcc933fac6"
+  "anim_front.png": "b06d5937f1fe1722",
+  "back.png": "602e2ee23f908aff",
+  "front.png": "41ebe736a6d0efa0",
+  "normal.pal": "fbdc2390528549da",
+  "shiny.pal": "fbdc2390528549da"
  },
  "chienchien_enrage": {
-  "anim_front.png": "5fed050b0d377e33",
-  "back.png": "439fb5ec11368b00",
-  "front.png": "f464ba04864c8994",
-  "normal.pal": "71052d1857809d12",
-  "shiny.pal": "71052d1857809d12"
+  "anim_front.png": "d87c3fcefaaa83a3",
+  "back.png": "8ec5ae8e0624cea1",
+  "front.png": "f6f22069aff5ea8d",
+  "normal.pal": "c4a8aaf34f5d85fe",
+  "shiny.pal": "c4a8aaf34f5d85fe"
  },
  "chienchien_noir": {
-  "anim_front.png": "0e3a133161c5ceb6",
-  "back.png": "e1daf0185b7dbef5",
-  "front.png": "a5e3db57ceb28b2f",
-  "normal.pal": "dffef9ee5522dbb6",
-  "shiny.pal": "dffef9ee5522dbb6"
+  "anim_front.png": "f999a4874796f26c",
+  "back.png": "614ade85df6bcb5c",
+  "front.png": "cb06e3bab3451105",
+  "normal.pal": "8358dd4ebf314fa4",
+  "shiny.pal": "8358dd4ebf314fa4"
  },
  "cochon_farle": {
-  "anim_front.png": "e4128af628ced067",
-  "back.png": "092527c6139c4ddb",
-  "front.png": "fb58948fbb3ed2eb",
-  "normal.pal": "a1c8a1b2762cc062",
-  "shiny.pal": "a1c8a1b2762cc062"
+  "anim_front.png": "1937bc571163272e",
+  "back.png": "705b03b5f5d2cc3c",
+  "front.png": "98633fc2d64586ad",
+  "normal.pal": "bc4a66ae284da752",
+  "shiny.pal": "bc4a66ae284da752"
  },
  "coquelicogne": {
   "anim_front.png": "b4674b660f485aa9",
@@ -265,11 +265,11 @@
   "shiny.pal": "d83de7a36df2849f"
  },
  "corbac": {
-  "anim_front.png": "2384218dc4f0882d",
-  "back.png": "0edc1e9a06ca0642",
-  "front.png": "81c03e26d3593305",
-  "normal.pal": "1d21cba18011397f",
-  "shiny.pal": "1d21cba18011397f"
+  "anim_front.png": "647602caf8c60aac",
+  "back.png": "77e19be2fccefc13",
+  "front.png": "9fa8c7592554e1a3",
+  "normal.pal": "862870f8aeb49b15",
+  "shiny.pal": "862870f8aeb49b15"
  },
  "crachefoux": {
   "anim_front.png": "92da0909f8a8e904",
@@ -286,18 +286,18 @@
   "shiny.pal": "8c442f9448a8a92e"
  },
  "crapodo": {
-  "anim_front.png": "37d9cd2fcfed147c",
-  "back.png": "4cc44065d3521fa2",
-  "front.png": "739df7d76dd91ed9",
-  "normal.pal": "f5c0bd42a63c03c4",
-  "shiny.pal": "f5c0bd42a63c03c4"
+  "anim_front.png": "4e494cc6b07be0ea",
+  "back.png": "ee108fb02c148208",
+  "front.png": "e1fb1b00f22c1547",
+  "normal.pal": "02da647264f574f1",
+  "shiny.pal": "02da647264f574f1"
  },
  "craqueboule": {
-  "anim_front.png": "9bffb6dd3e2e7313",
-  "back.png": "10ea61d0df84daca",
-  "front.png": "ac9c177afd9fdda2",
-  "normal.pal": "b4c1ad26499b59f5",
-  "shiny.pal": "b4c1ad26499b59f5"
+  "anim_front.png": "c3a30d686c19b548",
+  "back.png": "b0a530f2b882e959",
+  "front.png": "03e33963c57a6de1",
+  "normal.pal": "62d157f3ac1c092e",
+  "shiny.pal": "62d157f3ac1c092e"
  },
  "craqueleur": {
   "anim_front.png": "765ffabfc0964dcd",
@@ -307,18 +307,18 @@
   "shiny.pal": "b86dcedd9f88cb23"
  },
  "craquelope": {
-  "anim_front.png": "49a0b1534567b74a",
-  "back.png": "6002e6252b158ab9",
-  "front.png": "a58d4f3b5a6ca225",
-  "normal.pal": "e6d079e39d34c2ee",
-  "shiny.pal": "e6d079e39d34c2ee"
+  "anim_front.png": "2e3bd36ba3f1ef90",
+  "back.png": "a70a7b867c0ac4db",
+  "front.png": "37949b7b6a646f56",
+  "normal.pal": "73324c9eb0c0cd71",
+  "shiny.pal": "73324c9eb0c0cd71"
  },
  "crasper": {
-  "anim_front.png": "f58277a70843be1a",
-  "back.png": "2cb62f3d0efdba00",
-  "front.png": "6083924d2d5fe80d",
-  "normal.pal": "b9ad246854ca98de",
-  "shiny.pal": "b9ad246854ca98de"
+  "anim_front.png": "a8aa9788b27b3afb",
+  "back.png": "a0059e4ae1aa16f3",
+  "front.png": "28637602961e1b8b",
+  "normal.pal": "6d135724743c59c3",
+  "shiny.pal": "6d135724743c59c3"
  },
  "crocabulia": {
   "anim_front.png": "b4886efca4adea63",
@@ -335,25 +335,25 @@
   "shiny.pal": "d262065a1c38cd12"
  },
  "crocodaille": {
-  "anim_front.png": "6a8440c4732b9b7c",
-  "back.png": "f6e532662caa9b78",
-  "front.png": "17d231c05b920331",
-  "normal.pal": "73839c6b2e75087d",
-  "shiny.pal": "73839c6b2e75087d"
+  "anim_front.png": "ae52217365ec1f7a",
+  "back.png": "5ce9c0dcca2ed087",
+  "front.png": "127677c9fa48defd",
+  "normal.pal": "f9406203fe127b48",
+  "shiny.pal": "f9406203fe127b48"
  },
  "dagon": {
-  "anim_front.png": "213e4735ca48785b",
-  "back.png": "bac3f44d39b8eacf",
-  "front.png": "079c1c970435676a",
-  "normal.pal": "69387ef00c4cbf66",
-  "shiny.pal": "69387ef00c4cbf66"
+  "anim_front.png": "98d26df9642b4f28",
+  "back.png": "e06fd726c25bf5ef",
+  "front.png": "f63abace3fa094f3",
+  "normal.pal": "360832330c3452eb",
+  "shiny.pal": "360832330c3452eb"
  },
  "demoloch": {
-  "anim_front.png": "568e50f9f78c573d",
-  "back.png": "20ec3153cfe1b6f6",
-  "front.png": "261786c257d3009c",
-  "normal.pal": "9b2b432a26c34440",
-  "shiny.pal": "9b2b432a26c34440"
+  "anim_front.png": "8f17f6134adfbda7",
+  "back.png": "62f5e7f6833ccd18",
+  "front.png": "060a5c914c987a7f",
+  "normal.pal": "81f2d6a9cf9dbcf2",
+  "shiny.pal": "81f2d6a9cf9dbcf2"
  },
  "diabelial": {
   "anim_front.png": "73bd3132acec74d1",
@@ -370,11 +370,11 @@
   "shiny.pal": "8c8f36489def342d"
  },
  "disciple_kimbo": {
-  "anim_front.png": "03528b1cb144d950",
-  "back.png": "55daff9070a520ef",
-  "front.png": "d408e14b6feb1920",
-  "normal.pal": "b4c9a338fbfbc016",
-  "shiny.pal": "b4c9a338fbfbc016"
+  "anim_front.png": "0414bb8a6a8f6631",
+  "back.png": "f01e656ab22c5561",
+  "front.png": "a62e4f42b9c7de07",
+  "normal.pal": "87c506c12c5fcdad",
+  "shiny.pal": "87c506c12c5fcdad"
  },
  "dokachu": {
   "anim_front.png": "2678d625090cc5c9",
@@ -412,32 +412,32 @@
   "shiny.pal": "c7d1f93a05377a84"
  },
  "dragoune": {
-  "anim_front.png": "17d1ad2f7a101069",
-  "back.png": "fa6fa5a59bc079e0",
-  "front.png": "76df467316999ed9",
-  "normal.pal": "5d01f388d486b5cb",
-  "shiny.pal": "5d01f388d486b5cb"
+  "anim_front.png": "2fddfdea113f30be",
+  "back.png": "9ae1e954cf895246",
+  "front.png": "cb15ba1e3ffed765",
+  "normal.pal": "d8c0f09144357bf1",
+  "shiny.pal": "d8c0f09144357bf1"
  },
  "ecurouille": {
-  "anim_front.png": "f2a0cbc5bda7c1b4",
-  "back.png": "a23991d4ddc1cf2c",
-  "front.png": "c0e00a3880606eeb",
-  "normal.pal": "66aae0dfe013a50c",
-  "shiny.pal": "66aae0dfe013a50c"
+  "anim_front.png": "30aa5530654ed8b5",
+  "back.png": "db5e3b06f51430ae",
+  "front.png": "f17c2233b17c7af3",
+  "normal.pal": "ed73e4c54258384e",
+  "shiny.pal": "ed73e4c54258384e"
  },
  "el_scarador": {
-  "anim_front.png": "1a20c11c8c1dee77",
-  "back.png": "fd64c8306fdb41a7",
-  "front.png": "9b55f52a4b4a7c0e",
-  "normal.pal": "815d11fd8d9fd36e",
-  "shiny.pal": "815d11fd8d9fd36e"
+  "anim_front.png": "2015a4f4c0780196",
+  "back.png": "00e36c31335e70df",
+  "front.png": "7da0f6511d3c2b4b",
+  "normal.pal": "fcb9639c9f0f6b8d",
+  "shiny.pal": "fcb9639c9f0f6b8d"
  },
  "fantomayte": {
-  "anim_front.png": "1bac299aad704cfa",
-  "back.png": "4ebab57affd86edc",
-  "front.png": "62c6de78db63d8a9",
-  "normal.pal": "516edf85dba25791",
-  "shiny.pal": "516edf85dba25791"
+  "anim_front.png": "3abc1876fcdf5ff9",
+  "back.png": "56d55f75bda7bf38",
+  "front.png": "0638c8229d37b857",
+  "normal.pal": "dfa3824fd7ff4ed8",
+  "shiny.pal": "dfa3824fd7ff4ed8"
  },
  "fecorce": {
   "anim_front.png": "b43aeb77910926f8",
@@ -447,11 +447,11 @@
   "shiny.pal": "0363fe7d4f087a4d"
  },
  "folle": {
-  "anim_front.png": "2369bd360cb3e805",
-  "back.png": "4e8cf24b0a1044f5",
-  "front.png": "e4ffa5c0c6ee5a62",
-  "normal.pal": "f7bf501c834fd0f6",
-  "shiny.pal": "f7bf501c834fd0f6"
+  "anim_front.png": "375d163107818f84",
+  "back.png": "856247483ad53bcd",
+  "front.png": "8b2e6f795357af17",
+  "normal.pal": "56d15fdce85de472",
+  "shiny.pal": "56d15fdce85de472"
  },
  "fu_mansot": {
   "anim_front.png": "016bd795b8bb0758",
@@ -461,11 +461,11 @@
   "shiny.pal": "fb772e39a6ea925b"
  },
  "gamino": {
-  "anim_front.png": "788f85ecac22b494",
-  "back.png": "dbc857c93da31252",
-  "front.png": "7269206f6461a1d8",
-  "normal.pal": "f12d9b10b5798fda",
-  "shiny.pal": "f12d9b10b5798fda"
+  "anim_front.png": "24f40d51bff95c6f",
+  "back.png": "42e4281a514e395c",
+  "front.png": "50844a337c541515",
+  "normal.pal": "1f99659f6fe5d55d",
+  "shiny.pal": "1f99659f6fe5d55d"
  },
  "gangredogue": {
   "anim_front.png": "9ae683d992440eca",
@@ -475,18 +475,18 @@
   "shiny.pal": "cce783f6dde0300f"
  },
  "gardienne_champetre": {
-  "anim_front.png": "69745ac528fc4a61",
-  "back.png": "98ef43fcc6b1f0d1",
-  "front.png": "c3eb612d7476446e",
-  "normal.pal": "1a749d26108d4c17",
-  "shiny.pal": "1a749d26108d4c17"
+  "anim_front.png": "0deae77d97d9fbbb",
+  "back.png": "9c0b27576bcae6f5",
+  "front.png": "9eb52950061da03a",
+  "normal.pal": "9a6beb0364b53d1e",
+  "shiny.pal": "9a6beb0364b53d1e"
  },
  "germinion": {
-  "anim_front.png": "f86a71c4e2c28d33",
-  "back.png": "066dbf93a4d13f78",
-  "front.png": "b58d2dd2dc0f4f20",
-  "normal.pal": "ff9dd7ee019c6467",
-  "shiny.pal": "ff9dd7ee019c6467"
+  "anim_front.png": "bee5618b9d675a3a",
+  "back.png": "f3867f6a4201fa52",
+  "front.png": "f867ccad83e62ed5",
+  "normal.pal": "fbd4661059821858",
+  "shiny.pal": "fbd4661059821858"
  },
  "glouragan": {
   "anim_front.png": "fecd687bb4c0c10c",
@@ -510,11 +510,11 @@
   "shiny.pal": "de807ea13015fac0"
  },
  "gobet": {
-  "anim_front.png": "2bc368258dd2c7bd",
-  "back.png": "da02e5587cbd45ea",
-  "front.png": "d75d355e55f2b468",
-  "normal.pal": "1635b4c8cd1bd127",
-  "shiny.pal": "1635b4c8cd1bd127"
+  "anim_front.png": "b8895c47ae9ac9ad",
+  "back.png": "00778e09a146de9c",
+  "front.png": "87e3d7a7a2b0841a",
+  "normal.pal": "4bf1c2e4bbaa7230",
+  "shiny.pal": "4bf1c2e4bbaa7230"
  },
  "gobgob": {
   "anim_front.png": "fabfb523aa64de6e",
@@ -545,11 +545,11 @@
   "shiny.pal": "69bfc0637f282bab"
  },
  "grokillage": {
-  "anim_front.png": "faa78c5f71767017",
-  "back.png": "5770c6fcf10fed04",
-  "front.png": "8f2c1c84df8b0ce2",
-  "normal.pal": "4b023befdbf596a5",
-  "shiny.pal": "4b023befdbf596a5"
+  "anim_front.png": "f2b7fd319fa75c33",
+  "back.png": "14cf60782a3f42f7",
+  "front.png": "4a466ace098c64b5",
+  "normal.pal": "9bc597731b0a36a4",
+  "shiny.pal": "9bc597731b0a36a4"
  },
  "grokoko": {
   "anim_front.png": "457759da9fc79e97",
@@ -559,11 +559,11 @@
   "shiny.pal": "f984d324cdb9f230"
  },
  "gwo_tofu": {
-  "anim_front.png": "3d913fef97880ab2",
-  "back.png": "661fc1757dc23f7b",
-  "front.png": "7eede9f26ec5ef93",
-  "normal.pal": "5cae19b8d390a8e2",
-  "shiny.pal": "5cae19b8d390a8e2"
+  "anim_front.png": "4a14820b088496b6",
+  "back.png": "468f882efdedf442",
+  "front.png": "bd75cf0d18c10dde",
+  "normal.pal": "19bb52e5d6e8ce6f",
+  "shiny.pal": "19bb52e5d6e8ce6f"
  },
  "halbardent": {
   "anim_front.png": "df52d6695837f1bc",
@@ -580,11 +580,11 @@
   "shiny.pal": "dcfd6dc3c50dfd61"
  },
  "kanigloups": {
-  "anim_front.png": "a951fc76a7270820",
-  "back.png": "dc74fbb8ffc14bef",
-  "front.png": "138b2a0e4170a5f1",
-  "normal.pal": "24df164b1d722dcd",
-  "shiny.pal": "24df164b1d722dcd"
+  "anim_front.png": "0b527d0f1d417ab6",
+  "back.png": "ca1bc4b147ace91d",
+  "front.png": "fd5ef3a1e842d555",
+  "normal.pal": "22344176ab0b9781",
+  "shiny.pal": "22344176ab0b9781"
  },
  "karnhell": {
   "anim_front.png": "f59b6d0cf69fbc99",
@@ -594,11 +594,11 @@
   "shiny.pal": "48e97e3ddeed2278"
  },
  "kaskargo": {
-  "anim_front.png": "351b0cb853e3900a",
-  "back.png": "df49d494a9306a3c",
-  "front.png": "2e4bd78715782b1b",
-  "normal.pal": "e015eacbd1178d6b",
-  "shiny.pal": "e015eacbd1178d6b"
+  "anim_front.png": "6bf56ea7c3e08685",
+  "back.png": "78db6a5f96dc2df0",
+  "front.png": "55fc69e8fa13747e",
+  "normal.pal": "f5d912cf9d11db8e",
+  "shiny.pal": "f5d912cf9d11db8e"
  },
  "kitsou": {
   "anim_front.png": "0c768d09809c4cde",
@@ -622,18 +622,18 @@
   "shiny.pal": "6774e1df19e5409f"
  },
  "koalak_immature": {
-  "anim_front.png": "366d5c4239df60a2",
-  "back.png": "c7ae937723f96ecf",
-  "front.png": "eeae258ec4884e0a",
-  "normal.pal": "68bf5878add0a4d0",
-  "shiny.pal": "68bf5878add0a4d0"
+  "anim_front.png": "38adffc9018ffff0",
+  "back.png": "bfcd0f745ef58190",
+  "front.png": "6a0563ff07d38201",
+  "normal.pal": "c4add697f85157bc",
+  "shiny.pal": "c4add697f85157bc"
  },
  "kokulte": {
-  "anim_front.png": "ad5287767718cb2b",
-  "back.png": "a4b8473984e6427a",
-  "front.png": "0fa2cd6ab708f43e",
-  "normal.pal": "02a904027f875560",
-  "shiny.pal": "02a904027f875560"
+  "anim_front.png": "d4f96ab49a8b8fe0",
+  "back.png": "28f3308a71a1e1bd",
+  "front.png": "1149a83c0209c839",
+  "normal.pal": "de8ec4520e9fea9b",
+  "shiny.pal": "de8ec4520e9fea9b"
  },
  "kwakere_feu": {
   "anim_front.png": "0aa1f2c40a6f526e",
@@ -664,18 +664,18 @@
   "shiny.pal": "2b046fea0c98dd20"
  },
  "kwoan": {
-  "anim_front.png": "14adb490c0e4a2da",
-  "back.png": "13be7d7aeafbf332",
-  "front.png": "ad144d8bd818e6db",
-  "normal.pal": "797f9bc33b340276",
-  "shiny.pal": "797f9bc33b340276"
+  "anim_front.png": "02f5b2b73bbb4089",
+  "back.png": "9408b92694971b0c",
+  "front.png": "512d94453a1066bb",
+  "normal.pal": "f899c3f24cb62e5e",
+  "shiny.pal": "f899c3f24cb62e5e"
  },
  "lapino": {
-  "anim_front.png": "cc2b417531ded183",
-  "back.png": "901d31671b2d9003",
-  "front.png": "97c32fe388f1fdd4",
-  "normal.pal": "b1751b40f4895a2c",
-  "shiny.pal": "b1751b40f4895a2c"
+  "anim_front.png": "e54838dc58e4a8ce",
+  "back.png": "8fd06c134cb9c8ec",
+  "front.png": "d60569ed4255726a",
+  "normal.pal": "d9bbe34ad031a5cc",
+  "shiny.pal": "d9bbe34ad031a5cc"
  },
  "lapino_mutant": {
   "anim_front.png": "bb5dcdc0dfa016dc",
@@ -685,18 +685,18 @@
   "shiny.pal": "57db9b19fc0952be"
  },
  "larve_champetre": {
-  "anim_front.png": "f97798b5c7edaeda",
-  "back.png": "0aa756be7315d83d",
-  "front.png": "07f250b75d54b972",
-  "normal.pal": "89d9d76da11a5877",
-  "shiny.pal": "89d9d76da11a5877"
+  "anim_front.png": "c2e02893b71895f5",
+  "back.png": "df8fc9e81a4b98ed",
+  "front.png": "64d05fc767e9bf9b",
+  "normal.pal": "04cd68ce57901d26",
+  "shiny.pal": "04cd68ce57901d26"
  },
  "larve_jaune": {
-  "anim_front.png": "c349939fe9fbbcee",
-  "back.png": "d839f93e336266be",
-  "front.png": "3ce7ec920008de42",
-  "normal.pal": "559396896f5705a6",
-  "shiny.pal": "559396896f5705a6"
+  "anim_front.png": "09a2bcd5721b066c",
+  "back.png": "41be3043d388a4c3",
+  "front.png": "c59b6cf0e5f66436",
+  "normal.pal": "f0eb5fb4322f0699",
+  "shiny.pal": "f0eb5fb4322f0699"
  },
  "leolhyene": {
   "anim_front.png": "60bda5c79c003a0e",
@@ -755,18 +755,18 @@
   "shiny.pal": "379d37a3f214af92"
  },
  "marcacin": {
-  "anim_front.png": "534811e0ded1c52c",
-  "back.png": "61ab651eb5e9d996",
-  "front.png": "2d8e5f28a7c5ddbc",
-  "normal.pal": "cbf476a781a9738f",
-  "shiny.pal": "cbf476a781a9738f"
+  "anim_front.png": "07b222cd82163048",
+  "back.png": "30f4bc7f2e6012d7",
+  "front.png": "6106229bd47ff44f",
+  "normal.pal": "948612aa58045c30",
+  "shiny.pal": "948612aa58045c30"
  },
  "metaphorreur": {
-  "anim_front.png": "c196112bbd4b19f3",
-  "back.png": "c4c6fe3bbc51ad84",
-  "front.png": "7aa051eb45bce718",
-  "normal.pal": "fc7c6f3bbb157f20",
-  "shiny.pal": "fc7c6f3bbb157f20"
+  "anim_front.png": "337d8eef655cd397",
+  "back.png": "06df9372252d8009",
+  "front.png": "855ac59f5cc21689",
+  "normal.pal": "63f6fd551ba5c7d9",
+  "shiny.pal": "63f6fd551ba5c7d9"
  },
  "milirat": {
   "anim_front.png": "5d814ae3dbab94f2",
@@ -776,18 +776,18 @@
   "shiny.pal": "647c1e90ec38cb30"
  },
  "minikrone": {
-  "anim_front.png": "02b0084ca28ef55b",
-  "back.png": "d9758e7de2c9fe23",
-  "front.png": "4f07ee748fa0fc06",
-  "normal.pal": "53a6d7ed0ab19b78",
-  "shiny.pal": "53a6d7ed0ab19b78"
+  "anim_front.png": "01718f8eb7075dd9",
+  "back.png": "4c8cf6c982e013b7",
+  "front.png": "536dee05aca5321a",
+  "normal.pal": "083f7a9014267118",
+  "shiny.pal": "083f7a9014267118"
  },
  "minoskito": {
-  "anim_front.png": "686c175103ef64e5",
-  "back.png": "8b822cbb381cba8d",
-  "front.png": "dcfc265eb965fbfa",
-  "normal.pal": "8e557ff3ca94dbf8",
-  "shiny.pal": "8e557ff3ca94dbf8"
+  "anim_front.png": "453b3a1204919b84",
+  "back.png": "7c48af589215072d",
+  "front.png": "87537bb8b4c509c2",
+  "normal.pal": "94e6e6beb6111ef8",
+  "shiny.pal": "94e6e6beb6111ef8"
  },
  "minotot": {
   "anim_front.png": "7198e10bcfdf4103",
@@ -797,11 +797,11 @@
   "shiny.pal": "b6c2b2d043f34646"
  },
  "mofette": {
-  "anim_front.png": "6eecf15b44b39f16",
-  "back.png": "dd96a4919d0dc625",
-  "front.png": "6f9fac1d900928de",
-  "normal.pal": "e674734a3b9fb0d4",
-  "shiny.pal": "e674734a3b9fb0d4"
+  "anim_front.png": "796ba496c26eff90",
+  "back.png": "1d613e8cda6d6167",
+  "front.png": "d0b6d27522e80dfe",
+  "normal.pal": "8fe260bca2291b25",
+  "shiny.pal": "8fe260bca2291b25"
  },
  "mol_usk": {
   "anim_front.png": "93f9d4a85f600d5d",
@@ -818,18 +818,18 @@
   "shiny.pal": "6286f12800823f05"
  },
  "moskito": {
-  "anim_front.png": "754e34d6dc96124f",
-  "back.png": "e61c8c96b28d6de6",
-  "front.png": "98e7582be681999d",
-  "normal.pal": "e6249968b9a527f7",
-  "shiny.pal": "e6249968b9a527f7"
+  "anim_front.png": "114d83fd66bf0a3f",
+  "back.png": "ca9ca9fa6ac342ef",
+  "front.png": "051020377333e5d6",
+  "normal.pal": "90a2497ff5c5e8c3",
+  "shiny.pal": "90a2497ff5c5e8c3"
  },
  "mouchame": {
-  "anim_front.png": "483fda1e40a43d38",
-  "back.png": "3598d63bea8e9fad",
-  "front.png": "d087a3d1207de898",
-  "normal.pal": "1c9f290a0a6ccf72",
-  "shiny.pal": "1c9f290a0a6ccf72"
+  "anim_front.png": "eb4eef7d9b05a4b7",
+  "back.png": "5d44f9fcee54477b",
+  "front.png": "3c2619455f057abc",
+  "normal.pal": "5dd0cb99a7e67962",
+  "shiny.pal": "5dd0cb99a7e67962"
  },
  "moumoule": {
   "anim_front.png": "7ef452d34a860351",
@@ -839,11 +839,11 @@
   "shiny.pal": "64c2958002139585"
  },
  "muldo": {
-  "anim_front.png": "e76aae7a951d7fdc",
-  "back.png": "beccf989a7aedc14",
-  "front.png": "653c052af47ba1cf",
-  "normal.pal": "14cc1d409669d9d5",
-  "shiny.pal": "14cc1d409669d9d5"
+  "anim_front.png": "e2c3e2214d7824ad",
+  "back.png": "e79d43f96f236c29",
+  "front.png": "bb63019ab179fcad",
+  "normal.pal": "dae06b71cf6ce948",
+  "shiny.pal": "dae06b71cf6ce948"
  },
  "muloubard": {
   "anim_front.png": "121c8e039225471f",
@@ -853,25 +853,25 @@
   "shiny.pal": "b7f9965f73ce72a5"
  },
  "nerbe": {
-  "anim_front.png": "3637e1304971f09b",
-  "back.png": "2097b57aabf0b27f",
-  "front.png": "5f2332ee99bd8ff2",
-  "normal.pal": "67a1ce1c597b5f9a",
-  "shiny.pal": "67a1ce1c597b5f9a"
+  "anim_front.png": "dac1a06ea2b0b96a",
+  "back.png": "c77d7f4d9dd497df",
+  "front.png": "7bfb35b39a0e9949",
+  "normal.pal": "cdb0807668b47ad4",
+  "shiny.pal": "cdb0807668b47ad4"
  },
  "nocturlabe": {
-  "anim_front.png": "9def2fab5575c43d",
-  "back.png": "b911b8647bf807bf",
-  "front.png": "d863a0efbe7ac6b0",
-  "normal.pal": "747308bf8d7b086f",
-  "shiny.pal": "747308bf8d7b086f"
+  "anim_front.png": "bb183ae66c8fed01",
+  "back.png": "c43116bf5172e138",
+  "front.png": "110532ee70d1b5c3",
+  "normal.pal": "10dab18db4c5a3ad",
+  "shiny.pal": "10dab18db4c5a3ad"
  },
  "nodkoko": {
-  "anim_front.png": "9e9582f0bf195f5b",
-  "back.png": "290e4c5660b26277",
-  "front.png": "b9f56d6367385dcd",
-  "normal.pal": "2e4e6dca013f36ef",
-  "shiny.pal": "2e4e6dca013f36ef"
+  "anim_front.png": "db5d96c2b1c1d7f7",
+  "back.png": "c4238db42a0816e1",
+  "front.png": "d69bb3b0cf64c91f",
+  "normal.pal": "2ec8dd24a8425612",
+  "shiny.pal": "2ec8dd24a8425612"
  },
  "obsidiantre": {
   "anim_front.png": "a5da4ec61a56c7d8",
@@ -888,25 +888,25 @@
   "shiny.pal": "fb023ba77b636fc8"
  },
  "ouroboulos": {
-  "anim_front.png": "a077bc584618d741",
-  "back.png": "c40de983db6f3869",
-  "front.png": "28fbaeef675a2c0d",
-  "normal.pal": "f3ddf1b051ef2786",
-  "shiny.pal": "f3ddf1b051ef2786"
+  "anim_front.png": "5dc6465320991057",
+  "back.png": "1fdfbf7ece3e07f1",
+  "front.png": "0c50f0441909b9a1",
+  "normal.pal": "0de708f94ec31638",
+  "shiny.pal": "0de708f94ec31638"
  },
  "pampactus": {
-  "anim_front.png": "a4135c8e23643895",
-  "back.png": "e88b8d578b7cd6be",
-  "front.png": "ee50501888c487d8",
-  "normal.pal": "7191105077a9db9d",
-  "shiny.pal": "7191105077a9db9d"
+  "anim_front.png": "4e2b818045b55a3c",
+  "back.png": "5428662ea2159c06",
+  "front.png": "e9eab109a2b7e7e4",
+  "normal.pal": "26c619f47dcf427a",
+  "shiny.pal": "26c619f47dcf427a"
  },
  "phorreveur": {
-  "anim_front.png": "d171c944f83e934f",
-  "back.png": "dd53282face8084b",
-  "front.png": "7d29b5c8ad445164",
-  "normal.pal": "102d1c7286966461",
-  "shiny.pal": "102d1c7286966461"
+  "anim_front.png": "ebc6edbde8d2a38e",
+  "back.png": "779a6d5b3a86e3fc",
+  "front.png": "df8442554824ef81",
+  "normal.pal": "db624558198a74e8",
+  "shiny.pal": "db624558198a74e8"
  },
  "phossile": {
   "anim_front.png": "8c5023370f974120",
@@ -916,18 +916,18 @@
   "shiny.pal": "04469f6729753f3b"
  },
  "pichon": {
-  "anim_front.png": "042502f6b808f9ca",
-  "back.png": "32291e994c7eb226",
-  "front.png": "ca5275dd0ef22dfc",
-  "normal.pal": "bf85afff6ef6a4f5",
-  "shiny.pal": "bf85afff6ef6a4f5"
+  "anim_front.png": "5aca322b889d5450",
+  "back.png": "23b70b0f762b116c",
+  "front.png": "c4caa1679f611d7a",
+  "normal.pal": "0947c5c9479eb402",
+  "shiny.pal": "0947c5c9479eb402"
  },
  "prespic": {
-  "anim_front.png": "b94d6c71a6040d9b",
-  "back.png": "f8c2be0ff497ca7e",
-  "front.png": "84c4d1b6718247c1",
-  "normal.pal": "65aa0222ec1c49c8",
-  "shiny.pal": "65aa0222ec1c49c8"
+  "anim_front.png": "cead726bcf3a437f",
+  "back.png": "692b71cd885620a0",
+  "front.png": "df40f00a9f9f332f",
+  "normal.pal": "78d3f4e1fac42f31",
+  "shiny.pal": "78d3f4e1fac42f31"
  },
  "rainikrone": {
   "anim_front.png": "17d56e8d74d4a9a7",
@@ -1042,18 +1042,18 @@
   "shiny.pal": "c7277df4496e5cae"
  },
  "scorpique": {
-  "anim_front.png": "c55e7bbd391056de",
-  "back.png": "042a5cea1f23e059",
-  "front.png": "76a01f6864375f5f",
-  "normal.pal": "66c8f42305308cb6",
-  "shiny.pal": "66c8f42305308cb6"
+  "anim_front.png": "e12ced3d93154ad2",
+  "back.png": "fcf90f1ac17837f8",
+  "front.png": "db7be2d45896f418",
+  "normal.pal": "a950c8eaa6c0d047",
+  "shiny.pal": "a950c8eaa6c0d047"
  },
  "serpentin": {
-  "anim_front.png": "87f5bfee1151594b",
-  "back.png": "8d07538a735d58da",
-  "front.png": "228ff9de7a306748",
-  "normal.pal": "5bb6544b8a1749b2",
-  "shiny.pal": "5bb6544b8a1749b2"
+  "anim_front.png": "6546b8e7857cc557",
+  "back.png": "e0c613f5f4b11d10",
+  "front.png": "ef0139a1ee29f6bf",
+  "normal.pal": "96d710587c4cc0d6",
+  "shiny.pal": "96d710587c4cc0d6"
  },
  "serpiplume": {
   "anim_front.png": "34c19498877a825a",
@@ -1063,11 +1063,11 @@
   "shiny.pal": "b94a837b7da8febc"
  },
  "sherpoa": {
-  "anim_front.png": "e76f672216f78fa6",
-  "back.png": "b77b15e64a396f21",
-  "front.png": "9189ad37664aa924",
-  "normal.pal": "6ba53adc95fbe5be",
-  "shiny.pal": "6ba53adc95fbe5be"
+  "anim_front.png": "30aa36e076fc32a9",
+  "back.png": "a2198ccf7d7a47ba",
+  "front.png": "c9d2c94555087f02",
+  "normal.pal": "eeab9fadce701cc4",
+  "shiny.pal": "eeab9fadce701cc4"
  },
  "shin_larve": {
   "anim_front.png": "1b4a167397680696",
@@ -1077,18 +1077,18 @@
   "shiny.pal": "0a012be9730dba93"
  },
  "sinistrofu": {
-  "anim_front.png": "d57919e7ddb758b4",
-  "back.png": "b9caf5d58b35d67c",
-  "front.png": "e34be20da83d514c",
-  "normal.pal": "e31e766f8d344dec",
-  "shiny.pal": "e31e766f8d344dec"
+  "anim_front.png": "c6f44b708917cf41",
+  "back.png": "81223fcb68b09a95",
+  "front.png": "1b043de7e1f173b0",
+  "normal.pal": "8947f2ba97313f95",
+  "shiny.pal": "8947f2ba97313f95"
  },
  "skyboufton": {
-  "anim_front.png": "b3b5c2c960749eb4",
-  "back.png": "68785eef502395de",
-  "front.png": "8d6cedd34b83dcb8",
-  "normal.pal": "f4a39a7e0bf720ff",
-  "shiny.pal": "f4a39a7e0bf720ff"
+  "anim_front.png": "48a29ddfa0ee4f6b",
+  "back.png": "fa87b47c4d78da98",
+  "front.png": "6d7c53abe1560f21",
+  "normal.pal": "7d8bdbe318db5210",
+  "shiny.pal": "7d8bdbe318db5210"
  },
  "skybouftou": {
   "anim_front.png": "5abfced0d7ef32ed",
@@ -1098,32 +1098,32 @@
   "shiny.pal": "a21e1c44469f6067"
  },
  "soldalia": {
-  "anim_front.png": "15b936c6024561a5",
-  "back.png": "73f425a5016b861d",
-  "front.png": "ab3b6c13d8c480cf",
-  "normal.pal": "874d69e0acefc5f1",
-  "shiny.pal": "874d69e0acefc5f1"
+  "anim_front.png": "9b79bf005239f6d5",
+  "back.png": "15136f004830efbb",
+  "front.png": "00b35b802b4d144c",
+  "normal.pal": "14b292d4dd15da33",
+  "shiny.pal": "14b292d4dd15da33"
  },
  "sousouris": {
-  "anim_front.png": "c7078a46f79ffb2b",
-  "back.png": "aeef74e3b36c3349",
-  "front.png": "a3568e0ac76bb7ea",
-  "normal.pal": "5d371fe36d19c2f5",
-  "shiny.pal": "5d371fe36d19c2f5"
+  "anim_front.png": "4b39434970aa5551",
+  "back.png": "2d332f9086bdd5cd",
+  "front.png": "66c1821fb84806bd",
+  "normal.pal": "f4c4267dac32c826",
+  "shiny.pal": "f4c4267dac32c826"
  },
  "tifoux": {
-  "anim_front.png": "1690de6846083bb6",
-  "back.png": "8ee608ec1368815e",
-  "front.png": "c4c291194acfeca4",
-  "normal.pal": "5e601f3bede85986",
-  "shiny.pal": "5e601f3bede85986"
+  "anim_front.png": "fc405827f428f09f",
+  "back.png": "785a484ae308f1c6",
+  "front.png": "752d2f237b23c49f",
+  "normal.pal": "4d4d86bc54d8b0fb",
+  "shiny.pal": "4d4d86bc54d8b0fb"
  },
  "tigrimas": {
-  "anim_front.png": "10efc3590d75f14f",
-  "back.png": "833122da22133709",
-  "front.png": "89a016c3ca24fd3d",
-  "normal.pal": "1864f3a9198f02e8",
-  "shiny.pal": "1864f3a9198f02e8"
+  "anim_front.png": "bb44a37a2c62edd2",
+  "back.png": "9a05a3f9021eb875",
+  "front.png": "2d2797f23dd99c2b",
+  "normal.pal": "cf08381577ccf1e8",
+  "shiny.pal": "cf08381577ccf1e8"
  },
  "tikoko": {
   "anim_front.png": "62d6cc541946d853",
@@ -1133,46 +1133,46 @@
   "shiny.pal": "a2deb421e4ac2645"
  },
  "tilamproie": {
-  "anim_front.png": "6a64bb4331d0e0d8",
-  "back.png": "ebf19ce686639a2d",
-  "front.png": "393febc033ce98ab",
-  "normal.pal": "b3ac0917bdf9ec5f",
-  "shiny.pal": "b3ac0917bdf9ec5f"
+  "anim_front.png": "084ab65fa01200cd",
+  "back.png": "ff14aa3d3b8b922a",
+  "front.png": "4915bd6408fe9339",
+  "normal.pal": "6f2f2f964e4135a2",
+  "shiny.pal": "6f2f2f964e4135a2"
  },
  "timansot": {
-  "anim_front.png": "bdda1b84ef0d3adb",
-  "back.png": "394b8a740eb815ea",
-  "front.png": "b7a7e3831a7ab3a2",
-  "normal.pal": "738a28137b27c93f",
-  "shiny.pal": "738a28137b27c93f"
+  "anim_front.png": "f0d8211cf20abde1",
+  "back.png": "ae637bd6acae4e4c",
+  "front.png": "43ac5c9102e29f3c",
+  "normal.pal": "f1dc52f8d3e0a7a5",
+  "shiny.pal": "f1dc52f8d3e0a7a5"
  },
  "titardo": {
-  "anim_front.png": "577d416698e93920",
-  "back.png": "ec4029130c837de6",
-  "front.png": "1f7ab537affb277d",
-  "normal.pal": "c9576500f7c5e1b0",
-  "shiny.pal": "c9576500f7c5e1b0"
+  "anim_front.png": "01ff7fcbeb543413",
+  "back.png": "4868320e9f3321c0",
+  "front.png": "c74da3a15f2245bc",
+  "normal.pal": "e9969c487f82e1d8",
+  "shiny.pal": "e9969c487f82e1d8"
  },
  "tiwabbit": {
-  "anim_front.png": "132b6e442770dc54",
-  "back.png": "3adc185cc9c8e535",
-  "front.png": "4f83b326c7ca06e5",
-  "normal.pal": "505fcc130bf80f47",
-  "shiny.pal": "505fcc130bf80f47"
+  "anim_front.png": "d06391c25bb29811",
+  "back.png": "8d64f2ebb60da1a1",
+  "front.png": "45a30f32676ac25f",
+  "normal.pal": "20c8880437dd574b",
+  "shiny.pal": "20c8880437dd574b"
  },
  "tofu": {
-  "anim_front.png": "cbe12b210eba3ffc",
-  "back.png": "7a69c2055aa7a108",
-  "front.png": "beb92cc7ca303874",
-  "normal.pal": "81cfac8ecad074c3",
-  "shiny.pal": "81cfac8ecad074c3"
+  "anim_front.png": "5a6c0d9657deb3bb",
+  "back.png": "3ad1fcda5ce2425e",
+  "front.png": "33fdc1bb2b00f417",
+  "normal.pal": "08686f95829cfd39",
+  "shiny.pal": "08686f95829cfd39"
  },
  "tofu_malefique": {
-  "anim_front.png": "1a0dd4788136d6a4",
-  "back.png": "792fe26317fda2ed",
-  "front.png": "a4ebc32842897dad",
-  "normal.pal": "5f65d3d517e854a8",
-  "shiny.pal": "5f65d3d517e854a8"
+  "anim_front.png": "77e63683d724d17c",
+  "back.png": "72f035c6ab057b73",
+  "front.png": "28b3a9a3b2206cf2",
+  "normal.pal": "494ecf463aed44c8",
+  "shiny.pal": "494ecf463aed44c8"
  },
  "tofu_royal": {
   "anim_front.png": "5ab45f0ae449445e",
@@ -1196,18 +1196,18 @@
   "shiny.pal": "b3a2a197630d8aa3"
  },
  "tournesol_sauvage": {
-  "anim_front.png": "f10352822bd337e7",
-  "back.png": "22e7e3eb545deaea",
-  "front.png": "7778e18db5a68070",
-  "normal.pal": "33f4252194942823",
-  "shiny.pal": "ad120e779f73e144"
+  "anim_front.png": "1676bd87d35d9d7b",
+  "back.png": "41a903d9564b6f53",
+  "front.png": "7867e27aa1c830a4",
+  "normal.pal": "3c79db9d09e1c61d",
+  "shiny.pal": "9c0410251021d160"
  },
  "tronknyde": {
-  "anim_front.png": "fd6c0ba4cfd202d0",
-  "back.png": "8f00dc8a62dc9462",
-  "front.png": "67c2276a8905beaf",
-  "normal.pal": "6b2c8d430232206e",
-  "shiny.pal": "6b2c8d430232206e"
+  "anim_front.png": "bb165003d678ee34",
+  "back.png": "684201be38023f23",
+  "front.png": "3c1efdc28a4aafa0",
+  "normal.pal": "f29a0414274bfdfe",
+  "shiny.pal": "f29a0414274bfdfe"
  },
  "typhomet": {
   "anim_front.png": "3d118bed6b1b2a8d",
@@ -1231,18 +1231,18 @@
   "shiny.pal": "d80a9e27fbaebf40"
  },
  "voracle": {
-  "anim_front.png": "a94f704ef200c145",
-  "back.png": "cf9f701565bc3e9f",
-  "front.png": "72c16288378d87c2",
-  "normal.pal": "e465f49331cf4b9c",
-  "shiny.pal": "e465f49331cf4b9c"
+  "anim_front.png": "7107c7d224d4d8fe",
+  "back.png": "f727b1ec1dbd6776",
+  "front.png": "eb349ff54774352f",
+  "normal.pal": "ef8830a5b6823e9c",
+  "shiny.pal": "ef8830a5b6823e9c"
  },
  "wabbit": {
-  "anim_front.png": "ff1166cf3fc08a20",
-  "back.png": "3d72fdd3f8a416f1",
-  "front.png": "ff663bef8878e2ef",
-  "normal.pal": "db8525e8c4b8d95a",
-  "shiny.pal": "db8525e8c4b8d95a"
+  "anim_front.png": "1d9c977c7304a8b4",
+  "back.png": "13a948afae6d7bdc",
+  "front.png": "8b2c4e04cc9b0f38",
+  "normal.pal": "3b88b324c91ae2b9",
+  "shiny.pal": "3b88b324c91ae2b9"
  },
  "wo_wabbit": {
   "anim_front.png": "162cfb9d90b5deee",

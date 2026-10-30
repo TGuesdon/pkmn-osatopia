@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tailles des sprites</title>
+<style>
+:root {
+  --bg: #f4f2ee; --panel: #ffffff; --panel2: #f8f7f4; --text: #1f1d1a; --muted: #77716a;
+  --border: #e3dfd8; --accent: #c0392b; --ok: #2e8b57; --ground: #d9d3c8;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181b; --panel: #212226; --panel2: #1b1c20; --text: #ebe8e3; --muted: #9a958d;
+    --border: #33353b; --ground: #3a3c42;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+button, input, select { font: inherit; color: inherit; }
+
+header { position: sticky; top: 0; z-index: 2; background: var(--panel); border-bottom: 1px solid var(--border); padding: 12px 24px; display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; }
+header h1 { margin: 0; font-size: 18px; }
+header input, header select { padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel2); }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.seg button { border: 0; background: var(--panel2); padding: 4px 10px; cursor: pointer; }
+.seg button.on { background: var(--text); color: var(--panel); }
+#counts { display: flex; gap: 12px; color: var(--muted); font-size: 12px; flex-wrap: wrap; }
+#counts b { color: var(--text); font-variant-numeric: tabular-nums; }
+.hint { color: var(--muted); font-size: 12px; width: 100%; }
+#pin { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+#pin canvas { width: 32px; height: 32px; image-rendering: pixelated; }
+
+main { padding: 16px 24px 40vh; display: grid; gap: 12px; }
+#status { color: var(--muted); }
+#status.err { color: var(--accent); white-space: pre-wrap; font-family: ui-monospace, monospace; }
+
+.fam { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px 12px; overflow-x: auto; }
+.row { display: flex; gap: 8px; align-items: flex-end; width: max-content; }
+.mon { display: grid; justify-items: center; gap: 4px; width: 140px; padding: 4px; border-radius: 8px; border: 2px solid transparent; }
+.mon:hover, .mon.hover { border-color: var(--border); }
+.mon.ref { opacity: .45; }
+.mon .nm { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.mon .nm.none { color: var(--accent); }
+.mon .box { position: relative; width: 128px; height: 128px; background: var(--panel2); border-radius: 6px; }
+.mon .box::after { content: ""; position: absolute; left: 6px; right: 6px; height: 1px; background: var(--ground); top: var(--ground-y); }
+.mon canvas { width: 128px; height: 128px; image-rendering: pixelated; position: relative; z-index: 1; }
+.mon .pinb { position: absolute; top: 2px; right: 2px; z-index: 2; border: 0; background: none; cursor: pointer; opacity: 0; font-size: 13px; }
+.mon:hover .pinb { opacity: .7; }
+.sizes { display: flex; gap: 2px; }
+.sizes button { border: 1px solid var(--border); background: var(--panel2); border-radius: 4px; padding: 0 5px; font-size: 11px; cursor: pointer; min-width: 22px; }
+.sizes button.on { background: var(--ok); border-color: var(--ok); color: #fff; }
+.sizes button:hover:not(.on) { border-color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Tailles des sprites</h1>
+  <input id="q" type="search" placeholder="Rechercher…">
+  <select id="filter">
+    <option value="">Toutes les familles</option>
+    <option value="todo">Familles incomplètes</option>
+  </select>
+  <span class="seg" id="view"><button data-v="front" class="on">Face</button><button data-v="back">Dos</button></span>
+  <span id="pin"></span>
+  <div id="counts"></div>
+  <div class="hint">Survole un monstre puis tape 1–5 (minuscule → énorme), 0 pour retirer la taille. 📌 épingle un monstre en référence au début de chaque ligne. Chaque clic est enregistré dans overrides.json ; régénère ensuite les aperçus avec <code>./run.sh --src …</code>.</div>
+</header>
+<main>
+  <div id="status">Chargement…</div>
+  <div id="fams"></div>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const LABELS = { minuscule: 'Mi', petit: 'P', moyen: 'Mo', grand: 'G', enorme: 'É' };
+const SIZE = 64;
+
+let S = null;            // state from /api/state
+let view = 'front';
+let hovered = null;      // folder under the mouse
+let pinned = null;       // reference monster folder
+const sprites = {};      // `${folder}/${view}` -> { canvas, bbox } (keyed-out, full 64x64)
+
+// ---------- Sprites ----------
+
+async function loadPal(folder) {
+  const txt = await fetch(`/graphics/pokemon/${folder}/normal.pal`).then(r => r.text());
+  return txt.trim().split(/\s+/).slice(3, 6).map(Number);
+}
+
+function loadImg(src) {
+  return new Promise((ok, ko) => { const i = new Image(); i.onload = () => ok(i); i.onerror = ko; i.src = src; });
+}
+
+async function sprite(folder, v) {
+  const key = `${folder}/${v}`;
+  if (sprites[key]) return sprites[key];
+  return sprites[key] = (async () => {
+    const [img, bg] = await Promise.all([
+      loadImg(`/graphics/pokemon/${folder}/${v === 'back' ? 'back.png' : 'front.png'}`)
+        .catch(() => loadImg(`/graphics/pokemon/${folder}/anim_front.png`)),
+      loadPal(folder),
+    ]);
+    const c = document.createElement('canvas');
+    c.width = c.height = SIZE;
+    const g = c.getContext('2d');
+    g.drawImage(img, 0, 0, SIZE, SIZE, 0, 0, SIZE, SIZE);  // anim_front: first frame only
+    const d = g.getImageData(0, 0, SIZE, SIZE);
+    let x0 = SIZE, y0 = SIZE, x1 = -1, y1 = -1;
+    for (let y = 0; y < SIZE; y++) for (let x = 0; x < SIZE; x++) {
+      const i = (y * SIZE + x) * 4, p = d.data;
+      if (p[i + 3] < 128 || (p[i] === bg[0] && p[i + 1] === bg[1] && p[i + 2] === bg[2])) { p[i + 3] = 0; continue; }
+      x0 = Math.min(x0, x); y0 = Math.min(y0, y); x1 = Math.max(x1, x); y1 = Math.max(y1, y);
+    }
+    g.putImageData(d, 0, 0);
+    return { canvas: c, bbox: x1 < 0 ? null : [x0, y0, x1 + 1, y1 + 1] };
+  })();
+}
+
+// Same fit as import_sprites.py: largest side = place.size * scale, bottom-centred.
+// The current sprite is measured, so this works whatever size it was generated at.
+async function draw(canvas, folder) {
+  const { canvas: src, bbox } = await sprite(folder, view);
+  const g = canvas.getContext('2d');
+  g.clearRect(0, 0, SIZE, SIZE);
+  if (!bbox) return;
+  const place = S.place[view];
+  const t = S.sizes[folder];
+  const scale = t ? S.tailles[t] : 1;
+  const [x0, y0, x1, y1] = bbox, w = x1 - x0, h = y1 - y0;
+  const s = place.size * scale / Math.max(w, h);
+  const tw = Math.min(SIZE, Math.max(1, Math.round(w * s))), th = Math.min(SIZE, Math.max(1, Math.round(h * s)));
+  const ox = Math.floor((SIZE - tw) / 2), oy = Math.min(SIZE - th, Math.max(0, place.bottom + 1 - th));
+  g.imageSmoothingEnabled = s < 0.98;
+  g.imageSmoothingQuality = 'high';
+  g.drawImage(src, x0, y0, w, h, ox, oy, tw, th);
+}
+
+// ---------- Rendering ----------
+
+function monHtml(m, ref = false) {
+  const t = S.sizes[m.folder];
+  return `<div class="mon${ref ? ' ref' : ''}" data-f="${esc(m.folder)}">
+    <div class="nm${t || ref ? '' : ' none'}" title="${esc(m.folder)}">${ref ? '📌 ' : ''}${esc(m.name)}</div>
+    <div class="box" style="--ground-y:${(S.place[view].bottom + 1) * 2}px">
+      <canvas width="${SIZE}" height="${SIZE}"></canvas>
+      ${ref ? '' : '<button class="pinb" title="Épingler comme référence">📌</button>'}
+    </div>
+    ${ref ? '' : `<div class="sizes">${Object.keys(S.tailles).map((k, i) =>
+      `<button data-t="${k}" class="${t === k ? 'on' : ''}" title="${k} (${i + 1})">${LABELS[k] || k}</button>`).join('')}</div>`}
+  </div>`;
+}
+
+function render() {
+  const q = $('#q').value.trim().toLowerCase();
+  const todo = $('#filter').value === 'todo';
+  const all = S.families.flat();
+  const ref = pinned && all.find(m => m.folder === pinned);
+  const fams = S.families.filter(f =>
+    (!q || f.some(m => m.name.toLowerCase().includes(q) || m.folder.includes(q))) &&
+    (!todo || f.some(m => !S.sizes[m.folder])));
+  $('#fams').innerHTML = fams.map(f =>
+    `<div class="fam"><div class="row">${ref ? monHtml(ref, true) : ''}${f.map(m => monHtml(m)).join('')}</div></div>`).join('');
+  $('#status').textContent = fams.length ? '' : 'Aucune famille ne correspond.';
+  document.querySelectorAll('#fams .mon').forEach(el => draw(el.querySelector('canvas'), el.dataset.f));
+  $('#pin').innerHTML = ref ? `Référence : <canvas width="${SIZE}" height="${SIZE}"></canvas> ${esc(ref.name)} <button id="unpin" class="seg" style="padding:0 6px;cursor:pointer">✕</button>` : '';
+  if (ref) draw($('#pin canvas'), ref.folder);
+  renderCounts();
+}
+
+function renderCounts() {
+  const all = S.families.flat();
+  const n = k => all.filter(m => S.sizes[m.folder] === k).length;
+  $('#counts').innerHTML = Object.keys(S.tailles).map(k => `<span>${k} <b>${n(k)}</b></span>`).join('') +
+    `<span>sans taille <b>${all.filter(m => !S.sizes[m.folder]).length}</b> / ${all.length}</span>`;
+}
+
+// Updates every card of that monster (it also appears as the pinned reference).
+function refresh(folder) {
+  document.querySelectorAll(`.mon[data-f="${CSS.escape(folder)}"]`).forEach(el => {
+    const t = S.sizes[folder];
+    el.querySelectorAll('.sizes button').forEach(b => b.classList.toggle('on', b.dataset.t === t));
+    const nm = el.querySelector('.nm');
+    if (!el.classList.contains('ref')) nm.classList.toggle('none', !t);
+    draw(el.querySelector('canvas'), folder);
+  });
+  if (folder === pinned) draw($('#pin canvas'), folder);
+  renderCounts();
+}
+
+async function setTaille(folder, taille) {
+  const before = S.sizes[folder];
+  if (taille) S.sizes[folder] = taille; else delete S.sizes[folder];
+  refresh(folder);
+  const r = await fetch('/api/taille', { method: 'POST', body: JSON.stringify({ folder, taille: taille || null }) });
+  if (!r.ok) {
+    if (before) S.sizes[folder] = before; else delete S.sizes[folder];
+    refresh(folder);
+    alert('Échec de l\'enregistrement : ' + ((await r.json().catch(() => ({}))).error || r.status));
+  }
+}
+
+// ---------- Events ----------
+
+$('#fams').addEventListener('click', e => {
+  const mon = e.target.closest('.mon');
+  if (!mon) return;
+  const b = e.target.closest('.sizes button');
+  if (b) setTaille(mon.dataset.f, b.classList.contains('on') ? null : b.dataset.t);
+  if (e.target.closest('.pinb')) { pinned = mon.dataset.f; render(); }
+});
+$('#pin').addEventListener('click', e => { if (e.target.id === 'unpin') { pinned = null; render(); } });
+$('#fams').addEventListener('mouseover', e => {
+  const mon = e.target.closest('.mon:not(.ref)');
+  hovered = mon ? mon.dataset.f : null;
+});
+document.addEventListener('keydown', e => {
+  if (!hovered || e.target.matches('input, select') || e.metaKey || e.ctrlKey || e.altKey) return;
+  const keys = Object.keys(S.tailles);
+  if (e.key === '0') setTaille(hovered, null);
+  else if (/^[1-9]$/.test(e.key) && keys[+e.key - 1]) setTaille(hovered, keys[+e.key - 1]);
+});
+$('#q').addEventListener('input', render);
+$('#filter').addEventListener('change', render);
+$('#view').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  view = b.dataset.v;
+  $('#view').querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
+  render();
+});
+
+fetch('/api/state').then(r => r.json()).then(s => {
+  if (s.error) throw new Error(s.error);
+  S = s;
+  render();
+}).catch(e => { $('#status').className = 'err'; $('#status').textContent = String(e); });
+</script>
+</body>
+</html>

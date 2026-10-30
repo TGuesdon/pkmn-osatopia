@@ -12,6 +12,13 @@
   "alpha_cut": 0.5,
   "min_island": 4,
   "scale": 1.0,
+  "tailles": {
+   "minuscule": 0.45,
+   "petit": 0.6,
+   "moyen": 0.75,
+   "grand": 0.88,
+   "enorme": 1.0
+  },
   "front_place": {
    "size": 60,
    "bottom": 60
@@ -27,44 +34,57 @@
  },
  "monsters": {
   "bebe_crocoburio": {
-   "source": "crocoburio"
+   "source": "crocoburio",
+   "taille": "moyen"
   },
   "boufton": {
-   "source": "boufton_blanc"
+   "source": "boufton_blanc",
+   "taille": "petit"
   },
   "chacha": {
-   "source": "chachaton"
+   "source": "chachaton",
+   "taille": "moyen"
   },
   "dieubouftou": {
    "source": "belier_divin",
-   "visible_alpha": 0.6
+   "visible_alpha": 0.6,
+   "taille": "enorme"
   },
   "bouftou_royal": {
-   "segmentation": "flood"
+   "segmentation": "flood",
+   "taille": "enorme"
   },
   "dragodinde": {
-   "source": "dragodindo"
+   "source": "dragodindo",
+   "taille": "enorme"
   },
   "gwo_tofu": {
-   "source": "tofu_ventripotent"
+   "source": "tofu_ventripotent",
+   "taille": "grand"
   },
   "kwakere_feu": {
-   "source": "kwakere_flamme"
+   "source": "kwakere_flamme",
+   "taille": "enorme"
   },
   "marcacin": {
-   "source": "barnabe"
+   "source": "barnabe",
+   "taille": "petit"
   },
   "skyboufton": {
-   "source": "jeune_boufton_celeste"
+   "source": "jeune_boufton_celeste",
+   "taille": "moyen"
   },
   "skybouftou": {
-   "source": "bouftou_celeste"
+   "source": "bouftou_celeste",
+   "taille": "enorme"
   },
   "crocoburio": {
-   "source": "crocoburio_big"
+   "source": "crocoburio_big",
+   "taille": "enorme"
   },
   "kitsou": {
-   "segmentation": "flood"
+   "segmentation": "flood",
+   "taille": "enorme"
   },
   "lapino": {
    "back": {
@@ -73,16 +93,20 @@
      44,
      52
     ]
-   }
+   },
+   "taille": "moyen"
   },
   "larve_champetre": {
-   "visible_alpha": 0.5
+   "visible_alpha": 0.5,
+   "taille": "moyen"
   },
   "mouchame": {
-   "visible_alpha": 0.04
+   "visible_alpha": 0.04,
+   "taille": "grand"
   },
   "morfrelon": {
-   "visible_alpha": 0.04
+   "visible_alpha": 0.04,
+   "taille": "enorme"
   },
   "lapino_mutant": {
    "back": {
@@ -91,7 +115,8 @@
      40,
      44
     ]
-   }
+   },
+   "taille": "enorme"
   },
   "moskito": {
    "translucent_over": [
@@ -99,7 +124,8 @@
     236,
     224
    ],
-   "thin_cut": 0.05
+   "thin_cut": 0.05,
+   "taille": "petit"
   },
   "minoskito": {
    "translucent_over": [
@@ -108,7 +134,8 @@
     224
    ],
    "visible_alpha": 0.2,
-   "thin_cut": 0.05
+   "thin_cut": 0.05,
+   "taille": "moyen"
   },
   "cameliache": {
    "front": {
@@ -117,15 +144,486 @@
     "shadow_lum": 110,
     "shadow_from": 0.5
    },
-   "line_lum": 35
+   "line_lum": 35,
+   "taille": "enorme"
   },
   "mol_usk": {
-   "visible_alpha": 0.85
+   "visible_alpha": 0.85,
+   "taille": "enorme"
   },
   "maltrio": {
    "line_lum": 25,
    "line_fraction": 0.3,
-   "thin_cut": 0.06
+   "thin_cut": 0.06,
+   "taille": "enorme"
+  },
+  "tronknyde": {
+   "taille": "moyen"
+  },
+  "abraknyde": {
+   "taille": "grand"
+  },
+  "abrakleur": {
+   "taille": "enorme"
+  },
+  "tifoux": {
+   "taille": "moyen"
+  },
+  "rouquette": {
+   "taille": "enorme"
+  },
+  "crachefoux": {
+   "taille": "enorme"
+  },
+  "titardo": {
+   "taille": "moyen"
+  },
+  "crapodo": {
+   "taille": "grand"
+  },
+  "grenn": {
+   "taille": "enorme"
+  },
+  "sousouris": {
+   "taille": "moyen"
+  },
+  "milirat": {
+   "taille": "enorme"
+  },
+  "bouftou": {
+   "taille": "moyen"
+  },
+  "cdg_bouftou": {
+   "taille": "enorme"
+  },
+  "gardienne_champetre": {
+   "taille": "moyen"
+  },
+  "tournesol_sauvage": {
+   "taille": "grand"
+  },
+  "larve_jaune": {
+   "taille": "petit"
+  },
+  "shin_larve": {
+   "taille": "enorme"
+  },
+  "disciple_kimbo": {
+   "taille": "moyen"
+  },
+  "bitouf_plaine": {
+   "taille": "enorme"
+  },
+  "bitouf_aerien": {
+   "taille": "enorme"
+  },
+  "folle": {
+   "taille": "moyen"
+  },
+  "bloqueuse": {
+   "taille": "grand"
+  },
+  "tofu": {
+   "taille": "moyen"
+  },
+  "tofu_royal": {
+   "taille": "enorme"
+  },
+  "bwak_glace": {
+   "taille": "moyen"
+  },
+  "kwakere_glace": {
+   "taille": "enorme"
+  },
+  "bwak_vent": {
+   "taille": "moyen"
+  },
+  "kwakere_vent": {
+   "taille": "enorme"
+  },
+  "bwak_feu": {
+   "taille": "moyen"
+  },
+  "bwak_terre": {
+   "taille": "moyen"
+  },
+  "kwakere_terre": {
+   "taille": "enorme"
+  },
+  "tigrimas": {
+   "taille": "moyen"
+  },
+  "ronronchon": {
+   "taille": "enorme"
+  },
+  "arakne": {
+   "taille": "petit"
+  },
+  "araknotron": {
+   "taille": "grand"
+  },
+  "abrakne": {
+   "taille": "enorme"
+  },
+  "champchamp": {
+   "taille": "moyen"
+  },
+  "champ_a_gnon": {
+   "taille": "grand"
+  },
+  "sanglier": {
+   "taille": "enorme"
+  },
+  "sanglier_agressif": {
+   "taille": "enorme"
+  },
+  "el_scarador": {
+   "taille": "moyen"
+  },
+  "scarafeuille_vert": {
+   "taille": "enorme"
+  },
+  "scarafeuille_bleu": {
+   "taille": "enorme"
+  },
+  "scarafeuille_blanc": {
+   "taille": "enorme"
+  },
+  "scarafeuille_rouge": {
+   "taille": "enorme"
+  },
+  "scarafeuille_noir": {
+   "taille": "enorme"
+  },
+  "scarabosse_dore": {
+   "taille": "enorme"
+  },
+  "tiwabbit": {
+   "taille": "petit"
+  },
+  "wabbit": {
+   "taille": "moyen"
+  },
+  "wo_wabbit": {
+   "taille": "enorme"
+  },
+  "gobet": {
+   "taille": "grand"
+  },
+  "gob_trotteur": {
+   "taille": "enorme"
+  },
+  "sherpoa": {
+   "taille": "grand"
+  },
+  "gobgob": {
+   "taille": "enorme"
+  },
+  "gobgob_glouton": {
+   "taille": "enorme"
+  },
+  "phorreveur": {
+   "taille": "petit"
+  },
+  "metaphorreur": {
+   "taille": "grand"
+  },
+  "phossile": {
+   "taille": "enorme"
+  },
+  "raphaela": {
+   "taille": "enorme"
+  },
+  "tortue_bleu": {
+   "taille": "enorme"
+  },
+  "dolbinos": {
+   "taille": "enorme"
+  },
+  "dokachu": {
+   "taille": "enorme"
+  },
+  "bourgeon": {
+   "taille": "petit"
+  },
+  "bulbisauge": {
+   "taille": "enorme"
+  },
+  "sarkapwane": {
+   "taille": "enorme"
+  },
+  "serpentin": {
+   "taille": "moyen"
+  },
+  "serpiplume": {
+   "taille": "enorme"
+  },
+  "dagon": {
+   "taille": "moyen"
+  },
+  "pichon": {
+   "taille": "grand"
+  },
+  "raul_mops": {
+   "taille": "enorme"
+  },
+  "timansot": {
+   "taille": "petit"
+  },
+  "mansobese": {
+   "taille": "enorme"
+  },
+  "mamansot": {
+   "taille": "enorme"
+  },
+  "fu_mansot": {
+   "taille": "enorme"
+  },
+  "mofette": {
+   "taille": "grand"
+  },
+  "obsidiantre": {
+   "taille": "enorme"
+  },
+  "crapeur": {
+   "taille": "enorme"
+  },
+  "volkorne": {
+   "taille": "enorme"
+  },
+  "voracle": {
+   "taille": "grand"
+  },
+  "cochon_farle": {
+   "taille": "moyen"
+  },
+  "dragon_cochon": {
+   "taille": "enorme"
+  },
+  "scorpique": {
+   "taille": "grand"
+  },
+  "scordion": {
+   "taille": "enorme"
+  },
+  "gamino": {
+   "taille": "moyen"
+  },
+  "minotot": {
+   "taille": "enorme"
+  },
+  "ouroboulos": {
+   "taille": "grand"
+  },
+  "mantiscore": {
+   "taille": "enorme"
+  },
+  "pampactus": {
+   "taille": "grand"
+  },
+  "cactoblongo": {
+   "taille": "enorme"
+  },
+  "chienchien_enrage": {
+   "taille": "moyen"
+  },
+  "leolhyene": {
+   "taille": "enorme"
+  },
+  "chienchien_noir": {
+   "taille": "moyen"
+  },
+  "muloubard": {
+   "taille": "enorme"
+  },
+  "ecurouille": {
+   "taille": "moyen"
+  },
+  "prespic": {
+   "taille": "grand"
+  },
+  "chagouar": {
+   "taille": "enorme"
+  },
+  "soldalia": {
+   "taille": "moyen"
+  },
+  "coquelicogne": {
+   "taille": "enorme"
+  },
+  "grokillage": {
+   "taille": "moyen"
+  },
+  "moumoule": {
+   "taille": "enorme"
+  },
+  "craquelope": {
+   "taille": "moyen"
+  },
+  "craqueboule": {
+   "taille": "grand"
+  },
+  "craqueleur": {
+   "taille": "enorme"
+  },
+  "germinion": {
+   "taille": "moyen"
+  },
+  "gangredogue": {
+   "taille": "enorme"
+  },
+  "crocodaille": {
+   "taille": "grand"
+  },
+  "ouassingue": {
+   "taille": "enorme"
+  },
+  "bourbassingue": {
+   "taille": "enorme"
+  },
+  "roissingue": {
+   "taille": "enorme"
+  },
+  "biblop": {
+   "taille": "petit"
+  },
+  "blop": {
+   "taille": "grand"
+  },
+  "gloutoblop": {
+   "taille": "enorme"
+  },
+  "koalak_immature": {
+   "taille": "moyen"
+  },
+  "koalak": {
+   "taille": "enorme"
+  },
+  "crasper": {
+   "taille": "moyen"
+  },
+  "fantomayte": {
+   "taille": "grand"
+  },
+  "vigie_pirate": {
+   "taille": "enorme"
+  },
+  "tofu_malefique": {
+   "taille": "petit"
+  },
+  "karnhell": {
+   "taille": "enorme"
+  },
+  "kwoan": {
+   "taille": "moyen"
+  },
+  "chafer": {
+   "taille": "enorme"
+  },
+  "nodkoko": {
+   "taille": "petit"
+  },
+  "tikoko": {
+   "taille": "enorme"
+  },
+  "grokoko": {
+   "taille": "enorme"
+  },
+  "kokulte": {
+   "taille": "moyen"
+  },
+  "kaskargo": {
+   "taille": "grand"
+  },
+  "nerbe": {
+   "taille": "moyen"
+  },
+  "fecorce": {
+   "taille": "enorme"
+  },
+  "minikrone": {
+   "taille": "petit"
+  },
+  "rainikrone": {
+   "taille": "enorme"
+  },
+  "malepik": {
+   "taille": "enorme"
+  },
+  "corbac": {
+   "taille": "petit"
+  },
+  "capsaaloocke": {
+   "taille": "enorme"
+  },
+  "maitre_corbac": {
+   "taille": "enorme"
+  },
+  "kanigloups": {
+   "taille": "petit"
+  },
+  "kaniglou": {
+   "taille": "enorme"
+  },
+  "bisouglours": {
+   "taille": "petit"
+  },
+  "glouragan": {
+   "taille": "enorme"
+  },
+  "blerodoudou": {
+   "taille": "petit"
+  },
+  "wolvero": {
+   "taille": "enorme"
+  },
+  "blerom": {
+   "taille": "enorme"
+  },
+  "tilamproie": {
+   "taille": "moyen"
+  },
+  "mantaze": {
+   "taille": "enorme"
+  },
+  "muldo": {
+   "taille": "grand"
+  },
+  "corailleur": {
+   "taille": "enorme"
+  },
+  "demoloch": {
+   "taille": "moyen"
+  },
+  "diabelial": {
+   "taille": "enorme"
+  },
+  "typhomet": {
+   "taille": "enorme"
+  },
+  "halbardent": {
+   "taille": "enorme"
+  },
+  "klemort": {
+   "taille": "enorme"
+  },
+  "dragoune": {
+   "taille": "moyen"
+  },
+  "dragonnet": {
+   "taille": "enorme"
+  },
+  "crocabulia": {
+   "taille": "enorme"
+  },
+  "sinistrofu": {
+   "taille": "moyen"
+  },
+  "nocturlabe": {
+   "taille": "grand"
+  },
+  "granduk": {
+   "taille": "enorme"
   }
  }
 }
