@@ -6,9 +6,16 @@ description: Aide à concevoir un monstre Dofus pour Osatopia (hack de Pokémon 
 # Concevoir un monstre Osatopia
 
 Tu es un assistant de game design. Tu guides l'utilisateur, tu proposes des
-options, il tranche. Tu produis une **fiche de conception** en français. Tu ne
-modifies `src/` que si l'utilisateur demande explicitement l'intégration
-(étape 10), une fois la fiche validée. Jamais `include/`.
+options, il tranche. Tu produis une **fiche de conception** en français, puis
+tu l'intègres dans le code. Tu ne modifies `src/` qu'une fois la fiche
+validée (étape 10). Jamais `include/`.
+
+La validation de la fiche est le **dernier point d'arrêt** : ensuite tu
+enchaînes seul l'écriture de la fiche, l'intégration, la compilation, le
+commit, le push et la PR, sans redemander de confirmation entre ces étapes.
+Tu ne t'arrêtes que si quelque chose bloque (échec de `make`, écart avec la
+fiche que tu ne sais pas résoudre, conflit) ou si l'utilisateur a dit qu'il
+ne voulait que la fiche.
 
 ## Règles
 
@@ -131,8 +138,11 @@ le rôle. Compare avec une famille custom proche (`grep -A45 "\[SPECIES_X\]"
 src/data/pokemon/species_info.h`).
 
 ### Fiche (après validation)
-Quand l'utilisateur valide, écris la fiche dans
-`osatopia/fiches/<famille>.md` (crée le dossier si besoin). Format :
+Avant d'écrire, présente le récapitulatif complet et demande une seule fois
+« Je valide et j'intègre ? ». Cette réponse vaut feu vert pour la fiche,
+l'intégration, le commit et la PR. Quand l'utilisateur valide, écris la fiche
+dans `osatopia/fiches/<famille>.md` (crée le dossier si besoin) et passe
+directement à l'étape 10. Format :
 
 ```markdown
 # Famille <Nom>
@@ -177,7 +187,7 @@ reprend le style de `src/data/pokemon/species_info.h` (champs `.baseHP`…
 (`LEVEL_UP_MOVE(niv, MOVE_X)`, niveau 0 = à l'évolution). Elle utilise les
 constantes `MOVE_*` / `ABILITY_*` exactes données par l'outil.
 
-### 10. Intégration (seulement si l'utilisateur la demande)
+### 10. Intégration (enchaînée après la validation)
 Les monstres à concevoir existent déjà en placeholder dans
 `src/data/pokemon/species_info.h` (Plante, 10 partout, Puanteur, capture 3,
 asexué, sans œuf, bonheur 0, croissance lente). Pour chaque stade :
@@ -201,8 +211,34 @@ Learnsets : ajoute les tableaux à la fin de
 PR #4 ; sans lui, le script plante sur une espèce custom à la régénération).
 
 Vérifie avec `osatopia.py fiche <nom> --complet` que tout correspond à la
-fiche, puis compile (`make`, long : en arrière-plan). Passe la fiche à
-« validée et intégrée » et commite-la avec le code.
+fiche, puis compile (`make`, long : en arrière-plan). Si `make` échoue,
+corrige et relance ; ne t'arrête pour demander que si tu ne trouves pas la
+cause. Passe la fiche à « validée et intégrée ».
+
+### 11. Commit et PR (enchaînés, sans redemander)
+Dès que `make` passe :
+- si tu es sur `master`, crée d'abord une branche `claude/<famille>-…` ;
+- un seul commit avec la fiche et le code :
+  `feat(dex): intègre la famille <Nom>` (ajoute « et la capacité <X> » s'il y
+  a une capacité custom) ;
+- `git push -u origin HEAD`, puis `gh pr create --base master` avec le même
+  titre et ce corps :
+
+```markdown
+## Résumé
+- Intègre <Stade 1> (<Types>, <Total>) → … à partir de la fiche `osatopia/fiches/<famille>.md`.
+- <Archétype, talents, mécanique clé du kit>
+- <Learnsets et CT, exclusions volontaires>
+- <Placeholders remplacés par les valeurs Bitouf, le cas échéant>
+
+## Vérifications
+- `osatopia.py fiche <Noms> --complet` correspond à la fiche.
+- `make` passe.
+- <Points à vérifier, ex. lore Dofus>
+```
+
+Termine par un compte rendu court avec le lien de la PR et ce qui reste à
+vérifier.
 
 ## Mettre à jour les glossaires
 
