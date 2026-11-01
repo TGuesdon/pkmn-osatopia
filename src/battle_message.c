@@ -876,6 +876,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_POTAGERPLANTED]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} plante des cawottes!"),
     [STRINGID_POTAGERHEAL]                          = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} croque une cawotte!"),
     [STRINGID_POTAGERCLEARED]                       = COMPOUND_STRING("Les cawottes ont disparu!"),
+    [STRINGID_MONTUREBOOST]                         = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} profite de sa monture!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =

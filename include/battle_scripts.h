@@ -530,6 +530,7 @@ extern const u8 BattleScript_StatUpZMove[];
 extern const u8 BattleScript_HealReplacementZMove[];
 extern const u8 BattleScript_PotagerHeal[];
 extern const u8 BattleScript_PotagerCleared[];
+extern const u8 BattleScript_MontureActivates[];
 extern const u8 BattleScript_EffectExtremeEvoboost[];
 
 // max moves

@@ -8248,6 +8248,15 @@ BattleScript_PotagerCleared::
 	waitmessage B_WAIT_TIME_LONG
 	return
 
+BattleScript_MontureActivates::
+	printstring STRINGID_MONTUREBOOST
+	waitmessage B_WAIT_TIME_LONG
+	statbuffchange BS_SCRIPTING, STAT_CHANGE_NOT_PROTECT_AFFECTED | STAT_CHANGE_ALLOW_PTR, BattleScript_MontureActivatesRet
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_MontureActivatesRet:
+	return
+
 BattleScript_EffectExtremeEvoboost::
 	attackcanceler
 	jumpifstat BS_ATTACKER, CMP_LESS_THAN, STAT_ATK, MAX_STAT_STAGE, BattleScript_ExtremeEvoboostAnim

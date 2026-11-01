@@ -2441,4 +2441,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 8,
         .breakable = TRUE,
     },
+
+    [ABILITY_MONTURE] =
+    {
+        .name = _("Monture"),
+        .description = COMPOUND_STRING("Booste le suivant en partant."),
+        .aiRating = 5,
+    },
 };

@@ -7970,6 +7970,21 @@ void TryHazardsOnSwitchIn(u32 battler, u32 side, enum Hazards hazardType)
     }
 }
 
+// Monture : le Pokémon qui entre profite de la meilleure stat de la monture partie.
+static bool32 TryConsumeMonture(u32 battler)
+{
+    enum Stat stat = gBattleStruct->battlerState[battler].storedMonture;
+
+    if (stat == 0)
+        return FALSE;
+    gBattleStruct->battlerState[battler].storedMonture = 0;
+    if (!IsBattlerAlive(battler)
+     || !CompareStat(battler, stat, MAX_STAT_STAGE, CMP_LESS_THAN, GetBattlerAbility(battler)))
+        return FALSE;
+    SET_STATCHANGER(stat, 1, FALSE);
+    return TRUE;
+}
+
 static bool32 DoSwitchInEffectsForBattler(u32 battler)
 {
     u32 i = 0;
@@ -8003,6 +8018,11 @@ static bool32 DoSwitchInEffectsForBattler(u32 battler)
         gBattlerAttacker = battler;
         BattleScriptCall(BattleScript_LunarDanceActivates);
         gBattleStruct->battlerState[battler].storedLunarDance = FALSE;
+    }
+    else if (TryConsumeMonture(battler))
+    {
+        gBattleScripting.battler = gEffectBattler = battler;
+        BattleScriptCall(BattleScript_MontureActivates);
     }
     else if (EmergencyExitCanBeTriggered(battler))
     {
@@ -13188,6 +13208,22 @@ static void Cmd_unused2(void)
 {
 }
 
+// Meilleure stat de base hors PV ; à égalité, la première dans l'ordre Att, Déf, Vit, AtqSpé, DéfSpé.
+static enum Stat GetMontureStat(u32 species)
+{
+    const struct SpeciesInfo *info = &gSpeciesInfo[species];
+    const u8 baseStats[] = {info->baseAttack, info->baseDefense, info->baseSpeed, info->baseSpAttack, info->baseSpDefense};
+    enum Stat stat = STAT_ATK;
+    u32 i;
+
+    for (i = 1; i < ARRAY_COUNT(baseStats); i++)
+    {
+        if (baseStats[i] > baseStats[stat - STAT_ATK])
+            stat = STAT_ATK + i;
+    }
+    return stat;
+}
+
 static void Cmd_switchoutabilities(void)
 {
     CMD_ARGS(u8 battler);
@@ -13230,6 +13266,9 @@ static void Cmd_switchoutabilities(void)
         MarkBattlerForControllerExec(battler);
         break;
     }
+    case ABILITY_MONTURE:
+        gBattleStruct->battlerState[battler].storedMonture = GetMontureStat(gBattleMons[battler].species);
+        break;
     default:
         break;
     }
