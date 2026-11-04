@@ -2455,4 +2455,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Coups critiques fréquents."),
         .aiRating = 3,
     },
+
+    [ABILITY_POURPRE] =
+    {
+        .name = _("Pourpre"),
+        .description = COMPOUND_STRING("Frappe fort les cibles entravées."),
+        .aiRating = 6,
+    },
 };

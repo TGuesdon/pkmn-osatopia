@@ -21385,6 +21385,25 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_Tackle,
     },
 
+    [MOVE_TOFUISATION] =
+    {
+        .name = COMPOUND_STRING("Tofuïsation"),
+        .description = COMPOUND_STRING(
+            "Un sort change la cible en\n"
+            "Tofu : elle devient Vol."),
+        .effect = EFFECT_SOAK,
+        .power = 0,
+        .type = TYPE_PSYCHIC,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .type = TYPE_FLYING },
+        .magicCoatAffected = TRUE,
+        .battleAnimScript = gBattleAnimMove_MagicPowder,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
