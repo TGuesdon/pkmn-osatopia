@@ -341,6 +341,7 @@ enum __attribute__((packed)) Ability
     ABILITY_COUPELLE_PLEINE,
     ABILITY_MONTURE,
     ABILITY_TURQUOISE,
+    ABILITY_POURPRE,
     ABILITIES_COUNT,
 };
 
