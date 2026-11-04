@@ -21367,6 +21367,24 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_WaterGun,
     },
 
+    [MOVE_GALOP] =
+    {
+        .name = COMPOUND_STRING("Galop"),
+        .description = COMPOUND_STRING(
+            "Une charge au galop, puis le\n"
+            "lanceur est remplacé."),
+        .effect = EFFECT_HIT_ESCAPE,
+        .power = 70,
+        .type = TYPE_NORMAL,
+        .accuracy = 100,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .battleAnimScript = gBattleAnimMove_Tackle,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
