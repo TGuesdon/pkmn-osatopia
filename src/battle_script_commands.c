@@ -1650,7 +1650,7 @@ s32 CalcCritChanceStage(u32 battlerAtk, u32 battlerDef, u32 move, bool32 recordA
                     + GetMoveCriticalHitStage(move)
                     + GetHoldEffectCritChanceIncrease(battlerAtk, holdEffectAtk)
                     + ((B_AFFECTION_MECHANICS == TRUE && GetBattlerAffectionHearts(battlerAtk) == AFFECTION_FIVE_HEARTS) ? 2 : 0)
-                    + (abilityAtk == ABILITY_SUPER_LUCK ? 1 : 0)
+                    + ((abilityAtk == ABILITY_SUPER_LUCK || abilityAtk == ABILITY_TURQUOISE) ? 1 : 0)
                     + gBattleMons[battlerAtk].volatiles.bonusCritStages;
 
         if (critChance >= ARRAY_COUNT(sCriticalHitOdds))
@@ -1703,7 +1703,7 @@ s32 CalcCritChanceStageGen1(u32 battlerAtk, u32 battlerDef, u32 move, bool32 rec
     if (holdEffectCritStage > 0)
         critChance *= 4 * holdEffectCritStage;
 
-    if (abilityAtk == ABILITY_SUPER_LUCK)
+    if (abilityAtk == ABILITY_SUPER_LUCK || abilityAtk == ABILITY_TURQUOISE)
         critChance *= 4;
 
     if (critChance > 255)
