@@ -340,6 +340,7 @@ enum __attribute__((packed)) Ability
     ABILITY_SOIN_ALCHIMIQUE,
     ABILITY_COUPELLE_PLEINE,
     ABILITY_MONTURE,
+    ABILITY_TURQUOISE,
     ABILITIES_COUNT,
 };
 
