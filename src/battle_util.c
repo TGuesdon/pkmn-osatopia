@@ -8276,6 +8276,42 @@ static inline uq4_12_t GetCollisionCourseElectroDriftModifier(u32 move, uq4_12_t
     return UQ_4_12(1.0);
 }
 
+// Osatopia : Pourpre, x1.3 contre une cible entravée
+static bool32 IsBattlerHindered(u32 battler)
+{
+    u32 i;
+    u16 species = gBattleMons[battler].species;
+
+    if (gBattleMons[battler].status1 & STATUS1_ANY)
+        return TRUE;
+    for (i = STAT_ATK; i < NUM_BATTLE_STATS; i++)
+    {
+        if (gBattleMons[battler].statStages[i] < DEFAULT_STAT_STAGE)
+            return TRUE;
+    }
+    if (gDisableStructs[battler].disabledMove != MOVE_NONE
+     || gDisableStructs[battler].encoredMove != MOVE_NONE
+     || gDisableStructs[battler].tauntTimer != 0
+     || gDisableStructs[battler].embargoTimer != 0
+     || gDisableStructs[battler].healBlockTimer != 0
+     || gBattleMons[battler].volatiles.healBlock
+     || gBattleMons[battler].volatiles.torment)
+        return TRUE;
+    // Type changé (Tofuïsation, Détrempage, Halloween...)
+    if (gBattleMons[battler].types[0] != GetSpeciesType(species, 0)
+     || gBattleMons[battler].types[1] != GetSpeciesType(species, 1)
+     || gBattleMons[battler].types[2] != TYPE_MYSTERY)
+        return TRUE;
+    return FALSE;
+}
+
+static inline uq4_12_t GetPourpreModifier(struct DamageContext *ctx)
+{
+    if (ctx->abilityAtk == ABILITY_POURPRE && IsBattlerHindered(ctx->battlerDef))
+        return UQ_4_12(1.3);
+    return UQ_4_12(1.0);
+}
+
 static inline uq4_12_t GetAttackerAbilitiesModifier(u32 battlerAtk, uq4_12_t typeEffectivenessModifier, bool32 isCrit, enum Ability abilityAtk)
 {
     switch (abilityAtk)
@@ -8445,6 +8481,7 @@ static inline uq4_12_t GetOtherModifiers(struct DamageContext *ctx)
     DAMAGE_MULTIPLY_MODIFIER(GetAirborneModifier(ctx->move, ctx->battlerDef));
     DAMAGE_MULTIPLY_MODIFIER(GetScreensModifier(ctx));
     DAMAGE_MULTIPLY_MODIFIER(GetCollisionCourseElectroDriftModifier(ctx->move, ctx->typeEffectivenessModifier));
+    DAMAGE_MULTIPLY_MODIFIER(GetPourpreModifier(ctx));
 
     if (unmodifiedAttackerSpeed >= unmodifiedDefenderSpeed)
     {
