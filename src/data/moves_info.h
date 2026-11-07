@@ -21404,6 +21404,24 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_MagicPowder,
     },
 
+    [MOVE_LANCER_BLOP] =
+    {
+        .name = COMPOUND_STRING("Lancer Blop"),
+        .description = COMPOUND_STRING(
+            "Lance 2 à 5 Biblops tirés\n"
+            "de son sac sur l'ennemi."),
+        .effect = EFFECT_MULTI_HIT,
+        .power = 25,
+        .type = TYPE_WATER,
+        .accuracy = 100,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .ballisticMove = TRUE,
+        .battleAnimScript = gBattleAnimMove_Bubble,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
