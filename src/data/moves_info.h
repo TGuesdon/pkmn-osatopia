@@ -21404,6 +21404,24 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_MagicPowder,
     },
 
+    [MOVE_GLOUTAGE] =
+    {
+        .name = COMPOUND_STRING("Gloutage"),
+        .description = COMPOUND_STRING(
+            "Avale la cible d'un coup.\n"
+            "K.O. en un coup s'il touche."),
+        .effect = EFFECT_OHKO,
+        .power = 1,
+        .type = TYPE_WATER,
+        .accuracy = 30,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .battleAnimScript = gBattleAnimMove_Crunch,
+    },
+
     [MOVE_LANCER_BLOP] =
     {
         .name = COMPOUND_STRING("Lancer Blop"),
