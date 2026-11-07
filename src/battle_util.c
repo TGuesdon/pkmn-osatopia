@@ -5384,6 +5384,7 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, u32 battler, enum Ability ab
         switch (gLastUsedAbility)
         {
         case ABILITY_POISON_TOUCH:
+        case ABILITY_EBENE: // Osatopia : comme Toxitouche, mais empoisonnement grave
             if (IsBattlerAlive(gBattlerTarget)
              && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
              && CanBePoisoned(gBattlerAttacker, gBattlerTarget, gLastUsedAbility, GetBattlerAbility(gBattlerTarget))
@@ -5393,7 +5394,7 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, u32 battler, enum Ability ab
             {
                 gEffectBattler = gBattlerTarget;
                 gBattleScripting.battler = gBattlerAttacker;
-                gBattleScripting.moveEffect = MOVE_EFFECT_POISON;
+                gBattleScripting.moveEffect = (gLastUsedAbility == ABILITY_EBENE) ? MOVE_EFFECT_TOXIC : MOVE_EFFECT_POISON;
                 PREPARE_ABILITY_BUFFER(gBattleTextBuff1, gLastUsedAbility);
                 BattleScriptCall(BattleScript_AbilityStatusEffect);
                 effect++;
