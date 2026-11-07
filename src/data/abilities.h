@@ -2462,4 +2462,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Frappe fort les cibles entravées."),
         .aiRating = 6,
     },
+
+    [ABILITY_RAGE_FAUVE] =
+    {
+        .name = _("Rage Fauve"),
+        .description = COMPOUND_STRING("Enrage à la moitié de ses PV."),
+        .aiRating = 3,
+    },
 };
