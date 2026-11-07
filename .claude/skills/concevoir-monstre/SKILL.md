@@ -52,6 +52,31 @@ python3 $T similaires 70 69 54 53 50 95 --custom  # … parmi les monstres Osato
 python3 $T custom                              # monstres conçus / à concevoir + learnsets en double
 ```
 
+Pour le lore Dofus, `dofusdb.py` interroge l'API de DofusDB (réseau requis,
+réponses en cache 30 jours dans `data/dofusdb_cache/`) :
+
+```bash
+D=".claude/skills/concevoir-monstre/scripts/dofusdb.py"
+python3 $D fiche Tofu             # grades (PV, PA, PM, caracs), résistances, sorts détaillés, zones
+python3 $D fiche 98 --grade 1     # par id DofusDB (utile s'il y a des homonymes)
+python3 $D famille Tofu           # tous les monstres de la race, triés par niveau
+python3 $D cherche bouftou        # trouver le bon nom ou id
+```
+
+Lecture des données Dofus → Pokémon :
+- **Élément des sorts** → type principal (Terre → Sol/Roche, Feu → Feu,
+  Eau → Eau/Glace, Air → Vol/Électrik, Neutre → Normal/Combat…).
+- **Résistances négatives / positives** → idée de faiblesses / résistances.
+- **PV, PM, PA, caractéristiques** → tendance du profil (PM élevés = Vitesse,
+  PV élevés = encaisseur…), à relativiser par rapport à la famille.
+- **Effets des sorts** (vol de vie, poison, retrait de PA, invocation,
+  bouclier, poussée…) → capacités custom et `EFFECT_*` proches (étape 6).
+- **Zones** → habitat, utile pour le lore et le placement dans le jeu.
+- **Famille** → candidats pour les stades et les évolutions.
+
+Les données reflètent la version actuelle de Dofus : si l'utilisateur a
+une autre version en tête, sa parole prime.
+
 Références à lire au moment voulu :
 - `references/archetypes.md` : archétypes stratégiques et d'aventure (étape 3).
 - `references/reperes.md` : total de stats par stade, niveaux d'évolution,
@@ -65,9 +90,10 @@ conçus. Si le monstre existe déjà en placeholder, lis aussi sa fiche
 
 ### 1. Identité
 - Nom Dofus, famille et nombre de stades, constantes `SPECIES_*` si elles existent.
-- Lore Dofus : élément(s) des sorts (Terre, Feu, Eau, Air, Neutre), comportement,
-  zone. Si l'utilisateur ne le précise pas, propose ce que tu sais du monstre
-  et **signale-le comme à vérifier**.
+- Lore Dofus : lance `dofusdb.py fiche <nom>` (et `famille` pour une famille)
+  et résume l'élément des sorts, les sorts marquants, le profil (PV/PM/PA,
+  résistances) et les zones. Si DofusDB ne trouve pas le monstre ou si le
+  réseau est indisponible, propose ce que tu sais et **signale-le comme à vérifier**.
 - Niveaux d'évolution.
 
 ### 2. Références
