@@ -2469,4 +2469,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Enrage à la moitié de ses PV."),
         .aiRating = 3,
     },
+
+    [ABILITY_EBENE] =
+    {
+        .name = _("Ébène"),
+        .description = COMPOUND_STRING("Le contact empoisonne gravement."),
+        .aiRating = 5,
+    },
 };
