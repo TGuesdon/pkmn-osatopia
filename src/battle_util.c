@@ -4896,6 +4896,7 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, u32 battler, enum Ability ab
             }
             break;
         case ABILITY_ANGER_SHELL:
+        case ABILITY_RAGE_FAUVE: // Osatopia : copie de Courroupace
             if (IsBattlerTurnDamaged(battler)
              && IsBattlerAlive(battler)
              && HadMoreThanHalfHpNowDoesnt(battler))
