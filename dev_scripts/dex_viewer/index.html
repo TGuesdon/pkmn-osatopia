@@ -120,8 +120,12 @@ body.nostats #stats { display: none; }
 .hist-x > span { flex: 1; text-align: center; }
 
 @media (max-width: 1200px) {
-  #stats { position: fixed; right: 0; top: 0; z-index: 5; box-shadow: -4px 0 16px rgba(0,0,0,.15); }
-  body:not(.showstats) #stats { display: none; }
+  #stats { width: 240px; padding: 10px 10px 40px; }
+  .hrow { grid-template-columns: 66px 1fr 26px; }
+  .hrow.wide { grid-template-columns: 140px 1fr 26px; }
+}
+@media (max-width: 1000px) {
+  .card { grid-template-columns: 1fr; }
 }
 @media (max-width: 800px) {
   #stats { position: static; width: 100%; height: auto; box-shadow: none; border-left: 0; border-top: 1px solid var(--border); }
@@ -799,8 +803,7 @@ async function boot() {
 }
 $('#reload').addEventListener('click', boot);
 $('#togstats').addEventListener('click', () => {
-  const wide = matchMedia('(min-width: 1201px)').matches;
-  document.body.classList.toggle(wide ? 'nostats' : 'showstats');
+  document.body.classList.toggle('nostats');
 });
 boot();
 </script>
