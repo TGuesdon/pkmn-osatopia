@@ -21426,17 +21426,21 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Lancer Blop"),
         .description = COMPOUND_STRING(
-            "Lance 2 à 5 Biblops tirés\n"
-            "de son sac sur l'ennemi."),
-        .effect = EFFECT_MULTI_HIT,
-        .power = 25,
+            "Lance un Biblop gluant qui\n"
+            "baisse la Vitesse ennemie."),
+        .effect = EFFECT_HIT,
+        .power = 65,
         .type = TYPE_WATER,
         .accuracy = 100,
-        .pp = 20,
+        .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .ballisticMove = TRUE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_SPD_MINUS_1,
+            .chance = 100,
+        }),
         .battleAnimScript = gBattleAnimMove_Bubble,
     },
 

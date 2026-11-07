@@ -34,17 +34,18 @@ la famille Blop (Biblop, Blop, Gloutoblop), comme Mantyke avec Rémoraid.
 | Emplacement | Attaque | Type | Cat. | Puiss. |
 |---|---|---|---|---|
 | STAB fort | Plaquage (Body Slam) | Normal | Physique | 85 |
-| Couverture Eau | Lancer Blop (custom) | Eau | Physique | 25 × 2–5 |
+| Couverture Eau | Lancer Blop (custom) | Eau | Physique | 65, Vit −1 |
 | Utilitaire | Toile Gluante (Sticky Web) | Insecte | Statut | – |
 | Couverture Spectre | Mâchouille (Crunch) | Ténèbres | Physique | 80 |
 
 Alternatives : Damoclès, Bluff, Bâillement, Coup Bas, Danse Lames.
-Technicien (caché) booste Lancer Blop, Bluff et Vive-Attaque.
+Technicien (caché) booste Bluff, Vive-Attaque et Morsure.
 
 ## Capacités custom
-**Lancer Blop** (`MOVE_LANCER_BLOP`) — Eau, physique, 25, précision 100, 20 PP,
-2 à 5 coups. `EFFECT_MULTI_HIT` (comme Shuriken d'Eau / Balle Graine), balistique,
-animation Écume. Difficulté : facile.
+**Lancer Blop** (`MOVE_LANCER_BLOP`) — Eau, physique, 65, précision 100, 15 PP.
+Baisse la Vitesse de la cible d'un niveau (100 %). `EFFECT_HIT` +
+`MOVE_EFFECT_SPD_MINUS_1`, comme Bond (Pounce), balistique, animation Écume.
+Difficulté : facile.
 
 ## Learnsets
 ### Tikoala
@@ -68,7 +69,7 @@ Mêmes attaques aux mêmes niveaux, plus :
 
 | Niv. | Attaque | Type | Cat. | Puiss. |
 |---|---|---|---|---|
-| Évo | Lancer Blop | Eau | Phys. | 25 × 2–5 |
+| Évo | Lancer Blop | Eau | Phys. | 65 |
 | 36 | Coup Bas (Sucker Punch) | Ténèbres | Phys. | 70 |
 | 44 | Danse Lames (Swords Dance) | Normal | Statut | – |
 
