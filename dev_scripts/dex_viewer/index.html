@@ -28,7 +28,7 @@ button, input, select { font: inherit; color: inherit; }
 #side h1 { margin: 0; font-size: 16px; display: flex; align-items: center; justify-content: space-between; }
 #side input, #side select { width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel2); }
 #side label.chk { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
-#reload { border: 1px solid var(--border); background: var(--panel2); border-radius: 6px; padding: 2px 8px; cursor: pointer; font-size: 12px; }
+#side .tbtn { border: 1px solid var(--border); background: var(--panel2); border-radius: 6px; padding: 2px 8px; cursor: pointer; font-size: 12px; }
 #list { overflow-y: auto; flex: 1; padding: 4px 0; }
 #list a { display: flex; align-items: center; gap: 8px; padding: 2px 12px; text-decoration: none; }
 #list a:hover, #list a.active { background: var(--panel2); }
@@ -91,7 +91,40 @@ details summary { cursor: pointer; color: var(--muted); font-size: 12px; text-tr
 .missing { color: var(--bad); }
 .muted { color: var(--muted); }
 
+/* Global stats panel */
+#stats { width: 300px; flex: none; height: 100vh; overflow-y: auto; border-left: 1px solid var(--border); background: var(--panel); padding: 12px 14px 40px; }
+body.nostats #stats { display: none; }
+#stats h2 { margin: 0 0 2px; font-size: 16px; }
+#stats section { margin-top: 16px; }
+#stats h3 { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; display: flex; justify-content: space-between; }
+#stats h3 span { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.hrow { display: grid; grid-template-columns: 76px 1fr 30px; gap: 6px; align-items: center; font-size: 12px; padding: 1px 0; }
+.hrow.wide { grid-template-columns: 160px 1fr 30px; }
+#stats .type { padding: 1px 5px; }
+.hrow.click { cursor: pointer; border-radius: 4px; }
+.hrow.click:hover, .hrow.sel { background: var(--panel2); }
+.hrow .lbl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hrow .n { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.hrow .n.zero { color: var(--bad); font-weight: 400; }
+.hbar { height: 10px; display: flex; border-radius: 3px; overflow: hidden; background: var(--bar); }
+.hbar > div { height: 100%; }
+.hbar > .dual { opacity: .45; }
+.legend { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.kpi { background: var(--panel2); border-radius: 6px; padding: 4px 6px; font-size: 11px; color: var(--muted); }
+.kpi b { display: block; font-size: 16px; color: var(--text); font-variant-numeric: tabular-nums; }
+.hist { display: flex; align-items: flex-end; gap: 2px; height: 70px; margin-top: 8px; }
+.hist > div { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; font-size: 10px; color: var(--muted); }
+.hist > div > i { display: block; width: 100%; background: var(--accent); opacity: .75; border-radius: 2px 2px 0 0; min-height: 1px; }
+.hist-x { display: flex; gap: 2px; font-size: 9px; color: var(--muted); }
+.hist-x > span { flex: 1; text-align: center; }
+
+@media (max-width: 1200px) {
+  #stats { position: fixed; right: 0; top: 0; z-index: 5; box-shadow: -4px 0 16px rgba(0,0,0,.15); }
+  body:not(.showstats) #stats { display: none; }
+}
 @media (max-width: 800px) {
+  #stats { position: static; width: 100%; height: auto; box-shadow: none; border-left: 0; border-top: 1px solid var(--border); }
   body { flex-direction: column; }
   #side { width: 100%; height: auto; max-height: 40vh; }
   #main { height: auto; }
@@ -103,7 +136,7 @@ details summary { cursor: pointer; color: var(--muted); font-size: 12px; text-tr
 <body>
 <nav id="side">
   <header>
-    <h1>Dex Viewer <button id="reload" title="Relire les sources">↻ Recharger</button></h1>
+    <h1>Dex Viewer <span><button id="togstats" class="tbtn" title="Afficher/masquer les données globales">📊 Stats</button> <button id="reload" class="tbtn" title="Relire les sources">↻</button></span></h1>
     <input id="q" type="search" placeholder="Rechercher (nom, type, capacité, talent…)">
     <select id="ftype"><option value="">Tous les types</option></select>
     <select id="fstate">
@@ -122,6 +155,7 @@ details summary { cursor: pointer; color: var(--muted); font-size: 12px; text-tr
   <div id="status">Chargement des sources…</div>
   <div id="cards"></div>
 </main>
+<aside id="stats"></aside>
 
 <script>
 // Paths are relative to the repo root (served by serve.sh).
@@ -604,10 +638,91 @@ function filtered() {
     (!s || (s === 'done' ? m.score >= 1 : s === 'todo' ? m.score < 1 : s === 'sprites' ? !!m.preview?.flags.length : m.untouched)));
 }
 
+// Right panel: aggregate data over the currently displayed species.
+let statsSkipUntouched = true;
+function renderStats(shown) {
+  const { db, byId } = state;
+  const mons = statsSkipUntouched ? shown.filter(m => !m.untouched) : shown;
+  const ftype = $('#ftype').value;
+  const count = (arr, key) => arr.reduce((acc, x) => { for (const k of [].concat(key(x))) acc[k] = (acc[k] || 0) + 1; return acc; }, {});
+  const top = (obj, n) => Object.entries(obj).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, n);
+  const bars = (rows, max, opts = {}) => rows.map(([label, n, extra]) => `
+    <div class="hrow${opts.click ? ' click' : ''}${opts.wide ? ' wide' : ''}${extra?.sel ? ' sel' : ''}"${extra?.attr || ''}>
+      <span class="lbl" title="${esc(extra?.title || label)}">${extra?.html || esc(label)}</span>
+      <div class="hbar">${extra?.segs || `<div style="width:${max ? n / max * 100 : 0}%;background:${extra?.color || 'var(--accent)'}"></div>`}</div>
+      <span class="n${n ? '' : ' zero'}">${n}</span>
+    </div>`).join('');
+
+  // Types: all regular types shown (zeros reveal gaps), split mono / dual.
+  const mono = {}, dual = {};
+  for (const m of mons) for (const t of m.types) (m.types.length > 1 ? dual : mono)[t] = ((m.types.length > 1 ? dual : mono)[t] || 0) + 1;
+  const typeKeys = Object.keys(TYPES).filter(t => !['STELLAR', 'MYSTERY'].includes(t) || mono[t] || dual[t]);
+  const typeRows = typeKeys.map(t => [t, (mono[t] || 0) + (dual[t] || 0)]).sort((a, b) => b[1] - a[1] || (TYPES[a[0]][0]).localeCompare(TYPES[b[0]][0]));
+  const typeMax = Math.max(1, ...typeRows.map(r => r[1]));
+  const typeHtml = bars(typeRows.map(([t, n]) => [TYPES[t][0], n, {
+    html: typeBadge(t), sel: ftype === t, attr: ` data-ftype="${t}"`,
+    title: `${TYPES[t][0]} : ${mono[t] || 0} mono, ${dual[t] || 0} double`,
+    segs: `<div style="width:${(mono[t] || 0) / typeMax * 100}%;background:${TYPES[t][1]}"></div><div class="dual" style="width:${(dual[t] || 0) / typeMax * 100}%;background:${TYPES[t][1]}"></div>`,
+  }]), typeMax, { click: true });
+  const pairs = top(count(mons.filter(m => m.types.length > 1), m => m.types.slice().sort().join('/')), 8);
+  const monoCount = mons.filter(m => m.types.length === 1).length;
+
+  // Stats: only species whose stats are filled in.
+  const real = mons.filter(m => m.checks.stats);
+  const bsts = real.map(m => m.bst);
+  const avg = a => a.length ? Math.round(a.reduce((x, y) => x + y, 0) / a.length) : '—';
+  const buckets = [];
+  for (let lo = 200; lo < 700; lo += 50) buckets.push([lo, bsts.filter(b => b >= lo && b < lo + 50 || (lo === 200 && b < 200) || (lo === 650 && b >= 700)).length]);
+  const bMax = Math.max(1, ...buckets.map(b => b[1]));
+  const statAvg = STATS.map(([k, l]) => [l, avg(real.map(m => m.stats[k]))]);
+
+  // Evolution stage (0 = base) and family shape.
+  const stage = m => m.preEvos?.length ? 1 + stage(byId[m.preEvos[0].from]) : 0;
+  const stages = count(mons, m => !m.preEvos && !m.evolutions.some(e => byId[e.target]) ? 'Sans évolution' : ['Base', 'Stade 1', 'Stade 2', 'Stade 3'][Math.min(stage(m), 3)]);
+  const stageRows = ['Base', 'Stade 1', 'Stade 2', 'Stade 3', 'Sans évolution'].filter(k => stages[k]).map(k => [k, stages[k]]);
+
+  const abil = top(count(mons, m => [...new Set(m.abilities.filter(a => a !== 'ABILITY_NONE'))]), 8).map(([a, n]) => [db.abilityData[a]?.name || a, n]);
+  const eggs = top(count(mons, m => m.eggGroups), 20);
+  const growth = top(count(mons, m => m.growth || '?'), 10);
+  const maxOf = rows => Math.max(1, ...rows.map(r => r[1]));
+
+  $('#stats').innerHTML = `
+    <h2>Données globales</h2>
+    <div class="muted" style="font-size:12px">${mons.length} espèce${mons.length > 1 ? 's' : ''} sur ${state.mons.length}</div>
+    <label class="muted" style="font-size:12px;display:flex;gap:6px;align-items:center;margin-top:4px"><input id="skipuntouched" type="checkbox" ${statsSkipUntouched ? 'checked' : ''}> Exclure les non commencés (${shown.length - shown.filter(m => !m.untouched).length})</label>
+    <section>
+      <h3>Pokémon par type <span>${monoCount} mono · ${mons.length - monoCount} double</span></h3>
+      ${typeHtml}
+      <div class="legend">Teinte pleine = mono-type, claire = double type. Clic = filtrer.</div>
+    </section>
+    ${pairs.length ? `<section><h3>Doubles types fréquents</h3>
+      ${bars(pairs.map(([p, n]) => [p, n, { html: p.split('/').map(typeBadge).join(' '), title: p.split('/').map(t => TYPES[t]?.[0] || t).join(' / ') }]), maxOf(pairs), { wide: true })}
+    </section>` : ''}
+    <section>
+      <h3>Total des stats <span>${real.length} renseignés</span></h3>
+      <div class="kpis">
+        <div class="kpi">Moyenne<b>${avg(bsts)}</b></div>
+        <div class="kpi">Min<b>${bsts.length ? Math.min(...bsts) : '—'}</b></div>
+        <div class="kpi">Max<b>${bsts.length ? Math.max(...bsts) : '—'}</b></div>
+      </div>
+      <div class="hist">${buckets.map(([lo, n]) => `<div title="${lo === 200 ? '<250' : lo === 650 ? '≥650' : `${lo}–${lo + 49}`} : ${n}">${n || ''}<i style="height:${n / bMax * 100}%"></i></div>`).join('')}</div>
+      <div class="hist-x">${buckets.map(([lo]) => `<span>${lo === 200 ? '<' : ''}${lo === 200 ? 250 : lo}</span>`).join('')}</div>
+    </section>
+    <section>
+      <h3>Stats moyennes</h3>
+      ${bars(statAvg.map(([l, v]) => [l, v, { color: statColor(+v || 0) }]), 150)}
+    </section>
+    <section><h3>Stades d'évolution</h3>${bars(stageRows, maxOf(stageRows))}</section>
+    <section><h3>Talents les plus utilisés</h3>${bars(abil, maxOf(abil))}</section>
+    <section><h3>Groupes Œuf</h3>${bars(eggs, maxOf(eggs))}</section>
+    <section><h3>Courbes d'expérience</h3>${bars(growth, maxOf(growth))}</section>`;
+}
+
 let observer;
 function render() {
   const mons = filtered();
   renderSummary(mons);
+  renderStats(mons);
   $('#list').innerHTML = mons.map(m => `<a href="#${m.id}" data-id="${m.id}"><span class="num">${fmtNo(m.dexNo)}</span><canvas data-icon width="32" height="32"></canvas><span class="nm">${esc(m.name)}</span><span class="dot" style="background:${scoreColor(m.score)}" title="${Math.round(m.score * 100)}%"></span></a>`).join('');
   $('#cards').innerHTML = mons.map(renderCard).join('') || '<p class="muted">Aucun résultat.</p>';
 
@@ -636,6 +751,9 @@ function paintCard(el, m) {
 }
 
 document.addEventListener('click', e => {
+  if (e.target.id === 'skipuntouched') { statsSkipUntouched = e.target.checked; renderStats(filtered()); return; }
+  const ft = e.target.closest('[data-ftype]');
+  if (ft) { $('#ftype').value = $('#ftype').value === ft.dataset.ftype ? '' : ft.dataset.ftype; render(); return; }
   const goto = e.target.closest('[data-goto]');
   if (goto) { document.getElementById(goto.dataset.goto)?.scrollIntoView(); return; }
   const btn = e.target.closest('.tog button');
@@ -680,6 +798,10 @@ async function boot() {
   }
 }
 $('#reload').addEventListener('click', boot);
+$('#togstats').addEventListener('click', () => {
+  const wide = matchMedia('(min-width: 1201px)').matches;
+  document.body.classList.toggle(wide ? 'nostats' : 'showstats');
+});
 boot();
 </script>
 </body>
