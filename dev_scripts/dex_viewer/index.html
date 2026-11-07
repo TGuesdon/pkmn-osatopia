@@ -41,6 +41,9 @@ button, input, select { font: inherit; color: inherit; }
 #main { flex: 1; height: 100vh; overflow-y: auto; scroll-behavior: smooth; }
 #summary { padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--panel); position: sticky; top: 0; z-index: 2; }
 #summary .row { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; }
+#summary .row:first-child { padding-right: 180px; }
+#togstats { position: absolute; top: 14px; right: 20px; border: 1px solid var(--border); background: var(--panel2); border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 13px; }
+#togstats.on { background: var(--text); color: var(--panel); border-color: var(--text); }
 #summary .big { font-size: 18px; font-weight: 600; }
 .pbar { height: 6px; background: var(--bar); border-radius: 3px; overflow: hidden; min-width: 70px; }
 .pbar > div { height: 100%; background: var(--ok); }
@@ -120,8 +123,12 @@ body.nostats #stats { display: none; }
 .hist-x > span { flex: 1; text-align: center; }
 
 @media (max-width: 1200px) {
-  #stats { position: fixed; right: 0; top: 0; z-index: 5; box-shadow: -4px 0 16px rgba(0,0,0,.15); }
-  body:not(.showstats) #stats { display: none; }
+  #stats { width: 240px; padding: 10px 10px 40px; }
+  .hrow { grid-template-columns: 66px 1fr 26px; }
+  .hrow.wide { grid-template-columns: 140px 1fr 26px; }
+}
+@media (max-width: 1000px) {
+  .card { grid-template-columns: 1fr; }
 }
 @media (max-width: 800px) {
   #stats { position: static; width: 100%; height: auto; box-shadow: none; border-left: 0; border-top: 1px solid var(--border); }
@@ -136,7 +143,7 @@ body.nostats #stats { display: none; }
 <body>
 <nav id="side">
   <header>
-    <h1>Dex Viewer <span><button id="togstats" class="tbtn" title="Afficher/masquer les données globales">📊 Stats</button> <button id="reload" class="tbtn" title="Relire les sources">↻</button></span></h1>
+    <h1>Dex Viewer <button id="reload" class="tbtn" title="Relire les sources">↻ Recharger</button></h1>
     <input id="q" type="search" placeholder="Rechercher (nom, type, capacité, talent…)">
     <select id="ftype"><option value="">Tous les types</option></select>
     <select id="fstate">
@@ -621,6 +628,7 @@ function renderSummary(mons) {
       <span class="big">${done} / ${all.length} complets</span>
       <div class="pbar" style="width:200px"><div style="width:${avg * 100}%"></div></div>
       <span class="muted">${Math.round(avg * 100)}% global · ${untouched} non commencés · ${mons.length} affichés</span>
+      <button id="togstats" class="${document.body.classList.contains('nostats') ? '' : 'on'}" title="Afficher/masquer le panel de données globales">📊 Données globales</button>
     </div>
     <div class="row" style="margin-top:10px">
       ${CHECKS.map(([k, l]) => {
@@ -798,9 +806,9 @@ async function boot() {
   }
 }
 $('#reload').addEventListener('click', boot);
-$('#togstats').addEventListener('click', () => {
-  const wide = matchMedia('(min-width: 1201px)').matches;
-  document.body.classList.toggle(wide ? 'nostats' : 'showstats');
+document.addEventListener('click', e => {
+  if (e.target.id !== 'togstats') return;
+  e.target.classList.toggle('on', !document.body.classList.toggle('nostats'));
 });
 boot();
 </script>
