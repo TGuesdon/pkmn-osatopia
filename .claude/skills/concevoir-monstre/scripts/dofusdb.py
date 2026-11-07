@@ -45,6 +45,10 @@ def get(path, params=None):
     if params:
         url += "?" + urllib.parse.urlencode(params, safe="[]$")
     os.makedirs(CACHE_DIR, exist_ok=True)
+    ignore = os.path.join(CACHE_DIR, ".gitignore")
+    if not os.path.exists(ignore):  # le cache ne doit jamais être versionné
+        with open(ignore, "w") as f:
+            f.write("*\n")
     key = os.path.join(CACHE_DIR, hashlib.sha1(url.encode()).hexdigest() + ".json")
     if not REFRESH and os.path.exists(key) and time.time() - os.path.getmtime(key) < CACHE_TTL:
         with open(key, encoding="utf-8") as f:
