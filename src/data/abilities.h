@@ -2483,4 +2483,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Ses coups font saigner."),
         .aiRating = 5,
     },
+
+    [ABILITY_VULBIS] =
+    {
+        .name = _("Vulbis"),
+        .description = COMPOUND_STRING("Un K.O. booste Att/Spé/Vit."),
+        .aiRating = 6,
+    },
 };
