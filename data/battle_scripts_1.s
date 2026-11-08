@@ -3842,6 +3842,29 @@ BattleScript_PresentHealTarget::
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_MoveEnd
 
+BattleScript_EffectLaitDeCoco::
+	attackcanceler
+	copybyte gBattlerTarget, gBattlerAttacker
+	jumpifstatus BS_TARGET, STATUS1_ANY, BattleScript_LaitDeCocoDrink
+	jumpiffullhp BS_TARGET, BattleScript_AlreadyAtFullHp
+BattleScript_LaitDeCocoDrink:
+	attackanimation
+	waitanimation
+	tryhealhalfhealth BS_TARGET, BattleScript_LaitDeCocoTryCure
+	healthbarupdate BS_TARGET, PASSIVE_HP_UPDATE
+	datahpupdate BS_TARGET, PASSIVE_HP_UPDATE
+	printstring STRINGID_PKMNREGAINEDHEALTH
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_LaitDeCocoTryCure:
+	jumpifstatus BS_TARGET, STATUS1_ANY, BattleScript_LaitDeCocoCure
+	goto BattleScript_MoveEnd
+BattleScript_LaitDeCocoCure:
+	curestatus BS_TARGET
+	updatestatusicon BS_TARGET
+	printstring STRINGID_PKMNSTATUSNORMAL
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_MoveEnd
+
 BattleScript_AlreadyAtFullHp::
 	pause B_WAIT_TIME_SHORT
 	printstring STRINGID_PKMNHPFULL

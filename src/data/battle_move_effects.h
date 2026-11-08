@@ -2249,4 +2249,11 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
         .battleScript = BattleScript_EffectPotager,
         .battleTvScore = 4,
     },
+
+    [EFFECT_LAIT_DE_COCO] =
+    {
+        .battleScript = BattleScript_EffectLaitDeCoco,
+        .battleTvScore = 3,
+        .encourageEncore = TRUE,
+    },
 };

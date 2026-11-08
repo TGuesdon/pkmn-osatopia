@@ -356,6 +356,7 @@ enum __attribute__((packed)) BattleMoveEffects
 
     // Osatopia
     EFFECT_POTAGER, // Soigne les alliés au sol qui entrent au combat
+    EFFECT_LAIT_DE_COCO, // Soigne 50 % des PV et le statut du lanceur
     NUM_BATTLE_MOVE_EFFECTS,
 };
 
