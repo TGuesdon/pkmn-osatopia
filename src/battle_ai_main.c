@@ -2188,6 +2188,12 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             else if (aiData->hpPercents[battlerAtk] >= 90)
                 ADJUST_SCORE(-9); //No point in healing, but should at least do it if nothing better
             break;
+        case EFFECT_LAIT_DE_COCO:
+            if (AI_BattlerAtMaxHp(battlerAtk) && !(gBattleMons[battlerAtk].status1 & STATUS1_ANY))
+                ADJUST_SCORE(-10);
+            else if (aiData->hpPercents[battlerAtk] >= 90 && !(gBattleMons[battlerAtk].status1 & STATUS1_ANY))
+                ADJUST_SCORE(-9);
+            break;
         case EFFECT_MORNING_SUN:
         case EFFECT_SYNTHESIS:
         case EFFECT_MOONLIGHT:
@@ -4447,6 +4453,12 @@ static s32 AI_CalcMoveEffectScore(u32 battlerAtk, u32 battlerDef, u32 move, stru
         if (ShouldRecover(battlerAtk, battlerDef, move, 50))
             ADJUST_SCORE(GOOD_EFFECT);
         break;
+    case EFFECT_LAIT_DE_COCO:
+        if (gBattleMons[battlerAtk].status1 & STATUS1_ANY)
+            ADJUST_SCORE(DECENT_EFFECT);
+        if (ShouldRecover(battlerAtk, battlerDef, move, 50))
+            ADJUST_SCORE(GOOD_EFFECT);
+        break;
     case EFFECT_LIFE_DEW:
         if (ShouldRecover(battlerAtk, battlerDef, move, 25))
             ADJUST_SCORE(GOOD_EFFECT);
@@ -6382,6 +6394,7 @@ static s32 AI_HPAware(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             case EFFECT_MOONLIGHT:
             case EFFECT_SHORE_UP:
             case EFFECT_SOFTBOILED:
+            case EFFECT_LAIT_DE_COCO:
             case EFFECT_ROOST:
             case EFFECT_MEMENTO:
             case EFFECT_GRUDGE:

@@ -21466,6 +21466,28 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_ShadowBone,
     },
 
+    [MOVE_LAIT_DE_COCO] =
+    {
+        .name = COMPOUND_STRING("Lait de Coco"),
+        .description = COMPOUND_STRING(
+            "Boit son lait de coco :\n"
+            "soigne PV et statut."),
+        .effect = EFFECT_LAIT_DE_COCO,
+        .power = 0,
+        .type = TYPE_GRASS,
+        .accuracy = 0,
+        .pp = 5,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        .zMove = { .effect = Z_EFFECT_RESET_STATS },
+        .healingMove = TRUE,
+        .snatchAffected = TRUE,
+        .ignoresProtect = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .battleAnimScript = gBattleAnimMove_MilkDrink,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
