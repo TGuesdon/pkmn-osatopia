@@ -21444,6 +21444,28 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_Bubble,
     },
 
+    [MOVE_MASSE_OMBRE] =
+    {
+        .name = COMPOUND_STRING("Masse Ombre"),
+        .description = COMPOUND_STRING(
+            "Un coup de masse spectral\n"
+            "qui peut baisser la Vitesse."),
+        .effect = EFFECT_HIT,
+        .power = 85,
+        .type = TYPE_GHOST,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_SPD_MINUS_1,
+            .chance = 30,
+        }),
+        .battleAnimScript = gBattleAnimMove_ShadowBone,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
