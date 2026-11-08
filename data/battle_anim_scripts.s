@@ -31032,6 +31032,17 @@ gBattleAnimStatus_Frostbite::
 	clearmonbg ANIM_DEF_PARTNER
 	end
 
+@ Osatopia : saignement. Une griffure, puis le Pokémon tremble et vire au rouge sang
+@ (comme l'animation du Poison, couleur changée).
+gBattleAnimStatus_Bleed::
+	loadspritegfx ANIM_TAG_SCRATCH
+	playsewithpan SE_M_SCRATCH, SOUND_PAN_TARGET
+	createsprite gScratchSpriteTemplate, ANIM_ATTACKER, 2, 0, 0, 1, 0
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_ATTACKER, 1, 0, 18, 2
+	createvisualtask AnimTask_BlendColorCycle, 2, F_PAL_ATTACKER, 2, 2, 0, 12, RGB(26, 0, 2)
+	waitforvisualfinish
+	end
+
 gBattleAnimGeneral_StatsChange::
 	createvisualtask AnimTask_StatsChange, 5
 	waitforvisualfinish

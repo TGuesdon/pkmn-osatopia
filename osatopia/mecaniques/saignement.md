@@ -19,7 +19,7 @@
 - **Interactions** :
   - Façade double sa puissance en saignant ;
   - Psycho Transfert transmet le Saignement ;
-  - pas d'animation dédiée : il réutilise celle de la Brûlure.
+  - animation dédiée `gBattleAnimStatus_Bleed` (`B_ANIM_STATUS_BLD`) : une griffure, puis le Pokémon tremble et clignote en rouge sang.
 
 ## Capacités et talent
 | | Type | Cat. | Puiss. | Préc. | PP | Effet |
