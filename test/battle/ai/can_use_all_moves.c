@@ -55,6 +55,38 @@ AI_DOUBLE_BATTLE_TEST("AI uses Sheer Cold")
     }
 }
 
+AI_DOUBLE_BATTLE_TEST("AI uses Gloutage")
+{
+    GIVEN {
+        AI_FLAGS(AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT);
+        PLAYER(SPECIES_WOBBUFFET);
+        PLAYER(SPECIES_WOBBUFFET);
+        PLAYER(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET) { Moves(MOVE_SPLASH, MOVE_GLOUTAGE); }
+        OPPONENT(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN { EXPECT_MOVE(opponentLeft, MOVE_GLOUTAGE); SEND_OUT(playerLeft, 2); }
+    }
+}
+
+AI_DOUBLE_BATTLE_TEST("AI uses Bave Fatale")
+{
+    GIVEN {
+        AI_FLAGS(AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT);
+        PLAYER(SPECIES_WOBBUFFET);
+        PLAYER(SPECIES_WOBBUFFET);
+        PLAYER(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET) { Moves(MOVE_SPLASH, MOVE_BAVE_FATALE); }
+        OPPONENT(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN { EXPECT_MOVE(opponentLeft, MOVE_BAVE_FATALE); SEND_OUT(playerLeft, 2); }
+    }
+}
+
 AI_DOUBLE_BATTLE_TEST("AI can use all moves, 1-100")
 {
     u32 moveStart = 0;
@@ -678,6 +710,8 @@ AI_DOUBLE_BATTLE_TEST("AI can use all moves, 801-900")
         case EFFECT_SNOWSCAPE:
         case EFFECT_DRAGON_CHEER:
         case EFFECT_POTAGER: // Osatopia : test/battle/ai/ai_potager.c
+        case EFFECT_OHKO: // Osatopia : Gloutage et Bave Fatale, testées plus haut comme Guillotine
+        case EFFECT_LAIT_DE_COCO: // Osatopia : test/battle/ai/ai_lait_de_coco.c
 
         // Skipped on purpose.
         case EFFECT_PROTECT:
