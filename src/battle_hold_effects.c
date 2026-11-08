@@ -830,6 +830,11 @@ static enum ItemEffect TryCureAnyStatus(u32 battler, ActivationTiming timing)
             StringCopy(gBattleTextBuff1, gStatusConditionString_IceJpn);
             string++;
         }
+        if (gBattleMons[battler].status1 & STATUS1_BLEED)
+        {
+            StringCopy(gBattleTextBuff1, gStatusConditionString_BleedJpn);
+            string++;
+        }
         if (gBattleMons[battler].volatiles.confusionTurns > 0)
         {
             StringCopy(gBattleTextBuff1, gStatusConditionString_ConfusionJpn);

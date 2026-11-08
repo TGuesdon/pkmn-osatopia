@@ -877,6 +877,8 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_POTAGERHEAL]                          = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} croque une cawotte!"),
     [STRINGID_POTAGERCLEARED]                       = COMPOUND_STRING("Les cawottes ont disparu!"),
     [STRINGID_MONTUREBOOST]                         = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} profite de sa monture!"),
+    [STRINGID_PKMNGOTBLEED]                         = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} saigne!"),
+    [STRINGID_PKMNHURTBYBLEED]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} perd du sang!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =
@@ -1174,6 +1176,12 @@ const u16 gGotFrostbiteStringIds[] =
     [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNGOTFROSTBITE,
 };
 
+const u16 gGotBleedStringIds[] =
+{
+    [B_MSG_STATUSED]            = STRINGID_PKMNGOTBLEED,
+    [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNGOTBLEED,
+};
+
 const u16 gFrostbiteHealedStringIds[] =
 {
     [B_MSG_FROSTBITE_HEALED]         = STRINGID_PKMNFROSTBITEHEALED2,
@@ -1340,7 +1348,7 @@ const u16 gRoomsStringIds[] =
 
 const u16 gStatusConditionsStringIds[] =
 {
-    STRINGID_PKMNWASPOISONED, STRINGID_PKMNBADLYPOISONED, STRINGID_PKMNWASBURNED, STRINGID_PKMNWASPARALYZED, STRINGID_PKMNFELLASLEEP, STRINGID_PKMNGOTFROSTBITE
+    STRINGID_PKMNWASPOISONED, STRINGID_PKMNBADLYPOISONED, STRINGID_PKMNWASBURNED, STRINGID_PKMNWASPARALYZED, STRINGID_PKMNFELLASLEEP, STRINGID_PKMNGOTFROSTBITE, STRINGID_PKMNGOTBLEED
 };
 
 const u16 gDamageNonTypesStartStringIds[] =
@@ -1407,6 +1415,7 @@ const u8 gText_Paralysis[] = _("paralysis");
 const u8 gText_Ice[] = _("ice");
 const u8 gText_Confusion[] = _("confusion");
 const u8 gText_Love[] = _("love");
+const u8 gText_Bleed[] = _("saignement"); // Osatopia
 const u8 gText_SpaceAndSpace[] = _(" and ");
 const u8 gText_CommaSpace[] = _(", ");
 const u8 gText_Space2[] = _(" ");

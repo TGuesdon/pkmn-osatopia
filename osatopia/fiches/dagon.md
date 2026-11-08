@@ -85,7 +85,7 @@ Gob Trotteur, avec Génusection).
 
 ## Capacités custom
 
-Aucune.
+Raul Mops apprend Lacération (niv. 36, tranchante donc boostée par Incisif) et Déchirure (niv. 46) : voir [`osatopia/mecaniques/saignement.md`](../mecaniques/saignement.md).
 
 ## Learnsets
 
@@ -121,8 +121,10 @@ Aucune.
 | Évo | Génusection (Kowtow Cleave) | Ténèbres | Phys. | 85 |
 | 1 | Coqui-Lame (Razor Shell) | Eau | Phys. | 75 |
 | 1–32 | *attaques de Pichon, mêmes niveaux* | | | |
+| 36 | Lacération | Ténèbres | Phys. | 75 |
 | 40 | Branchicrok (Fishious Rend) | Eau | Phys. | 85 |
 | 44 | Plaie Croix (X-Scissor) | Insecte | Phys. | 80 |
+| 46 | Déchirure | Ténèbres | Statut | – |
 | 48 | Hâte (Agility) | Psy | Statut | – |
 | 52 | Aquatacle (Wave Crash) | Eau | Phys. | 120 |
 
