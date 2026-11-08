@@ -33,6 +33,7 @@
 | Monstre | Déchirure | Lacération | Hémorragie |
 |---|---|---|---|
 | Blerodoudou / Wolvero / Blerom | niv. 27 | niv. 24 | talent caché |
+| Demoloch / Diabelial / Typhomet | niv. 16 | niv. 24 | talent principal |
 | Chagouar | niv. 34 | niv. 30 | — |
 | Raul Mops | niv. 46 | niv. 36 | — |
 | Leolhyene | niv. 26 | — | — |
