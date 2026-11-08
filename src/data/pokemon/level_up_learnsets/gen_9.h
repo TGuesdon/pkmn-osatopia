@@ -25088,6 +25088,9 @@ static const struct LevelUpMove sCorbomaitreLevelUpLearnset[] = {
     LEVEL_UP_MOVE(39, MOVE_LASH_OUT),
     LEVEL_UP_MOVE(43, MOVE_ROOST),
     LEVEL_UP_MOVE(47, MOVE_BRAVE_BIRD),
+    LEVEL_UP_END
+};
+
 static const struct LevelUpMove sMalepikLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BRANCH_POKE),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_TEAM),
