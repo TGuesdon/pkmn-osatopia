@@ -5740,6 +5740,7 @@ static bool32 HandleMoveEndAbilityBlock(u32 battlerAtk, u32 battlerDef, u32 move
         }
         break;
     case ABILITY_BATTLE_BOND:
+    case ABILITY_VULBIS: // Osatopia : comme Synergie (Gen 9), +1 Att, AtqSpé et Vit au premier K.O.
         {
             if (!IsBattlerAlive(battlerAtk)
              || NoAliveMonsForEitherParty()
