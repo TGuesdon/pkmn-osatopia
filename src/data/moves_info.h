@@ -21488,6 +21488,23 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_MilkDrink,
     },
 
+    [MOVE_BAVE_FATALE] =
+    {
+        .name = COMPOUND_STRING("Bave Fatale"),
+        .description = COMPOUND_STRING(
+            "Glyphe de bave mortel.\n"
+            "Met K.O. sur le coup."),
+        .effect = EFFECT_OHKO,
+        .power = 1,
+        .type = TYPE_POISON,
+        .accuracy = 30,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .battleAnimScript = gBattleAnimMove_Toxic,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
