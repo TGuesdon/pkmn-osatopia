@@ -21316,7 +21316,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Filon d'Or"),
         .description = COMPOUND_STRING(
-            "Lance des pépites sur l'ennemi.\n"
+            "Lance des pépites à l'ennemi.\n"
             "Rapporte de l'argent après."),
         .effect = EFFECT_HIT,
         .power = 75,
@@ -21336,7 +21336,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Filante"),
         .description = COMPOUND_STRING(
-            "Une traînée d'étoiles frappe,\n"
+            "Une traînée d'astres frappe,\n"
             "puis le lanceur est remplacé."),
         .effect = EFFECT_HIT_ESCAPE,
         .power = 70,
