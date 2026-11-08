@@ -21505,6 +21505,49 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_Toxic,
     },
 
+    [MOVE_DECHIRURE] =
+    {
+        .name = COMPOUND_STRING("Déchirure"),
+        .description = COMPOUND_STRING(
+            "Ouvre une plaie qui fait\n"
+            "saigner l'ennemi."),
+        .effect = EFFECT_NON_VOLATILE_STATUS,
+        .power = 0,
+        .type = TYPE_DARK,
+        .accuracy = 85,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_BLEED },
+        .zMove = { .effect = Z_EFFECT_ATK_UP_1 },
+        .magicCoatAffected = TRUE,
+        .battleAnimScript = gBattleAnimMove_CrushClaw,
+    },
+
+    [MOVE_LACERATION] =
+    {
+        .name = COMPOUND_STRING("Lacération"),
+        .description = COMPOUND_STRING(
+            "Lacère l'ennemi. Peut le\n"
+            "faire saigner (10 %)."),
+        .effect = EFFECT_HIT,
+        .power = 75,
+        .type = TYPE_DARK,
+        .accuracy = 100,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .slicingMove = TRUE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_BLEED,
+            .chance = 10,
+        }),
+        .battleAnimScript = gBattleAnimMove_NightSlash,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

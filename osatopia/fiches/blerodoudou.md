@@ -15,7 +15,7 @@ Archétype : brute physique / wallbreaker lent, encaisseur offensif en second. �
 | Types | Combat | Combat | Combat |
 | PV / Att / Déf / AtqSpé / DéfSpé / Vit | 65 / 75 / 50 / 25 / 40 / 40 | 85 / 100 / 65 / 30 / 52 / 63 | 115 / 135 / 90 / 35 / 70 / 45 |
 | Total | 295 | 395 | 490 |
-| Talents | Griffe Dure / Isograisse / *Colérique* | idem | idem |
+| Talents | Griffe Dure / Isograisse / *Hémorragie* | idem | idem |
 | Capture / Exp. | 190 / 60 | 90 / 140 | 45 / 250 |
 | EV | Att 1 | Att 2 | Att 2, PV 1 |
 
@@ -32,10 +32,10 @@ Autres valeurs : 50 % femelles, éclosion 15, bonheur standard, croissance moyen
 Talents :
 - **Griffe Dure** : renforce son kit, presque entièrement au contact.
 - **Isograisse** : l'île de glace.
-- **Colérique** (caché) : la rage du blaireau, en écho au sort *Toxin* déclenché par un critique.
+- **Hémorragie** (caché, talent Osatopia) : 20 % de faire saigner à chaque attaque physique. Il remplace Colérique.
 
 ## Capacités custom
-Aucune.
+Déchirure (statut, fait saigner) et Lacération (75, 10 % de saignement), avec le talent Hémorragie : voir [`osatopia/mecaniques/saignement.md`](../mecaniques/saignement.md). Elles remplacent Grimace et Éclate Griffe.
 
 ## Learnsets
 
@@ -49,8 +49,8 @@ Aucune.
 | 12 | Poing Karaté (Karate Chop) | Combat | Phys. | 50 |
 | 15 | Aiguisage (Hone Claws) | Ténèbres | Statut | — |
 | 18 | Éclats Glace (Ice Shard) | Glace | Phys. | 40 |
-| 24 | Éclate Griffe (Crush Claw) | Normal | Phys. | 75 |
-| 27 | Grimace (Scary Face) | Normal | Statut | — |
+| 24 | Lacération | Ténèbres | Phys. | 75 |
+| 27 | Déchirure | Ténèbres | Statut | — |
 
 ### Wolvero
 | Niv. | Attaque | Type | Cat. | Puiss. |

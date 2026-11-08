@@ -1508,6 +1508,7 @@ extern const u8 gText_Sleep[];
 extern const u8 gText_Paralysis[];
 extern const u8 gText_Burn[];
 extern const u8 gText_Ice[];
+extern const u8 gText_Bleed[];
 extern const u8 gText_Confusion[];
 extern const u8 gText_Love[];
 

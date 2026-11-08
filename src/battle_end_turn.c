@@ -564,6 +564,27 @@ static bool32 HandleEndTurnFrostbite(u32 battler)
     return effect;
 }
 
+// Osatopia : Saignement. Dégâts de 1/16 (Vitesse de base <= 50) à 1/8
+// (Vitesse de base >= 110) des PV max, linéaire entre les deux.
+static bool32 HandleEndTurnBleed(u32 battler)
+{
+    bool32 effect = FALSE;
+
+    gBattleStruct->eventState.endTurnBattler++;
+
+    if (gBattleMons[battler].status1 & STATUS1_BLEED
+     && IsBattlerAlive(battler)
+     && !IsAbilityAndRecord(battler, GetBattlerAbility(battler), ABILITY_MAGIC_GUARD))
+    {
+        s32 dmg = GetBleedDamage(battler);
+        SetPassiveDamageAmount(battler, dmg);
+        BattleScriptExecute(BattleScript_BleedTurnDmg);
+        effect = TRUE;
+    }
+
+    return effect;
+}
+
 static bool32 HandleEndTurnNightmare(u32 battler)
 {
     bool32 effect = FALSE;
@@ -1398,6 +1419,7 @@ static bool32 (*const sEndTurnEffectHandlers[])(u32 battler) =
     [ENDTURN_POISON] = HandleEndTurnPoison,
     [ENDTURN_BURN] = HandleEndTurnBurn,
     [ENDTURN_FROSTBITE] = HandleEndTurnFrostbite,
+    [ENDTURN_BLEED] = HandleEndTurnBleed,
     [ENDTURN_NIGHTMARE] = HandleEndTurnNightmare,
     [ENDTURN_CURSE] = HandleEndTurnCurse,
     [ENDTURN_WRAP] = HandleEndTurnWrap,

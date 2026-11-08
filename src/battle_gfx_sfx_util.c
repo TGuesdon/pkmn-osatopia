@@ -470,6 +470,8 @@ void InitAndLaunchChosenStatusAnimation(u32 battler, bool32 isVolatile, u32 stat
             LaunchStatusAnimation(battler, B_ANIM_STATUS_FRZ);
         else if (status == STATUS1_FROSTBITE)
             LaunchStatusAnimation(battler, B_ANIM_STATUS_FRB);
+        else if (status == STATUS1_BLEED) // Osatopia : pas d'animation dédiée
+            LaunchStatusAnimation(battler, B_ANIM_STATUS_BRN);
         else if (status == STATUS1_POISON || status & STATUS1_TOXIC_POISON)
             LaunchStatusAnimation(battler, B_ANIM_STATUS_PSN);
         else if (status == STATUS1_BURN)

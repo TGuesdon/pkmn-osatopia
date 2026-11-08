@@ -2476,4 +2476,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Le contact empoisonne gravement."),
         .aiRating = 5,
     },
+
+    [ABILITY_HEMORRAGIE] =
+    {
+        .name = _("Hémorragie"),
+        .description = COMPOUND_STRING("Ses coups font saigner."),
+        .aiRating = 5,
+    },
 };

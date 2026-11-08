@@ -344,6 +344,7 @@ enum __attribute__((packed)) Ability
     ABILITY_POURPRE,
     ABILITY_RAGE_FAUVE,
     ABILITY_EBENE,
+    ABILITY_HEMORRAGIE,
     ABILITIES_COUNT,
 };
 

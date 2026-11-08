@@ -2991,6 +2991,10 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
     // check non-volatile effects
     switch(nonVolatileStatus)
     {
+    case MOVE_EFFECT_BLEED: // Osatopia
+        if (!CanBleed(battlerAtk, battlerDef, aiData->abilities[battlerDef]))
+            ADJUST_SCORE(-10);
+        break;
     case MOVE_EFFECT_POISON:
     case MOVE_EFFECT_TOXIC:
         if (!AI_CanPoison(battlerAtk, battlerDef, abilityDef, move, aiData->partnerMove))
@@ -4154,6 +4158,10 @@ static s32 AI_CalcMoveEffectScore(u32 battlerAtk, u32 battlerDef, u32 move, stru
     // Non-volatile statuses
     switch(GetMoveNonVolatileStatus(move))
     {
+    case MOVE_EFFECT_BLEED: // Osatopia
+        if (CanBleed(battlerAtk, battlerDef, aiData->abilities[battlerDef]))
+            ADJUST_SCORE(DECENT_EFFECT);
+        break;
     case MOVE_EFFECT_POISON:
     case MOVE_EFFECT_TOXIC:
         IncreasePoisonScore(battlerAtk, battlerDef, move, &score);
