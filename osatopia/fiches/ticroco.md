@@ -11,12 +11,14 @@ Archétype : démolisseur (secondaire : attaquant à boost, via Danse Draco) · 
 | | Ticroco | Crocodaille | Crocoburio |
 |---|---|---|---|
 | Types | Sol | Sol | Sol / Dragon |
-| PV / Att / Déf / AtqSpé / DéfSpé / Vit | 60 / 66 / 55 / 30 / 38 / 36 | 80 / 94 / 74 / 42 / 55 / 55 | 95 / 125 / 88 / 60 / 72 / 75 |
-| Total | 285 | 400 | 515 |
+| PV / Att / Déf / AtqSpé / DéfSpé / Vit | 60 / 66 / 55 / 30 / 38 / 36 | 80 / 94 / 74 / 42 / 55 / 55 | 100 / 130 / 92 / 60 / 78 / 80 |
+| Total | 285 | 400 | 540 |
 | Talents | Prognathe (Strong Jaw), Lavabo (Storm Drain), **Ébène** (custom, caché) | idem | idem |
 | Capture / Exp. | 120 / 60 | 75 / 145 | 45 / 250 |
 | EV | Att +1 | Att +2 | Att +3 |
 | Groupes d'œuf | Monstre / Eau 1 | Monstre / Eau 1 | Monstre / Eau 1 |
+
+Crocoburio est passé de 515 à 540 (+5 PV, +5 Att, +4 Déf, +6 DéfSpé, +5 Vit) avec la famille Demoloch : il était un peu faible.
 
 Stats sacrifiées : l'AtqSpé, parce qu'il est 100 % physique avec les crocs. Sa Vitesse est moyenne (c'est un prédateur à l'affût), compensée par Danse Draco. Il se distingue de Phossile (Sol, 100/105/100/50/75/70) en frappant plus fort et en encaissant moins, et du type Dragon de Dracochon par sa Vitesse et son kit de crocs.
 
