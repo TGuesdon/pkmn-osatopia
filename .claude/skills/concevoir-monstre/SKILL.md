@@ -131,6 +131,25 @@ Pour chaque capacité inspirée d'un sort Dofus :
   dans `moves_info.h` + une constante), **moyenne** pour une variante proche,
   **difficile** si l'effet est nouveau (code de combat en C).
 
+Textes (vérifiés par `test/text.c`, en pixels et non en caractères) :
+description de talent ≤ 146 px (≈ 25 caractères, une ligne), description
+d'attaque ≤ 152 px par ligne (≈ 27 caractères, deux lignes), nom d'attaque
+≤ 72 px en police étroite. Les accents, `m`, `w` et `%` sont larges. Mesure
+avec `python3 .claude/skills/concevoir-monstre/scripts/largeur_textes.py
+"Texte"` ; sans argument, le script liste tous les textes trop larges.
+
+Une capacité custom touche souvent des listes de tests codées en dur, à
+mettre à jour dans le même commit (`make check` les signale) :
+- attaque offensive avec `additionalEffects` (chance > 0) : ajoute-la à
+  `IsMoveSheerForceBoosted` dans `test/battle/ability/sheer_force.c` ;
+- capacité qui cible le lanceur (`MOVE_TARGET_USER`), ou effet `EFFECT_OHKO` :
+  exclus son effet de « AI can use all moves, 801-900 »
+  (`test/battle/ai/can_use_all_moves.c`), comme Wish ou Guillotine, et teste
+  son IA à part (`test/battle/ai/ai_potager.c` sert de modèle).
+
+Chaque nouvelle espèce agrandit les drapeaux Pokédex de SaveBlock1 ;
+`test/save.c` en tient compte automatiquement.
+
 ### 7. Learnset de progression
 Reconstruit à rebours depuis le kit final, en suivant `references/reperes.md` :
 STAB faible dès le niveau 1–5, montée en puissance, une attaque d'évolution
