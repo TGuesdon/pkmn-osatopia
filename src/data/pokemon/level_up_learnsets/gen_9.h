@@ -25192,6 +25192,8 @@ static const struct LevelUpMove sGlouraganLevelUpLearnset[] = {
     LEVEL_UP_MOVE(43, MOVE_EARTHQUAKE),
     LEVEL_UP_MOVE(48, MOVE_BULK_UP),
     LEVEL_UP_MOVE(52, MOVE_HAMMER_ARM),
+    LEVEL_UP_END
+};
 
 static const struct LevelUpMove sTilamproieLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),

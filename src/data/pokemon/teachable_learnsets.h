@@ -39950,6 +39950,8 @@ static const u16 sGlouraganTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
     MOVE_TOXIC,
+    MOVE_UNAVAILABLE,
+};
 
 static const u16 sTilamproieTeachableLearnset[] = {
     MOVE_ATTRACT,
