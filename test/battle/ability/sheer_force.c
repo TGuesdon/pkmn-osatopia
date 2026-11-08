@@ -605,6 +605,9 @@ static inline bool32 IsMoveSheerForceBoosted(u32 move)
         case MOVE_ZING_ZAP:
         case MOVE_ELECTRO_SHOT:
         case MOVE_PSYCHIC_NOISE:
+        // Osatopia
+        case MOVE_LANCER_BLOP:
+        case MOVE_MASSE_OMBRE:
             return TRUE;
         case MOVE_RAPID_SPIN:
             return B_SPEED_BUFFING_RAPID_SPIN >= GEN_8;
