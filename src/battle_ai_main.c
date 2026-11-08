@@ -4726,7 +4726,8 @@ static s32 AI_CalcMoveEffectScore(u32 battlerAtk, u32 battlerDef, u32 move, stru
         }
         break;
     case EFFECT_POTAGER:
-        if (CountUsablePartyMons(battlerAtk) != 0)
+        if (CountUsablePartyMons(battlerAtk) != 0
+         && gSideTimers[GetBattlerSide(battlerAtk)].potagerAmount < 3)
         {
             if (gSideTimers[GetBattlerSide(battlerAtk)].potagerAmount == 0)
                 ADJUST_SCORE(DECENT_EFFECT);

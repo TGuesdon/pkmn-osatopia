@@ -677,6 +677,7 @@ AI_DOUBLE_BATTLE_TEST("AI can use all moves, 801-900")
         // tests exist elsewhere
         case EFFECT_SNOWSCAPE:
         case EFFECT_DRAGON_CHEER:
+        case EFFECT_POTAGER: // Osatopia : test/battle/ai/ai_potager.c
 
         // Skipped on purpose.
         case EFFECT_PROTECT:
