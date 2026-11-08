@@ -2423,14 +2423,14 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_TERRIER] =
     {
         .name = _("Terrier"),
-        .description = COMPOUND_STRING("Touche les ennemis sous terre."),
+        .description = COMPOUND_STRING("Touche les ennemis enfouis."),
         .aiRating = 4,
     },
 
     [ABILITY_SOIN_ALCHIMIQUE] =
     {
         .name = _("Soin Alchimique"),
-        .description = COMPOUND_STRING("Récupère des PV à chaque tour."),
+        .description = COMPOUND_STRING("Regagne des PV chaque tour."),
         .aiRating = 6,
     },
 
@@ -2445,7 +2445,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_MONTURE] =
     {
         .name = _("Monture"),
-        .description = COMPOUND_STRING("Booste le suivant en partant."),
+        .description = COMPOUND_STRING("Booste le relais en partant."),
         .aiRating = 5,
     },
 
@@ -2459,7 +2459,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_POURPRE] =
     {
         .name = _("Pourpre"),
-        .description = COMPOUND_STRING("Frappe fort les cibles entravées."),
+        .description = COMPOUND_STRING("Frappe fort les entravés."),
         .aiRating = 6,
     },
 
@@ -2473,7 +2473,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_EBENE] =
     {
         .name = _("Ébène"),
-        .description = COMPOUND_STRING("Le contact empoisonne gravement."),
+        .description = COMPOUND_STRING("Contact : poison grave."),
         .aiRating = 5,
     },
 };
