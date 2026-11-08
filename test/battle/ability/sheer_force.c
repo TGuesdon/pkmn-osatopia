@@ -611,6 +611,8 @@ static inline bool32 IsMoveSheerForceBoosted(u32 move)
             return TRUE;
         case MOVE_RAPID_SPIN:
             return B_SPEED_BUFFING_RAPID_SPIN >= GEN_8;
+        case MOVE_LACERATION: // Osatopia : 10 % de Saignement
+            return TRUE;
     }
     return FALSE;
 }
