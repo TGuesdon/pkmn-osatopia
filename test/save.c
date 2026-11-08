@@ -4,7 +4,11 @@
 
 // If you would like to ensure save compatibility, update the values below with those for your hack. You can find these through the debug menu.
 // Please note that this simple check is not 100% foolproof, but should be able to catch most unintended shifts.
-#define T_SAVEBLOCK1_SIZE 15568
+// Osatopia : dexSeen et dexCaught (SaveBlock1) sont dimensionnés sur NATIONAL_DEX_COUNT, que chaque
+// nouveau monstre Osatopia agrandit. 15568 est la taille vanilla (1025 espèces, 2 x 129 octets de
+// drapeaux, alignés à 260) ; on remplace cette part par la taille réelle des drapeaux, alignée sur 4
+// octets car trainerHillTimes (u32) suit dexCaught.
+#define T_SAVEBLOCK1_SIZE (15568 - 260 + ((2 * NUM_DEX_FLAG_BYTES + 3) & ~3))
 #define T_SAVEBLOCK2_SIZE 3884
 #define T_SAVEBLOCK3_SIZE 4
 #define T_POKEMONSTORAGE_SIZE 34144
