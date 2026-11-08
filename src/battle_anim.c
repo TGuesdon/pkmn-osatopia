@@ -197,6 +197,7 @@ static const u8* const sBattleAnims_StatusConditions[NUM_B_ANIMS_STATUS] =
     [B_ANIM_STATUS_CURSED]      = gBattleAnimStatus_Curse,
     [B_ANIM_STATUS_NIGHTMARE]   = gBattleAnimStatus_Nightmare,
     [B_ANIM_STATUS_FRB]         = gBattleAnimStatus_Frostbite,
+    [B_ANIM_STATUS_BLD]         = gBattleAnimStatus_Bleed,
 };
 
 static const u8* const sBattleAnims_General[NUM_B_ANIMS_GENERAL] =

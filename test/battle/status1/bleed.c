@@ -33,8 +33,10 @@ SINGLE_BATTLE_TEST("Bleed: Dechirure inflicts Bleed")
         TURN { MOVE(player, MOVE_DECHIRURE); }
     } SCENE {
         ANIMATION(ANIM_TYPE_MOVE, MOVE_DECHIRURE, player);
+        ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_BLD, opponent);
         MESSAGE("The opposing Wobbuffet saigne!");
         MESSAGE("The opposing Wobbuffet perd du sang!");
+        ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_BLD, opponent);
     } THEN {
         EXPECT(opponent->status1 & STATUS1_BLEED);
     }
