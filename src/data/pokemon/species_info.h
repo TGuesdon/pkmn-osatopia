@@ -8923,7 +8923,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .friendship = STANDARD_FRIENDSHIP,
        .growthRate = GROWTH_MEDIUM_SLOW,
        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-       .abilities = { ABILITY_TOUGH_CLAWS, ABILITY_THICK_FAT, ABILITY_ANGER_POINT },
+       .abilities = { ABILITY_TOUGH_CLAWS, ABILITY_THICK_FAT, ABILITY_HEMORRAGIE },
        .bodyColor = BODY_COLOR_BROWN,
        .speciesName = _("Blerodoudou"),
        //pokedex
@@ -8977,7 +8977,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .friendship = STANDARD_FRIENDSHIP,
        .growthRate = GROWTH_MEDIUM_SLOW,
        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-       .abilities = { ABILITY_TOUGH_CLAWS, ABILITY_THICK_FAT, ABILITY_ANGER_POINT },
+       .abilities = { ABILITY_TOUGH_CLAWS, ABILITY_THICK_FAT, ABILITY_HEMORRAGIE },
        .bodyColor = BODY_COLOR_BROWN,
        .speciesName = _("Wolvero"),
        //pokedex
@@ -9032,7 +9032,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .friendship = STANDARD_FRIENDSHIP,
        .growthRate = GROWTH_MEDIUM_SLOW,
        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-       .abilities = { ABILITY_TOUGH_CLAWS, ABILITY_THICK_FAT, ABILITY_ANGER_POINT },
+       .abilities = { ABILITY_TOUGH_CLAWS, ABILITY_THICK_FAT, ABILITY_HEMORRAGIE },
        .bodyColor = BODY_COLOR_BROWN,
        .speciesName = _("Blerom"),
        //pokedex

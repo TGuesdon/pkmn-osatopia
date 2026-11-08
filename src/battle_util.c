@@ -4714,6 +4714,8 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, u32 battler, enum Ability ab
                         StringCopy(gBattleTextBuff1, gStatusConditionString_BurnJpn);
                     if (gBattleMons[battler].status1 & (STATUS1_FREEZE | STATUS1_FROSTBITE))
                         StringCopy(gBattleTextBuff1, gStatusConditionString_IceJpn);
+                    if (gBattleMons[battler].status1 & STATUS1_BLEED)
+                        StringCopy(gBattleTextBuff1, gStatusConditionString_BleedJpn);
 
                     gBattleMons[battler].status1 = 0;
                     gBattleMons[battler].volatiles.nightmare = FALSE;
@@ -5395,6 +5397,22 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, u32 battler, enum Ability ab
                 gEffectBattler = gBattlerTarget;
                 gBattleScripting.battler = gBattlerAttacker;
                 gBattleScripting.moveEffect = (gLastUsedAbility == ABILITY_EBENE) ? MOVE_EFFECT_TOXIC : MOVE_EFFECT_POISON;
+                PREPARE_ABILITY_BUFFER(gBattleTextBuff1, gLastUsedAbility);
+                BattleScriptCall(BattleScript_AbilityStatusEffect);
+                effect++;
+            }
+            break;
+        case ABILITY_HEMORRAGIE: // Osatopia : 20 % de faire saigner sur une attaque physique
+            if (IsBattlerAlive(gBattlerTarget)
+             && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
+             && IsBattleMovePhysical(move)
+             && CanBleed(gBattlerAttacker, gBattlerTarget, GetBattlerAbility(gBattlerTarget))
+             && IsBattlerTurnDamaged(gBattlerTarget) // Need to actually hit the target
+             && RandomPercentage(RNG_POISON_TOUCH, 20))
+            {
+                gEffectBattler = gBattlerTarget;
+                gBattleScripting.battler = gBattlerAttacker;
+                gBattleScripting.moveEffect = MOVE_EFFECT_BLEED;
                 PREPARE_ABILITY_BUFFER(gBattleTextBuff1, gLastUsedAbility);
                 BattleScriptCall(BattleScript_AbilityStatusEffect);
                 effect++;
@@ -6095,6 +6113,34 @@ bool32 CanGetFrostbite(u32 battlerAtk, u32 battlerDef, enum Ability abilityDef)
     return FALSE;
 }
 
+// Osatopia : Saignement
+bool32 CanBleed(u32 battlerAtk, u32 battlerDef, enum Ability abilityDef)
+{
+    if (CanSetNonVolatileStatus(
+            battlerAtk,
+            battlerDef,
+            ABILITY_NONE, // attacker ability does not matter
+            abilityDef,
+            MOVE_EFFECT_BLEED,
+            CHECK_TRIGGER))
+        return TRUE;
+    return FALSE;
+}
+
+// Osatopia : 1/16 des PV max si Vitesse de base <= 50, 1/8 si >= 110, linéaire entre les deux.
+s32 GetBleedDamage(u32 battler)
+{
+    s32 speed = GetSpeciesBaseSpeed(gBattleMons[battler].species);
+    s32 maxHP = GetNonDynamaxMaxHP(battler);
+
+    if (speed < 50)
+        speed = 50;
+    else if (speed > 110)
+        speed = 110;
+    // maxHP / 16 * (1 + (speed - 50) / 60)
+    return (maxHP * (speed + 10)) / 960;
+}
+
 bool32 CanSetNonVolatileStatus(u32 battlerAtk, u32 battlerDef, enum Ability abilityAtk, enum Ability abilityDef, enum MoveEffect effect, enum FunctionCallOption option)
 {
     const u8 *battleScript = NULL;
@@ -6211,6 +6257,16 @@ bool32 CanSetNonVolatileStatus(u32 battlerAtk, u32 battlerDef, enum Ability abil
         else if (abilityDef == ABILITY_MAGMA_ARMOR)
         {
             abilityAffected = TRUE;
+            battleScript = BattleScript_NotAffected;
+        }
+        break;
+    case MOVE_EFFECT_BLEED: // Osatopia : pas de sang chez les Spectre, Acier et Roche
+        if (gBattleMons[battlerDef].status1 & STATUS1_BLEED)
+        {
+            battleScript = BattleScript_ButItFailed;
+        }
+        else if (IS_BATTLER_ANY_TYPE(battlerDef, TYPE_GHOST, TYPE_STEEL) || IS_BATTLER_OF_TYPE(battlerDef, TYPE_ROCK))
+        {
             battleScript = BattleScript_NotAffected;
         }
         break;
@@ -7320,7 +7376,7 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageContext *ctx)
     switch (moveEffect)
     {
     case EFFECT_FACADE:
-        if (gBattleMons[battlerAtk].status1 & (STATUS1_BURN | STATUS1_PSN_ANY | STATUS1_PARALYSIS | STATUS1_FROSTBITE))
+        if (gBattleMons[battlerAtk].status1 & (STATUS1_BURN | STATUS1_PSN_ANY | STATUS1_PARALYSIS | STATUS1_FROSTBITE | STATUS1_BLEED))
             modifier = uq4_12_multiply(modifier, UQ_4_12(2.0));
         break;
     case EFFECT_BRINE:

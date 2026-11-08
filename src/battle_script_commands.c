@@ -3004,6 +3004,10 @@ static void SetNonVolatileStatus(u32 effectBattler, enum MoveEffect effect, cons
         gBattleMons[effectBattler].status1 |= STATUS1_FROSTBITE;
         gBattlescriptCurrInstr = BattleScript_MoveEffectFrostbite;
         break;
+    case MOVE_EFFECT_BLEED:
+        gBattleMons[effectBattler].status1 |= STATUS1_BLEED;
+        gBattlescriptCurrInstr = BattleScript_MoveEffectBleed;
+        break;
     default:
         break;
     }
@@ -3094,6 +3098,7 @@ void SetMoveEffect(u32 battler, u32 effectBattler, enum MoveEffect moveEffect, c
     case MOVE_EFFECT_PARALYSIS:
     case MOVE_EFFECT_TOXIC:
     case MOVE_EFFECT_FROSTBITE:
+    case MOVE_EFFECT_BLEED:
         if (gSideStatuses[GetBattlerSide(gEffectBattler)] & SIDE_STATUS_SAFEGUARD && !primary)
             gBattlescriptCurrInstr = battleScript;
         else if (CanSetNonVolatileStatus(
@@ -4144,7 +4149,7 @@ void SetMoveEffect(u32 battler, u32 effectBattler, enum MoveEffect moveEffect, c
 static bool32 CanApplyAdditionalEffect(const struct AdditionalEffect *additionalEffect)
 {
     // If Toxic Chain will activate it blocks all other non volatile effects
-    if (gBattleStruct->toxicChainPriority && additionalEffect->moveEffect <= MOVE_EFFECT_FROSTBITE)
+    if (gBattleStruct->toxicChainPriority && additionalEffect->moveEffect <= MOVE_EFFECT_BLEED)
         return FALSE;
 
     if (additionalEffect->self
@@ -17514,6 +17519,10 @@ void BS_TryPsychoShift(void)
     else if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_FROSTBITE) && CanBeFrozen(gBattlerAttacker, gBattlerTarget, targetAbility))
     {
         gBattleCommunication[MULTISTRING_CHOOSER] = 5;
+    }
+    else if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_BLEED) && CanBleed(gBattlerAttacker, gBattlerTarget, targetAbility))
+    {
+        gBattleCommunication[MULTISTRING_CHOOSER] = 6;
     }
     else if (IsSleepClauseActiveForSide(GetBattlerSide(gBattlerTarget)))
     {

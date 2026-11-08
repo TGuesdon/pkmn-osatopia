@@ -106,7 +106,7 @@ deux : peu cohérent avec des chiens.
 
 ## Capacités custom
 
-Aucune.
+Leolhyène apprend Déchirure (niv. 26) : voir [`osatopia/mecaniques/saignement.md`](../mecaniques/saignement.md).
 
 ## Learnsets
 
@@ -129,6 +129,7 @@ Givre tard, le loup l'inverse ; boost au niveau 18 pour chacun.
 | 21 | Coup Bas (Sucker Punch) | Ténèbres | Phys. | 70 prio+1 |
 | 24 | Crocs Feu (Fire Fang) | Feu | Phys. | 65 (97) |
 | Évo | Croque Fort (Jaw Lock) | Ténèbres | Phys. | 80 (120) |
+| 26 | Déchirure | Ténèbres | Statut | – |
 | 29 | Provoc (Taunt) | Ténèbres | Statut | – |
 | 33 | Mâchouille (Crunch) | Ténèbres | Phys. | 80 (120) |
 | 37 | Danse Lames (Swords Dance) | Normal | Statut | – |

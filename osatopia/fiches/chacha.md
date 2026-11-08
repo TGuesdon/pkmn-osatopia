@@ -80,7 +80,7 @@ Ténacité + Gigotage en fin de learnset.
 
 ## Capacités custom
 
-Aucune.
+Chagouar apprend Lacération (niv. 30) et Déchirure (niv. 34) : voir [`osatopia/mecaniques/saignement.md`](../mecaniques/saignement.md).
 
 ## Learnsets
 
@@ -108,7 +108,9 @@ Aucune.
 | Évo | Cent Rancunes (Lash Out) | Ténèbres | Phys | 75 |
 | 1–24 | comme Chacha | | | |
 | 28 | Vengeance (Retaliate) | Normal | Phys | 70 |
+| 30 | Lacération | Ténèbres | Phys | 75 |
 | 32 | Gonflette (Bulk Up) | Combat | Statut | – |
+| 34 | Déchirure | Ténèbres | Statut | – |
 | 36 | Plaie Croix (X-Scissor) | Insecte | Phys | 80 |
 | 40 | Mania (Thrash) | Normal | Phys | 120 |
 | 44 | Ténacité (Endure) | Normal | Statut | – |
