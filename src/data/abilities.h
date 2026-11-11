@@ -2415,79 +2415,79 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_SEVE_AVIDE] =
     {
-        .name = _("Sève Avide"),
-        .description = COMPOUND_STRING("Drains plus efficaces."),
+        .name = _("Greedy Sap"),
+        .description = COMPOUND_STRING("Draining moves heal more."),
         .aiRating = 5,
     },
 
     [ABILITY_TERRIER] =
     {
-        .name = _("Terrier"),
-        .description = COMPOUND_STRING("Touche les ennemis enfouis."),
+        .name = _("Burrow"),
+        .description = COMPOUND_STRING("Hits foes underground."),
         .aiRating = 4,
     },
 
     [ABILITY_SOIN_ALCHIMIQUE] =
     {
-        .name = _("Soin Alchimique"),
-        .description = COMPOUND_STRING("Regagne des PV chaque tour."),
+        .name = _("Alchemic Cure"),
+        .description = COMPOUND_STRING("Regains HP every turn."),
         .aiRating = 6,
     },
 
     [ABILITY_COUPELLE_PLEINE] =
     {
-        .name = _("Coupelle Pleine"),
-        .description = COMPOUND_STRING("Dégâts réduits si PV au max."),
+        .name = _("Full Cup"),
+        .description = COMPOUND_STRING("Less damage at full HP."),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_MONTURE] =
     {
-        .name = _("Monture"),
-        .description = COMPOUND_STRING("Booste le relais en partant."),
+        .name = _("Mount"),
+        .description = COMPOUND_STRING("Boosts the next ally in."),
         .aiRating = 5,
     },
 
     [ABILITY_TURQUOISE] =
     {
         .name = _("Turquoise"),
-        .description = COMPOUND_STRING("Coups critiques fréquents."),
+        .description = COMPOUND_STRING("Lands critical hits often."),
         .aiRating = 3,
     },
 
     [ABILITY_POURPRE] =
     {
         .name = _("Pourpre"),
-        .description = COMPOUND_STRING("Frappe fort les entravés."),
+        .description = COMPOUND_STRING("Hits hindered foes harder."),
         .aiRating = 6,
     },
 
     [ABILITY_RAGE_FAUVE] =
     {
-        .name = _("Rage Fauve"),
-        .description = COMPOUND_STRING("Enrage à la moitié de ses PV."),
+        .name = _("Feral Rage"),
+        .description = COMPOUND_STRING("Enrages at half HP."),
         .aiRating = 3,
     },
 
     [ABILITY_EBENE] =
     {
         .name = _("Ébène"),
-        .description = COMPOUND_STRING("Contact : poison grave."),
+        .description = COMPOUND_STRING("Contact badly poisons."),
         .aiRating = 5,
     },
 
     [ABILITY_HEMORRAGIE] =
     {
-        .name = _("Hémorragie"),
-        .description = COMPOUND_STRING("Ses coups font saigner."),
+        .name = _("Hemorrhage"),
+        .description = COMPOUND_STRING("Hits may cause bleeding."),
         .aiRating = 5,
     },
 
     [ABILITY_VULBIS] =
     {
         .name = _("Vulbis"),
-        .description = COMPOUND_STRING("Un K.O. booste Att/Spé/Vit."),
+        .description = COMPOUND_STRING("A KO ups Atk/Sp.Atk/Speed."),
         .aiRating = 6,
     },
 };

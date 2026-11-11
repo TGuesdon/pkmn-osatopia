@@ -19,9 +19,17 @@ ne voulait que la fiche.
 
 ## Règles
 
-- **Tout en français** : noms d'attaques, de talents, de types et de Pokémon.
-  N'invente jamais un nom FR de mémoire. Vérifie-le avec l'outil ci-dessous
-  ou dans `data/*.csv`. Mets le nom anglais entre parenthèses quand c'est utile.
+- **Conception en français** : la discussion et la fiche utilisent les noms
+  FR d'attaques, de talents, de types et de Pokémon. N'invente jamais un nom
+  FR de mémoire. Vérifie-le avec l'outil ci-dessous ou dans `data/*.csv`.
+  Mets le nom anglais entre parenthèses quand c'est utile.
+- **Jeu en anglais** : tout texte affiché en jeu (nom et description de
+  capacité ou de talent custom, messages de combat, catégorie Pokédex, objet)
+  est en anglais, comme le reste de pokeemerald-expansion. Seules exceptions :
+  les noms propres inventés par Dofus (Tofu, Blop, cawotte…) et les talents
+  liés à un Dofus (Turquoise, Pourpre, Ébène, Vulbis…). Les constantes
+  (`MOVE_*`, `ABILITY_*`) gardent le nom FR de conception. Reporte chaque
+  nouveau nom dans `osatopia/noms_en_jeu.md`.
 - **Données réelles uniquement** : stats, puissances et learnsets viennent de
   l'outil, qui lit le repo. Ne cite pas de chiffres de mémoire.
 - **Movepool complet** : ne te limite pas aux attaques classiques. Pour chaque
@@ -123,7 +131,8 @@ avec `attaques`, avec type, catégorie, puissance et une note courte. Puis
 
 ### 6. Capacités custom (si l'utilisateur en veut)
 Pour chaque capacité inspirée d'un sort Dofus :
-- nom FR (≤ 12 caractères conseillés pour l'affichage GBA), type, catégorie,
+- nom FR de conception et **nom anglais affiché en jeu** (≤ 12 caractères
+  conseillés pour l'affichage GBA), type, catégorie,
   puissance, précision, PP, effet ;
 - **attaque existante la plus proche** et son `EFFECT_*`
   (`attaques --effet X` liste celles qui partagent un effet) ;
@@ -131,7 +140,7 @@ Pour chaque capacité inspirée d'un sort Dofus :
   dans `moves_info.h` + une constante), **moyenne** pour une variante proche,
   **difficile** si l'effet est nouveau (code de combat en C).
 
-Textes (vérifiés par `test/text.c`, en pixels et non en caractères) :
+Textes en anglais (vérifiés par `test/text.c`, en pixels et non en caractères) :
 description de talent ≤ 146 px (≈ 25 caractères, une ligne), description
 d'attaque ≤ 152 px par ligne (≈ 27 caractères, deux lignes), nom d'attaque
 ≤ 72 px en police étroite. Les accents, `m`, `w` et `%` sont larges. Mesure
@@ -254,6 +263,9 @@ Learnsets : ajoute les tableaux à la fin de
 `MOVE_UNAVAILABLE`). Les monstres custom ne sont pas dans les JSON de
 `make_teachables.py`, qui laisse leurs tableaux tels quels (correctif de la
 PR #4 ; sans lui, le script plante sur une espèce custom à la régénération).
+
+Une capacité ou un talent custom s'ajoute aussi à `osatopia/noms_en_jeu.md`
+(nom de conception → nom anglais en jeu).
 
 Vérifie avec `osatopia.py fiche <nom> --complet` que tout correspond à la
 fiche, puis compile (`make`, long : en arrière-plan). Si `make` échoue,

@@ -15494,12 +15494,9 @@ const struct Item gItemsInfo[] =
 // Osatopia
     [ITEM_WIND_STONE] =
     {
-        .name = ITEM_NAME("Pierre Vent"),
+        .name = ITEM_NAME("Wind Stone"),
         .price = (I_PRICE >= GEN_7) ? 3000 : 2100,
-        .description = COMPOUND_STRING(
-            "Pierre balayée par\n"
-            "les vents. Fait\n"
-            "évoluer certains."),
+        .description = sEvolutionStoneDesc,
         .pocket = POCKET_ITEMS,
         .sortType = ITEM_TYPE_EVOLUTION_STONE,
         .type = ITEM_USE_PARTY_MENU,
@@ -15512,12 +15509,9 @@ const struct Item gItemsInfo[] =
 
     [ITEM_EARTH_STONE] =
     {
-        .name = ITEM_NAME("Pierre Terre"),
+        .name = ITEM_NAME("Earth Stone"),
         .price = (I_PRICE >= GEN_7) ? 3000 : 2100,
-        .description = COMPOUND_STRING(
-            "Pierre lourde de\n"
-            "terre. Fait\n"
-            "évoluer certains."),
+        .description = sEvolutionStoneDesc,
         .pocket = POCKET_ITEMS,
         .sortType = ITEM_TYPE_EVOLUTION_STONE,
         .type = ITEM_USE_PARTY_MENU,

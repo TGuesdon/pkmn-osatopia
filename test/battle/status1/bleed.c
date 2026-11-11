@@ -34,8 +34,8 @@ SINGLE_BATTLE_TEST("Bleed: Dechirure inflicts Bleed")
     } SCENE {
         ANIMATION(ANIM_TYPE_MOVE, MOVE_DECHIRURE, player);
         ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_BLD, opponent);
-        MESSAGE("The opposing Wobbuffet saigne!");
-        MESSAGE("The opposing Wobbuffet perd du sang!");
+        MESSAGE("The opposing Wobbuffet started bleeding!");
+        MESSAGE("The opposing Wobbuffet was hurt by bleeding!");
         ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_BLD, opponent);
     } THEN {
         EXPECT(opponent->status1 & STATUS1_BLEED);
@@ -71,7 +71,7 @@ SINGLE_BATTLE_TEST("Bleed: Laceration has a 10% chance to inflict Bleed")
         TURN { MOVE(player, MOVE_LACERATION); }
     } SCENE {
         ANIMATION(ANIM_TYPE_MOVE, MOVE_LACERATION, player);
-        MESSAGE("The opposing Wobbuffet saigne!");
+        MESSAGE("The opposing Wobbuffet started bleeding!");
     }
 }
 
@@ -86,7 +86,7 @@ SINGLE_BATTLE_TEST("Bleed: Hemorragie has a 20% chance to inflict Bleed with phy
     } SCENE {
         ANIMATION(ANIM_TYPE_MOVE, MOVE_TACKLE, player);
         ABILITY_POPUP(player, ABILITY_HEMORRAGIE);
-        MESSAGE("The opposing Wobbuffet saigne!");
+        MESSAGE("The opposing Wobbuffet started bleeding!");
     }
 }
 
@@ -114,7 +114,7 @@ SINGLE_BATTLE_TEST("Bleed: Lum Berry cures Bleed")
     } WHEN {
         TURN { MOVE(player, MOVE_DECHIRURE); }
     } SCENE {
-        MESSAGE("The opposing Wobbuffet saigne!");
+        MESSAGE("The opposing Wobbuffet started bleeding!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, opponent);
     } THEN {
         EXPECT(!(opponent->status1 & STATUS1_BLEED));
@@ -129,6 +129,6 @@ SINGLE_BATTLE_TEST("Bleed: Magic Guard prevents Bleed damage")
     } WHEN {
         TURN {}
     } SCENE {
-        NOT MESSAGE("The opposing Clefable perd du sang!");
+        NOT MESSAGE("The opposing Clefable was hurt by bleeding!");
     }
 }

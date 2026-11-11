@@ -593,7 +593,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Titardo"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TITARDO,
-       .categoryName = _("Crapauds"),
+       .categoryName = _("Toad"),
        .height = 30,
        .weight = 50,
        .description = COMPOUND_STRING(
@@ -647,7 +647,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Crapodo"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CRAPODO,
-       .categoryName = _("Crapauds"),
+       .categoryName = _("Toad"),
        .height = 50,
        .weight = 100,
        .description = COMPOUND_STRING(
@@ -702,7 +702,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Grenn"),
         //pokedex
         .natDexNum = NATIONAL_DEX_GRENN,
-        .categoryName = _("Crapauds"),
+        .categoryName = _("Toad"),
         .height = 150,
         .weight = 800,
         .description = COMPOUND_STRING(
@@ -755,7 +755,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Sousouris"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SOUSOURIS,
-       .categoryName = _("Rats"),
+       .categoryName = _("Rat"),
        .height = 4,
        .weight = 6,
        .description = COMPOUND_STRING(
@@ -809,7 +809,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Milirat"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MILIRAT,
-       .categoryName = _("Rats"),
+       .categoryName = _("Rat"),
        .height = 8,
        .weight = 275,
        .description = COMPOUND_STRING(
@@ -862,7 +862,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Boufton"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BOUFTON,
-       .categoryName = _("Bouftous"),
+       .categoryName = _("Bouftou"),
        .height = 5,
        .weight = 300,
        .description = COMPOUND_STRING(
@@ -917,7 +917,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bouftou"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BOUFTOU,
-       .categoryName = _("Bouftous"),
+       .categoryName = _("Bouftou"),
        .height = 7,
        .weight = 600,
        .description = COMPOUND_STRING(
@@ -971,7 +971,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Cdg Bouftou"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CDG_BOUFTOU,
-       .categoryName = _("Bouftous"),
+       .categoryName = _("Bouftou"),
        .height = 8,
        .weight = 700,
        .description = COMPOUND_STRING(
@@ -1025,7 +1025,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Roi bouftou"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BOUFTOU_ROYAL,
-       .categoryName = _("Bouftous"),
+       .categoryName = _("Bouftou"),
        .height = 15,
        .weight = 1500,
        .description = COMPOUND_STRING(
@@ -1078,7 +1078,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Pousse"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GARDIENNE_CHAMPETRE,
-       .categoryName = _("Plantes"),
+       .categoryName = _("Plant"),
        .height = 5,
        .weight = 10,
        .description = COMPOUND_STRING(
@@ -1133,7 +1133,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tournesovage"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TOURNESOL_SAUVAGE,
-       .categoryName = _("Plantes"),
+       .categoryName = _("Plant"),
        .height = 7,
        .weight = 80,
        .description = COMPOUND_STRING(
@@ -1188,7 +1188,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tourneroi"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TOURNESOL_AFFAME,
-       .categoryName = _("Plantes"),
+       .categoryName = _("Plant"),
        .height = 15,
        .weight = 150,
        .description = COMPOUND_STRING(
@@ -1241,7 +1241,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Larve"),
        //pokedex
        .natDexNum = NATIONAL_DEX_LARVE_JAUNE,
-       .categoryName = _("Larves"),
+       .categoryName = _("Larva"),
        .height = 2,
        .weight = 10,
        .description = COMPOUND_STRING(
@@ -1295,7 +1295,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Larveux"),
        //pokedex
        .natDexNum = NATIONAL_DEX_LARVE_CHAMPETRE,
-       .categoryName = _("Larves"),
+       .categoryName = _("Larva"),
        .height = 2,
        .weight = 15,
        .description = COMPOUND_STRING(
@@ -1350,7 +1350,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Shin Larve"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SHIN_LARVE,
-       .categoryName = _("Larves"),
+       .categoryName = _("Larva"),
        .height = 10,
        .weight = 10,
        .description = COMPOUND_STRING(
@@ -1403,7 +1403,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bebitouf"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DISCIPLE_DU_KIMBO,
-       .categoryName = _("Arbre Hakam"),
+       .categoryName = _("Hakam Tree"),
        .height = 3,
        .weight = 20,
        .description = COMPOUND_STRING(
@@ -1457,7 +1457,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bitouf"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BITOUF_PLAINE,
-       .categoryName = _("Arbre Hakam"),
+       .categoryName = _("Hakam Tree"),
        .height = 12,
        .weight = 200,
        .description = COMPOUND_STRING(
@@ -1512,7 +1512,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bitouvol"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BITOUF_AERIEN,
-       .categoryName = _("Arbre Hakam"),
+       .categoryName = _("Hakam Tree"),
        .height = 16,
        .weight = 350,
        .description = COMPOUND_STRING(
@@ -1565,7 +1565,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Folle"),
        //pokedex
        .natDexNum = NATIONAL_DEX_LA_FOLLE,
-       .categoryName = _("Poupées"),
+       .categoryName = _("Doll"),
        .height = 3,
        .weight = 50,
        .description = COMPOUND_STRING(
@@ -1619,7 +1619,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bloqueuse"),
        //pokedex
        .natDexNum = NATIONAL_DEX_LA_BLOQUEUSE,
-       .categoryName = _("Poupées"),
+       .categoryName = _("Doll"),
        .height = 7,
        .weight = 150,
        .description = COMPOUND_STRING(
@@ -1672,7 +1672,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tofu"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TOFU,
-       .categoryName = _("Tofus"),
+       .categoryName = _("Tofu"),
        .height = 2,
        .weight = 5,
        .description = COMPOUND_STRING(
@@ -1726,7 +1726,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gwotofu"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GWO_TOFU,
-       .categoryName = _("Tofus"),
+       .categoryName = _("Tofu"),
        .height = 5,
        .weight = 200,
        .description = COMPOUND_STRING(
@@ -1781,7 +1781,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tofu Royal"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TOFU_ROYAL,
-       .categoryName = _("Tofus"),
+       .categoryName = _("Tofu"),
        .height = 10,
        .weight = 500,
        .description = COMPOUND_STRING(
