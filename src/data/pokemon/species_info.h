@@ -278,10 +278,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "old stump. Its roots sip water so slowly\n"
             "that it often dozes off in the middle of\n"
             "a meal."),
-        .pokemonScale = 1,
-        .pokemonOffset = 0,
-        .trainerScale = 1,
-        .trainerOffset = 1,
+        .pokemonScale = 487,
+        .pokemonOffset = 14,
+        .trainerScale = 256,
+        .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Tronknyde,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -335,10 +335,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "grew. They only take a few steps a day,\n"
            "but any wound in their bark closes up\n"
            "by the next dawn."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 291,
+       .trainerOffset = 2,
         //graphics
         .frontPic = gMonFrontPic_Abraknyde,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -393,10 +393,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "forest floor and drain the life of\n"
            "anything that sleeps on them. Each blow\n"
            "it takes only makes its bark thicker."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 504,
+       .trainerOffset = 11,
         //graphics
         .frontPic = gMonFrontPic_Abrakleur,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -449,10 +449,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "when it gets excited, and it pops loudly\n"
            "to scare off foes. Children are told\n"
            "never to tickle one."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 731,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Tifoux,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -506,10 +506,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "rocket, leaving a trail of embers. The\n"
            "sparks that rain down from its flight\n"
            "are said to soothe the wounded."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Rouquette,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -563,10 +563,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "fires blasts of boiling water from its\n"
            "muzzle, and its point-blank shots can\n"
            "hurl a foe across a field."),
-        .pokemonScale = 1,
-        .pokemonOffset = 0,
-        .trainerScale = 1,
-        .trainerOffset = 1,
+        .pokemonScale = 256,
+        .pokemonOffset = 1,
+        .trainerScale = 306,
+        .trainerOffset = 3,
         //graphics
         .frontPic = gMonFrontPic_Crachefoux,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -619,10 +619,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "The sound is so grating that foes cover\n"
            "their ears and lose track of where\n"
            "they are."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Titardo,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -676,10 +676,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "that moves and reels it in. Its tongue\n"
            "can stretch to twice the length of\n"
            "its body."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 574,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Crapodo,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -734,10 +734,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "with a spear and raises its shield to\n"
             "protect its allies. It bows to no one\n"
             "but the strongest of its kind."),
-        .pokemonScale = 1,
+        .pokemonScale = 260,
         .pokemonOffset = 0,
-        .trainerScale = 1,
-        .trainerOffset = 1,
+        .trainerScale = 256,
+        .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Grenn,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -790,10 +790,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "in search of crumbs. It bites anything\n"
            "that corners it, then flees before the\n"
            "victim can react."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Sousouris,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -847,10 +847,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "own militias. They hurl spears from the\n"
            "shadows and spread foul air to drive\n"
            "intruders back to the surface."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 383,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Milirat,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -903,10 +903,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "fences and straw hats included. It\n"
            "bleats loudly at anyone who stands\n"
            "between it and its next meal."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 468,
+       .pokemonOffset = 13,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Boufton,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -961,10 +961,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "of Bouftou can strip a meadow bare in a\n"
            "single afternoon, then sleep in a heap\n"
            "until the next meal."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 318,
+       .pokemonOffset = 6,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_Bouftou,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1018,10 +1018,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "horns first at any threat, and the\n"
            "other Bouftou follow its lead without\n"
            "a second thought."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 325,
+       .pokemonOffset = 6,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_CdgBouftou,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1075,10 +1075,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "royal fleece is as hard as armor, and\n"
            "its bite restores its own strength. It\n"
            "rarely leaves its court."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 336,
+       .trainerOffset = 5,
        //graphics
         .frontPic = gMonFrontPic_BouftouRoyal,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1131,10 +1131,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "likes. It drains the sap of weeds and\n"
            "shares the nutrients with the plants\n"
            "around it."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_GardienneChampetre,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1189,10 +1189,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "sun. It whips intruders with its taproot,\n"
            "then plants itself back in the soil as\n"
            "if nothing had happened."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 287,
+       .pokemonOffset = 3,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_TournesolSauvage,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1247,10 +1247,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "anything it catches, growing stronger\n"
            "with each bite. It lords over barns and\n"
            "fields, served by its little Pousse."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 353,
+       .trainerOffset = 6,
        //graphics
         .frontPic = gMonFrontPic_TournesolAffame,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1303,10 +1303,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "trail of slime that weakens anything\n"
            "that touches it. It spits warm saliva\n"
            "to tend its own wounds."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 780,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_LarveJaune,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1359,10 +1359,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It grows fat on the crops of the fields\n"
            "it burrows under. Farmers dread the day\n"
            "a swarm of them hatches."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 455,
+       .pokemonOffset = 13,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_LarveChampetre,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1417,10 +1417,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "kin. It swallows foes whole, then spits\n"
            "them out far away. The ground around it\n"
            "turns to sticky mud."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 363,
+       .trainerOffset = 6,
        //graphics
         .frontPic = gMonFrontPic_ShinLarve,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1473,10 +1473,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "and never strays far from them. The\n"
            "leaves on its head grow longer as it\n"
            "learns the ways of the forest."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 731,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_DiscipleDuKimbo,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1530,10 +1530,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "plains at amazing speed. The more it is\n"
            "hurt, the harder it strikes with its\n"
            "leafy wings."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 354,
+       .pokemonOffset = 8,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_BitoufPlaine,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1588,10 +1588,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "leaves. The gusts it stirs up carry its\n"
            "allies forward and blow its foes far\n"
            "away."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 286,
+       .trainerOffset = 2,
        //graphics
         .frontPic = gMonFrontPic_BitoufAerien,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1644,10 +1644,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "magic. It loves to pester foes, tugging\n"
            "at them and scattering spores until\n"
            "they lose their temper."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_LaFolle,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1701,10 +1701,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "blocks the way so that nothing can get\n"
            "past. Its stuffing of leaves and bark\n"
            "shrugs off every element."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 287,
+       .pokemonOffset = 3,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_LaBloqueuse,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1757,10 +1757,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "to follow with the eye. Despite its\n"
            "speed, it is very frail and panics at\n"
            "the slightest noise."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_Tofu,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1814,10 +1814,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "longer fly, so it charges foes with its\n"
            "round belly and flattens them into the\n"
            "ground."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 563,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_GwoTofu,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1872,10 +1872,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "to be woven from seeds offered by its\n"
            "subjects. A swarm of Tofu follows it\n"
            "wherever it goes."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 270,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_TofuRoyal,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1928,10 +1928,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "snow. Its tiny beak is always frosted,\n"
            "and it chirps with joy whenever a\n"
            "blizzard begins."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_BwakGlace,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -1985,10 +1985,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It nests on icy peaks. With a beat of\n"
            "its frosted wings, it can bury a valley\n"
            "under a sudden storm of hail."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 300,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_KwakereGlace,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2040,10 +2040,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A light, fluffy chick that drifts on\n"
            "the breeze before it can even fly. It\n"
            "hatches from eggs laid on windy cliffs."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_BwakVent,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2097,10 +2097,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It rides the strongest winds above the\n"
            "peaks without ever beating its wings.\n"
            "Its cry sounds like a howling gale."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 300,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_KwakereVent,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2153,10 +2153,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "touch. It hatches from eggs laid near\n"
            "hot springs and sneezes sparks when it\n"
            "is happy."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_BwakFeu,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2210,10 +2210,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "ash. When angered, its feathers burst\n"
            "into flame and it dives at its foes\n"
            "like a falling star."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 300,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_KwakereFeu,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2266,10 +2266,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "day long. It hatched from an egg buried\n"
            "in the earth and prefers walking to\n"
            "flying."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_BwakTerre,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2323,10 +2323,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "Its feathers are as hard as stone. It\n"
            "dives from cliffs and strikes the ground\n"
            "so hard that the rocks split apart."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 300,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_KwakereTerre,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2379,10 +2379,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "plays with little wisps of light, and\n"
            "anyone who pets it is said to forget\n"
            "their worries."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 731,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Tigrimas,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2436,10 +2436,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It sleeps nearly all day long. Its purr\n"
            "has a strange power that lulls people\n"
            "and Pokémon nearby into sweet dreams."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Ronronchon,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2492,10 +2492,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "countryside. It spins sticky webs in\n"
            "tall grass and waits for careless prey\n"
            "to blunder into them."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 780,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Arakne,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2549,10 +2549,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "hide among roots. It drains the strength\n"
            "of prey caught in its web, then slips\n"
            "away into the shadows."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 430,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_Araknotron,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2607,10 +2607,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "the trunks of its forest. It feeds on\n"
            "sap and on the life of its prey, and it\n"
            "never needs to rest for long."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 274,
+       .pokemonOffset = 2,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Abrakne,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2663,10 +2663,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "whine and drinks its blood. A single\n"
            "bite leaves an itchy welt that lasts\n"
            "a whole week."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 758,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_Moskito,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2720,9 +2720,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It pierces thick hides with its long\n"
            "proboscis and can drain enough blood\n"
            "in one go to weaken a large beast."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 284,
        .trainerOffset = 1,
        //graphics
        .frontPic = gMonFrontPic_Minoskito,
@@ -2776,10 +2776,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "When hurt, it buries its stem in the\n"
            "soil and quickly recovers. Its spores\n"
            "make people sneeze."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_ChampChamp,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2833,10 +2833,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "throws wild punches at anyone who comes\n"
            "near, then soothes its bruises in the\n"
            "damp soil of the forest."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 287,
+       .pokemonOffset = 3,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_ChampAGnon,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2889,10 +2889,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "undergrowth. It roots around for acorns\n"
            "all day and charges at anything that\n"
            "startles it."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Marcacin,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -2947,10 +2947,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "straight line. Its tusks can uproot\n"
            "small trees, and its charge can knock\n"
            "down a farmhouse door."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 343,
+       .pokemonOffset = 7,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Sanglier,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3005,10 +3005,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "anything that moves. Once it starts\n"
            "running, nothing short of a stone wall\n"
            "can stop it."),
-       .pokemonScale = 1,
+       .pokemonScale = 260,
        .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_SanglierAgressif,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3061,10 +3061,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "where it grows up. The color its shell\n"
            "takes when it evolves depends on the\n"
            "land it calls home."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_ElScarador,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3123,10 +3123,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "tunnels under the hot sand. Its green\n"
            "shell shields it from the harshest\n"
            "sandstorms."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_ScarafeuilleVert,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3180,10 +3180,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It grew up near water and swims with its\n"
            "legs folded under its blue shell. It can\n"
            "stay underwater for hours."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_ScarafeuilleBleu,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3237,10 +3237,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "Its pale shell is very light. It glides\n"
            "on the wind with its wide wings and\n"
            "rests on the highest branches."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_ScarafeuilleBlanc,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3293,10 +3293,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It grew up near volcanoes. Its red\n"
            "shell stays scorching hot, and it bathes\n"
            "in embers to keep it gleaming."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
         .frontPic = gMonFrontPic_ScarafeuilleRouge,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3351,10 +3351,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "shell makes it nearly invisible, and it\n"
            "ambushes prey that wander too far from\n"
            "the light."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_ScarafeuilleNoir,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3409,10 +3409,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It masters the power of every land it\n"
            "has lived in and shifts its element at\n"
            "will to overwhelm its foes."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 278,
+       .pokemonOffset = 2,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_ScarabosseDore,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3465,10 +3465,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "dusk. Its big ears can hear a cawotte\n"
            "being pulled from the ground from far\n"
            "away."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Tiwabbit,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3523,10 +3523,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "they revere above all else. They chase\n"
            "anyone who steps on a sprout, waving\n"
            "their clubs in fury."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 292,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Wabbit,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3581,10 +3581,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It plants cawottes wherever it goes, and\n"
            "the young of its tribe gather to eat\n"
            "them and regain their strength."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 278,
+       .pokemonOffset = 2,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_WoWabbit,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3637,10 +3637,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "night. It carries a spear twice its size\n"
            "and jabs at anyone who catches it\n"
            "red-handed."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 574,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Gobet,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3695,10 +3695,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "races across the plains, strikes its\n"
            "prey in passing, and is gone before the\n"
            "prey can fight back."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 269,
+       .trainerOffset = 0,
               //graphics
         .frontPic = gMonFrontPic_GobTrotteur,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3752,10 +3752,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "full of stones on its back. It scatters\n"
            "them around its lair as traps and hurls\n"
            "the largest ones at intruders."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 383,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Sherpoa,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3808,10 +3808,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "fight. It tends to the wounded Pokémon\n"
            "it finds and stays by their side until\n"
            "they heal."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 731,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Lapino,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3866,10 +3866,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "brute. It still heals its friends, but\n"
            "it now pummels anyone who threatens\n"
            "them with its huge fists."),
-       .pokemonScale = 1,
+       .pokemonScale = 260,
        .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_LapinoMutant,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3922,10 +3922,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "tricks. It conjures copies of itself to\n"
            "confuse its foes, then hides behind its\n"
            "friends and giggles."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 780,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Gobgob,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -3980,10 +3980,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "their plates. The more it eats, the\n"
            "tougher its belly gets. It shields its\n"
            "allies with its huge body."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 290,
+       .pokemonOffset = 3,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
         .frontPic = gMonFrontPic_GobgobGlouton,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4036,10 +4036,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "gold. Its nose can sniff out a buried\n"
            "nugget from far away. It hoards every\n"
            "shiny thing it finds."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 780,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Phorreveur,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4094,10 +4094,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It digs so deep in search of gold that\n"
            "it sometimes forgets the way back to\n"
            "the surface."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 338,
+       .pokemonOffset = 7,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Metaphorreur,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4152,10 +4152,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "its hide has turned to stone, studded\n"
            "with gold. It can bring down a whole\n"
            "cave with a single blow."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 286,
+       .trainerOffset = 2,
        //graphics
        .frontPic = gMonFrontPic_Phossile,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4208,10 +4208,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "with a wooden staff. It practices in the\n"
            "rain until it can strike faster than\n"
            "the falling drops."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 780,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Raphaela,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4266,10 +4266,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It glides silently through the water\n"
            "and strikes before its foe can raise\n"
            "its guard."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 354,
+       .pokemonOffset = 8,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_TortueBleu,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4322,10 +4322,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "days it flies for hours, other days it\n"
            "refuses to leave its nest no matter\n"
            "what."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Dolbinos,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4380,10 +4380,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "When it ruffles them, sparks crackle all\n"
            "around. Its mood swings make its power\n"
            "hard to predict."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 650,
+       .pokemonOffset = 18,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
        .frontPic = gMonFrontPic_Dokachu,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4437,10 +4437,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "that it seems to vanish. It flicks tiny\n"
            "stars from its tail to dazzle anyone\n"
            "who chases it."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 487,
+       .pokemonOffset = 14,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Kitsou,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4492,10 +4492,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It looks like a harmless flower bud,\n"
            "but it latches onto passing Pokémon\n"
            "and slowly sips their energy."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Bourgeon,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4550,10 +4550,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "traps its prey in creeping vines. It\n"
            "feeds on them until they are too weak\n"
            "to move."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 300,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
        .frontPic = gMonFrontPic_Bulbisauge,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4607,10 +4607,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "flower on its head. It fires darts from\n"
            "its blowgun at anyone who comes too\n"
            "close to the water's edge."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 309,
+       .pokemonOffset = 5,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Sarkapwane,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4663,10 +4663,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "through tall grass. It hisses to warn\n"
            "intruders before striking with its\n"
            "fangs."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 269,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Serpentin,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4720,10 +4720,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "crowned with red feathers. It smashes\n"
            "boulders with its head without feeling\n"
            "a thing."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 823,
+       .trainerOffset = 16,
        //graphics
        .frontPic = gMonFrontPic_Serpiplume,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4776,10 +4776,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "the shore. Its teeth grow back every\n"
            "week, so it bites anything to keep them\n"
            "sharp."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Dagon,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4833,10 +4833,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "smell a drop of blood from far away and\n"
            "charges at its prey with frightening\n"
            "speed."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 265,
+       .pokemonOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Pichon,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4891,10 +4891,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "spear of coral. Sailors hold their\n"
            "breath when its fin breaks the surface\n"
            "of the water."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 370,
+       .trainerOffset = 7,
        //graphics
        .frontPic = gMonFrontPic_RaulMops,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -4946,10 +4946,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It waddles across the ice behind its\n"
            "parents. It slides on its belly to keep\n"
            "up and often ends up in the water."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Timansot,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5002,10 +5002,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It eats so many fish that it can barely\n"
            "waddle. Its thick layer of fat keeps it\n"
            "warm in the coldest blizzards."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Mansobese,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5061,10 +5061,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "belly. It will fight anyone who comes\n"
            "near its young, no matter how strong\n"
            "they are."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 300,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Mamansot,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5118,10 +5118,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "arts. It fights with a frozen fish and\n"
            "trains on the ice floes from dawn to\n"
            "dusk."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 325,
+       .pokemonOffset = 6,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_FuMansot,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5173,10 +5173,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It lives near volcanic vents. Its rocky\n"
            "body releases hot, foul-smelling fumes\n"
            "that make the air shimmer around it."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 574,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Mofette,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5230,10 +5230,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "molten rock flowing through its cracks.\n"
            "It can withstand any blow, and the\n"
            "ground melts where it steps."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 319,
+       .trainerOffset = 4,
        //graphics
        .frontPic = gMonFrontPic_Obsidiantre,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5286,10 +5286,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "out of volcanoes. Anyone who breathes it\n"
            "in coughs for days. It scorches all that\n"
            "it engulfs."),
-       .pokemonScale = 1,
+       .pokemonScale = 260,
        .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Crapeur,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5342,10 +5342,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "rotting food. It spreads germs wherever\n"
            "it lands, so people chase it with\n"
            "brooms."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 1148,
+       .pokemonOffset = 23,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Mouchame,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5400,10 +5400,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "deadly venom. It flies in sudden\n"
            "zigzags that make it nearly impossible\n"
            "to swat."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Morfrelon,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5457,10 +5457,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "tame it. Its horned head can break\n"
            "down walls, and its small wings let it\n"
            "hover over rough terrain."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 261,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Volkorne,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5513,10 +5513,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It is said to foresee the outcome of a\n"
            "battle before it begins and to strike\n"
            "where its foe is about to be."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 265,
+       .pokemonOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Voracle,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5568,10 +5568,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A greedy pig that devours everything in\n"
            "its path. It falls asleep after every\n"
            "meal and can sleep for days on end."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 343,
+       .pokemonOffset = 7,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_CochonDeFarle,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5626,10 +5626,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "awakened. It guards a turquoise egg and\n"
            "strikes with uncanny precision at\n"
            "anyone who dares to approach it."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 286,
+       .trainerOffset = 2,
        //graphics
        .frontPic = gMonFrontPic_DragonCochon,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5681,10 +5681,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It buries itself in hot sand, leaving\n"
            "only its stinger poking out. It grabs\n"
            "prey with its pincer, then stings."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 861,
+       .pokemonOffset = 20,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Scorpique,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5739,10 +5739,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "waiting for prey. Its venom is so potent\n"
            "that a single sting can fell a large\n"
            "beast."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 300,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Scordion,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5794,10 +5794,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A young bull-headed Pokémon that lives\n"
            "in mazes. It never gets lost, as it can\n"
            "sense its way through any labyrinth."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 310,
+       .pokemonOffset = 5,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Gamino,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5852,10 +5852,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "of a labyrinth. Its spells turn\n"
            "intruders into Tofu, and it watches\n"
            "over a crimson egg."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 387,
+       .trainerOffset = 8,
        //graphics
        .frontPic = gMonFrontPic_Minotot,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5907,10 +5907,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "Its armored shell is covered in spines.\n"
            "Anyone who strikes it gets pricked, and\n"
            "it sends the pain right back at them."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 689,
+       .pokemonOffset = 18,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Ouroboulos,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -5964,10 +5964,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It lets its foes wear themselves out\n"
            "hitting it, then crushes them with its\n"
            "massive body."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 286,
+       .trainerOffset = 2,
        //graphics
        .frontPic = gMonFrontPic_Mantiscore,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6019,10 +6019,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A cactus that ambushes travelers on\n"
            "desert roads. It wields two sabers and\n"
            "makes off with their water."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 492,
+       .pokemonOffset = 14,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Pampactus,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6076,10 +6076,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "Its spines are as sharp as its two\n"
            "sabers. It robs caravans, then vanishes\n"
            "into the dunes."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 319,
+       .trainerOffset = 4,
        //graphics
        .frontPic = gMonFrontPic_Cactoblongo,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6131,10 +6131,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A stray dog driven mad by hunger. It\n"
            "snarls at anyone who comes near and\n"
            "bites first, without warning."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 487,
+       .pokemonOffset = 14,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_ChienchienEnrage,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6188,10 +6188,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It roams in packs and lives off what\n"
            "other predators leave behind. Its shrill\n"
            "laugh means it has found its prey."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 354,
+       .pokemonOffset = 8,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Leolhyene,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6243,10 +6243,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "Its fluffy wool crackles with static. It\n"
            "drifts on the breeze like a little\n"
            "cloud and shocks anyone who pets it."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Skyboufton,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6300,10 +6300,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "it floats above the ground. On stormy\n"
            "days, herds of them graze among the\n"
            "clouds."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 390,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Skybouftou,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6358,10 +6358,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "Its fleece holds the power of a storm,\n"
            "and its bleat rolls across the sky like\n"
            "thunder."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 6,
+       .trainerScale = 310,
+       .trainerOffset = 3,
        //graphics
        .frontPic = gMonFrontPic_Dieubouftou,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6413,10 +6413,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A black stray that roams back alleys.\n"
            "It picks fights with bigger dogs to\n"
            "prove itself to its pack."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 487,
+       .pokemonOffset = 14,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_ChienchienNoir,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6470,10 +6470,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A wolf that walks on its hind legs and\n"
            "acts like a street thug. It settles\n"
            "every dispute with its fists."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 291,
+       .trainerOffset = 2,
        //graphics
        .frontPic = gMonFrontPic_Muloubard,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6526,10 +6526,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "into a ball of spines when frightened\n"
            "and stores nuts in its cheeks for the\n"
            "winter."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 731,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Ecurouille,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6584,10 +6584,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "waits for its foe. Anyone who strikes\n"
            "it gets a handful of sharp quills in\n"
            "return."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 383,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
        .frontPic = gMonFrontPic_Prespic,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6639,10 +6639,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A small, hot-tempered wildcat. It\n"
            "hisses and swipes at anything that\n"
            "annoys it, even its own shadow."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 731,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Chacha,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6695,10 +6695,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A jaguar that prowls the jungle. When\n"
            "wounded, it flies into a rage and fights\n"
            "with twice the fury."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 270,
+       .pokemonOffset = 2,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Chagouar,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6751,10 +6751,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "spirit of a fallen guard. A flower grows\n"
            "from its helmet, and it keeps watch\n"
            "over old graves."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 487,
+       .pokemonOffset = 14,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Soldalia,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6808,10 +6808,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It marches in step with others of its\n"
            "kind and strikes harder each time one\n"
            "of them falls."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 354,
+       .pokemonOffset = 8,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Coquelicogne,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6866,10 +6866,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "and camellias. It takes root where it\n"
            "stands and will not budge, no matter\n"
            "how hard it is pushed."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 353,
+       .trainerOffset = 6,
        //graphics
        .frontPic = gMonFrontPic_Cameliache,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6922,10 +6922,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "slightest danger. It lies on the seabed\n"
            "for years, waiting for the day it\n"
            "breaks free."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 650,
+       .pokemonOffset = 18,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Grokillage,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -6980,10 +6980,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "ninja. It flings sharp shell fragments\n"
            "like throwing stars, then vanishes\n"
            "before its foes can react."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Moumoule,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7035,10 +7035,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A living chunk of rock that dozes on\n"
            "rocky plains. Travelers sometimes sit\n"
            "on it without realizing it is a Pokémon."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 487,
+       .pokemonOffset = 14,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Craquelope,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7091,10 +7091,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It curls up into a ball and rolls down\n"
            "slopes at full speed. It flattens all\n"
            "in its path, but it cannot stop."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 313,
+       .pokemonOffset = 5,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Craqueboule,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7149,10 +7149,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "slow steps makes the ground tremble,\n"
            "and its fists can split boulders in\n"
            "two."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 420,
+       .trainerOffset = 9,
        //graphics
        .frontPic = gMonFrontPic_Craqueleur,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7205,10 +7205,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "Everything it touches withers and rots.\n"
            "It grows by feeding on the sickness it\n"
            "spreads."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Germinion,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7263,10 +7263,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "breath carries a deadly poison, and the\n"
            "land where it roams turns gray and\n"
            "lifeless."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 303,
+       .trainerOffset = 3,
        //graphics
        .frontPic = gMonFrontPic_Gangredogue,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7318,10 +7318,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It hatches in the mud of swamps and\n"
            "starts biting anything nearby right\n"
            "away, its own siblings included."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_BebeCrocoburio,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7374,10 +7374,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It lurks in the mud with only its eyes\n"
            "showing. Its jaws snap shut with enough\n"
            "force to crush rocks."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 378,
+       .trainerOffset = 7,
        //graphics
        .frontPic = gMonFrontPic_Crocodaille,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7431,10 +7431,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "rules the marshes and guards an\n"
            "ebony egg. Its bite carries a venom\n"
            "that slowly saps its victims."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 538,
+       .trainerOffset = 12,
        //graphics
        .frontPic = gMonFrontPic_Crocoburio,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7486,10 +7486,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A spirit of the marshes made of mud. It\n"
            "lurks in bogs and drags down anyone who\n"
            "wades into its territory."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 416,
+       .pokemonOffset = 11,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Ouassingue,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7544,10 +7544,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "spectral energy. It takes the blows\n"
            "meant for its allies, and they sink\n"
            "harmlessly into its body."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 325,
+       .pokemonOffset = 6,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Bourbassingue,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7602,10 +7602,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "The ruler of the haunted marshes. It\n"
            "wields a trident of rotten wood and\n"
            "shields its subjects with its own body."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 348,
+       .trainerOffset = 6,
        //graphics
        .frontPic = gMonFrontPic_Roissingue,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7658,10 +7658,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "paddocks. Breeders have crossed them\n"
            "for generations to shape their colors\n"
            "and temper."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 303,
+       .trainerOffset = 3,
        //graphics
        .frontPic = gMonFrontPic_Dragodinde,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7714,10 +7714,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "all day. It often rides in the pouch of\n"
            "a Koalak, which tosses it at foes when\n"
            "danger strikes."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 1170,
+       .pokemonOffset = 23,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Biblop,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7770,10 +7770,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A wobbly jelly whose color depends on\n"
            "what it eats. Blows bounce off its body,\n"
            "which always stays cool and damp."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 574,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Blop,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7826,10 +7826,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A huge blop that can swallow a foe in a\n"
            "single gulp. What it swallows is never\n"
            "seen again."),
-       .pokemonScale = 1,
+       .pokemonScale = 260,
        .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Gloutoblop,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7881,10 +7881,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It carries a Biblop in its pouch like a\n"
            "favorite toy. It only grows up once it\n"
            "has a Blop as a friend."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
         //graphics
        .frontPic = gMonFrontPic_KoalakImmature,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7940,10 +7940,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "pouch at its foes. It lives on mountain\n"
            "slopes and spends most of its time\n"
            "chewing leaves."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 300,
+       .pokemonOffset = 4,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Koalak,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -7995,10 +7995,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "The ghost of a cabin boy lost at sea.\n"
            "It roams around shipwrecks, wailing for\n"
            "a ship that will never come."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 546,
+       .pokemonOffset = 15,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Crasper,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8052,10 +8052,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "still barks orders at sailors who\n"
            "cannot hear it, and rattles chains to\n"
            "frighten them."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 287,
+       .pokemonOffset = 3,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Fantomayte,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8110,10 +8110,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "watch from the mast of a phantom ship\n"
            "and bludgeons intruders with its heavy\n"
            "mace."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 2,
+       .trainerScale = 308,
+       .trainerOffset = 3,
        //graphics
        .frontPic = gMonFrontPic_VigiePirate,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8166,10 +8166,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "back as a ghost. Its beak drains the\n"
            "life of its victims, and the wounds it\n"
            "leaves will not heal."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 780,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Maletofu,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8224,10 +8224,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "grave. It once carried a vampire lord\n"
            "into battle. It shrugs off wounds that\n"
            "would fell anything else."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 370,
+       .trainerOffset = 7,
        //graphics
        .frontPic = gMonFrontPic_Karnhell,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8279,10 +8279,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A floating skull that haunts graveyards.\n"
            "It bites anyone who disturbs the dead,\n"
            "then floats away through the walls."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 731,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Kwoan,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8337,10 +8337,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "forgotten graves. It wields a rusty\n"
            "sword and fights on even when its bones\n"
            "are scattered."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 296,
+       .trainerOffset = 2,
        //graphics
        .frontPic = gMonFrontPic_Chafer,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8393,10 +8393,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "rolls along beaches and squirts sweet\n"
            "juice in the eyes of anyone who bothers\n"
            "it."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 780,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Nodkoko,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8450,10 +8450,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "the shore. It slaps foes with its\n"
            "fronds and sleeps standing up in the\n"
            "sand."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 325,
+       .pokemonOffset = 6,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Tikoko,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8508,10 +8508,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It sways from side to side, then slams\n"
            "its trunk into foes, scattering\n"
            "coconuts everywhere."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 504,
+       .trainerOffset = 11,
        //graphics
        .frontPic = gMonFrontPic_Grokoko,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8564,10 +8564,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "practices pirouettes on its shell all\n"
            "day and leaves trails of slime\n"
            "everywhere."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 975,
+       .pokemonOffset = 21,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Kokulte,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8621,10 +8621,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "bounces off walls to strike from any\n"
            "angle. Its slime is so slippery that\n"
            "its foes can barely stand."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 344,
+       .pokemonOffset = 7,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Kaskargo,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8676,10 +8676,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A weed that sprouted in a dark jungle.\n"
            "It chokes the plants around it and\n"
            "scorches the ground with its toxic sap."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 390,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Nerbe,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8732,10 +8732,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "Its bark is riddled with poison. When\n"
            "struck, it bursts into a cloud of\n"
            "splinters that pushes foes away."),
-       .pokemonScale = 1,
+       .pokemonScale = 260,
        .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Fecorce,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8787,10 +8787,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A cheerful little unicorn that gallops\n"
            "through meadows. It laughs at everything\n"
            "and spreads joy wherever it goes."),
-       .pokemonScale = 1,
+       .pokemonScale = 260,
        .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Minikrone,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8845,10 +8845,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "melancholy. A small rain cloud follows\n"
            "it everywhere, and its mood changes from\n"
            "one moment to the next."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 269,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Rainikrone,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8901,10 +8901,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "two to confuse its prey. It vanishes in\n"
            "the blink of an eye and reappears right\n"
            "behind them."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 780,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Malepik,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -8957,10 +8957,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It splits into three identical copies.\n"
            "Only one of them is real. The other two\n"
            "vanish as soon as they are touched."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 325,
+       .pokemonOffset = 6,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Maltrio,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9012,10 +9012,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A crow that pecks at travelers to steal\n"
            "anything shiny. Its shrill cry can make\n"
            "a foe lose its balance."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 569,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Corbac,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9068,10 +9068,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It leads the crows of its flock into\n"
            "battle. It knocks foes back with a\n"
            "powerful leap and steals their agility."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 289,
+       .pokemonOffset = 3,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Caapsaloocke,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9124,10 +9124,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "The master of all crows. It keeps a\n"
            "library of stolen secrets and wields a\n"
            "scythe whose blade casts dark shadows."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 303,
+       .trainerOffset = 3,
        //graphics
        .frontPic = gMonFrontPic_MaitreCorbac,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9179,10 +9179,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A wolf cub that lives in snowy pine\n"
            "forests. It is always hungry and gulps\n"
            "down its food without chewing."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 390,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Kanigloups,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9235,10 +9235,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A ravenous wolf that walks upright. It\n"
            "lunges for the weak spot of its prey\n"
            "and strikes harder the more it is hurt."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 303,
+       .trainerOffset = 3,
        //graphics
        .frontPic = gMonFrontPic_Kaniglou,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9290,10 +9290,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A cuddly bear cub that loves honey. It\n"
            "hugs anyone it meets, sometimes a\n"
            "little too hard."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 390,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Bisouglours,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9348,10 +9348,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "ice. It shields its friends with its\n"
            "bulk and strikes back at anyone who\n"
            "lands a blow."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 370,
+       .trainerOffset = 7,
        //graphics
        .frontPic = gMonFrontPic_Glouragan,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9403,10 +9403,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A badger cub with a short temper. It\n"
            "growls and scratches at anything that\n"
            "enters its burrow, even its parents."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 468,
+       .pokemonOffset = 13,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Blerodoudou,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9460,10 +9460,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It is so gluttonous that it gnaws on its\n"
            "foes in the middle of a fight to regain\n"
            "its strength."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 307,
+       .pokemonOffset = 5,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Wolvero,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9518,10 +9518,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It drains the strength of its foes and\n"
            "uses its huge body to shield the weaker\n"
            "members of its clan."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 336,
+       .trainerOffset = 5,
        //graphics
        .frontPic = gMonFrontPic_Blerom,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9573,10 +9573,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "It clamps its sucker mouth onto prey\n"
            "and never lets go. It lives in sunken\n"
            "ruins deep below the waves."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 303,
+       .trainerOffset = 3,
        //graphics
        .frontPic = gMonFrontPic_Tilamproie,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9630,10 +9630,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A huge manta that glides through sunken\n"
            "ruins. It discharges bolts of lightning\n"
            "that light up the darkness of the deep."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 543,
+       .trainerOffset = 12,
        //graphics
        .frontPic = gMonFrontPic_Mantaze,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9687,10 +9687,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "water as on land. It bounds in great\n"
            "leaps and lends its strength to the\n"
            "one who rides it."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 265,
+       .pokemonOffset = 1,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Muldo,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9743,10 +9743,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A living coral reef that walks the\n"
            "seabed. It flings sharp chunks of coral\n"
            "that slow its foes down."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 390,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Corailleur,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9799,10 +9799,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "leaves a trail of acidic slime behind\n"
            "it and curls into a ball to roll over\n"
            "its foes."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 433,
+       .pokemonOffset = 12,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_MolUsk,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9854,10 +9854,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "A demon born of nightmares. It feeds on\n"
            "the life force of its foes and can take\n"
            "blows that would topple a fortress."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 403,
+       .trainerOffset = 8,
        //graphics
        .frontPic = gMonFrontPic_Demoloch,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9911,10 +9911,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "that grow stronger as the fight goes on.\n"
            "Only the bravest dare to look it in the\n"
            "eye."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 370,
+       .trainerOffset = 7,
        //graphics
        .frontPic = gMonFrontPic_Diabelial,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -9967,10 +9967,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "The most fearsome of its kind. It sweeps\n"
            "foes away with a scythe of wind, and any\n"
            "blow aimed at it is sent right back."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 523,
+       .trainerOffset = 12,
        //graphics
        .frontPic = gMonFrontPic_Typhomet,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -10022,10 +10022,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
            "The burning remains of a warrior who\n"
            "fell in a sea of magma. It still wields\n"
            "its halberd, which glows red-hot."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 319,
+       .trainerOffset = 4,
        //graphics
        .frontPic = gMonFrontPic_Halbardent,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -10080,10 +10080,10 @@ FOOTPRINT(Halbardent)
            "Its blade melts through armor, and it\n"
            "draws its foes into the heat of its\n"
            "body."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 392,
+       .trainerOffset = 8,
        //graphics
        .frontPic = gMonFrontPic_Klemor,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -10135,10 +10135,10 @@ FOOTPRINT(Klemor)
            "A little dragon summoned by tamers. It\n"
            "breathes out tiny flames that are more\n"
            "warm than dangerous."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Dragoune,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -10192,10 +10192,10 @@ FOOTPRINT(Klemor)
            "A fiery dragon that swaps places with\n"
            "its foes, then breathes cones of flame\n"
            "that send them flying."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 319,
+       .pokemonOffset = 6,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Dragonnet,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -10251,10 +10251,10 @@ FOOTPRINT(Klemor)
            "with fierce devotion. It guards a\n"
            "precious egg said to grant great speed\n"
            "and strength."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 672,
+       .trainerOffset = 15,
        //graphics
        .frontPic = gMonFrontPic_Crocabulia,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -10306,10 +10306,10 @@ FOOTPRINT(Klemor)
            "A mechanical owl built by a clockmaker.\n"
            "It darts around tirelessly, and its\n"
            "gears tick louder when it spots prey."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 731,
+       .pokemonOffset = 19,
+       .trainerScale = 256,
+       .trainerOffset = 0,
        //graphics
        .frontPic = gMonFrontPic_Sinistrofu,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -10362,10 +10362,10 @@ FOOTPRINT(Klemor)
            "A heavy mechanical owl. Its brass body\n"
            "weighs so much that it barely flies, but\n"
            "it rams its foes like a falling anvil."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 304,
+       .trainerOffset = 3,
        //graphics
        .frontPic = gMonFrontPic_Nocturlabe,
        .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -10421,10 +10421,10 @@ FOOTPRINT(Klemor)
            "never stop turning. It strikes harder\n"
            "when damaged and turns every blow back\n"
            "against its attacker."),
-       .pokemonScale = 1,
-       .pokemonOffset = 0,
-       .trainerScale = 1,
-       .trainerOffset = 1,
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 319,
+       .trainerOffset = 4,
        //graphics
        .frontPic = gMonFrontPic_Granduk,
        .frontPicSize = MON_COORDS_SIZE(64, 64),

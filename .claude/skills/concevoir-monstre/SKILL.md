@@ -146,7 +146,10 @@ d'attaque ≤ 152 px par ligne (≈ 27 caractères, deux lignes), nom d'attaque
 ≤ 72 px en police étroite, description Pokédex ≤ 224 px par ligne
 (≈ 40 caractères, 4 lignes max), catégorie Pokédex ≤ 12 caractères. La
 taille (`.height`) est en décimètres et le poids (`.weight`) en hectogrammes
-(Tacle Lourd, Balayage et Nœud Herbe en dépendent). Les accents, `m`, `w` et `%` sont larges. Mesure
+(Tacle Lourd, Balayage et Nœud Herbe en dépendent). Après avoir fixé la
+taille, calcule l'échelle de la comparaison du Pokédex avec
+`python3 .claude/skills/concevoir-monstre/scripts/echelle_pokedex.py
+--ecrire SPECIES_X` (ne laisse jamais `pokemonScale = 1`). Les accents, `m`, `w` et `%` sont larges. Mesure
 avec `python3 .claude/skills/concevoir-monstre/scripts/largeur_textes.py
 "Texte"` ; sans argument, le script liste tous les textes trop larges.
 
