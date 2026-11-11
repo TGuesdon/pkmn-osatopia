@@ -873,12 +873,12 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_POWERCONSTRUCTPRESENCEOFMANY]         = COMPOUND_STRING("You sense the presence of many!"),
     [STRINGID_POWERCONSTRUCTTRANSFORM]              = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} transformed into its Complete Forme!"),
     [STRINGID_ABILITYSHIELDPROTECTS]                = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s Ability is protected by the effects of its {B_LAST_ITEM}!"),
-    [STRINGID_POTAGERPLANTED]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} plante des cawottes!"),
-    [STRINGID_POTAGERHEAL]                          = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} croque une cawotte!"),
-    [STRINGID_POTAGERCLEARED]                       = COMPOUND_STRING("Les cawottes ont disparu!"),
-    [STRINGID_MONTUREBOOST]                         = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} profite de sa monture!"),
-    [STRINGID_PKMNGOTBLEED]                         = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} saigne!"),
-    [STRINGID_PKMNHURTBYBLEED]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} perd du sang!"),
+    [STRINGID_POTAGERPLANTED]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} planted cawottes!"),
+    [STRINGID_POTAGERHEAL]                          = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} munched on a cawotte!"),
+    [STRINGID_POTAGERCLEARED]                       = COMPOUND_STRING("The cawottes disappeared!"),
+    [STRINGID_MONTUREBOOST]                         = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} got a boost from its mount!"),
+    [STRINGID_PKMNGOTBLEED]                         = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} started bleeding!"),
+    [STRINGID_PKMNHURTBYBLEED]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} was hurt by bleeding!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =
@@ -1415,7 +1415,7 @@ const u8 gText_Paralysis[] = _("paralysis");
 const u8 gText_Ice[] = _("ice");
 const u8 gText_Confusion[] = _("confusion");
 const u8 gText_Love[] = _("love");
-const u8 gText_Bleed[] = _("saignement"); // Osatopia
+const u8 gText_Bleed[] = _("bleeding"); // Osatopia
 const u8 gText_SpaceAndSpace[] = _(" and ");
 const u8 gText_CommaSpace[] = _(", ");
 const u8 gText_Space2[] = _(" ");

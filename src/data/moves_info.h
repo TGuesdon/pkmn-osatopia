@@ -21293,10 +21293,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     // Osatopia
     [MOVE_POTAGER] =
     {
-        .name = COMPOUND_STRING("Potager"),
+        .name = COMPOUND_STRING("Veggie Patch"),
         .description = COMPOUND_STRING(
-            "Plante des cawottes qui\n"
-            "soignent les alliés."),
+            "Plants cawottes that heal\n"
+            "the user's allies."),
         .effect = EFFECT_POTAGER,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -21314,10 +21314,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_FILON_DOR] =
     {
-        .name = COMPOUND_STRING("Filon d'Or"),
+        .name = COMPOUND_STRING("Gold Vein"),
         .description = COMPOUND_STRING(
-            "Lance des pépites à l'ennemi.\n"
-            "Rapporte de l'argent après."),
+            "Hurls gold nuggets at the\n"
+            "foe. Money is earned after."),
         .effect = EFFECT_HIT,
         .power = 75,
         .type = TYPE_GROUND,
@@ -21334,10 +21334,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_FILANTE] =
     {
-        .name = COMPOUND_STRING("Filante"),
+        .name = COMPOUND_STRING("Shooting Star"),
         .description = COMPOUND_STRING(
-            "Une traînée d'astres frappe,\n"
-            "puis le lanceur est remplacé."),
+            "A trail of stars strikes,\n"
+            "then the user switches out."),
         .effect = EFFECT_HIT_ESCAPE,
         .power = 70,
         .type = TYPE_FAIRY,
@@ -21351,10 +21351,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_SARBACANE] =
     {
-        .name = COMPOUND_STRING("Sarbacane"),
+        .name = COMPOUND_STRING("Blowgun"),
         .description = COMPOUND_STRING(
-            "Souffle de 2 à 5 jets d'eau\n"
-            "d'affilée sur l'ennemi."),
+            "Blows 2 to 5 jets of water\n"
+            "at the foe in a row."),
         .effect = EFFECT_MULTI_HIT,
         .power = 25,
         .type = TYPE_WATER,
@@ -21369,10 +21369,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_GALOP] =
     {
-        .name = COMPOUND_STRING("Galop"),
+        .name = COMPOUND_STRING("Gallop"),
         .description = COMPOUND_STRING(
-            "Une charge au galop, puis le\n"
-            "lanceur est remplacé."),
+            "Charges at a gallop, then\n"
+            "the user switches out."),
         .effect = EFFECT_HIT_ESCAPE,
         .power = 70,
         .type = TYPE_NORMAL,
@@ -21387,10 +21387,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_TOFUISATION] =
     {
-        .name = COMPOUND_STRING("Tofuïsation"),
+        .name = COMPOUND_STRING("Tofuization"),
         .description = COMPOUND_STRING(
-            "Un sort change la cible en\n"
-            "Tofu : elle devient Vol."),
+            "A spell turns the target\n"
+            "into a Flying-type Tofu."),
         .effect = EFFECT_SOAK,
         .power = 0,
         .type = TYPE_PSYCHIC,
@@ -21406,10 +21406,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_GLOUTAGE] =
     {
-        .name = COMPOUND_STRING("Gloutage"),
+        .name = COMPOUND_STRING("Gobble Up"),
         .description = COMPOUND_STRING(
-            "Avale la cible d'un coup.\n"
-            "K.O. en un coup s'il touche."),
+            "Swallows the target whole.\n"
+            "A one-hit KO if it hits."),
         .effect = EFFECT_OHKO,
         .power = 1,
         .type = TYPE_WATER,
@@ -21424,10 +21424,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_LANCER_BLOP] =
     {
-        .name = COMPOUND_STRING("Lancer Blop"),
+        .name = COMPOUND_STRING("Blop Toss"),
         .description = COMPOUND_STRING(
-            "Lance un Biblop gluant qui\n"
-            "baisse la Vitesse ennemie."),
+            "Throws a sticky Biblop that\n"
+            "lowers the foe's Speed."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_WATER,
@@ -21446,10 +21446,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_MASSE_OMBRE] =
     {
-        .name = COMPOUND_STRING("Masse Ombre"),
+        .name = COMPOUND_STRING("Shadow Mace"),
         .description = COMPOUND_STRING(
-            "Un coup de masse spectral\n"
-            "qui peut baisser la Vitesse."),
+            "A spectral mace blow that\n"
+            "may lower the foe's Speed."),
         .effect = EFFECT_HIT,
         .power = 85,
         .type = TYPE_GHOST,
@@ -21468,10 +21468,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_LAIT_DE_COCO] =
     {
-        .name = COMPOUND_STRING("Lait de Coco"),
+        .name = COMPOUND_STRING("Coconut Milk"),
         .description = COMPOUND_STRING(
-            "Boit son lait de coco :\n"
-            "soigne PV et statut."),
+            "Drinks its coconut milk to\n"
+            "heal HP and status."),
         .effect = EFFECT_LAIT_DE_COCO,
         .power = 0,
         .type = TYPE_GRASS,
@@ -21490,10 +21490,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_BAVE_FATALE] =
     {
-        .name = COMPOUND_STRING("Bave Fatale"),
+        .name = COMPOUND_STRING("Fatal Slime"),
         .description = COMPOUND_STRING(
-            "Glyphe de bave mortel.\n"
-            "Met K.O. sur le coup."),
+            "A deadly slime glyph that\n"
+            "KOs the foe in one hit."),
         .effect = EFFECT_OHKO,
         .power = 1,
         .type = TYPE_POISON,
@@ -21507,10 +21507,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_DECHIRURE] =
     {
-        .name = COMPOUND_STRING("Déchirure"),
+        .name = COMPOUND_STRING("Rend"),
         .description = COMPOUND_STRING(
-            "Ouvre une plaie qui fait\n"
-            "saigner l'ennemi."),
+            "Opens a wound that makes\n"
+            "the foe bleed."),
         .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_DARK,
@@ -21527,10 +21527,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_LACERATION] =
     {
-        .name = COMPOUND_STRING("Lacération"),
+        .name = COMPOUND_STRING("Laceration"),
         .description = COMPOUND_STRING(
-            "Lacère l'ennemi. Peut le\n"
-            "faire saigner (10 %)."),
+            "Lacerates the foe. May\n"
+            "make it bleed (10%)."),
         .effect = EFFECT_HIT,
         .power = 75,
         .type = TYPE_DARK,
@@ -21550,10 +21550,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_RADICULE] =
     {
-        .name = COMPOUND_STRING("Radicule"),
+        .name = COMPOUND_STRING("Radicle"),
         .description = COMPOUND_STRING(
-            "Fouette avec une racine qui\n"
-            "annule les stats modifiées."),
+            "Whips with a root that\n"
+            "resets stat changes."),
         .effect = EFFECT_HIT,
         .power = 70,
         .type = TYPE_GRASS,

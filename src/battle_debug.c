@@ -248,7 +248,7 @@ static const struct BitfieldInfo sStatus1Bitfield[] =
     {/*Toxic Poison*/ 1, 7},
     {/*Toxic Counter*/ 4, 8},
     {/*Frostbite*/ 1, 12},
-    {/*Saignement*/ 1, 13},
+    {/*Bleed*/ 1, 13},
 };
 
 static const struct BitfieldInfo sStatus3Bitfield[] =
@@ -353,7 +353,7 @@ static const struct ListMenuItem sStatus1ListItems[] =
     {COMPOUND_STRING("Toxic Poison"),  LIST_STATUS1_TOXIC_POISON},
     {COMPOUND_STRING("Toxic Counter"), LIST_STATUS1_TOXIC_COUNTER},
     {COMPOUND_STRING("Frostbite"),     LIST_STATUS1_FROSTBITE},
-    {COMPOUND_STRING("Saignement"),    LIST_STATUS1_BLEED},
+    {COMPOUND_STRING("Bleed"),         LIST_STATUS1_BLEED},
 };
 
 static const struct ListMenuItem sVolatileStatusListItems[] =

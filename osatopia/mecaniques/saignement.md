@@ -5,7 +5,7 @@
 ## Règles
 - **Statut majeur** (`STATUS1_BLEED`), comme Brûlure ou Poison :
   - exclusif avec les autres statuts ;
-  - icône **SAI** rouge sombre ;
+  - icône **BLD** rouge sombre ;
   - persiste après un changement et dans la sauvegarde.
 - **Dégâts en fin de tour** : de 1/16 à 1/8 des PV max selon la **Vitesse de base de l'espèce**.
   - Vitesse ≤ 50 → 1/16 ; Vitesse ≥ 110 → 1/8 ; linéaire entre les deux.
@@ -24,10 +24,10 @@
 ## Capacités et talent
 | | Type | Cat. | Puiss. | Préc. | PP | Effet |
 |---|---|---|---|---|---|---|
-| **Déchirure** | Ténèbres | Statut | — | 85 | 15 | Fait saigner la cible (comme Feu Follet) |
-| **Lacération** | Ténèbres | Phys. | 75 | 100 | 15 | 10 % de faire saigner. Contact, tranchante (Incisif) |
+| **Déchirure** (Rend) | Ténèbres | Statut | — | 85 | 15 | Fait saigner la cible (comme Feu Follet) |
+| **Lacération** (Laceration) | Ténèbres | Phys. | 75 | 100 | 15 | 10 % de faire saigner. Contact, tranchante (Incisif) |
 
-**Hémorragie** (talent) : 20 % de chances de faire saigner la cible à chaque attaque physique qui touche.
+**Hémorragie** (Hemorrhage, talent) : 20 % de chances de faire saigner la cible à chaque attaque physique qui touche.
 
 ## Monstres
 | Monstre | Déchirure | Lacération | Hémorragie |
