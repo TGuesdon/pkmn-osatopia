@@ -21419,7 +21419,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
-        .battleAnimScript = gBattleAnimMove_Crunch,
+        .battleAnimScript = gBattleAnimMove_Gloutage,
     },
 
     [MOVE_LANCER_BLOP] =
@@ -21441,7 +21441,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1,
             .chance = 100,
         }),
-        .battleAnimScript = gBattleAnimMove_Bubble,
+        .battleAnimScript = gBattleAnimMove_LancerBlop,
     },
 
     [MOVE_MASSE_OMBRE] =
@@ -21502,7 +21502,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
-        .battleAnimScript = gBattleAnimMove_Toxic,
+        .battleAnimScript = gBattleAnimMove_BaveFatale,
     },
 
     [MOVE_DECHIRURE] =

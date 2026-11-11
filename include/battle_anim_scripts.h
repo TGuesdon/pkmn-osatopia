@@ -850,6 +850,11 @@ extern const u8 gBattleAnimMove_SupercellSlam[];
 extern const u8 gBattleAnimMove_PsychicNoise[];
 extern const u8 gBattleAnimMove_UpperHand[];
 extern const u8 gBattleAnimMove_MalignantChain[];
+
+// Osatopia
+extern const u8 gBattleAnimMove_BaveFatale[];
+extern const u8 gBattleAnimMove_Gloutage[];
+extern const u8 gBattleAnimMove_LancerBlop[];
 extern const u8 gBattleAnimMove_BreakneckBlitz[];
 extern const u8 gBattleAnimMove_AllOutPummeling[];
 extern const u8 gBattleAnimMove_SupersonicSkystrike[];
