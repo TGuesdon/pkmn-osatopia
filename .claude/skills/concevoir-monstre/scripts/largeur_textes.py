@@ -86,6 +86,16 @@ def main():
     verifier('Description d\'attaque', attaques,
              r'\.description = COMPOUND_STRING\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\)', 'normal', 152)
     verifier('Nom d\'attaque', attaques, r'\.name = COMPOUND_STRING\(' + CHAINE + r'\)', 'narrower', 72)
+    especes = open(f'{ROOT}/src/data/pokemon/species_info.h', encoding='utf-8').read()
+    verifier('Description Pokédex', especes,
+             r'\.description = COMPOUND_STRING\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\)', 'normal', 224)
+    for m in re.finditer(r'\.description = COMPOUND_STRING\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\)', especes):
+        lignes = ''.join(re.findall(CHAINE, m.group(1))).split('\\n')
+        if len(lignes) > 4:
+            print(f'Description Pokédex sur {len(lignes)} lignes (max 4) : {lignes[0]}')
+    for m in re.finditer(r'\.categoryName = _\(' + CHAINE + r'\)', especes):
+        if len(m.group(1)) > 12:
+            print(f'Catégorie Pokédex de {len(m.group(1))} caractères (max 12) : {m.group(1)}')
 
 
 if __name__ == '__main__':

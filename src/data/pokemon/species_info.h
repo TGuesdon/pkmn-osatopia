@@ -271,10 +271,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //pokedex
         .natDexNum = NATIONAL_DEX_TRONKNYDE,
         .categoryName = _("Abraknydes"),
-        .height = 60,
-        .weight = 400,
+        .height = 6,
+        .weight = 280,
         .description = COMPOUND_STRING(
-            "Placeholder."),
+            "It stands still for days, passing for an\n"
+            "old stump. Its roots sip water so slowly\n"
+            "that it often dozes off in the middle of\n"
+            "a meal."),
         .pokemonScale = 1,
         .pokemonOffset = 0,
         .trainerScale = 1,
@@ -325,10 +328,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_ABRAKNYDE,
        .categoryName = _("Abraknydes"),
-       .height = 150,
-       .weight = 1000,
+       .height = 15,
+       .weight = 1050,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Abraknyde guard the forest where they\n"
+           "grew. They only take a few steps a day,\n"
+           "but any wound in their bark closes up\n"
+           "by the next dawn."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -380,10 +386,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_ABRAKLEUR,
        .categoryName = _("Abraknydes"),
-       .height = 300,
-       .weight = 3000,
+       .height = 30,
+       .weight = 3100,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its pale roots spread under the whole\n"
+           "forest floor and drain the life of\n"
+           "anything that sleeps on them. Each blow\n"
+           "it takes only makes its bark thicker."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -433,10 +442,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_TIFOUX,
        .categoryName = _("Firefoux"),
-       .height = 50,
-       .weight = 250,
+       .height = 4,
+       .weight = 35,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A living firecracker. Its fuse sparks\n"
+           "when it gets excited, and it pops loudly\n"
+           "to scare off foes. Children are told\n"
+           "never to tickle one."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -487,10 +499,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_ROUQUETTE,
        .categoryName = _("Firefoux"),
-       .height = 70,
-       .weight = 40,
+       .height = 9,
+       .weight = 120,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It launches itself into the sky like a\n"
+           "rocket, leaving a trail of embers. The\n"
+           "sparks that rain down from its flight\n"
+           "are said to soothe the wounded."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -541,10 +556,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_CRACHEFOUX,
        .categoryName = _("Firefoux"),
-       .height = 170,
-       .weight = 1000,
+       .height = 17,
+       .weight = 1150,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its body is a heavy bronze cannon. It\n"
+           "fires blasts of boiling water from its\n"
+           "muzzle, and its point-blank shots can\n"
+           "hurl a foe across a field."),
         .pokemonScale = 1,
         .pokemonOffset = 0,
         .trainerScale = 1,
@@ -594,10 +612,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_TITARDO,
        .categoryName = _("Toad"),
-       .height = 30,
+       .height = 3,
        .weight = 50,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its croaking never stops, day or night.\n"
+           "The sound is so grating that foes cover\n"
+           "their ears and lose track of where\n"
+           "they are."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -648,10 +669,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_CRAPODO,
        .categoryName = _("Toad"),
-       .height = 50,
-       .weight = 100,
+       .height = 6,
+       .weight = 140,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It snaps its long tongue at anything\n"
+           "that moves and reels it in. Its tongue\n"
+           "can stretch to twice the length of\n"
+           "its body."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -703,10 +727,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //pokedex
         .natDexNum = NATIONAL_DEX_GRENN,
         .categoryName = _("Toad"),
-        .height = 150,
-        .weight = 800,
+        .height = 15,
+        .weight = 920,
         .description = COMPOUND_STRING(
-            "Placeholder."),
+            "A toad knight clad in armor. It fights\n"
+            "with a spear and raises its shield to\n"
+            "protect its allies. It bows to no one\n"
+            "but the strongest of its kind."),
         .pokemonScale = 1,
         .pokemonOffset = 0,
         .trainerScale = 1,
@@ -756,10 +783,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_SOUSOURIS,
        .categoryName = _("Rat"),
-       .height = 4,
-       .weight = 6,
+       .height = 3,
+       .weight = 8,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It scurries through drains and cellars\n"
+           "in search of crumbs. It bites anything\n"
+           "that corners it, then flees before the\n"
+           "victim can react."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -810,10 +840,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_MILIRAT,
        .categoryName = _("Rat"),
-       .height = 8,
-       .weight = 275,
+       .height = 9,
+       .weight = 160,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Milirat gather in sewers and form their\n"
+           "own militias. They hurl spears from the\n"
+           "shadows and spread foul air to drive\n"
+           "intruders back to the surface."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -864,9 +897,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .natDexNum = NATIONAL_DEX_BOUFTON,
        .categoryName = _("Bouftou"),
        .height = 5,
-       .weight = 300,
+       .weight = 120,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A lamb that eats anything it finds,\n"
+           "fences and straw hats included. It\n"
+           "bleats loudly at anyone who stands\n"
+           "between it and its next meal."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -918,10 +954,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_BOUFTOU,
        .categoryName = _("Bouftou"),
-       .height = 7,
-       .weight = 600,
+       .height = 9,
+       .weight = 480,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its thick wool cushions any blow. A herd\n"
+           "of Bouftou can strip a meadow bare in a\n"
+           "single afternoon, then sleep in a heap\n"
+           "until the next meal."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -972,10 +1011,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_CDG_BOUFTOU,
        .categoryName = _("Bouftou"),
-       .height = 8,
-       .weight = 700,
+       .height = 12,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The war chief of the herd. It charges\n"
+           "horns first at any threat, and the\n"
+           "other Bouftou follow its lead without\n"
+           "a second thought."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1026,10 +1068,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_BOUFTOU_ROYAL,
        .categoryName = _("Bouftou"),
-       .height = 15,
-       .weight = 1500,
+       .height = 20,
+       .weight = 2400,
        .description = COMPOUND_STRING(
-           "Placeholder ( Goatesque )."),
+           "The ruler of the Bouftou herds. Its\n"
+           "royal fleece is as hard as armor, and\n"
+           "its bite restores its own strength. It\n"
+           "rarely leaves its court."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1079,10 +1124,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_GARDIENNE_CHAMPETRE,
        .categoryName = _("Plant"),
-       .height = 5,
-       .weight = 10,
+       .height = 3,
+       .weight = 15,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It watches over the crops of farmers it\n"
+           "likes. It drains the sap of weeds and\n"
+           "shares the nutrients with the plants\n"
+           "around it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1134,10 +1182,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_TOURNESOL_SAUVAGE,
        .categoryName = _("Plant"),
-       .height = 7,
-       .weight = 80,
+       .height = 12,
+       .weight = 85,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "This wild sunflower always faces the\n"
+           "sun. It whips intruders with its taproot,\n"
+           "then plants itself back in the soil as\n"
+           "if nothing had happened."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1189,10 +1240,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_TOURNESOL_AFFAME,
        .categoryName = _("Plant"),
-       .height = 15,
-       .weight = 150,
+       .height = 21,
+       .weight = 380,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A sunflower so greedy that it devours\n"
+           "anything it catches, growing stronger\n"
+           "with each bite. It lords over barns and\n"
+           "fields, served by its little Pousse."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1242,10 +1296,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_LARVE_JAUNE,
        .categoryName = _("Larva"),
-       .height = 2,
-       .weight = 10,
+       .height = 3,
+       .weight = 20,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It crawls through meadows, leaving a\n"
+           "trail of slime that weakens anything\n"
+           "that touches it. It spits warm saliva\n"
+           "to tend its own wounds."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1296,10 +1353,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_LARVE_CHAMPETRE,
        .categoryName = _("Larva"),
-       .height = 2,
-       .weight = 15,
+       .height = 6,
+       .weight = 50,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It grows fat on the crops of the fields\n"
+           "it burrows under. Farmers dread the day\n"
+           "a swarm of them hatches."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1351,10 +1410,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_SHIN_LARVE,
        .categoryName = _("Larva"),
-       .height = 10,
-       .weight = 10,
+       .height = 18,
+       .weight = 1200,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A gigantic larva that rules over its\n"
+           "kin. It swallows foes whole, then spits\n"
+           "them out far away. The ground around it\n"
+           "turns to sticky mud."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1404,10 +1466,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_DISCIPLE_DU_KIMBO,
        .categoryName = _("Hakam Tree"),
-       .height = 3,
-       .weight = 20,
+       .height = 4,
+       .weight = 35,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It lives in the hollows of great trees\n"
+           "and never strays far from them. The\n"
+           "leaves on its head grow longer as it\n"
+           "learns the ways of the forest."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1458,10 +1523,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_BITOUF_PLAINE,
        .categoryName = _("Hakam Tree"),
-       .height = 12,
-       .weight = 200,
+       .height = 11,
+       .weight = 180,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A bird-plant that dashes across grassy\n"
+           "plains at amazing speed. The more it is\n"
+           "hurt, the harder it strikes with its\n"
+           "leafy wings."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1513,10 +1581,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_BITOUF_AERIEN,
        .categoryName = _("Hakam Tree"),
-       .height = 16,
-       .weight = 350,
+       .height = 17,
+       .weight = 290,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It glides above the canopy on wings of\n"
+           "leaves. The gusts it stirs up carry its\n"
+           "allies forward and blow its foes far\n"
+           "away."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1566,10 +1637,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_LA_FOLLE,
        .categoryName = _("Doll"),
-       .height = 3,
-       .weight = 50,
+       .height = 5,
+       .weight = 15,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A rag doll brought to life by forest\n"
+           "magic. It loves to pester foes, tugging\n"
+           "at them and scattering spores until\n"
+           "they lose their temper."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1620,10 +1694,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_LA_BLOQUEUSE,
        .categoryName = _("Doll"),
-       .height = 7,
-       .weight = 150,
+       .height = 12,
+       .weight = 85,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It never attacks. It plants its feet and\n"
+           "blocks the way so that nothing can get\n"
+           "past. Its stuffing of leaves and bark\n"
+           "shrugs off every element."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1673,10 +1750,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_TOFU,
        .categoryName = _("Tofu"),
-       .height = 2,
-       .weight = 5,
+       .height = 3,
+       .weight = 12,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It flits around so fast that it is hard\n"
+           "to follow with the eye. Despite its\n"
+           "speed, it is very frail and panics at\n"
+           "the slightest noise."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1727,10 +1807,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_GWO_TOFU,
        .categoryName = _("Tofu"),
-       .height = 5,
-       .weight = 200,
+       .height = 6,
+       .weight = 240,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A Tofu that ate far too much. It can no\n"
+           "longer fly, so it charges foes with its\n"
+           "round belly and flattens them into the\n"
+           "ground."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1782,10 +1865,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        //pokedex
        .natDexNum = NATIONAL_DEX_TOFU_ROYAL,
        .categoryName = _("Tofu"),
-       .height = 10,
-       .weight = 500,
+       .height = 15,
+       .weight = 700,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The king of all Tofu. Its crown is said\n"
+           "to be woven from seeds offered by its\n"
+           "subjects. A swarm of Tofu follows it\n"
+           "wherever it goes."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1834,11 +1920,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bwak Glace"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BWAK_GLACE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Chick"),
+       .height = 3,
+       .weight = 20,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It hatched from an egg left in the\n"
+           "snow. Its tiny beak is always frosted,\n"
+           "and it chirps with joy whenever a\n"
+           "blizzard begins."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1889,11 +1978,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kwak Glace"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KWAKERE_GLACE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Frost Bird"),
+       .height = 13,
+       .weight = 220,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It nests on icy peaks. With a beat of\n"
+           "its frosted wings, it can bury a valley\n"
+           "under a sudden storm of hail."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1942,11 +2033,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bwak Vent"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BWAK_VENT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Chick"),
+       .height = 3,
+       .weight = 15,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A light, fluffy chick that drifts on\n"
+           "the breeze before it can even fly. It\n"
+           "hatches from eggs laid on windy cliffs."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -1997,11 +2090,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kwak Vent"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KWAKERE_VENT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Gale Bird"),
+       .height = 13,
+       .weight = 180,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It rides the strongest winds above the\n"
+           "peaks without ever beating its wings.\n"
+           "Its cry sounds like a howling gale."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2050,11 +2145,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bwak Feu"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BWAK_FEU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Chick"),
+       .height = 3,
+       .weight = 20,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its feathers are always warm to the\n"
+           "touch. It hatches from eggs laid near\n"
+           "hot springs and sneezes sparks when it\n"
+           "is happy."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2104,11 +2202,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kwak Feu"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KWAKERE_FEU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Flame Bird"),
+       .height = 13,
+       .weight = 200,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It nests in craters and bathes in hot\n"
+           "ash. When angered, its feathers burst\n"
+           "into flame and it dives at its foes\n"
+           "like a falling star."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2157,11 +2258,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bwak Terre"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BWAK_TERRE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Chick"),
+       .height = 3,
+       .weight = 25,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "This sturdy chick pecks at pebbles all\n"
+           "day long. It hatched from an egg buried\n"
+           "in the earth and prefers walking to\n"
+           "flying."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2212,11 +2316,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kwak Terre"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KWAKERE_TERRE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Earth Bird"),
+       .height = 13,
+       .weight = 300,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its feathers are as hard as stone. It\n"
+           "dives from cliffs and strikes the ground\n"
+           "so hard that the rocks split apart."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2265,11 +2371,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tigrimas"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TIGRIMAS,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Cheery Cat"),
+       .height = 4,
+       .weight = 40,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A cheerful cat that is rarely seen. It\n"
+           "plays with little wisps of light, and\n"
+           "anyone who pets it is said to forget\n"
+           "their worries."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2320,11 +2429,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Ronronchon"),
        //pokedex
        .natDexNum = NATIONAL_DEX_RONRONCHON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Lazy Cat"),
+       .height = 9,
+       .weight = 220,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It sleeps nearly all day long. Its purr\n"
+           "has a strange power that lulls people\n"
+           "and Pokémon nearby into sweet dreams."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2373,11 +2484,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Arakne"),
        //pokedex
        .natDexNum = NATIONAL_DEX_ARAKNE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Spider"),
+       .height = 3,
+       .weight = 25,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "One of the most common Pokémon in the\n"
+           "countryside. It spins sticky webs in\n"
+           "tall grass and waits for careless prey\n"
+           "to blunder into them."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2427,11 +2541,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Araknotron"),
        //pokedex
        .natDexNum = NATIONAL_DEX_ARAKNOTRON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bark Spider"),
+       .height = 8,
+       .weight = 140,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It covers itself in strips of bark to\n"
+           "hide among roots. It drains the strength\n"
+           "of prey caught in its web, then slips\n"
+           "away into the shadows."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2482,11 +2599,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Abrakne"),
        //pokedex
        .natDexNum = NATIONAL_DEX_ABRAKNE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bark Spider"),
+       .height = 14,
+       .weight = 380,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its body is covered in bark as hard as\n"
+           "the trunks of its forest. It feeds on\n"
+           "sap and on the life of its prey, and it\n"
+           "never needs to rest for long."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2535,11 +2655,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Moskito"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MOSKITO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Mosquito"),
+       .height = 3,
+       .weight = 5,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It sneaks up on its prey with a faint\n"
+           "whine and drinks its blood. A single\n"
+           "bite leaves an itchy welt that lasts\n"
+           "a whole week."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2589,11 +2712,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Minoskito"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MINOSKITO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bloodsucker"),
+       .height = 9,
+       .weight = 60,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A huge Moskito with horns like a bull.\n"
+           "It pierces thick hides with its long\n"
+           "proboscis and can drain enough blood\n"
+           "in one go to weaken a large beast."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2642,11 +2768,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Champchamp"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CHAMP_CHAMP,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Mushroom"),
+       .height = 3,
+       .weight = 15,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It grows in the shade of damp forests.\n"
+           "When hurt, it buries its stem in the\n"
+           "soil and quickly recovers. Its spores\n"
+           "make people sneeze."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2696,11 +2825,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Champagnon"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CHAMP_A_GNON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Big Fist"),
+       .height = 12,
+       .weight = 300,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its cap is as hard as a helmet. It\n"
+           "throws wild punches at anyone who comes\n"
+           "near, then soothes its bruises in the\n"
+           "damp soil of the forest."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2749,11 +2881,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Marcacin"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MARCACIN,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Piglet"),
+       .height = 4,
+       .weight = 60,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its striped coat blends in with the\n"
+           "undergrowth. It roots around for acorns\n"
+           "all day and charges at anything that\n"
+           "startles it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2804,11 +2939,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Sanglier"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SANGLIER,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Boar"),
+       .height = 11,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It plows through bushes and fences in a\n"
+           "straight line. Its tusks can uproot\n"
+           "small trees, and its charge can knock\n"
+           "down a farmhouse door."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2859,11 +2997,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gligli"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SANGLIER_AGRESSIF,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Rampage"),
+       .height = 15,
+       .weight = 2100,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "An enraged boar that charges blindly at\n"
+           "anything that moves. Once it starts\n"
+           "running, nothing short of a stone wall\n"
+           "can stop it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2912,11 +3053,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("El Scarador"),
        //pokedex
        .natDexNum = NATIONAL_DEX_EL_SCARADOR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Beetle"),
+       .height = 3,
+       .weight = 30,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "This small beetle adapts to the place\n"
+           "where it grows up. The color its shell\n"
+           "takes when it evolves depends on the\n"
+           "land it calls home."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -2971,11 +3115,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Scarafeuille"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SCARAFEUILLE_VERT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Leaf Beetle"),
+       .height = 9,
+       .weight = 130,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It grew up among the dunes and digs\n"
+           "tunnels under the hot sand. Its green\n"
+           "shell shields it from the harshest\n"
+           "sandstorms."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3026,11 +3173,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Scarafeuille"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SCARAFEUILLE_BLEU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Leaf Beetle"),
+       .height = 9,
+       .weight = 120,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It grew up near water and swims with its\n"
+           "legs folded under its blue shell. It can\n"
+           "stay underwater for hours."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3081,11 +3230,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Scarafeuille"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SCARAFEUILLE_BLANC,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Leaf Beetle"),
+       .height = 9,
+       .weight = 100,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its pale shell is very light. It glides\n"
+           "on the wind with its wide wings and\n"
+           "rests on the highest branches."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3135,11 +3286,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Scarafeuille"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SCARAFEUILLE_ROUGE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Leaf Beetle"),
+       .height = 9,
+       .weight = 140,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It grew up near volcanoes. Its red\n"
+           "shell stays scorching hot, and it bathes\n"
+           "in embers to keep it gleaming."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3190,11 +3343,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Scarafeuille"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SCARAFEUILLE_NOIR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Leaf Beetle"),
+       .height = 9,
+       .weight = 130,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It grew up in dark caves. Its black\n"
+           "shell makes it nearly invisible, and it\n"
+           "ambushes prey that wander too far from\n"
+           "the light."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3245,11 +3401,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Scarabosse"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SCARABOSSE_DORE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Scarab"),
+       .height = 14,
+       .weight = 450,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its golden shell shines like the sun.\n"
+           "It masters the power of every land it\n"
+           "has lived in and shifts its element at\n"
+           "will to overwhelm its foes."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3298,11 +3457,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tiwabbit"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TIWABBIT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bunny"),
+       .height = 4,
+       .weight = 40,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It nibbles on cawottes from dawn to\n"
+           "dusk. Its big ears can hear a cawotte\n"
+           "being pulled from the ground from far\n"
+           "away."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3353,11 +3515,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Wabbit"),
        //pokedex
        .natDexNum = NATIONAL_DEX_WABBIT,
-       .categoryName = _("Abraknydes"),
+       .categoryName = _("Rabbit"),
        .height = 10,
-       .weight = 10,
+       .weight = 180,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Wabbits tend fields of cawottes, which\n"
+           "they revere above all else. They chase\n"
+           "anyone who steps on a sprout, waving\n"
+           "their clubs in fury."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3408,11 +3573,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Wo Wabbit"),
        //pokedex
        .natDexNum = NATIONAL_DEX_WO_WABBIT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Elder"),
+       .height = 14,
+       .weight = 450,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A wise elder respected by all Wabbits.\n"
+           "It plants cawottes wherever it goes, and\n"
+           "the young of its tribe gather to eat\n"
+           "them and regain their strength."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3461,11 +3629,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gobet"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GOBET,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Goblin"),
+       .height = 6,
+       .weight = 120,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A sly little goblin that raids camps at\n"
+           "night. It carries a spear twice its size\n"
+           "and jabs at anyone who catches it\n"
+           "red-handed."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3516,11 +3687,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gob Trotteur"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GOB_TROTTEUR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Goblin Rider"),
+       .height = 16,
+       .weight = 950,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A Gobet riding a skeletal beast. It\n"
+           "races across the plains, strikes its\n"
+           "prey in passing, and is gone before the\n"
+           "prey can fight back."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3570,11 +3744,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Sherpoa"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SHERPOA,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Porter"),
+       .height = 9,
+       .weight = 600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It roams mines and quarries with a sack\n"
+           "full of stones on its back. It scatters\n"
+           "them around its lair as traps and hurls\n"
+           "the largest ones at intruders."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3623,11 +3800,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Lapino"),
        //pokedex
        .natDexNum = NATIONAL_DEX_LAPINO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bunny"),
+       .height = 4,
+       .weight = 45,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A gentle bunny that never picks a\n"
+           "fight. It tends to the wounded Pokémon\n"
+           "it finds and stays by their side until\n"
+           "they heal."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3678,11 +3858,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Lapigro"),
        //pokedex
        .natDexNum = NATIONAL_DEX_LAPINO_MUTANT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Mutant"),
+       .height = 15,
+       .weight = 850,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A Lapino that mutated into a hulking\n"
+           "brute. It still heals its friends, but\n"
+           "it now pummels anyone who threatens\n"
+           "them with its huge fists."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3731,11 +3914,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gobgob"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GOBGOB,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Imp"),
+       .height = 5,
+       .weight = 60,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A mischievous imp that loves to play\n"
+           "tricks. It conjures copies of itself to\n"
+           "confuse its foes, then hides behind its\n"
+           "friends and giggles."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3786,11 +3972,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gobglouton"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GOBGOB_GLOUTON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Glutton"),
+       .height = 13,
+       .weight = 1100,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It eats everything its friends leave on\n"
+           "their plates. The more it eats, the\n"
+           "tougher its belly gets. It shields its\n"
+           "allies with its huge body."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3839,11 +4028,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Phorreveur"),
        //pokedex
        .natDexNum = NATIONAL_DEX_PHORREVEUR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Mole"),
+       .height = 3,
+       .weight = 40,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It digs endless tunnels in search of\n"
+           "gold. Its nose can sniff out a buried\n"
+           "nugget from far away. It hoards every\n"
+           "shiny thing it finds."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3894,11 +4086,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Metaphorreur"),
        //pokedex
        .natDexNum = NATIONAL_DEX_METAPHORREUR,
-       .categoryName = _("Abraknydes"),
+       .categoryName = _("Gold Digger"),
        .height = 10,
-       .weight = 10,
+       .weight = 420,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its huge claws tear through solid rock.\n"
+           "It digs so deep in search of gold that\n"
+           "it sometimes forgets the way back to\n"
+           "the surface."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -3949,11 +4144,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Phossile"),
        //pokedex
        .natDexNum = NATIONAL_DEX_PHOSSILE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Fossil"),
+       .height = 17,
+       .weight = 1700,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It has spent so long underground that\n"
+           "its hide has turned to stone, studded\n"
+           "with gold. It can bring down a whole\n"
+           "cave with a single blow."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4002,11 +4200,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Raphaela"),
        //pokedex
        .natDexNum = NATIONAL_DEX_RAPHAELA,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Turtle Kid"),
+       .height = 5,
+       .weight = 160,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A young turtle that trains day and night\n"
+           "with a wooden staff. It practices in the\n"
+           "rain until it can strike faster than\n"
+           "the falling drops."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4057,11 +4258,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tortue Bleue"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TORTUE_BLEU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Ninja"),
+       .height = 11,
+       .weight = 700,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A turtle ninja that wears a blue mask.\n"
+           "It glides silently through the water\n"
+           "and strikes before its foe can raise\n"
+           "its guard."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4110,11 +4314,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Dolbinos"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DOLBINOS,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Odd Bird"),
+       .height = 9,
+       .weight = 130,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A strange bird with a fickle mood. Some\n"
+           "days it flies for hours, other days it\n"
+           "refuses to leave its nest no matter\n"
+           "what."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4165,11 +4372,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Dokachu"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DOKACHU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Spark Bird"),
+       .height = 6,
+       .weight = 90,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its yellow feathers store electricity.\n"
+           "When it ruffles them, sparks crackle all\n"
+           "around. Its mood swings make its power\n"
+           "hard to predict."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4219,11 +4429,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kitsou"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KITSOU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Fox"),
+       .height = 8,
+       .weight = 95,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A magical fox that darts around so fast\n"
+           "that it seems to vanish. It flicks tiny\n"
+           "stars from its tail to dazzle anyone\n"
+           "who chases it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4272,11 +4485,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bourgeon"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BOURGEON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bud"),
+       .height = 4,
+       .weight = 30,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It looks like a harmless flower bud,\n"
+           "but it latches onto passing Pokémon\n"
+           "and slowly sips their energy."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4327,11 +4542,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bulbisauge"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BULBISAUGE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Parasite"),
+       .height = 13,
+       .weight = 600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It takes root in dense forests and\n"
+           "traps its prey in creeping vines. It\n"
+           "feeds on them until they are too weak\n"
+           "to move."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4381,11 +4599,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Sarkapwane"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SARKAPWANE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Kappa"),
+       .height = 12,
+       .weight = 450,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It lurks in rivers, hidden by the\n"
+           "flower on its head. It fires darts from\n"
+           "its blowgun at anyone who comes too\n"
+           "close to the water's edge."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4434,11 +4655,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Serpentin"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SERPENTIN,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Snake"),
+       .height = 12,
+       .weight = 70,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A small venomous snake that slithers\n"
+           "through tall grass. It hisses to warn\n"
+           "intruders before striking with its\n"
+           "fangs."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4488,11 +4712,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Serpiplume"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SERPIPLUME,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Plume Snake"),
+       .height = 40,
+       .weight = 2100,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its body is made of rings of stone and\n"
+           "crowned with red feathers. It smashes\n"
+           "boulders with its head without feeling\n"
+           "a thing."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4541,11 +4768,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Dagon"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DAGON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Shark"),
+       .height = 5,
+       .weight = 60,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A young shark that swims in schools near\n"
+           "the shore. Its teeth grow back every\n"
+           "week, so it bites anything to keep them\n"
+           "sharp."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4595,11 +4825,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Pichon"),
        //pokedex
        .natDexNum = NATIONAL_DEX_PICHON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Shark"),
+       .height = 12,
+       .weight = 380,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It hunts alone in open waters. It can\n"
+           "smell a drop of blood from far away and\n"
+           "charges at its prey with frightening\n"
+           "speed."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4650,11 +4883,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Raul Mops"),
        //pokedex
        .natDexNum = NATIONAL_DEX_RAUL_MOPS,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Spear Shark"),
+       .height = 22,
+       .weight = 1350,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A fearsome shark that hunts with a\n"
+           "spear of coral. Sailors hold their\n"
+           "breath when its fin breaks the surface\n"
+           "of the water."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4703,11 +4939,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Timansot"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TIMANSOT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Penguin"),
+       .height = 4,
+       .weight = 60,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It waddles across the ice behind its\n"
+           "parents. It slides on its belly to keep\n"
+           "up and often ends up in the water."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4757,11 +4995,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Mansobese"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MANSOBESE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Chubby"),
+       .height = 9,
+       .weight = 500,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It eats so many fish that it can barely\n"
+           "waddle. Its thick layer of fat keeps it\n"
+           "warm in the coldest blizzards."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4813,11 +5053,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Mamansot"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MAMANSOT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Mother"),
+       .height = 13,
+       .weight = 700,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It carries its chick in a pouch on its\n"
+           "belly. It will fight anyone who comes\n"
+           "near its young, no matter how strong\n"
+           "they are."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4867,11 +5110,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Fu Mansot"),
        //pokedex
        .natDexNum = NATIONAL_DEX_FU_MANSOT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Kung Fu"),
+       .height = 12,
+       .weight = 520,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A penguin that has mastered the martial\n"
+           "arts. It fights with a frozen fish and\n"
+           "trains on the ice floes from dawn to\n"
+           "dusk."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4920,11 +5166,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Mofette"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MOFETTE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Fume"),
+       .height = 6,
+       .weight = 400,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It lives near volcanic vents. Its rocky\n"
+           "body releases hot, foul-smelling fumes\n"
+           "that make the air shimmer around it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -4974,11 +5222,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Obsidiantre"),
        //pokedex
        .natDexNum = NATIONAL_DEX_OBSIDIANTRE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Obsidian"),
+       .height = 19,
+       .weight = 3200,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its body is a block of obsidian with\n"
+           "molten rock flowing through its cracks.\n"
+           "It can withstand any blow, and the\n"
+           "ground melts where it steps."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5027,11 +5278,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Crapeur"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CRAPEUR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Steam"),
+       .height = 15,
+       .weight = 1,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A cloud of scalding steam that drifts\n"
+           "out of volcanoes. Anyone who breathes it\n"
+           "in coughs for days. It scorches all that\n"
+           "it engulfs."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5080,11 +5334,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Mouchame"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MOUCHAME,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Fly"),
+       .height = 3,
+       .weight = 8,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It buzzes around garbage heaps and\n"
+           "rotting food. It spreads germs wherever\n"
+           "it lands, so people chase it with\n"
+           "brooms."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5135,11 +5392,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Morfrelon"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MORFRELON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Hornet"),
+       .height = 9,
+       .weight = 140,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A huge hornet whose sting carries a\n"
+           "deadly venom. It flies in sudden\n"
+           "zigzags that make it nearly impossible\n"
+           "to swat."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5189,11 +5449,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Volkorne"),
        //pokedex
        .natDexNum = NATIONAL_DEX_VOLKORNE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Mount"),
+       .height = 15,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It is raised as a mount by those who\n"
+           "tame it. Its horned head can break\n"
+           "down walls, and its small wings let it\n"
+           "hover over rough terrain."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5242,11 +5505,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Voracle"),
        //pokedex
        .natDexNum = NATIONAL_DEX_VORACLE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Seer"),
+       .height = 13,
+       .weight = 1600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A lion that gazes into a crystal ball.\n"
+           "It is said to foresee the outcome of a\n"
+           "battle before it begins and to strike\n"
+           "where its foe is about to be."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5295,11 +5561,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Cocholarve"),
        //pokedex
        .natDexNum = NATIONAL_DEX_COCHON_DE_FARLE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Hog"),
+       .height = 7,
+       .weight = 650,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A greedy pig that devours everything in\n"
+           "its path. It falls asleep after every\n"
+           "meal and can sleep for days on end."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5350,11 +5618,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Dracochon"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DRAGON_COCHON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Dragon Pig"),
+       .height = 17,
+       .weight = 3000,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A pig whose dragon blood has finally\n"
+           "awakened. It guards a turquoise egg and\n"
+           "strikes with uncanny precision at\n"
+           "anyone who dares to approach it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5403,11 +5674,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Scorpique"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SCORPIQUE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Scorpion"),
+       .height = 4,
+       .weight = 70,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It buries itself in hot sand, leaving\n"
+           "only its stinger poking out. It grabs\n"
+           "prey with its pincer, then stings."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5458,11 +5731,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Scordion"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SCORDION,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Scorpion"),
+       .height = 13,
+       .weight = 650,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It lurks beneath the dunes for days,\n"
+           "waiting for prey. Its venom is so potent\n"
+           "that a single sting can fell a large\n"
+           "beast."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5511,11 +5787,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gamino"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GAMINO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Calf"),
+       .height = 9,
+       .weight = 350,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A young bull-headed Pokémon that lives\n"
+           "in mazes. It never gets lost, as it can\n"
+           "sense its way through any labyrinth."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5566,11 +5844,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Minotot"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MINOTOT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Minotaur"),
+       .height = 23,
+       .weight = 2600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A cunning minotaur that guards the heart\n"
+           "of a labyrinth. Its spells turn\n"
+           "intruders into Tofu, and it watches\n"
+           "over a crimson egg."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5619,11 +5900,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Ouroboulos"),
        //pokedex
        .natDexNum = NATIONAL_DEX_OUROBOULOS,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Spiny Shell"),
+       .height = 5,
+       .weight = 120,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its armored shell is covered in spines.\n"
+           "Anyone who strikes it gets pricked, and\n"
+           "it sends the pain right back at them."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5673,11 +5956,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Mantiscore"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MANTISCORE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Armored"),
+       .height = 17,
+       .weight = 1400,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its shell is harder than steel plate.\n"
+           "It lets its foes wear themselves out\n"
+           "hitting it, then crushes them with its\n"
+           "massive body."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5726,11 +6012,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Pampactus"),
        //pokedex
        .natDexNum = NATIONAL_DEX_PAMPACTUS,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bandit"),
+       .height = 7,
+       .weight = 250,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A cactus that ambushes travelers on\n"
+           "desert roads. It wields two sabers and\n"
+           "makes off with their water."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5780,11 +6068,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Cactoblongo"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CACTOBLONGO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Cactus"),
+       .height = 19,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The leader of a band of cactus bandits.\n"
+           "Its spines are as sharp as its two\n"
+           "sabers. It robs caravans, then vanishes\n"
+           "into the dunes."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5833,11 +6124,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Chienchien"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CHIENCHIEN_ENRAGE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Stray"),
+       .height = 6,
+       .weight = 150,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A stray dog driven mad by hunger. It\n"
+           "snarls at anyone who comes near and\n"
+           "bites first, without warning."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5888,11 +6181,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Leolhyene"),
        //pokedex
        .natDexNum = NATIONAL_DEX_LEOLHYENE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Hyena"),
+       .height = 11,
+       .weight = 450,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It roams in packs and lives off what\n"
+           "other predators leave behind. Its shrill\n"
+           "laugh means it has found its prey."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5941,11 +6236,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Skyboufton"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SKYBOUFTON,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Sky Sheep"),
+       .height = 5,
+       .weight = 100,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its fluffy wool crackles with static. It\n"
+           "drifts on the breeze like a little\n"
+           "cloud and shocks anyone who pets it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -5995,11 +6292,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Skybouftou"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SKYBOUFTOU,
-       .categoryName = _("Abraknydes"),
+       .categoryName = _("Sky Sheep"),
        .height = 10,
-       .weight = 10,
+       .weight = 300,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its fleece builds up so much static that\n"
+           "it floats above the ground. On stormy\n"
+           "days, herds of them graze among the\n"
+           "clouds."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6050,11 +6350,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Dieubouftou"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DIEUBOUFTOU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Sky God"),
+       .height = 16,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It is revered as the god of all Bouftou.\n"
+           "Its fleece holds the power of a storm,\n"
+           "and its bleat rolls across the sky like\n"
+           "thunder."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6103,11 +6406,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Chienchien"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CHIENCHIEN_NOIR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Stray"),
+       .height = 6,
+       .weight = 160,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A black stray that roams back alleys.\n"
+           "It picks fights with bigger dogs to\n"
+           "prove itself to its pack."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6158,11 +6463,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Muloubard"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MULOUBARD,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Thug"),
+       .height = 17,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A wolf that walks on its hind legs and\n"
+           "acts like a street thug. It settles\n"
+           "every dispute with its fists."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6211,11 +6518,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Ecurouille"),
        //pokedex
        .natDexNum = NATIONAL_DEX_ECUROUILLE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Squirrel"),
+       .height = 4,
+       .weight = 35,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Half squirrel, half hedgehog. It curls\n"
+           "into a ball of spines when frightened\n"
+           "and stores nuts in its cheeks for the\n"
+           "winter."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6266,11 +6576,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Prespic"),
        //pokedex
        .natDexNum = NATIONAL_DEX_PRESPIC,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Hedgehog"),
+       .height = 9,
+       .weight = 220,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It vanishes into the undergrowth and\n"
+           "waits for its foe. Anyone who strikes\n"
+           "it gets a handful of sharp quills in\n"
+           "return."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6319,11 +6632,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Chacha"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CHACHA,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Wildcat"),
+       .height = 4,
+       .weight = 45,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A small, hot-tempered wildcat. It\n"
+           "hisses and swipes at anything that\n"
+           "annoys it, even its own shadow."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6373,11 +6688,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Chagouar"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CHAGOUAR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Jaguar"),
+       .height = 13,
+       .weight = 700,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A jaguar that prowls the jungle. When\n"
+           "wounded, it flies into a rage and fights\n"
+           "with twice the fury."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6426,11 +6743,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Soldalia"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SOLDALIA,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Flower Guard"),
+       .height = 6,
+       .weight = 450,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A little stone soldier inhabited by the\n"
+           "spirit of a fallen guard. A flower grows\n"
+           "from its helmet, and it keeps watch\n"
+           "over old graves."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6480,11 +6800,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Coquelicogne"),
        //pokedex
        .natDexNum = NATIONAL_DEX_COQUELICOGNE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Flower Guard"),
+       .height = 11,
+       .weight = 1100,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A poppy blooms on its stone shoulder.\n"
+           "It marches in step with others of its\n"
+           "kind and strikes harder each time one\n"
+           "of them falls."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6535,11 +6858,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Cameliache"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CAMELIACHE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Flower Guard"),
+       .height = 21,
+       .weight = 3300,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A massive stone warrior covered in moss\n"
+           "and camellias. It takes root where it\n"
+           "stands and will not budge, no matter\n"
+           "how hard it is pushed."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6588,11 +6914,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Grokillage"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GROKILLAGE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Shell"),
+       .height = 4,
+       .weight = 350,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It clamps its heavy shell shut at the\n"
+           "slightest danger. It lies on the seabed\n"
+           "for years, waiting for the day it\n"
+           "breaks free."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6643,11 +6972,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Moumoule"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MOUMOULE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Ninja"),
+       .height = 9,
+       .weight = 220,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It broke out of its shell to become a\n"
+           "ninja. It flings sharp shell fragments\n"
+           "like throwing stars, then vanishes\n"
+           "before its foes can react."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6696,11 +7028,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Craquelope"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CRAQUELOPE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Pebble"),
+       .height = 6,
+       .weight = 600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A living chunk of rock that dozes on\n"
+           "rocky plains. Travelers sometimes sit\n"
+           "on it without realizing it is a Pokémon."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6750,11 +7084,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Craqueboule"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CRAQUEBOULE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Boulder"),
+       .height = 11,
+       .weight = 2000,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It curls up into a ball and rolls down\n"
+           "slopes at full speed. It flattens all\n"
+           "in its path, but it cannot stop."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6805,11 +7141,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Craqueleur"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CRAQUELEUR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Rock Giant"),
+       .height = 25,
+       .weight = 5200,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A towering giant of stone. Each of its\n"
+           "slow steps makes the ground tremble,\n"
+           "and its fists can split boulders in\n"
+           "two."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6858,11 +7197,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Germinion"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GERMINION,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Germ"),
+       .height = 5,
+       .weight = 80,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A germ born from a demonic corruption.\n"
+           "Everything it touches withers and rots.\n"
+           "It grows by feeding on the sickness it\n"
+           "spreads."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6913,11 +7255,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gangredogue"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GANGREDOGUE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Blight"),
+       .height = 18,
+       .weight = 1300,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A hound twisted by corruption. Its\n"
+           "breath carries a deadly poison, and the\n"
+           "land where it roams turns gray and\n"
+           "lifeless."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -6966,11 +7311,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Ticroco"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BEBE_CROCOBURIO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Hatchling"),
+       .height = 5,
+       .weight = 90,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It hatches in the mud of swamps and\n"
+           "starts biting anything nearby right\n"
+           "away, its own siblings included."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7020,11 +7367,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Crocodaille"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CROCODAILLE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Crocodile"),
+       .height = 18,
+       .weight = 1200,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It lurks in the mud with only its eyes\n"
+           "showing. Its jaws snap shut with enough\n"
+           "force to crush rocks."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7074,11 +7423,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Crocoburio"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CROCOBURIO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Swamp Lord"),
+       .height = 32,
+       .weight = 2800,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Dragon blood runs through its veins. It\n"
+           "rules the marshes and guards an\n"
+           "ebony egg. Its bite carries a venom\n"
+           "that slowly saps its victims."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7127,11 +7479,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Ouassingue"),
        //pokedex
        .natDexNum = NATIONAL_DEX_OUASSINGUE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bog Spirit"),
+       .height = 5,
+       .weight = 150,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A spirit of the marshes made of mud. It\n"
+           "lurks in bogs and drags down anyone who\n"
+           "wades into its territory."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7182,11 +7536,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tourbasse"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BOURBASSINGUE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bog Spirit"),
+       .height = 12,
+       .weight = 600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its body of peat and mud oozes with\n"
+           "spectral energy. It takes the blows\n"
+           "meant for its allies, and they sink\n"
+           "harmlessly into its body."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7238,11 +7595,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Roissingue"),
        //pokedex
        .natDexNum = NATIONAL_DEX_ROISSINGUE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bog King"),
+       .height = 19,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The ruler of the haunted marshes. It\n"
+           "wields a trident of rotten wood and\n"
+           "shields its subjects with its own body."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7291,11 +7650,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Dragodinde"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DRAGODINDE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Mount"),
+       .height = 18,
+       .weight = 950,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A swift, sturdy mount raised in\n"
+           "paddocks. Breeders have crossed them\n"
+           "for generations to shape their colors\n"
+           "and temper."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7344,11 +7706,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Biblop"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BIBLOP,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
+       .categoryName = _("Jelly"),
+       .height = 2,
        .weight = 10,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A tiny drop of jelly that bounces around\n"
+           "all day. It often rides in the pouch of\n"
+           "a Koalak, which tosses it at foes when\n"
+           "danger strikes."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7398,11 +7763,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Blop"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BLOP,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Jelly"),
+       .height = 6,
+       .weight = 80,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A wobbly jelly whose color depends on\n"
+           "what it eats. Blows bounce off its body,\n"
+           "which always stays cool and damp."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7452,11 +7819,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Gloutoblop"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GLOUTOBLOP,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Glutton"),
+       .height = 15,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A huge blop that can swallow a foe in a\n"
+           "single gulp. What it swallows is never\n"
+           "seen again."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7505,11 +7874,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tikoala"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KOALAK_IMMATURE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Koala"),
+       .height = 5,
+       .weight = 80,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It carries a Biblop in its pouch like a\n"
+           "favorite toy. It only grows up once it\n"
+           "has a Blop as a friend."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7561,11 +7932,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Koalak"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KOALAK_INDIGO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Koala"),
+       .height = 13,
+       .weight = 650,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It hurls the Blops it carries in its\n"
+           "pouch at its foes. It lives on mountain\n"
+           "slopes and spends most of its time\n"
+           "chewing leaves."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7614,11 +7988,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Crasper"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CRASPER,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
+       .categoryName = _("Ghost"),
+       .height = 5,
        .weight = 10,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The ghost of a cabin boy lost at sea.\n"
+           "It roams around shipwrecks, wailing for\n"
+           "a ship that will never come."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7668,11 +8044,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Fantomayte"),
        //pokedex
        .natDexNum = NATIONAL_DEX_FANTOMAYTE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
+       .categoryName = _("Ghost"),
+       .height = 12,
        .weight = 10,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The ghost of a pirate first mate. It\n"
+           "still barks orders at sailors who\n"
+           "cannot hear it, and rattles chains to\n"
+           "frighten them."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7723,11 +8102,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Vigie Pirate"),
        //pokedex
        .natDexNum = NATIONAL_DEX_VIGIE_PIRATE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Pirate"),
+       .height = 18,
+       .weight = 650,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The ghost of a pirate lookout. It keeps\n"
+           "watch from the mast of a phantom ship\n"
+           "and bludgeons intruders with its heavy\n"
+           "mace."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7776,11 +8158,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Maletofu"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TOFU_MALEFIQUE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Wicked Bird"),
+       .height = 3,
+       .weight = 12,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A Tofu that met a cruel end and came\n"
+           "back as a ghost. Its beak drains the\n"
+           "life of its victims, and the wounds it\n"
+           "leaves will not heal."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7831,11 +8216,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Karnhell"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KARNHELL,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Hell Mount"),
+       .height = 22,
+       .weight = 1800,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A monstrous steed from beyond the\n"
+           "grave. It once carried a vampire lord\n"
+           "into battle. It shrugs off wounds that\n"
+           "would fell anything else."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7884,11 +8272,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kwoan"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KWOAN,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Skull"),
+       .height = 4,
+       .weight = 20,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A floating skull that haunts graveyards.\n"
+           "It bites anyone who disturbs the dead,\n"
+           "then floats away through the walls."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7939,11 +8329,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Chafer"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CHAFER,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Skeleton"),
+       .height = 17,
+       .weight = 300,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A skeleton warrior that rises from\n"
+           "forgotten graves. It wields a rusty\n"
+           "sword and fights on even when its bones\n"
+           "are scattered."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -7992,11 +8385,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Nodkoko"),
        //pokedex
        .natDexNum = NATIONAL_DEX_NODKOKO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Coconut"),
+       .height = 3,
+       .weight = 40,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A coconut that has sprouted legs. It\n"
+           "rolls along beaches and squirts sweet\n"
+           "juice in the eyes of anyone who bothers\n"
+           "it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8046,11 +8442,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tikoko"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TIKOKO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Palm Tree"),
+       .height = 12,
+       .weight = 250,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A young palm tree that wanders along\n"
+           "the shore. It slaps foes with its\n"
+           "fronds and sleeps standing up in the\n"
+           "sand."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8101,11 +8500,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Grokoko"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GROKOKO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Palm Tree"),
+       .height = 30,
+       .weight = 2600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A towering palm tree as heavy as stone.\n"
+           "It sways from side to side, then slams\n"
+           "its trunk into foes, scattering\n"
+           "coconuts everywhere."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8154,11 +8556,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kokulte"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KOKULTE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Snail"),
+       .height = 3,
+       .weight = 40,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A small snail that loves to spin. It\n"
+           "practices pirouettes on its shell all\n"
+           "day and leaves trails of slime\n"
+           "everywhere."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8208,11 +8613,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kaskargo"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KASKARGO,
-       .categoryName = _("Abraknydes"),
+       .categoryName = _("Spin Snail"),
        .height = 10,
-       .weight = 10,
+       .weight = 350,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It spins on its shell like a top and\n"
+           "bounces off walls to strike from any\n"
+           "angle. Its slime is so slippery that\n"
+           "its foes can barely stand."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8261,11 +8669,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Nerbe"),
        //pokedex
        .natDexNum = NATIONAL_DEX_NERBE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Weed"),
+       .height = 6,
+       .weight = 60,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A weed that sprouted in a dark jungle.\n"
+           "It chokes the plants around it and\n"
+           "scorches the ground with its toxic sap."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8315,11 +8725,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Fecorce"),
        //pokedex
        .natDexNum = NATIONAL_DEX_FECORCE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bark"),
+       .height = 15,
+       .weight = 700,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "Its bark is riddled with poison. When\n"
+           "struck, it bursts into a cloud of\n"
+           "splinters that pushes foes away."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8368,11 +8780,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Minikrone"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MINIKRONE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Pony"),
+       .height = 9,
+       .weight = 230,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A cheerful little unicorn that gallops\n"
+           "through meadows. It laughs at everything\n"
+           "and spreads joy wherever it goes."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8423,11 +8837,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Rainikrone"),
        //pokedex
        .natDexNum = NATIONAL_DEX_RAINIKRONE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Sorrow"),
+       .height = 16,
+       .weight = 650,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "As it evolves, its joy turns into a deep\n"
+           "melancholy. A small rain cloud follows\n"
+           "it everywhere, and its mood changes from\n"
+           "one moment to the next."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8476,11 +8893,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Malepik"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MALEPIK,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Prankster"),
+       .height = 5,
+       .weight = 30,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A wicked forest spirit that splits in\n"
+           "two to confuse its prey. It vanishes in\n"
+           "the blink of an eye and reappears right\n"
+           "behind them."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8530,11 +8950,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Maltrio"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MALTRIO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Trickster"),
+       .height = 12,
+       .weight = 150,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It splits into three identical copies.\n"
+           "Only one of them is real. The other two\n"
+           "vanish as soon as they are touched."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8583,11 +9005,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Corbac"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CORBAC,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Crow"),
+       .height = 4,
+       .weight = 30,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A crow that pecks at travelers to steal\n"
+           "anything shiny. Its shrill cry can make\n"
+           "a foe lose its balance."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8637,11 +9061,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Capsaaloocke"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CAAPSALOOCKE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Crow"),
+       .height = 11,
+       .weight = 200,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It leads the crows of its flock into\n"
+           "battle. It knocks foes back with a\n"
+           "powerful leap and steals their agility."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8691,11 +9117,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Corbomaitre"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MAITRE_CORBAC,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Crow Master"),
+       .height = 18,
+       .weight = 450,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The master of all crows. It keeps a\n"
+           "library of stolen secrets and wields a\n"
+           "scythe whose blade casts dark shadows."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8744,11 +9172,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kanigloups"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KANIGLOUPS,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Wolf Pup"),
+       .height = 6,
+       .weight = 150,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A wolf cub that lives in snowy pine\n"
+           "forests. It is always hungry and gulps\n"
+           "down its food without chewing."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8798,11 +9228,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Kaniglou"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KANIGLOU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Glutton Wolf"),
+       .height = 18,
+       .weight = 950,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A ravenous wolf that walks upright. It\n"
+           "lunges for the weak spot of its prey\n"
+           "and strikes harder the more it is hurt."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8851,11 +9283,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Bisouglours"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BISOUGLOURS,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Bear Cub"),
+       .height = 6,
+       .weight = 250,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A cuddly bear cub that loves honey. It\n"
+           "hugs anyone it meets, sometimes a\n"
+           "little too hard."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8906,11 +9340,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Glouragan"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GLOURAGAN,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Honey Bear"),
+       .height = 22,
+       .weight = 2500,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A massive bear that lives in a hive of\n"
+           "ice. It shields its friends with its\n"
+           "bulk and strikes back at anyone who\n"
+           "lands a blow."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -8959,11 +9396,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Blerodoudou"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BLERODOUDOU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Badger"),
+       .height = 5,
+       .weight = 120,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A badger cub with a short temper. It\n"
+           "growls and scratches at anything that\n"
+           "enters its burrow, even its parents."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9013,11 +9452,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Wolvero"),
        //pokedex
        .natDexNum = NATIONAL_DEX_WOLVERO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Wolverine"),
+       .height = 11,
+       .weight = 450,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It fights harder the more it is hurt.\n"
+           "It is so gluttonous that it gnaws on its\n"
+           "foes in the middle of a fight to regain\n"
+           "its strength."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9068,11 +9510,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Blerom"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BLEROM,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Colossus"),
+       .height = 20,
+       .weight = 1800,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A colossal badger of the glacial caves.\n"
+           "It drains the strength of its foes and\n"
+           "uses its huge body to shield the weaker\n"
+           "members of its clan."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9121,11 +9566,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Tilamproie"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TILAMPROIE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Lamprey"),
+       .height = 9,
+       .weight = 110,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It clamps its sucker mouth onto prey\n"
+           "and never lets go. It lives in sunken\n"
+           "ruins deep below the waves."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9176,11 +9623,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Mantaze"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MANTAZE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Manta"),
+       .height = 28,
+       .weight = 2200,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A huge manta that glides through sunken\n"
+           "ruins. It discharges bolts of lightning\n"
+           "that light up the darkness of the deep."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9230,11 +9679,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Muldo"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MULDO,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Mount"),
+       .height = 13,
+       .weight = 600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A mount that is as much at home in the\n"
+           "water as on land. It bounds in great\n"
+           "leaps and lends its strength to the\n"
+           "one who rides it."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9284,11 +9736,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Corailleur"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CORAILLEUR,
-       .categoryName = _("Abraknydes"),
+       .categoryName = _("Coral"),
        .height = 10,
-       .weight = 10,
+       .weight = 900,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A living coral reef that walks the\n"
+           "seabed. It flings sharp chunks of coral\n"
+           "that slow its foes down."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9337,11 +9791,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Mol Usk"),
        //pokedex
        .natDexNum = NATIONAL_DEX_MOL_USK,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Sea Slug"),
+       .height = 9,
+       .weight = 600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A giant slug from sunken ruins. It\n"
+           "leaves a trail of acidic slime behind\n"
+           "it and curls into a ball to roll over\n"
+           "its foes."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9390,11 +9847,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Demoloch"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DEMOLOCH,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Ravager"),
+       .height = 18,
+       .weight = 2200,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A demon born of nightmares. It feeds on\n"
+           "the life force of its foes and can take\n"
+           "blows that would topple a fortress."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9444,11 +9903,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Diabelial"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DIABELIAL,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Ravager"),
+       .height = 22,
+       .weight = 2800,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "It unleashes torrents of demonic power\n"
+           "that grow stronger as the fight goes on.\n"
+           "Only the bravest dare to look it in the\n"
+           "eye."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9498,11 +9960,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Typhomet"),
        //pokedex
        .natDexNum = NATIONAL_DEX_TYPHOMET,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Ravager"),
+       .height = 28,
+       .weight = 3500,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The most fearsome of its kind. It sweeps\n"
+           "foes away with a scythe of wind, and any\n"
+           "blow aimed at it is sent right back."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9551,11 +10015,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .speciesName = _("Halbardent"),
        //pokedex
        .natDexNum = NATIONAL_DEX_HALBARDENT,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Magma Knight"),
+       .height = 19,
+       .weight = 1300,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "The burning remains of a warrior who\n"
+           "fell in a sea of magma. It still wields\n"
+           "its halberd, which glows red-hot."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9606,11 +10072,14 @@ FOOTPRINT(Halbardent)
        .speciesName = _("Klemor"),
        //pokedex
        .natDexNum = NATIONAL_DEX_KLEMOR,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Magma Knight"),
+       .height = 21,
+       .weight = 1600,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "An undead swordsman forged in magma.\n"
+           "Its blade melts through armor, and it\n"
+           "draws its foes into the heat of its\n"
+           "body."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9659,11 +10128,13 @@ FOOTPRINT(Klemor)
        .speciesName = _("Dragoune"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DRAGOUNE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Dragonling"),
+       .height = 5,
+       .weight = 70,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A little dragon summoned by tamers. It\n"
+           "breathes out tiny flames that are more\n"
+           "warm than dangerous."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9714,11 +10185,13 @@ FOOTPRINT(Klemor)
        .speciesName = _("Dragonnet"),
        //pokedex
        .natDexNum = NATIONAL_DEX_DRAGONNET,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Dragonling"),
+       .height = 12,
+       .weight = 450,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A fiery dragon that swaps places with\n"
+           "its foes, then breathes cones of flame\n"
+           "that send them flying."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9770,11 +10243,14 @@ FOOTPRINT(Klemor)
        .speciesName = _("Crocabulia"),
        //pokedex
        .natDexNum = NATIONAL_DEX_CROCABULIA,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Guardian"),
+       .height = 40,
+       .weight = 5500,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A mighty dragon that protects its eggs\n"
+           "with fierce devotion. It guards a\n"
+           "precious egg said to grant great speed\n"
+           "and strength."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9823,11 +10299,13 @@ FOOTPRINT(Klemor)
        .speciesName = _("Sinistrofu"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SINISTROFU,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Clock Owl"),
+       .height = 4,
+       .weight = 120,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A mechanical owl built by a clockmaker.\n"
+           "It darts around tirelessly, and its\n"
+           "gears tick louder when it spots prey."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9877,11 +10355,13 @@ FOOTPRINT(Klemor)
        .speciesName = _("Nocturlabe"),
        //pokedex
        .natDexNum = NATIONAL_DEX_NOCTURLABE,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Clock Owl"),
+       .height = 16,
+       .weight = 3800,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A heavy mechanical owl. Its brass body\n"
+           "weighs so much that it barely flies, but\n"
+           "it rams its foes like a falling anvil."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
@@ -9933,11 +10413,14 @@ FOOTPRINT(Klemor)
        .speciesName = _("Granduk"),
        //pokedex
        .natDexNum = NATIONAL_DEX_GRANDUK,
-       .categoryName = _("Abraknydes"),
-       .height = 10,
-       .weight = 10,
+       .categoryName = _("Clock Owl"),
+       .height = 19,
+       .weight = 1800,
        .description = COMPOUND_STRING(
-           "Placeholder."),
+           "A great mechanical owl whose gears\n"
+           "never stop turning. It strikes harder\n"
+           "when damaged and turns every blow back\n"
+           "against its attacker."),
        .pokemonScale = 1,
        .pokemonOffset = 0,
        .trainerScale = 1,
