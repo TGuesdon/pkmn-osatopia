@@ -21548,6 +21548,27 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_NightSlash,
     },
 
+    [MOVE_RADICULE] =
+    {
+        .name = COMPOUND_STRING("Radicule"),
+        .description = COMPOUND_STRING(
+            "Fouette avec une racine qui\n"
+            "annule les stats modifiées."),
+        .effect = EFFECT_HIT,
+        .power = 70,
+        .type = TYPE_GRASS,
+        .accuracy = 100,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_CLEAR_SMOG,
+        }),
+        .battleAnimScript = gBattleAnimMove_PowerWhip,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
