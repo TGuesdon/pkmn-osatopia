@@ -5,20 +5,21 @@
 
 ## Animations des attaques custom
 
-Aucune attaque custom n'a d'animation dédiée : toutes réutilisent celle d'une attaque existante (`.battleAnimScript` dans `src/data/moves_info.h`, section `// Osatopia`). Les scripts sont dans `data/battle_anim_scripts.s`. Exemple d'animation maison : `gBattleAnimStatus_Bleed`, une griffure suivie d'un clignotement rouge, faite à partir de Griffe et du Poison.
+Les attaques custom réutilisent l'animation d'une attaque existante, sauf celles marquées d'un script dédié (`.battleAnimScript` dans `src/data/moves_info.h`, section `// Osatopia`). Les scripts sont dans `data/battle_anim_scripts.s`. Les scripts dédiés sont regroupés sous « Osatopia : animations des attaques custom », et le test `test/battle/move_animations/all_anims.c` (avec `T_SHOULD_RUN_MOVE_ANIM` et `ANIM_TEST_START_MOVE MOVES_COUNT_GEN9`) vérifie qu'ils ne laissent pas de sprites orphelins. Exemple d'animation maison : `gBattleAnimStatus_Bleed`, une griffure suivie d'un clignotement rouge, faite à partir de Griffe et du Poison.
 
 Priorité : 🔴 l'animation actuelle trompe sur l'effet · 🟠 correcte mais générique · 🟢 elle convient.
 
-- [ ] 🔴 **Bave Fatale** (Poison, K.O. en un coup) — actuelle : Toxik. Proposition : un glyphe de bave au sol puis un jet de boue (Détricanon), cible teintée de violet.
-- [ ] 🔴 **Gloutage** (Eau, K.O. en un coup) — actuelle : Mâchouille. Proposition : la cible est aspirée (Avale) puis disparaît, avec un éclat d'eau.
-- [ ] 🔴 **Lancer Blop** (Eau, physique) — actuelle : Écume. Proposition : un projectile en cloche (Canon Graine ou Bombe Œuf) recoloré en bleu, éclaboussure à l'impact.
-- [ ] 🟠 **Galop** (Normal, pivot) — actuelle : Charge. Proposition : course et sabots (Écrasement ou Damoclès), puis le lanceur sort comme avec Demi-Tour.
-- [ ] 🟠 **Filon d'Or** (Sol, physique, rapporte de l'argent) — actuelle : Jackpot. Proposition : des pépites dorées jaillissent du sol (Jet-Pierres recoloré en or), puis les pièces de Jackpot.
-- [ ] 🟠 **Tofuïsation** (Psy, change la cible en type Vol) — actuelle : Poudre Magique. Proposition : un nuage de plumes (Danse Plumes) autour de la cible, qui vire au jaune Tofu.
-- [ ] 🟠 **Potager** (Normal, plante des cawottes qui soignent) — actuelle : Racines. Proposition : des cawottes (sprite de baie recoloré en orange) qui poussent autour du lanceur.
-- [ ] 🟠 **Déchirure** (Ténèbres, fait saigner) — actuelle : Éclate Griffe. Proposition : garder Éclate Griffe et ajouter le clignotement rouge sang de `gBattleAnimStatus_Bleed`.
-- [ ] 🟠 **Lacération** (Ténèbres, 10 % de saignement) — actuelle : Tranche-Nuit. Proposition : Tranche-Nuit avec des entailles recolorées en rouge.
+- [x] 🔴 **Bave Fatale** (Poison, K.O. en un coup) — `gBattleAnimMove_BaveFatale` : bulles de Toxik sous la cible, jet de Détricanon raccourci, cible teintée de violet.
+- [x] 🔴 **Gloutage** (Eau, K.O. en un coup) — `gBattleAnimMove_Gloutage` : mâchoire d'eau de Croc Fatal, puis crocs de Mâchouille teintés en bleu sur fond sombre, cible teintée de bleu profond.
+- [x] 🔴 **Lancer Blop** (Eau, physique) — `gBattleAnimMove_LancerBlop` : œuf de Bombe Œuf teinté en bleu lancé en cloche, éclaboussure de Pistolet à O à l'impact.
+- [x] 🟠 **Galop** (Normal, pivot) — `gBattleAnimMove_Galop` : le lanceur fonce en boule de poussière comme avec Demi-Tour, piétine deux fois (sabots d'Écrasement) et revient.
+- [x] 🟠 **Filon d'Or** (Sol, physique, rapporte de l'argent) — `gBattleAnimMove_FilonDor` : le sol tremble, des pépites (Jet-Pierres teinté en or) tombent sur la cible, puis les pièces de Jackpot.
+- [x] 🟠 **Tofuïsation** (Psy, change la cible en type Vol) — `gBattleAnimMove_Tofuisation` : plumes de Danse Plumes teintées en jaune Tofu, puis la cible vire au jaune et se déforme.
+- [x] 🟠 **Potager** (Normal, plante des cawottes qui soignent) — `gBattleAnimMove_Potager` : les racines de Racines, teintées en orange cawotte, poussent autour du lanceur.
+- [x] 🟠 **Déchirure** (Ténèbres, fait saigner) — `gBattleAnimMove_Dechirure` : Éclate Griffe aux griffes rouges, puis le clignotement rouge sang du Saignement.
+- [x] 🟠 **Lacération** (Ténèbres, 10 % de saignement) — `gBattleAnimMove_Laceration` : Tranche-Nuit aux entailles rouge sang.
 - [ ] 🟢 **Filante** (Fée, pivot) — actuelle : Météores. Les étoiles conviennent.
 - [ ] 🟢 **Sarbacane** (Eau, 2 à 5 coups) — actuelle : Pistolet à O. Ça convient ; une variante plus fine (Hydro-Queue réduite) serait un plus.
 - [ ] 🟢 **Masse Ombre** (Spectre, physique) — actuelle : Os Ombre. Ça convient.
+- [ ] 🟢 **Radicule** (Plante, annule les stats modifiées) — actuelle : Mégafouet. Ça convient ; un nuage blanc (Bain de Smog) pour la remise à zéro serait un plus.
 - [ ] 🟢 **Lait de Coco** (Plante, soin) — actuelle : Lait à Boire. Ça convient ; recolorer en blanc et vert serait un plus.

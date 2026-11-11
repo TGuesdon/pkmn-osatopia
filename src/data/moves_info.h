@@ -21309,7 +21309,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
         .snatchAffected = TRUE,
-        .battleAnimScript = gBattleAnimMove_Ingrain,
+        .battleAnimScript = gBattleAnimMove_Potager,
     },
 
     [MOVE_FILON_DOR] =
@@ -21329,7 +21329,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PAYDAY,
         }),
-        .battleAnimScript = gBattleAnimMove_PayDay,
+        .battleAnimScript = gBattleAnimMove_FilonDor,
     },
 
     [MOVE_FILANTE] =
@@ -21382,7 +21382,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
-        .battleAnimScript = gBattleAnimMove_Tackle,
+        .battleAnimScript = gBattleAnimMove_Galop,
     },
 
     [MOVE_TOFUISATION] =
@@ -21401,7 +21401,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .category = DAMAGE_CATEGORY_STATUS,
         .argument = { .type = TYPE_FLYING },
         .magicCoatAffected = TRUE,
-        .battleAnimScript = gBattleAnimMove_MagicPowder,
+        .battleAnimScript = gBattleAnimMove_Tofuisation,
     },
 
     [MOVE_GLOUTAGE] =
@@ -21419,7 +21419,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
-        .battleAnimScript = gBattleAnimMove_Crunch,
+        .battleAnimScript = gBattleAnimMove_Gloutage,
     },
 
     [MOVE_LANCER_BLOP] =
@@ -21441,7 +21441,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1,
             .chance = 100,
         }),
-        .battleAnimScript = gBattleAnimMove_Bubble,
+        .battleAnimScript = gBattleAnimMove_LancerBlop,
     },
 
     [MOVE_MASSE_OMBRE] =
@@ -21502,7 +21502,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
-        .battleAnimScript = gBattleAnimMove_Toxic,
+        .battleAnimScript = gBattleAnimMove_BaveFatale,
     },
 
     [MOVE_DECHIRURE] =
@@ -21522,7 +21522,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .argument = { .nonVolatileStatus = MOVE_EFFECT_BLEED },
         .zMove = { .effect = Z_EFFECT_ATK_UP_1 },
         .magicCoatAffected = TRUE,
-        .battleAnimScript = gBattleAnimMove_CrushClaw,
+        .battleAnimScript = gBattleAnimMove_Dechirure,
     },
 
     [MOVE_LACERATION] =
@@ -21545,7 +21545,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_BLEED,
             .chance = 10,
         }),
-        .battleAnimScript = gBattleAnimMove_NightSlash,
+        .battleAnimScript = gBattleAnimMove_Laceration,
     },
 
     [MOVE_RADICULE] =
