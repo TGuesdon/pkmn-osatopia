@@ -34,6 +34,12 @@
   "normal.pal": "adb97ca26a87219e",
   "shiny.pal": "adb97ca26a87219e"
  },
+ "bacterrib": {
+  "anim_front.png": "4bc7f55c4c350407",
+  "back.png": "78d0fb96234da5b0",
+  "normal.pal": "2f88a476d4442a54",
+  "shiny.pal": "2f88a476d4442a54"
+ },
  "bebe_crocoburio": {
   "anim_front.png": "ff60a1e5946e036e",
   "back.png": "30a36a22d3b2ba28",
@@ -1111,6 +1117,12 @@
   "normal.pal": "bfdac025cdb7de46",
   "shiny.pal": "bfdac025cdb7de46"
  },
+ "tabacille": {
+  "anim_front.png": "fefe6257f9a045e7",
+  "back.png": "12fba861a0429fdd",
+  "normal.pal": "8dbf2604e7f1c48f",
+  "shiny.pal": "8dbf2604e7f1c48f"
+ },
  "tifoux": {
   "anim_front.png": "fc405827f428f09f",
   "back.png": "785a484ae308f1c6",
@@ -1222,6 +1234,12 @@
   "front.png": "3d512e16e4afe71f",
   "normal.pal": "afa782ad1ecb0c4a",
   "shiny.pal": "afa782ad1ecb0c4a"
+ },
+ "virustine": {
+  "anim_front.png": "d9be9fe427724745",
+  "back.png": "14de484a86e73c95",
+  "normal.pal": "1dfade7141bb9dac",
+  "shiny.pal": "1dfade7141bb9dac"
  },
  "volkorne": {
   "anim_front.png": "e568044e7658ddb2",

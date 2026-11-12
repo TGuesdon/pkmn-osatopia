@@ -304,6 +304,9 @@ static const enum NationalDexOrder sHoennToNationalOrder[HOENN_DEX_COUNT] =
     HOENN_TO_NATIONAL(SINISTROFU),
     HOENN_TO_NATIONAL(NOCTURLABE),
     HOENN_TO_NATIONAL(GRANDUK),
+    HOENN_TO_NATIONAL(VIRUSTINE),
+    HOENN_TO_NATIONAL(BACTERRIB),
+    HOENN_TO_NATIONAL(TABACILLE),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =

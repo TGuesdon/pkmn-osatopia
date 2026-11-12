@@ -1449,6 +1449,30 @@
     "face": 3,
     "dos": 7
    }
+  },
+  "virustine": {
+   "dofus": {
+    "id": 3826,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "petit"
+  },
+  "bacterrib": {
+   "dofus": {
+    "id": 3825,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "moyen"
+  },
+  "tabacille": {
+   "dofus": {
+    "id": 3823,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "grand"
   }
  }
 }
