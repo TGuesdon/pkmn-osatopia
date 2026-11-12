@@ -1847,7 +1847,7 @@
 #define SPECIES_SINISTROFU                              1727
 #define SPECIES_NOCTURLABE                              1728
 #define SPECIES_GRANDUK                                 1729
-// 1730 : SPECIES_GAMBAF (intégré sur une autre branche)
+#define SPECIES_GAMBAF                                  1730
 #define SPECIES_CRABE                                   1731
 #define SPECIES_CRUSTORAIL                              1732
 #define SPECIES_VIRUSTINE                               1733

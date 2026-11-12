@@ -29,6 +29,7 @@ nom français de conception.
 | Lacération | Laceration | `MOVE_LACERATION` |
 | Radicule | Radicle | `MOVE_RADICULE` |
 | Pince de Corail | Coral Claw | `MOVE_PINCE_DE_CORAIL` |
+| Bond Météore | Meteor Leap | `MOVE_BOND_METEORE` |
 
 ## Talents
 | Nom de conception (fiches) | Nom en jeu | Constante |
