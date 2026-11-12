@@ -28,6 +28,7 @@ nom français de conception.
 | Déchirure | Rend | `MOVE_DECHIRURE` |
 | Lacération | Laceration | `MOVE_LACERATION` |
 | Radicule | Radicle | `MOVE_RADICULE` |
+| Pince de Corail | Coral Claw | `MOVE_PINCE_DE_CORAIL` |
 
 ## Talents
 | Nom de conception (fiches) | Nom en jeu | Constante |

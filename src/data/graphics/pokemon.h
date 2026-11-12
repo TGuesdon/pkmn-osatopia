@@ -28069,3 +28069,17 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPalette_Tabacille[] = INCBIN_U16("graphics/pokemon/tabacille/shiny.gbapal");
     const u8 gMonIcon_Tabacille[] = INCBIN_U8("graphics/pokemon/tabacille/icon.4bpp");
     const u8 gMonFootprint_Tabacille[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Crabe[] = INCBIN_U32("graphics/pokemon/crabe/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Crabe[] = INCBIN_U32("graphics/pokemon/crabe/back.4bpp.lz");
+    const u16 gMonPalette_Crabe[] = INCBIN_U16("graphics/pokemon/crabe/normal.gbapal");
+    const u16 gMonShinyPalette_Crabe[] = INCBIN_U16("graphics/pokemon/crabe/shiny.gbapal");
+    const u8 gMonIcon_Crabe[] = INCBIN_U8("graphics/pokemon/crabe/icon.4bpp");
+    const u8 gMonFootprint_Crabe[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Crustorail[] = INCBIN_U32("graphics/pokemon/crustorail/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Crustorail[] = INCBIN_U32("graphics/pokemon/crustorail/back.4bpp.lz");
+    const u16 gMonPalette_Crustorail[] = INCBIN_U16("graphics/pokemon/crustorail/normal.gbapal");
+    const u16 gMonShinyPalette_Crustorail[] = INCBIN_U16("graphics/pokemon/crustorail/shiny.gbapal");
+    const u8 gMonIcon_Crustorail[] = INCBIN_U8("graphics/pokemon/crustorail/icon.4bpp");
+    const u8 gMonFootprint_Crustorail[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
