@@ -309,6 +309,7 @@ static const enum NationalDexOrder sHoennToNationalOrder[HOENN_DEX_COUNT] =
     HOENN_TO_NATIONAL(TABACILLE),
     HOENN_TO_NATIONAL(CRABE),
     HOENN_TO_NATIONAL(CRUSTORAIL),
+    HOENN_TO_NATIONAL(GAMBAF),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =

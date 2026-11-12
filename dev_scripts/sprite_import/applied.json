@@ -478,6 +478,12 @@
   "normal.pal": "ea9fcdbbfdef1333",
   "shiny.pal": "ea9fcdbbfdef1333"
  },
+ "gambaf": {
+  "anim_front.png": "633d8fb4cc2f919a",
+  "back.png": "130618dad06747da",
+  "normal.pal": "51aa95d7840b081b",
+  "shiny.pal": "51aa95d7840b081b"
+ },
  "gamino": {
   "anim_front.png": "ed6b77e4708069d9",
   "back.png": "c0986add5a8ad2b6",

@@ -1489,6 +1489,14 @@
     "dos": 5
    },
    "taille": "grand"
+  },
+  "gambaf": {
+   "dofus": {
+    "id": 4457,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "moyen"
   }
  }
 }

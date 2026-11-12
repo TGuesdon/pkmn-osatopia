@@ -21592,6 +21592,25 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_Crabhammer,
     },
 
+    [MOVE_BOND_METEORE] =
+    {
+        .name = COMPOUND_STRING("Meteor Leap"),
+        .description = COMPOUND_STRING(
+            "Warps to the foe and punches\n"
+            "both foes. Never misses."),
+        .effect = EFFECT_HIT,
+        .power = 80,
+        .type = TYPE_WATER,
+        .accuracy = 0,
+        .pp = 10,
+        .target = MOVE_TARGET_BOTH,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .punchingMove = TRUE,
+        .battleAnimScript = gBattleAnimMove_JetPunch,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

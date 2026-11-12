@@ -10731,4 +10731,61 @@ FOOTPRINT(Klemor)
        .teachableLearnset = sCrustorailTeachableLearnset,
        FOOTPRINT(Crustorail)
     },
+    [SPECIES_GAMBAF] =
+    {
+       .baseHP        = 70,
+       .baseAttack    = 130,
+       .baseDefense   = 75,
+       .baseSpeed     = 120,
+       .baseSpAttack  = 50,
+       .baseSpDefense = 65,
+       .types = MON_TYPES(TYPE_WATER, TYPE_FIGHTING),
+       .catchRate = 45,
+       .expYield = 190,
+       .evYield_Attack = 2,
+       .evYield_Speed = 1,
+       .genderRatio = PERCENT_FEMALE(50),
+       .eggCycles = 20,
+       .friendship = STANDARD_FRIENDSHIP,
+       .growthRate = GROWTH_SLOW,
+       .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3),
+       .abilities = { ABILITY_IRON_FIST, ABILITY_SCRAPPY, ABILITY_MOXIE },
+       .bodyColor = BODY_COLOR_GREEN,
+       .speciesName = _("Gambaf"),
+       //pokedex
+       .natDexNum = NATIONAL_DEX_GAMBAF,
+       .categoryName = _("Boxer Shrimp"),
+       .height = 10,
+       .weight = 450,
+       .description = COMPOUND_STRING(
+           "It throws punches faster than the eye\n"
+           "can follow. Its club-like fists strike\n"
+           "so hard that the water around them\n"
+           "boils and the sunken ruins crack."),
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 259,
+       .trainerOffset = 0,
+       //graphics
+       .frontPic = gMonFrontPic_Gambaf,
+       .frontPicSize = MON_COORDS_SIZE(64, 64),
+       .frontPicYOffset = 0,
+       .frontAnimFrames = ANIM_FRAMES(
+           ANIMCMD_FRAME(0, 1),
+       ),
+       .frontAnimId = ANIM_GROW_VIBRATE,
+       .frontAnimDelay = 15,
+       .enemyMonElevation = 0,
+       .backPic = gMonBackPic_Gambaf,
+       .backPicSize = MON_COORDS_SIZE(64, 64),
+       .backPicYOffset = 10,
+       .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+       .palette = gMonPalette_Gambaf,
+       .shinyPalette = gMonShinyPalette_Gambaf,
+       .iconSprite = gMonIcon_Gambaf,
+       .iconPalIndex = 3,
+       .levelUpLearnset = sGambafLevelUpLearnset,
+       .teachableLearnset = sGambafTeachableLearnset,
+       FOOTPRINT(Gambaf)
+    },
 };

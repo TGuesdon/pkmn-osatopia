@@ -28083,3 +28083,10 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPalette_Crustorail[] = INCBIN_U16("graphics/pokemon/crustorail/shiny.gbapal");
     const u8 gMonIcon_Crustorail[] = INCBIN_U8("graphics/pokemon/crustorail/icon.4bpp");
     const u8 gMonFootprint_Crustorail[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Gambaf[] = INCBIN_U32("graphics/pokemon/gambaf/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Gambaf[] = INCBIN_U32("graphics/pokemon/gambaf/back.4bpp.lz");
+    const u16 gMonPalette_Gambaf[] = INCBIN_U16("graphics/pokemon/gambaf/normal.gbapal");
+    const u16 gMonShinyPalette_Gambaf[] = INCBIN_U16("graphics/pokemon/gambaf/shiny.gbapal");
+    const u8 gMonIcon_Gambaf[] = INCBIN_U8("graphics/pokemon/gambaf/icon.4bpp");
+    const u8 gMonFootprint_Gambaf[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
