@@ -1473,6 +1473,22 @@
     "dos": 7
    },
    "taille": "grand"
+  },
+  "crabe": {
+   "dofus": {
+    "id": 63,
+    "face": 3,
+    "dos": 5
+   },
+   "taille": "petit"
+  },
+  "crustorail": {
+   "dofus": {
+    "id": 1060,
+    "face": 1,
+    "dos": 5
+   },
+   "taille": "grand"
   }
  }
 }

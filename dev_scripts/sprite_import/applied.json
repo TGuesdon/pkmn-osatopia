@@ -277,6 +277,12 @@
   "normal.pal": "c156d9a509b82594",
   "shiny.pal": "c156d9a509b82594"
  },
+ "crabe": {
+  "anim_front.png": "0a1f4a8e4dd1f8db",
+  "back.png": "eccd31ad117fbe0a",
+  "normal.pal": "2faf129908ddd4b4",
+  "shiny.pal": "2faf129908ddd4b4"
+ },
  "crachefoux": {
   "anim_front.png": "d166b621662465cb",
   "back.png": "089f2813c503f098",
@@ -346,6 +352,12 @@
   "front.png": "733439b7c0a86100",
   "normal.pal": "0c511eeeaf9236e1",
   "shiny.pal": "0c511eeeaf9236e1"
+ },
+ "crustorail": {
+  "anim_front.png": "d59753d411af5b83",
+  "back.png": "6424d801577e4278",
+  "normal.pal": "7270c397e6fa555a",
+  "shiny.pal": "7270c397e6fa555a"
  },
  "dagon": {
   "anim_front.png": "cafcd682c2dffbdb",

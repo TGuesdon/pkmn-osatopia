@@ -21569,6 +21569,29 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_PowerWhip,
     },
 
+    [MOVE_PINCE_DE_CORAIL] =
+    {
+        .name = COMPOUND_STRING("Coral Claw"),
+        .description = COMPOUND_STRING(
+            "A coral pincer strike that\n"
+            "raises the user's Attack."),
+        .effect = EFFECT_HIT,
+        .power = 40,
+        .type = TYPE_WATER,
+        .accuracy = 100,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_ATK_PLUS_1,
+            .self = TRUE,
+            .chance = 100,
+        }),
+        .battleAnimScript = gBattleAnimMove_Crabhammer,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
