@@ -36,40 +36,85 @@
  "monsters": {
   "bebe_crocoburio": {
    "source": "crocoburio",
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 5516,
+    "face": 3,
+    "dos": 7
+   }
   },
   "boufton": {
    "source": "boufton_blanc",
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 134,
+    "face": 3,
+    "dos": 7
+   }
   },
   "chacha": {
    "source": "chachaton",
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4256,
+    "face": 3,
+    "dos": 7
+   }
   },
   "dieubouftou": {
    "source": "belier_divin",
    "visible_alpha": 0.6,
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6780,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bouftou_royal": {
    "segmentation": "flood",
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 147,
+    "face": 3,
+    "dos": 7
+   }
   },
   "dragodinde": {
    "source": "dragodindo",
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 200,
+    "face": 3,
+    "dos": 7
+   }
   },
   "gwo_tofu": {
    "source": "tofu_ventripotent",
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 808,
+    "face": 3,
+    "dos": 7
+   }
   },
   "kwakere_feu": {
    "source": "kwakere_flamme",
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 269,
+    "face": 3,
+    "dos": 7
+   }
   },
   "marcacin": {
    "source": "barnabe",
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 3986,
+    "face": 3,
+    "dos": 7
+   }
   },
   "skyboufton": {
    "source": "jeune_boufton_celeste",
@@ -77,15 +122,30 @@
   },
   "skybouftou": {
    "source": "bouftou_celeste",
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2781,
+    "face": 3,
+    "dos": 7
+   }
   },
   "crocoburio": {
    "source": "crocoburio_big",
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 5394,
+    "face": 3,
+    "dos": 7
+   }
   },
   "kitsou": {
    "segmentation": "flood",
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6375,
+    "face": 3,
+    "dos": 7
+   }
   },
   "lapino": {
    "back": {
@@ -99,15 +159,30 @@
   },
   "larve_champetre": {
    "visible_alpha": 0.5,
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4548,
+    "face": 3,
+    "dos": 7
+   }
   },
   "mouchame": {
    "visible_alpha": 0.04,
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 3760,
+    "face": 3,
+    "dos": 7
+   }
   },
   "morfrelon": {
    "visible_alpha": 0.04,
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 3739,
+    "face": 3,
+    "dos": 7
+   }
   },
   "lapino_mutant": {
    "back": {
@@ -126,7 +201,12 @@
     224
    ],
    "thin_cut": 0.05,
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 7608,
+    "face": 3,
+    "dos": 7
+   }
   },
   "minoskito": {
    "translucent_over": [
@@ -136,7 +216,12 @@
    ],
    "visible_alpha": 0.2,
    "thin_cut": 0.05,
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 834,
+    "face": 3,
+    "dos": 7
+   }
   },
   "cameliache": {
    "front": {
@@ -146,23 +231,48 @@
     "shadow_from": 0.5
    },
    "line_lum": 35,
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 7206,
+    "face": 3,
+    "dos": 7
+   }
   },
   "mol_usk": {
    "visible_alpha": 0.85,
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4455,
+    "face": 3,
+    "dos": 7
+   }
   },
   "maltrio": {
    "line_lum": 25,
    "line_fraction": 0.3,
    "thin_cut": 0.06,
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6871,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tronknyde": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 256,
+    "face": 3,
+    "dos": 7
+   }
   },
   "abraknyde": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 47,
+    "face": 3,
+    "dos": 7
+   }
   },
   "abrakleur": {
    "taille": "enorme",
@@ -172,151 +282,391 @@
    "taille": "moyen"
   },
   "rouquette": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6252,
+    "face": 3,
+    "dos": 7
+   }
   },
   "crachefoux": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2303,
+    "face": 3,
+    "dos": 7
+   }
   },
   "titardo": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 6184,
+    "face": 3,
+    "dos": 7
+   }
   },
   "crapodo": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 6183,
+    "face": 3,
+    "dos": 7
+   }
   },
   "grenn": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 7338,
+    "face": 3,
+    "dos": 7
+   }
   },
   "sousouris": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 5096,
+    "face": 3,
+    "dos": 7
+   }
   },
   "milirat": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 475,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bouftou": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 36,
+    "face": 3,
+    "dos": 7
+   }
   },
   "cdg_bouftou": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 148,
+    "face": 3,
+    "dos": 7
+   }
   },
   "gardienne_champetre": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4821,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tournesol_sauvage": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 48,
+    "face": 3,
+    "dos": 7
+   }
   },
   "larve_jaune": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 7988,
+    "face": 3,
+    "dos": 7
+   }
   },
   "shin_larve": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 457,
+    "face": 3,
+    "dos": 7
+   }
   },
   "disciple_kimbo": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 1088,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bitouf_plaine": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 1019,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bitouf_aerien": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 1020,
+    "face": 3,
+    "dos": 7
+   }
   },
   "folle": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 114,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bloqueuse": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 115,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tofu": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 98,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tofu_royal": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 382,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bwak_glace": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 3282,
+    "face": 3,
+    "dos": 7
+   }
   },
   "kwakere_glace": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 271,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bwak_vent": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 267,
+    "face": 3,
+    "dos": 7
+   }
   },
   "kwakere_vent": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 272,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bwak_feu": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 265,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bwak_terre": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 266,
+    "face": 3,
+    "dos": 7
+   }
   },
   "kwakere_terre": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 270,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tigrimas": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4106,
+    "face": 3,
+    "dos": 7
+   }
   },
   "ronronchon": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4105,
+    "face": 3,
+    "dos": 7
+   }
   },
   "arakne": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 52,
+    "face": 3,
+    "dos": 7
+   }
   },
   "araknotron": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 917,
+    "face": 3,
+    "dos": 7
+   }
   },
   "abrakne": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 650,
+    "face": 3,
+    "dos": 7
+   }
   },
   "champchamp": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 59,
+    "face": 3,
+    "dos": 7
+   }
   },
   "champ_a_gnon": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 1158,
+    "face": 3,
+    "dos": 7
+   }
   },
   "sanglier": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2769,
+    "face": 3,
+    "dos": 7
+   }
   },
   "sanglier_agressif": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 297,
+    "face": 3,
+    "dos": 7
+   }
   },
   "el_scarador": {
    "taille": "moyen"
   },
   "scarafeuille_vert": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 240,
+    "face": 3,
+    "dos": 7
+   }
   },
   "scarafeuille_bleu": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 198,
+    "face": 3,
+    "dos": 7
+   }
   },
   "scarafeuille_blanc": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 241,
+    "face": 3,
+    "dos": 7
+   }
   },
   "scarafeuille_rouge": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 194,
+    "face": 3,
+    "dos": 7
+   }
   },
   "scarafeuille_noir": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 795,
+    "face": 3,
+    "dos": 7
+   }
   },
   "scarabosse_dore": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 797,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tiwabbit": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 96,
+    "face": 3,
+    "dos": 7
+   }
   },
   "wabbit": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 64,
+    "face": 3,
+    "dos": 7
+   }
   },
   "wo_wabbit": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 97,
+    "face": 3,
+    "dos": 7
+   }
   },
   "gobet": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 178,
+    "face": 3,
+    "dos": 7
+   }
   },
   "gob_trotteur": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 62,
+    "face": 3,
+    "dos": 7
+   }
   },
   "sherpoa": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 5229,
+    "face": 3,
+    "dos": 7
+   }
   },
   "gobgob": {
    "taille": "enorme"
@@ -325,307 +675,780 @@
    "taille": "enorme"
   },
   "phorreveur": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 3658,
+    "face": 3,
+    "dos": 7
+   }
   },
   "metaphorreur": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 3659,
+    "face": 3,
+    "dos": 7
+   }
   },
   "phossile": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 3651,
+    "face": 3,
+    "dos": 7
+   }
   },
   "raphaela": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 944,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tortue_bleu": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 221,
+    "face": 3,
+    "dos": 7
+   }
   },
   "dolbinos": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4176,
+    "face": 3,
+    "dos": 7
+   }
   },
   "dokachu": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4177,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bourgeon": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 6328,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bulbisauge": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 705,
+    "face": 3,
+    "dos": 7
+   }
   },
   "sarkapwane": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6203,
+    "face": 3,
+    "dos": 7
+   }
   },
   "serpentin": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 288,
+    "face": 3,
+    "dos": 7
+   }
   },
   "serpiplume": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 829,
+    "face": 3,
+    "dos": 7
+   }
   },
   "dagon": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 5122,
+    "face": 3,
+    "dos": 7
+   }
   },
   "pichon": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 921,
+    "face": 3,
+    "dos": 7
+   }
   },
   "raul_mops": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2351,
+    "face": 3,
+    "dos": 7
+   }
   },
   "timansot": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 2849,
+    "face": 3,
+    "dos": 7
+   }
   },
   "mansobese": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2856,
+    "face": 3,
+    "dos": 7
+   }
   },
   "mamansot": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2857,
+    "face": 3,
+    "dos": 7
+   }
   },
   "fu_mansot": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2858,
+    "face": 3,
+    "dos": 7
+   }
   },
   "mofette": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 2867,
+    "face": 3,
+    "dos": 7
+   }
   },
   "obsidiantre": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2924,
+    "face": 3,
+    "dos": 7
+   }
   },
   "crapeur": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2865,
+    "face": 3,
+    "dos": 7
+   }
   },
   "volkorne": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus_monture": 293
   },
   "voracle": {
    "taille": "grand"
   },
   "cochon_farle": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 603,
+    "face": 3,
+    "dos": 7
+   }
   },
   "dragon_cochon": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 1191,
+    "face": 3,
+    "dos": 7
+   }
   },
   "scorpique": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 3869,
+    "face": 3,
+    "dos": 7
+   }
   },
   "scordion": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4615,
+    "face": 3,
+    "dos": 7
+   }
   },
   "gamino": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 668,
+    "face": 3,
+    "dos": 7
+   }
   },
   "minotot": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 827,
+    "face": 3,
+    "dos": 7
+   }
   },
   "ouroboulos": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 4620,
+    "face": 3,
+    "dos": 7
+   }
   },
   "mantiscore": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4621,
+    "face": 3,
+    "dos": 7
+   }
   },
   "pampactus": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 4607,
+    "face": 3,
+    "dos": 7
+   }
   },
   "cactoblongo": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4606,
+    "face": 3,
+    "dos": 7
+   }
   },
   "chienchien_enrage": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4809,
+    "face": 3,
+    "dos": 7
+   }
   },
   "leolhyene": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4619,
+    "face": 3,
+    "dos": 7
+   }
   },
   "chienchien_noir": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4716,
+    "face": 3,
+    "dos": 7
+   }
   },
   "muloubard": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4866,
+    "face": 3,
+    "dos": 7
+   }
   },
   "ecurouille": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4823,
+    "face": 3,
+    "dos": 7
+   }
   },
   "prespic": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 103,
+    "face": 3,
+    "dos": 7
+   }
   },
   "chagouar": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 5885,
+    "face": 3,
+    "dos": 7
+   }
   },
   "soldalia": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 7205,
+    "face": 3,
+    "dos": 7
+   }
   },
   "coquelicogne": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 7208,
+    "face": 3,
+    "dos": 7
+   }
   },
   "grokillage": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4447,
+    "face": 3,
+    "dos": 7
+   }
   },
   "moumoule": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 954,
+    "face": 3,
+    "dos": 7
+   }
   },
   "craquelope": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4573,
+    "face": 3,
+    "dos": 7
+   }
   },
   "craqueboule": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 483,
+    "face": 3,
+    "dos": 7
+   }
   },
   "craqueleur": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 106,
+    "face": 3,
+    "dos": 7
+   }
   },
   "germinion": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 6032,
+    "face": 3,
+    "dos": 7
+   }
   },
   "gangredogue": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6031,
+    "face": 3,
+    "dos": 7
+   }
   },
   "crocodaille": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 261,
+    "face": 3,
+    "dos": 7
+   }
   },
   "ouassingue": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 495,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bourbassingue": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 1059,
+    "face": 3,
+    "dos": 7
+   }
   },
   "roissingue": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 1057,
+    "face": 3,
+    "dos": 7
+   }
   },
   "biblop": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 7968,
+    "face": 3,
+    "dos": 7
+   }
   },
   "blop": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 274,
+    "face": 3,
+    "dos": 7
+   }
   },
   "gloutoblop": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 1181,
+    "face": 3,
+    "dos": 7
+   }
   },
   "koalak_immature": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 748,
+    "face": 3,
+    "dos": 7
+   }
   },
   "koalak": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 751,
+    "face": 3,
+    "dos": 7
+   }
   },
   "crasper": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 5083,
+    "face": 3,
+    "dos": 7
+   }
   },
   "fantomayte": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 2904,
+    "face": 3,
+    "dos": 7
+   }
   },
   "vigie_pirate": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2876,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tofu_malefique": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 111,
+    "face": 3,
+    "dos": 7
+   }
   },
   "karnhell": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6965,
+    "face": 3,
+    "dos": 7
+   }
   },
   "kwoan": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 154,
+    "face": 3,
+    "dos": 7
+   }
   },
   "chafer": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 54,
+    "face": 3,
+    "dos": 7
+   }
   },
   "nodkoko": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 218,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tikoko": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 208,
+    "face": 3,
+    "dos": 7
+   }
   },
   "grokoko": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 3624,
+    "face": 3,
+    "dos": 7
+   }
   },
   "kokulte": {
    "taille": "moyen"
   },
   "kaskargo": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 1044,
+    "face": 3,
+    "dos": 7
+   }
   },
   "nerbe": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 1074,
+    "face": 3,
+    "dos": 7
+   }
   },
   "fecorce": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 1075,
+    "face": 3,
+    "dos": 7
+   }
   },
   "minikrone": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 4812,
+    "face": 3,
+    "dos": 7
+   }
   },
   "rainikrone": {
    "taille": "enorme"
   },
   "malepik": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6872,
+    "face": 3,
+    "dos": 7
+   }
   },
   "corbac": {
-   "taille": "petit"
+   "taille": "petit",
+   "dofus": {
+    "id": 281,
+    "face": 3,
+    "dos": 7
+   }
   },
   "capsaaloocke": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4572,
+    "face": 3,
+    "dos": 7
+   }
   },
   "maitre_corbac": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 289,
+    "face": 3,
+    "dos": 7
+   }
   },
   "kanigloups": {
    "taille": "petit"
   },
   "kaniglou": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2847,
+    "face": 3,
+    "dos": 7
+   }
   },
   "bisouglours": {
    "taille": "petit"
   },
   "glouragan": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2988,
+    "face": 3,
+    "dos": 7
+   }
   },
   "blerodoudou": {
    "taille": "petit"
   },
   "wolvero": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2885,
+    "face": 3,
+    "dos": 7
+   }
   },
   "blerom": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 2884,
+    "face": 3,
+    "dos": 7
+   }
   },
   "tilamproie": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 4459,
+    "face": 3,
+    "dos": 7
+   }
   },
   "mantaze": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4458,
+    "face": 3,
+    "dos": 7
+   }
   },
   "muldo": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 4437,
+    "face": 3,
+    "dos": 7
+   }
   },
   "corailleur": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 1022,
+    "face": 3,
+    "dos": 7
+   }
   },
   "demoloch": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 6808,
+    "face": 3,
+    "dos": 7
+   }
   },
   "diabelial": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6788,
+    "face": 3,
+    "dos": 7
+   }
   },
   "typhomet": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 6789,
+    "face": 3,
+    "dos": 7
+   }
   },
   "halbardent": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 5105,
+    "face": 3,
+    "dos": 7
+   }
   },
   "klemort": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 5101,
+    "face": 3,
+    "dos": 7
+   }
   },
   "dragoune": {
    "taille": "moyen"
   },
   "dragonnet": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 4356,
+    "face": 3,
+    "dos": 7
+   }
   },
   "crocabulia": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 854,
+    "face": 3,
+    "dos": 7
+   }
   },
   "sinistrofu": {
-   "taille": "moyen"
+   "taille": "moyen",
+   "dofus": {
+    "id": 3414,
+    "face": 3,
+    "dos": 7
+   }
   },
   "nocturlabe": {
-   "taille": "grand"
+   "taille": "grand",
+   "dofus": {
+    "id": 3415,
+    "face": 3,
+    "dos": 7
+   }
   },
   "granduk": {
-   "taille": "enorme"
+   "taille": "enorme",
+   "dofus": {
+    "id": 3410,
+    "face": 3,
+    "dos": 7
+   }
+  },
+  "tournesol_affame": {
+   "dofus": {
+    "id": 7796,
+    "face": 3,
+    "dos": 7
+   }
   }
  }
 }
