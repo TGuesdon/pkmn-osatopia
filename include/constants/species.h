@@ -1847,8 +1847,12 @@
 #define SPECIES_SINISTROFU                              1727
 #define SPECIES_NOCTURLABE                              1728
 #define SPECIES_GRANDUK                                 1729
+// 1730-1732 : Gambaf, Crabe, Crustorail (intégrés sur d'autres branches)
+#define SPECIES_VIRUSTINE                               1733
+#define SPECIES_BACTERRIB                               1734
+#define SPECIES_TABACILLE                               1735
 
-#define SPECIES_EGG                                     (SPECIES_GRANDUK + 1)
+#define SPECIES_EGG                                     (SPECIES_TABACILLE + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 
