@@ -30,6 +30,7 @@
   "thin_cut": 0.15,
   "shadow_alpha": 140,
   "shadow_from": 0.6,
+  "shadow_spread": 2,
   "outline": 0
  },
  "monsters": {

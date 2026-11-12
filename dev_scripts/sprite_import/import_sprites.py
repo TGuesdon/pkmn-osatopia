@@ -6,6 +6,8 @@ Source layout (e.g. ~/Dev/perso/imgToGBASprite/source):
   <name>_back.png  back, plain white background (shadows are removed by segmentation)
 
 Workflow:
+  0. ./run.sh fetch <name> [dofus]      downloads the front and the real back view straight from Dofus
+                                        into the source folder, then runs step 1 (see fetch_dofus.py)
   1. ./run.sh --src <dir> [names...]   generate previews into preview/ (+ audit in preview/index.json)
   2. ./dev_scripts/dex_viewer/serve.sh  tick « Comparer avec l'aperçu » to review them
   3. ./run.sh --apply [names...]        copy previews into graphics/pokemon/<name>/
@@ -71,7 +73,24 @@ def drop_shadows(rgba, cfg):
     shadow = (al < cfg["shadow_alpha"]) & (lum < cfg["shadow_lum"]) & (sat < cfg["shadow_sat"])
     ys = np.nonzero((al > 128).any(1))[0]
     if len(ys):
-        shadow[: ys[0] + int((ys[-1] - ys[0]) * cfg["shadow_from"])] = False
+        cut = ys[0] + int((ys[-1] - ys[0]) * cfg["shadow_from"])
+        upper = shadow[:cut].copy()
+        shadow[:cut] = False
+        if cfg.get("shadow_spread"):
+            # flat monsters (starfish) have their shadow beside the body, above the cut: follow it
+            # upwards through strictly grey pixels (the renderer's shadow), not tinted outlines
+            upper &= (sat[:cut] <= cfg["shadow_spread"]) & (al[:cut] > 0)
+            reach = shadow.copy()
+            grow = np.zeros_like(shadow)
+            grow[:cut] = upper
+            while True:
+                p = np.pad(reach, 1)
+                near = p[:-2, 1:-1] | p[2:, 1:-1] | p[1:-1, :-2] | p[1:-1, 2:]
+                add = near & grow & ~reach
+                if not add.any():
+                    break
+                reach |= add
+            shadow |= reach
     if cfg.get("ground_color"):
         # opaque ground ellipse painted into some AI backs: drop that colour in the lower third
         near = np.abs(rgb - cfg["ground_color"]).max(2) < 32
