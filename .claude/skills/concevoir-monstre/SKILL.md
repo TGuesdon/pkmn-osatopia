@@ -1,6 +1,6 @@
 ---
 name: concevoir-monstre
-description: Aide à concevoir un monstre Dofus pour Osatopia (hack de Pokémon Émeraude). Couvre les stats, les types, les talents, le learnset, les capacités custom, les CT, la capture et l'intégration dans le code, à partir d'un archétype stratégique et de Pokémon de référence, le tout en français. À utiliser quand l'utilisateur veut concevoir, équilibrer ou revoir un monstre ou une famille (ex. « conçois la famille Tofu », « je veux que Bwak joue comme Nirondelle »).
+description: Aide à concevoir un monstre Dofus pour Osatopia (hack de Pokémon Émeraude). Couvre les stats, les types, les talents, le learnset, les capacités custom, les CT, la capture, les sprites (récupérés depuis Dofus) et l'intégration dans le code, à partir d'un archétype stratégique et de Pokémon de référence, le tout en français. À utiliser quand l'utilisateur veut concevoir, équilibrer ou revoir un monstre ou une famille (ex. « conçois la famille Tofu », « je veux que Bwak joue comme Nirondelle »).
 ---
 
 # Concevoir un monstre Osatopia
@@ -103,6 +103,8 @@ conçus. Si le monstre existe déjà en placeholder, lis aussi sa fiche
   résistances) et les zones. Si DofusDB ne trouve pas le monstre ou si le
   réseau est indisponible, propose ce que tu sais et **signale-le comme à vérifier**.
 - Niveaux d'évolution.
+- Note l'**id DofusDB** de chaque stade (affiché par `fiche`) : il sert à
+  récupérer les sprites (étape 10) et lève les homonymes.
 
 ### 2. Références
 Demande 1 à 3 Pokémon : « il joue comme X », « il a le physique de stats de Y ».
@@ -260,7 +262,8 @@ asexué, sans œuf, bonheur 0, croissance lente). Pour chaque stade :
   rendu ;
 - ajoute `.levelUpLearnset`, `.teachableLearnset` et `.evolutions` avant
   `FOOTPRINT(...)` ;
-- ne touche pas aux champs Pokédex et graphismes.
+- ne touche pas aux champs Pokédex ; les graphismes passent par la
+  sous-étape Sprites ci-dessous.
 
 Learnsets : ajoute les tableaux à la fin de
 `src/data/pokemon/level_up_learnsets/gen_9.h`. CT : ajoute
@@ -273,6 +276,62 @@ PR #4 ; sans lui, le script plante sur une espèce custom à la régénération)
 Une capacité ou un talent custom s'ajoute aussi à `osatopia/noms_en_jeu.md`
 (nom de conception → nom anglais en jeu).
 
+#### Sprites
+À faire pour chaque stade qui n'a pas encore ses sprites Dofus, ou si
+l'utilisateur veut les refaire. Le pipeline est dans
+`dev_scripts/sprite_import/` (sprite de face, de dos et icône 64×64 / 32×32,
+palette commune de 16 couleurs). `<dossier>` est le dossier
+`graphics/pokemon/<dossier>` de l'espèce (ex. `gwo_tofu`), à lire dans
+`src/data/graphics/pokemon.h`.
+
+1. **Taille relative** : choisis-la parmi `minuscule`, `petit`, `moyen`,
+   `grand`, `enorme`, d'après `.height` et les autres stades de la famille
+   (`grep -A3 '"<dossier>"' dev_scripts/sprite_import/overrides.json`). Un
+   stade final est rarement plus petit que le précédent.
+2. **Récupération depuis Dofus** (réseau requis ; le premier lancement crée
+   un venv et télécharge le modèle de détourage, c'est long : en
+   arrière-plan) :
+   ```bash
+   ./dev_scripts/sprite_import/run.sh fetch <dossier> <id DofusDB> --taille <taille>
+   ```
+   Le script lit le « look » du monstre sur DofusDB, le fait dessiner par le
+   renderer Ankama dans les 4 directions, enregistre la face (direction 3)
+   et la vue 3/4 de dos (direction 7) dans le dossier des sources
+   (`~/Dev/perso/imgToGBASprite/source` par défaut, `--src` sinon), puis
+   génère les aperçus dans `dev_scripts/sprite_import/preview/<dossier>/` et
+   l'icône. L'id, les directions et la taille sont mémorisés dans
+   `overrides.json`.
+3. **Contrôle** : ouvre (Read) `preview/<dossier>/directions.png` (le couple
+   retenu est encadré en rouge) puis `front.png`, `back.png` et `icon.png`
+   du même dossier. La face doit regarder vers la gauche, le dos montrer la
+   tête vers la droite (vers l'adversaire). Si c'est inversé, relance avec
+   `--face 1` et/ou `--dos 5` et `--force`. Lis aussi les ⚠ de l'audit (ombre
+   restée, parties fines perdues, sprite trop petit). Si le script signale
+   qu'il n'y a pas de vraie vue de dos, ou si le rendu reste mauvais,
+   **arrête-toi et demande** (dos fait main, réglage dans `overrides.json`
+   comme `segmentation: flood` ou `visible_alpha`) : c'est l'un des rares
+   cas où tu t'interromps après la validation.
+4. **Application** :
+   ```bash
+   ./dev_scripts/sprite_import/run.sh --apply <dossier>
+   dev_scripts/sprite_import/.venv/bin/python dev_scripts/sprite_import/icon_palettes.py --apply <dossier>
+   ```
+   `--apply` refuse d'écraser un sprite retouché à la main ou animé
+   (`applied.json`) : n'utilise `--force` qu'avec l'accord de
+   l'utilisateur. `icon_palettes.py --apply` copie l'icône et met à jour
+   `.iconPalIndex` dans `species_info.h`.
+5. **Échelle du Pokédex** : elle dépend du sprite de face, recalcule-la
+   avec `echelle_pokedex.py --ecrire SPECIES_X` (étape 6).
+
+Si `graphics/pokemon/<dossier>/` n'existe pas encore, l'espèce n'est pas
+câblée : crée le dossier, copie `graphics/pokemon/question_mark/icon.png`
+comme icône provisoire, ajoute le bloc `gMonFrontPic_X`…`gMonFootprint_X`
+dans `src/data/graphics/pokemon.h` et les champs graphiques dans
+`species_info.h` sur le modèle de Tofu (`frontPic` sur `anim_front`,
+`MON_COORDS_SIZE(64, 64)`, `FOOTPRINT(X)`), puis lance les commandes
+ci-dessus. Une espèce sans constante `SPECIES_*` sort du cadre de ce skill
+(il faudrait toucher `include/`) : signale-le à l'utilisateur.
+
 Vérifie avec `osatopia.py fiche <nom> --complet` que tout correspond à la
 fiche, puis compile (`make`, long : en arrière-plan). Si `make` échoue,
 corrige et relance ; ne t'arrête pour demander que si tu ne trouves pas la
@@ -281,7 +340,9 @@ cause. Passe la fiche à « validée et intégrée ».
 ### 11. Commit et PR (enchaînés, sans redemander)
 Dès que `make` passe :
 - si tu es sur `master`, crée d'abord une branche `claude/<famille>-…` ;
-- un seul commit avec la fiche et le code :
+- un seul commit avec la fiche, le code et, s'il y en a, les sprites
+  (`graphics/pokemon/<dossier>/`, `overrides.json`, `applied.json` ; jamais
+  `preview/` ni les sources, qui restent hors du repo) :
   `feat(dex): intègre la famille <Nom>` (ajoute « et la capacité <X> » s'il y
   a une capacité custom) ;
 - `git push -u origin HEAD`, puis `gh pr create --base master` avec le même
@@ -293,6 +354,7 @@ Dès que `make` passe :
 - <Archétype, talents, mécanique clé du kit>
 - <Learnsets et CT, exclusions volontaires>
 - <Placeholders remplacés par les valeurs Bitouf, le cas échéant>
+- <Sprites récupérés depuis Dofus (id, directions, taille), le cas échéant>
 
 ## Vérifications
 - `osatopia.py fiche <Noms> --complet` correspond à la fiche.
