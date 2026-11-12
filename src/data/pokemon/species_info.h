@@ -7679,7 +7679,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .palette = gMonPalette_Dragodinde,
        .shinyPalette = gMonShinyPalette_Dragodinde,
        .iconSprite = gMonIcon_Dragodinde,
-       .iconPalIndex = 3,
+       .iconPalIndex = 5,
        .levelUpLearnset = sDragodindeLevelUpLearnset,
        .teachableLearnset = sDragodindeTeachableLearnset,
        FOOTPRINT(Dragodinde)
