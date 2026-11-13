@@ -1524,6 +1524,30 @@
   },
   "ilyzaelle_doree": {
    "taille": "enorme"
+  },
+  "masticroc": {
+   "dofus": {
+    "id": 4729,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "petit"
+  },
+  "cycloporth": {
+   "dofus": {
+    "id": 4731,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "moyen"
+  },
+  "tremorse": {
+   "dofus": {
+    "id": 4728,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "grand"
   }
  }
 }
