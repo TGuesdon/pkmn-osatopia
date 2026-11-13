@@ -1791,5 +1791,19 @@ static const struct FormChange sTerapagosFormChangeTable[] =
 };
 #endif //P_FAMILY_TERAPAGOS
 
+// Osatopia
+static const struct FormChange sIlyzaelleFormChangeTable[] =
+{
+    {FORM_CHANGE_BATTLE_HP_PERCENT, SPECIES_ILYZAELLE_DOREE, ABILITY_REAWAKENING, HP_LOWER_EQ_THAN, 50},
+    {FORM_CHANGE_TERMINATOR},
+};
+
+static const struct FormChange sIlyzaelleDoreeFormChangeTable[] =
+{
+    {FORM_CHANGE_FAINT},
+    {FORM_CHANGE_END_BATTLE},
+    {FORM_CHANGE_TERMINATOR},
+};
+
 #undef WHEN_LEARNED
 #undef WHEN_FORGOTTEN

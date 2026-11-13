@@ -602,6 +602,18 @@
   "normal.pal": "d6995a273e0cf7c3",
   "shiny.pal": "d6995a273e0cf7c3"
  },
+ "ilyzaelle": {
+  "anim_front.png": "44aaf906fc9a31e8",
+  "back.png": "668fa48d95c51364",
+  "normal.pal": "806f8515f65ebc68",
+  "shiny.pal": "806f8515f65ebc68"
+ },
+ "ilyzaelle_doree": {
+  "anim_front.png": "d89e961b224a8faa",
+  "back.png": "7edcbee84873e5ff",
+  "normal.pal": "ddddf2ec99d1ce03",
+  "shiny.pal": "ddddf2ec99d1ce03"
+ },
  "kaniglou": {
   "anim_front.png": "06aec4b3cd3c73fc",
   "back.png": "04743fd255245add",

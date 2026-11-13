@@ -312,6 +312,7 @@ static const enum NationalDexOrder sHoennToNationalOrder[HOENN_DEX_COUNT] =
     HOENN_TO_NATIONAL(GAMBAF),
     HOENN_TO_NATIONAL(SOLAR),
     HOENN_TO_NATIONAL(BETHEL),
+    HOENN_TO_NATIONAL(ILYZAELLE),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =
@@ -6059,6 +6060,7 @@ u16 GetBattleBGM(void)
         switch (GetMonData(&gEnemyParty[0], MON_DATA_SPECIES, NULL))
         {
         case SPECIES_RAYQUAZA:
+        case SPECIES_ILYZAELLE:
             return MUS_VS_RAYQUAZA;
         case SPECIES_KYOGRE:
         case SPECIES_GROUDON:

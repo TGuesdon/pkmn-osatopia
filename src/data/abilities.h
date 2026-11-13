@@ -2490,4 +2490,16 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("A KO ups Atk/Sp.Atk/Speed."),
         .aiRating = 6,
     },
+
+    [ABILITY_REAWAKENING] =
+    {
+        .name = _("Reawakening"),
+        .description = COMPOUND_STRING("Awakens when weakened."),
+        .aiRating = 10,
+        .cantBeCopied = TRUE,
+        .cantBeSwapped = TRUE,
+        .cantBeTraced = TRUE,
+        .cantBeSuppressed = TRUE,
+        .cantBeOverwritten = TRUE,
+    },
 };

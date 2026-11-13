@@ -15,7 +15,8 @@ palettes `OBJ_EVENT_PAL_TAG_SOLAR` / `BETHEL` ; les palettes `GROUDON` /
 `KYOGRE` servent à leur version endormie, en gris). Ils reprennent les cris,
 la musique, la transition et le décor de combat de Groudon et Kyogre.
 Restent à Groudon et Kyogre : l'intro du jeu et la cinématique de Rayquaza à
-Sootopolis (grands sprites dessinés).
+Sootopolis (grands sprites dessinés). Rayquaza est remplacé par Ilyzaelle
+(`osatopia/fiches/ilyzaelle.md`).
 
 ## Intention
 Archétype : légendaire de météo, attaquant · Références : Groudon, Kyogre ·

@@ -1513,6 +1513,17 @@
     "dos": 7
    },
    "taille": "enorme"
+  },
+  "ilyzaelle": {
+   "dofus": {
+    "id": 4967,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "enorme"
+  },
+  "ilyzaelle_doree": {
+   "taille": "enorme"
   }
  }
 }

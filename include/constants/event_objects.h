@@ -384,6 +384,8 @@
 // Osatopia : Solar et Bethel remplacent Groudon et Kyogre (GROUDON/KYOGRE restent leur version endormie, en gris)
 #define OBJ_EVENT_PAL_TAG_SOLAR                   0x1170
 #define OBJ_EVENT_PAL_TAG_BETHEL                  0x1171
+// Osatopia : Ilyzaelle remplace Rayquaza
+#define OBJ_EVENT_PAL_TAG_ILYZAELLE               0x1172
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

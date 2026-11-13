@@ -5895,6 +5895,20 @@ BattleScript_PrimalReversion::
 	switchinabilities BS_SCRIPTING
 	end3
 
+BattleScript_Reawakening::
+	flushtextbox
+	printstring STRINGID_REAWAKENINGSTART
+	waitmessage B_WAIT_TIME_SHORT
+	call BattleScript_AbilityPopUpScripting
+	handleformchange BS_SCRIPTING, 0
+	handleformchange BS_SCRIPTING, 1
+	playanimation BS_SCRIPTING, B_ANIM_FORM_CHANGE
+	waitanimation
+	handleformchange BS_SCRIPTING, 2
+	printstring STRINGID_REAWAKENINGTRANSFORM
+	waitmessage B_WAIT_TIME_SHORT
+	end2
+
 BattleScript_PowerConstruct::
 	flushtextbox
 	printstring STRINGID_POWERCONSTRUCTPRESENCEOFMANY
