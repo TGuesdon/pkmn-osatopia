@@ -21672,6 +21672,49 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_RevivalBlessing,
     },
 
+    [MOVE_LANCE_EFFROI] =
+    {
+        .name = COMPOUND_STRING("Dread Lance"),
+        .description = COMPOUND_STRING(
+            "A spear of dread that\n"
+            "may make the foe flinch."),
+        .effect = EFFECT_HIT,
+        .power = 90,
+        .type = TYPE_GHOST,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_FLINCH,
+            .chance = 30,
+        }),
+        .battleAnimScript = gBattleAnimMove_SpiritShackle,
+    },
+
+    [MOVE_HANTAME] =
+    {
+        .name = COMPOUND_STRING("Soul Haunt"),
+        .description = COMPOUND_STRING(
+            "Burns both foes and stops\n"
+            "their healing for 2 turns."),
+        .effect = EFFECT_HIT,
+        .power = 80,
+        .type = TYPE_FIRE,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_BOTH,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_PSYCHIC_NOISE,
+            .chance = 100,
+        }),
+        .battleAnimScript = gBattleAnimMove_MysticalFire,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

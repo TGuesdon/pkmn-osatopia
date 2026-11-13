@@ -670,6 +670,7 @@ static u8 GetBattleEnvironmentOverride(void)
         case SPECIES_BETHEL:
             return BATTLE_ENVIRONMENT_KYOGRE;
         case SPECIES_RAYQUAZA:
+        case SPECIES_ILYZAELLE:
             return BATTLE_ENVIRONMENT_RAYQUAZA;
         default:
             return gBattleEnvironment;
@@ -1066,6 +1067,7 @@ void DrawBattleEntryBackground(void)
             LoadBattleEnvironmentEntryGfx(BATTLE_ENVIRONMENT_UNDERWATER);
             break;
         case SPECIES_RAYQUAZA:
+        case SPECIES_ILYZAELLE:
             LoadBattleEnvironmentEntryGfx(BATTLE_ENVIRONMENT_RAYQUAZA);
             break;
         default:

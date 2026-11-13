@@ -614,6 +614,8 @@ static inline bool32 IsMoveSheerForceBoosted(u32 move)
         case MOVE_LACERATION: // Osatopia : 10 % de Saignement
         case MOVE_PINCE_DE_CORAIL: // Osatopia : +1 Attaque du lanceur
         case MOVE_PANTANG: // Osatopia : -1 DéfSpé à coup sûr
+        case MOVE_LANCE_EFFROI: // Osatopia : 30 % d'apeurement
+        case MOVE_HANTAME: // Osatopia : bloque les soins
             return TRUE;
     }
     return FALSE;

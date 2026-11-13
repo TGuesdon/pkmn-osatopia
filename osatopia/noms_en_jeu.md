@@ -33,6 +33,8 @@ nom français de conception.
 | Éruption Solaire | Solar Flare | `MOVE_ERUPTION_SOLAIRE` |
 | Pantang | Pantang (Dofus) | `MOVE_PANTANG` |
 | Nécromancie | Necromancy | `MOVE_NECROMANCIE` |
+| Lance de l'effroi | Dread Lance | `MOVE_LANCE_EFFROI` |
+| Hantâme | Soul Haunt | `MOVE_HANTAME` |
 
 ## Talents
 | Nom de conception (fiches) | Nom en jeu | Constante |
@@ -48,6 +50,7 @@ nom français de conception.
 | Pourpre | Pourpre (Dofus) | `ABILITY_POURPRE` |
 | Ébène | Ébène (Dofus) | `ABILITY_EBENE` |
 | Vulbis | Vulbis (Dofus) | `ABILITY_VULBIS` |
+| Réveil | Reawakening | `ABILITY_REAWAKENING` |
 
 ## Statut et objets
 | Nom de conception | Nom en jeu |

@@ -1352,6 +1352,7 @@ static bool32 HandleEndTurnFormChangeAbilities(u32 battler)
     switch (ability)
     {
     case ABILITY_POWER_CONSTRUCT:
+    case ABILITY_REAWAKENING:
     case ABILITY_SCHOOLING:
     case ABILITY_SHIELDS_DOWN:
     case ABILITY_ZEN_MODE:

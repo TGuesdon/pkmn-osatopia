@@ -170,6 +170,7 @@ const u16 gObjectEventPal_Groudon[] = INCBIN_U16("graphics/object_events/palette
 const u16 gObjectEventPal_GroudonReflection[] = INCBIN_U16("graphics/object_events/palettes/groudon_reflection.gbapal");
 const u16 gObjectEventPal_Solar[] = INCBIN_U16("graphics/object_events/palettes/solar.gbapal");
 const u16 gObjectEventPal_Bethel[] = INCBIN_U16("graphics/object_events/palettes/bethel.gbapal");
+const u16 gObjectEventPal_Ilyzaelle[] = INCBIN_U16("graphics/object_events/palettes/ilyzaelle.gbapal");
 const u32 gObjectEventPic_UnusedNatuDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_natu_doll.4bpp");
 const u32 gObjectEventPic_UnusedMagnemiteDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_magnemite_doll.4bpp");
 const u32 gObjectEventPic_UnusedSquirtleDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_squirtle_doll.4bpp");

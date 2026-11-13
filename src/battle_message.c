@@ -879,6 +879,8 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_MONTUREBOOST]                         = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} got a boost from its mount!"),
     [STRINGID_PKMNGOTBLEED]                         = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} started bleeding!"),
     [STRINGID_PKMNHURTBYBLEED]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} was hurt by bleeding!"),
+    [STRINGID_REAWAKENINGSTART]                     = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s soul is stirring!"),
+    [STRINGID_REAWAKENINGTRANSFORM]                 = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} revealed its true form!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =

@@ -2432,3 +2432,10 @@ static const u16 sTerapagosFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_TERAPAGOS
+
+// Osatopia
+static const u16 sIlyzaelleFormSpeciesIdTable[] = {
+    SPECIES_ILYZAELLE,
+    SPECIES_ILYZAELLE_DOREE,
+    FORM_SPECIES_END,
+};

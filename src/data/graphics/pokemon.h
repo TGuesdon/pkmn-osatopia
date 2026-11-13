@@ -28104,3 +28104,17 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPalette_Bethel[] = INCBIN_U16("graphics/pokemon/bethel/shiny.gbapal");
     const u8 gMonIcon_Bethel[] = INCBIN_U8("graphics/pokemon/bethel/icon.4bpp");
     const u8 gMonFootprint_Bethel[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Ilyzaelle[] = INCBIN_U32("graphics/pokemon/ilyzaelle/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Ilyzaelle[] = INCBIN_U32("graphics/pokemon/ilyzaelle/back.4bpp.lz");
+    const u16 gMonPalette_Ilyzaelle[] = INCBIN_U16("graphics/pokemon/ilyzaelle/normal.gbapal");
+    const u16 gMonShinyPalette_Ilyzaelle[] = INCBIN_U16("graphics/pokemon/ilyzaelle/shiny.gbapal");
+    const u8 gMonIcon_Ilyzaelle[] = INCBIN_U8("graphics/pokemon/ilyzaelle/icon.4bpp");
+    const u8 gMonFootprint_Ilyzaelle[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_IlyzaelleDoree[] = INCBIN_U32("graphics/pokemon/ilyzaelle_doree/anim_front.4bpp.lz");
+    const u32 gMonBackPic_IlyzaelleDoree[] = INCBIN_U32("graphics/pokemon/ilyzaelle_doree/back.4bpp.lz");
+    const u16 gMonPalette_IlyzaelleDoree[] = INCBIN_U16("graphics/pokemon/ilyzaelle_doree/normal.gbapal");
+    const u16 gMonShinyPalette_IlyzaelleDoree[] = INCBIN_U16("graphics/pokemon/ilyzaelle_doree/shiny.gbapal");
+    const u8 gMonIcon_IlyzaelleDoree[] = INCBIN_U8("graphics/pokemon/ilyzaelle_doree/icon.4bpp");
+    const u8 gMonFootprint_IlyzaelleDoree[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
