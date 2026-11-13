@@ -381,6 +381,9 @@
 #define OBJ_EVENT_PAL_TAG_RS_BRENDAN              0x1122
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
 #define OBJ_EVENT_PAL_TAG_DYNAMIC                 0x1124
+// Osatopia : Solar et Bethel remplacent Groudon et Kyogre (GROUDON/KYOGRE restent leur version endormie, en gris)
+#define OBJ_EVENT_PAL_TAG_SOLAR                   0x1170
+#define OBJ_EVENT_PAL_TAG_BETHEL                  0x1171
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

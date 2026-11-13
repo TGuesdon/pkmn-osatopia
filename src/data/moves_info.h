@@ -21611,6 +21611,67 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_JetPunch,
     },
 
+    [MOVE_ERUPTION_SOLAIRE] =
+    {
+        .name = COMPOUND_STRING("Solar Flare"),
+        .description = COMPOUND_STRING(
+            "A blazing solar blade\n"
+            "strikes both foes."),
+        .effect = EFFECT_HIT,
+        .power = 120,
+        .type = TYPE_FIRE,
+        .accuracy = 85,
+        .pp = 5,
+        .target = MOVE_TARGET_BOTH,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .metronomeBanned = TRUE,
+        .battleAnimScript = gBattleAnimMove_HeatWave,
+    },
+
+    [MOVE_PANTANG] =
+    {
+        .name = COMPOUND_STRING("Pantang"),
+        .description = COMPOUND_STRING(
+            "A water curse that\n"
+            "lowers the foe's Sp. Def."),
+        .effect = EFFECT_HIT,
+        .power = 80,
+        .type = TYPE_WATER,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_1,
+            .chance = 100,
+        }),
+        .battleAnimScript = gBattleAnimMove_WaterPulse,
+    },
+
+    [MOVE_NECROMANCIE] =
+    {
+        .name = COMPOUND_STRING("Necromancy"),
+        .description = COMPOUND_STRING(
+            "Raises a fainted party\n"
+            "{PKMN} with half its HP."),
+        .effect = EFFECT_REVIVAL_BLESSING,
+        .power = 0,
+        .type = TYPE_GHOST,
+        .accuracy = 0,
+        .pp = 1,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        .ignoresProtect = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .metronomeBanned = TRUE,
+        .healingMove = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
+        .battleAnimScript = gBattleAnimMove_RevivalBlessing,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

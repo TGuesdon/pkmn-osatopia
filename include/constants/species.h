@@ -1853,8 +1853,10 @@
 #define SPECIES_VIRUSTINE                               1733
 #define SPECIES_BACTERRIB                               1734
 #define SPECIES_TABACILLE                               1735
+#define SPECIES_SOLAR                                   1736
+#define SPECIES_BETHEL                                  1737
 
-#define SPECIES_EGG                                     (SPECIES_TABACILLE + 1)
+#define SPECIES_EGG                                     (SPECIES_BETHEL + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

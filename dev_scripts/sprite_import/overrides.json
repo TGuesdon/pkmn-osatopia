@@ -1497,6 +1497,22 @@
     "dos": 7
    },
    "taille": "moyen"
+  },
+  "solar": {
+   "dofus": {
+    "id": 5100,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "enorme"
+  },
+  "bethel": {
+   "dofus": {
+    "id": 5110,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "enorme"
   }
  }
 }

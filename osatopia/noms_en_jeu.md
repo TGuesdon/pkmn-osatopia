@@ -30,6 +30,9 @@ nom français de conception.
 | Radicule | Radicle | `MOVE_RADICULE` |
 | Pince de Corail | Coral Claw | `MOVE_PINCE_DE_CORAIL` |
 | Bond Météore | Meteor Leap | `MOVE_BOND_METEORE` |
+| Éruption Solaire | Solar Flare | `MOVE_ERUPTION_SOLAIRE` |
+| Pantang | Pantang (Dofus) | `MOVE_PANTANG` |
+| Nécromancie | Necromancy | `MOVE_NECROMANCIE` |
 
 ## Talents
 | Nom de conception (fiches) | Nom en jeu | Constante |

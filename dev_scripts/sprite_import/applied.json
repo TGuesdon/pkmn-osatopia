@@ -47,6 +47,12 @@
   "normal.pal": "c3cd70fd4675bd4c",
   "shiny.pal": "c3cd70fd4675bd4c"
  },
+ "bethel": {
+  "anim_front.png": "26262cf4668c2bfd",
+  "back.png": "e5377d4a2460b6b9",
+  "normal.pal": "d67193ceeb716d15",
+  "shiny.pal": "d67193ceeb716d15"
+ },
  "biblop": {
   "anim_front.png": "9fa6b1b52b5b56e7",
   "back.png": "b956c6e805bd23a9",
@@ -1120,6 +1126,12 @@
   "front.png": "053e863f459f4913",
   "normal.pal": "d9e209a0ea82c3f0",
   "shiny.pal": "d9e209a0ea82c3f0"
+ },
+ "solar": {
+  "anim_front.png": "6b99df3c0b2e1340",
+  "back.png": "556a5eeb143360ef",
+  "normal.pal": "9176a4671b191969",
+  "shiny.pal": "9176a4671b191969"
  },
  "soldalia": {
   "anim_front.png": "37c32f062cfa5ddd",

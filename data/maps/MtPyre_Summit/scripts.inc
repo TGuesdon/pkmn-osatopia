@@ -519,7 +519,7 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken:
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "Oh, my goodness…\p"
-	.string "You say that both GROUDON and KYOGRE\n"
+	.string "You say that both SOLAR and BETHEL\n"
 	.string "have been awakened?\p"
 	.string "It is said that the BLUE ORB and\n"
 	.string "the RED ORB quelled the rage of\l"

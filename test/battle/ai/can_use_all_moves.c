@@ -712,6 +712,7 @@ AI_DOUBLE_BATTLE_TEST("AI can use all moves, 801-900")
         case EFFECT_POTAGER: // Osatopia : test/battle/ai/ai_potager.c
         case EFFECT_OHKO: // Osatopia : Gloutage et Bave Fatale, testées plus haut comme Guillotine
         case EFFECT_LAIT_DE_COCO: // Osatopia : test/battle/ai/ai_lait_de_coco.c
+        case EFFECT_REVIVAL_BLESSING: // Osatopia : Nécromancie, échoue sans allié K.O. (Second Souffle est exclu de 701-800)
 
         // Skipped on purpose.
         case EFFECT_PROTECT:

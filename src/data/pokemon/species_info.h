@@ -10788,4 +10788,122 @@ FOOTPRINT(Klemor)
        .teachableLearnset = sGambafTeachableLearnset,
        FOOTPRINT(Gambaf)
     },
+
+    [SPECIES_SOLAR] =
+    {
+       .baseHP        = 115,
+       .baseAttack    = 150,
+       .baseDefense   = 130,
+       .baseSpeed     = 85,
+       .baseSpAttack  = 85,
+       .baseSpDefense = 105,
+       .types = MON_TYPES(TYPE_FIRE),
+       .catchRate = 3,
+       .expYield = 335,
+       .evYield_Attack = 3,
+       .genderRatio = MON_GENDERLESS,
+       .eggCycles = 120,
+       .friendship = 0,
+       .growthRate = GROWTH_SLOW,
+       .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
+       .abilities = { ABILITY_DROUGHT, ABILITY_NONE, ABILITY_NONE },
+       .bodyColor = BODY_COLOR_BLACK,
+       .isLegendary = TRUE,
+       .cryId = CRY_GROUDON,
+       .speciesName = _("Solar"),
+       //pokedex
+       .natDexNum = NATIONAL_DEX_SOLAR,
+       .categoryName = _("Sun Wraith"),
+       .height = 25,
+       .weight = 4000,
+       .description = COMPOUND_STRING(
+           "An undead knight who guards a tower.\n"
+           "Its blade follows the sun: it charges\n"
+           "at dawn, burns all at noon and\n"
+           "raises the dead when night falls."),
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 420,
+       .trainerOffset = 9,
+       //graphics
+       .frontPic = gMonFrontPic_Solar,
+       .frontPicSize = MON_COORDS_SIZE(64, 64),
+       .frontPicYOffset = 0,
+       .frontAnimFrames = ANIM_FRAMES(
+           ANIMCMD_FRAME(0, 1),
+       ),
+       .frontAnimId = ANIM_GROW_VIBRATE,
+       .frontAnimDelay = 15,
+       .enemyMonElevation = 0,
+       .backPic = gMonBackPic_Solar,
+       .backPicSize = MON_COORDS_SIZE(64, 64),
+       .backPicYOffset = 0,
+       .backAnimId = BACK_ANIM_CONCAVE_ARC_LARGE,
+       .palette = gMonPalette_Solar,
+       .shinyPalette = gMonShinyPalette_Solar,
+       .iconSprite = gMonIcon_Solar,
+       .iconPalIndex = 5,
+       .levelUpLearnset = sSolarLevelUpLearnset,
+       .teachableLearnset = sSolarTeachableLearnset,
+       FOOTPRINT(Solar)
+    },
+
+    [SPECIES_BETHEL] =
+    {
+       .baseHP        = 95,
+       .baseAttack    = 80,
+       .baseDefense   = 90,
+       .baseSpeed     = 125,
+       .baseSpAttack  = 155,
+       .baseSpDefense = 125,
+       .types = MON_TYPES(TYPE_WATER),
+       .catchRate = 3,
+       .expYield = 335,
+       .evYield_SpAttack = 3,
+       .genderRatio = MON_GENDERLESS,
+       .eggCycles = 120,
+       .friendship = 0,
+       .growthRate = GROWTH_SLOW,
+       .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
+       .abilities = { ABILITY_DRIZZLE, ABILITY_NONE, ABILITY_NONE },
+       .bodyColor = BODY_COLOR_GREEN,
+       .isLegendary = TRUE,
+       .cryId = CRY_KYOGRE,
+       .speciesName = _("Bethel"),
+       //pokedex
+       .natDexNum = NATIONAL_DEX_BETHEL,
+       .categoryName = _("Sunken Lord"),
+       .height = 22,
+       .weight = 1800,
+       .description = COMPOUND_STRING(
+           "Lord of a drowned tower. It calls\n"
+           "the rain to flood the land. Its staff\n"
+           "curses foes and wakes those who\n"
+           "sank beneath the waves."),
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 370,
+       .trainerOffset = 7,
+       //graphics
+       .frontPic = gMonFrontPic_Bethel,
+       .frontPicSize = MON_COORDS_SIZE(64, 64),
+       .frontPicYOffset = 0,
+       .frontAnimFrames = ANIM_FRAMES(
+           ANIMCMD_FRAME(0, 1),
+       ),
+       .frontAnimId = ANIM_V_SHAKE,
+       .frontAnimDelay = 15,
+       .enemyMonElevation = 0,
+       .backPic = gMonBackPic_Bethel,
+       .backPicSize = MON_COORDS_SIZE(64, 64),
+       .backPicYOffset = 0,
+       .backAnimId = BACK_ANIM_CONCAVE_ARC_LARGE,
+       .palette = gMonPalette_Bethel,
+       .shinyPalette = gMonShinyPalette_Bethel,
+       .iconSprite = gMonIcon_Bethel,
+       .iconPalIndex = 3,
+       .levelUpLearnset = sBethelLevelUpLearnset,
+       .teachableLearnset = sBethelTeachableLearnset,
+       FOOTPRINT(Bethel)
+    },
 };
