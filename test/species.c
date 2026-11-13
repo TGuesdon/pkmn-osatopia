@@ -170,3 +170,27 @@ TEST("Every species has a description")
 
     EXPECT_NE(StringCompare(GetSpeciesPokedexDescription(species), gFallbackPokedexText), 0);
 }
+
+// Changing species with a different growth rate leaves the stored experience
+// on the wrong curve (level jumps or drops), so a whole family must share it.
+TEST("Every species in an evolution family shares the same growth rate")
+{
+    u32 i;
+    u32 species = SPECIES_NONE;
+    const struct Evolution *evolutions;
+
+    for (i = 1; i < NUM_SPECIES; i++)
+    {
+        if (IsSpeciesEnabled(i) && GetSpeciesEvolutions(i) != NULL)
+            PARAMETRIZE_LABEL("%S", gSpeciesInfo[i].speciesName) { species = i; }
+    }
+
+    evolutions = GetSpeciesEvolutions(species);
+    for (i = 0; evolutions[i].method != EVOLUTIONS_END; i++)
+    {
+        u32 target = evolutions[i].targetSpecies;
+        if (target == SPECIES_NONE || !IsSpeciesEnabled(target))
+            continue;
+        EXPECT_EQ(gSpeciesInfo[target].growthRate, gSpeciesInfo[species].growthRate);
+    }
+}

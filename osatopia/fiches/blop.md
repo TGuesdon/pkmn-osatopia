@@ -11,7 +11,7 @@
 custom : **Gloutage**.
 
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
-`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`. Choisies pour
+`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_FLUCTUATING` (comme Gloupti). Choisies pour
 la famille : `EGG_GROUP_AMORPHOUS` (gelée), `BODY_COLOR_BLUE` (Eau).
 
 ## Intention

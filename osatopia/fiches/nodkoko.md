@@ -35,7 +35,7 @@ Récolte pour les noix qui repoussent (baie recyclée), Téméraire pour
 renforcer Martobois et Damoclès, dont le contrecoup est compensé par le lait.
 
 Autres champs (valeurs Bitouf) : 50 % femelle, 15 cycles d'œuf,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`. Groupe d'œuf Plante, couleur
+`STANDARD_FRIENDSHIP`, `GROWTH_SLOW` (comme Noeunoeuf et Tropius). Groupe d'œuf Plante, couleur
 marron (à vérifier sur les sprites).
 
 ## Kit final

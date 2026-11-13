@@ -20,7 +20,7 @@ Archétype : tank offensif + contrôle de la Vitesse · Références : Craqueleu
 Faiblesses : Plante ×4, Électrik, Combat, Sol. Résistances : Feu ×4, Normal, Vol, Poison, Glace.
 Craqueleur fait 30 points de plus : Corailleur perd surtout en Attaque (−25) et en PV (−15), et gagne 10 en Vitesse pour profiter du ralentissement. L'AtqSpé est sacrifiée.
 
-Valeurs par défaut : 50 % femelle, 15 cycles d'œuf, bonheur standard, croissance moyenne-lente, groupes d'œuf Aquatique 3 / Minéral, couleur rouge.
+Valeurs par défaut : 50 % femelle, 15 cycles d'œuf, bonheur standard, croissance lente (`GROWTH_SLOW`, comme Relicanth), groupes d'œuf Aquatique 3 / Minéral, couleur rouge.
 
 ## Kit final
 | Emplacement | Choix | Alternatives |

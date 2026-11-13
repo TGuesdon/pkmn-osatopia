@@ -25,7 +25,7 @@ pas de Sangsue, pas d'Amass'Sable, AtqSpé modeste, dégâts fixes.
 | EV | 1 PV | 1 PV, 1 Déf | 1 PV, 1 Déf, 1 DéfSpé |
 
 Autres champs : asexué, groupe d'œuf Amorphe, 20 cycles, bonheur standard,
-croissance moyenne-lente, couleur marron.
+croissance moyenne-rapide (`GROWTH_MEDIUM_FAST`, comme Bacabouh), couleur marron.
 
 Stats sacrifiées : Vitesse (un amas de boue rampe), Att et AtqSpé modestes
 pour rester un mur et non un attaquant.

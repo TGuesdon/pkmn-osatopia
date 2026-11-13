@@ -25,7 +25,7 @@ sont réservés à Gambaf, Crabe et Crustorail (intégrés sur d'autres branches
 Dex National et Hoenn : à la suite de Granduk.
 
 Valeurs non discutées, choisies à l'intégration : `MON_GENDERLESS`
-(microbes), `.eggCycles = 20`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`
+(microbes), `.eggCycles = 20`, `STANDARD_FRIENDSHIP`, `GROWTH_SLOW` (comme Tentacool)
 (comme Bitouf), groupes d'œuf `EGG_GROUP_WATER_1` + `EGG_GROUP_AMORPHOUS`
 (comme Mol Usk), couleur `BODY_COLOR_RED`. Pokédex : catégories *Virus*,
 *Bacterium*, *Bacillus* ; tailles 0,4 / 0,9 / 1,5 m ; poids 3 / 18 / 65 kg.

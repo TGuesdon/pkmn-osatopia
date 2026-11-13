@@ -46,7 +46,7 @@ Stats sacrifiées : l'Attaque (purement spécial) et la Défense (une raie
 fragile, faible au Sol).
 
 Placeholders remplacés par défaut (valeurs Bitouf) : 50 % femelle,
-`eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`. Groupe d'œuf
+`eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_SLOW` (comme Loupio et Démanta). Groupe d'œuf
 Eau 2 (comme Lanturn), couleur bleue (à ajuster selon les sprites).
 
 ## Kit final

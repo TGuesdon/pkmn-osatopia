@@ -44,7 +44,7 @@ Galar (65 / 100 / 70 / 80 / 80 / 105 = 500), Mélodelfe (483), Cupcanaille
 (480) ; custom les plus proches : Minotot, Gangredogue (plus offensifs).
 
 Autres champs : `PERCENT_FEMALE(50)`, `.eggCycles = 15`,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`,
+`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Ponyta),
 `MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY)`, `BODY_COLOR_PINK`
 (Minikrone) et `BODY_COLOR_BLUE` (Rainikrone).
 

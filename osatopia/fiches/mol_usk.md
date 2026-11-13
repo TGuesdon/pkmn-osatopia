@@ -10,7 +10,7 @@
 `teachable_learnsets.h`). Pas de capacité custom.
 
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` ; `.eggCycles = 20`, groupes d'œuf
+`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Vorastérie et Sancoki) ; `.eggCycles = 20`, groupes d'œuf
 `EGG_GROUP_WATER_1` / `EGG_GROUP_AMORPHOUS`, couleur `BODY_COLOR_PURPLE`.
 
 ## Intention

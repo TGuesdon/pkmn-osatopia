@@ -76,7 +76,7 @@ Capture, expérience et EV :
 | Kwak Vent | 75 | 175 | Att 1, Vit 1 |
 
 Autres champs (repris de la famille Tofu) : `PERCENT_FEMALE(50)`,
-`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`,
+`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Flamajou et Couaneton),
 `EGG_GROUP_FLYING`. Couleur d'après les sprites : Glace bleu, Vent blanc,
 Feu rouge (Bwak) / marron (Kwak), Terre vert.
 

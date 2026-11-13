@@ -41,7 +41,7 @@ Lucanon (Vikavolt) pour le scarabée spécial.
 | Scarabosse Doré | Lentiteintée / Essaim / Protéen (caché) | 45 | 235 | 2 AtqSpé, 1 Vit | Jaune |
 
 Tous les stades : 50 % de femelles, 15 cycles d'œuf, bonheur standard,
-croissance moyenne-lente (`GROWTH_MEDIUM_SLOW`), groupe d'œufs Insecte.
+croissance moyenne-rapide (`GROWTH_MEDIUM_FAST`, comme Larvibule / Lucanon), groupe d'œufs Insecte.
 
 ## Évolution selon le lieu (El Scarador, niveau 20)
 

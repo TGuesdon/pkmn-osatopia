@@ -51,7 +51,7 @@ Stats sacrifiées : l'AtqSpé uniquement. Comparaison : Tofu Royal
 (85 / 90 / 80 / 70 / 75 / 95 = 495), Moumouflon (490), Manternel (500).
 
 Autres champs : `PERCENT_FEMALE(50)`, `.eggCycles = 15`,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`,
+`STANDARD_FRIENDSHIP`, `GROWTH_FAST` (Fée soigneuse, comme Mélofée et Leveinard),
 `MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY)`, `.bodyColor` à choisir
 selon le sprite (`BODY_COLOR_PINK` par défaut).
 

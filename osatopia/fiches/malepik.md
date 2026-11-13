@@ -39,7 +39,7 @@ Infiltration ×7 écartés) : Illusion pour le dédoublement, Chanceux pour les
 critiques de Malagile, Poing Invisible pour l'invisibilité.
 
 Autres champs (valeurs Bitouf) : 50 % femelle, 15 cycles d'œuf,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`. Groupes d'œuf Amorphe + Plante,
+`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Brocélôme et Pitrouille). Groupes d'œuf Amorphe + Plante,
 couleur marron (à vérifier sur les sprites).
 
 ## Kit final

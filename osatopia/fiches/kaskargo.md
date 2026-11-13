@@ -35,7 +35,7 @@ correcte grâce au mucus et à la coquille, ce qui le distingue de Gob Trotteur
 (65/100/60/45/55/120).
 
 Autres champs (valeurs Bitouf) : 50 % femelle, 15 cycles d'œuf,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`. Groupe d'œuf Insecte (comme
+`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Debugant et Limaspeed). Groupe d'œuf Insecte (comme
 Escargaume / Limaspeed), couleur marron (à vérifier sur les sprites).
 
 ## Kit final

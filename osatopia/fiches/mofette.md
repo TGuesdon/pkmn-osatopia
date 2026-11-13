@@ -9,7 +9,7 @@
 `teachable_learnsets.h`). Pas de capacité custom.
 
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
-`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` ; groupe d'œuf
+`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_SLOW` (évolution tardive au niv. 40, comme Pyronille) ; groupe d'œuf
 `EGG_GROUP_MINERAL`, couleurs `BODY_COLOR_GRAY` (Mofette) et
 `BODY_COLOR_BLACK` (Obsidiantre).
 

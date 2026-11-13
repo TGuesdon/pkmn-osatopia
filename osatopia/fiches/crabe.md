@@ -73,7 +73,7 @@ chez le Crabe), la DéfSpé reste faible (la carapace arrête les coups, pas la
 magie). Le Crabe est un monstre de plage commun, plafonné à 310.
 
 Valeurs par défaut (famille Bitouf, faute de choix) : 50 % femelle,
-15 cycles d'œuf, bonheur standard, croissance moyenne-lente, groupe d'œuf
+15 cycles d'œuf, bonheur standard, croissance moyenne-rapide (`GROWTH_MEDIUM_FAST`, comme Krabby), groupe d'œuf
 Aquatique 3 (`EGG_GROUP_WATER_3`, celui des crustacés), couleur rouge
 (Crabe, orange en réalité) et violette (Crustorail, couleur des tubes de
 corail).

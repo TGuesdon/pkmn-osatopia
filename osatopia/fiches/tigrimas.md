@@ -62,7 +62,7 @@ Stats sacrifiées : l'Attaque (profil spécial) et la Défense, inférieure à l
 DéfSpé. Corps Ardent et Feu Follet compensent face aux attaquants physiques.
 
 Autres champs : `PERCENT_FEMALE(50)`, `.eggCycles = 15`,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`,
+`STANDARD_FRIENDSHIP`, `GROWTH_FAST` (chat Fée, comme Skitty et Chaglam),
 `MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY)`, `.bodyColor` à choisir
 selon le sprite (`BODY_COLOR_PURPLE` par défaut).
 
@@ -190,7 +190,7 @@ Exclusions volontaires :
        .genderRatio = PERCENT_FEMALE(50),
        .eggCycles = 15,
        .friendship = STANDARD_FRIENDSHIP,
-       .growthRate = GROWTH_MEDIUM_SLOW,
+       .growthRate = GROWTH_FAST,
        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY),
        .abilities = { ABILITY_FLAME_BODY, ABILITY_MAGIC_GUARD, ABILITY_ANALYTIC },
        .bodyColor = BODY_COLOR_PURPLE,
@@ -214,7 +214,7 @@ Exclusions volontaires :
        .genderRatio = PERCENT_FEMALE(50),
        .eggCycles = 15,
        .friendship = STANDARD_FRIENDSHIP,
-       .growthRate = GROWTH_MEDIUM_SLOW,
+       .growthRate = GROWTH_FAST,
        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY),
        .abilities = { ABILITY_FLAME_BODY, ABILITY_MAGIC_GUARD, ABILITY_ANALYTIC },
        .bodyColor = BODY_COLOR_PURPLE,
