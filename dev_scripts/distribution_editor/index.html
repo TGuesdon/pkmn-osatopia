@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Répartition des Pokémon</title>
+<style>
+:root {
+  --bg: #f4f2ee; --panel: #ffffff; --panel2: #f8f7f4; --text: #1f1d1a; --muted: #77716a;
+  --border: #e3dfd8; --accent: #c0392b; --ok: #2e8b57; --warn: #d68910; --bad: #c0392b; --bar: #e9e5de;
+  --sel: #fdf0e6; --custom: #2e8b57; --vanilla: #a59d92;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181b; --panel: #212226; --panel2: #1b1c20; --text: #ebe8e3; --muted: #9a958d;
+    --border: #33353b; --bar: #2d2f35; --sel: #3a2c22; --vanilla: #6c675f;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; display: flex; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+img.px { image-rendering: pixelated; }
+.muted { color: var(--muted); }
+.mono { font-family: ui-monospace, monospace; font-size: 12px; }
+.btn { border: 1px solid var(--border); background: var(--panel2); border-radius: 6px; padding: 4px 10px; }
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:disabled { opacity: .45; cursor: default; }
+.btn.small { padding: 1px 8px; font-size: 12px; }
+.btn.ghost { background: none; border-color: transparent; color: var(--muted); }
+.btn.ghost:hover { color: var(--bad); }
+input[type=number] { width: 52px; }
+input.txt, input[type=number], select { padding: 3px 6px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel2); }
+
+/* Sidebar */
+#side { width: 340px; flex: none; height: 100vh; display: flex; flex-direction: column; border-right: 1px solid var(--border); background: var(--panel); }
+#side header { padding: 12px; border-bottom: 1px solid var(--border); display: grid; gap: 8px; }
+#side h1 { margin: 0; font-size: 16px; }
+#side input.txt { width: 100%; }
+#side label.chk { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+#nav { display: flex; gap: 6px; flex-wrap: wrap; }
+#nav button.on { background: var(--text); color: var(--panel); border-color: var(--text); }
+#region { position: relative; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; line-height: 0; }
+#region img { width: 100%; image-rendering: pixelated; }
+#region .sec { position: absolute; border-radius: 2px; cursor: pointer; }
+#region .sec.has { background: rgba(255,255,255,.18); outline: 1px solid rgba(0,0,0,.35); }
+#region .sec.has.done { background: rgba(46,139,87,.45); }
+#region .sec.has.part { background: rgba(214,137,16,.45); }
+#region .sec:hover { outline: 2px solid #fff; z-index: 2; }
+#region .sec.on { outline: 2px solid var(--accent); background: rgba(192,57,43,.45); z-index: 3; }
+#regionTip { font-size: 12px; color: var(--muted); min-height: 18px; }
+#list { overflow-y: auto; flex: 1; padding: 4px 0 40px; }
+#list .grp { padding: 8px 12px 2px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); cursor: pointer; }
+#list a { display: flex; align-items: center; gap: 8px; padding: 3px 12px 3px 20px; text-decoration: none; color: inherit; cursor: pointer; }
+#list a:hover { background: var(--panel2); }
+#list a.on { background: var(--sel); }
+#list a .nm { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#list a .cnt { font-size: 11px; color: var(--muted); white-space: nowrap; }
+#list a.dirty .nm::after { content: " ●"; color: var(--accent); }
+.prog { width: 36px; height: 5px; background: var(--bar); border-radius: 3px; overflow: hidden; flex: none; }
+.prog > div { height: 100%; background: var(--custom); }
+
+/* Main */
+#main { flex: 1; height: 100vh; overflow-y: auto; }
+#top { position: sticky; top: 0; z-index: 5; background: var(--panel); border-bottom: 1px solid var(--border); padding: 10px 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+#top .title { font-size: 20px; font-weight: 600; }
+#top .sub { color: var(--muted); }
+#top .grow { flex: 1; }
+#stats { font-size: 12px; color: var(--muted); display: flex; gap: 14px; align-items: center; }
+#errors { margin: 12px 24px 0; padding: 10px 14px; border: 1px solid var(--bad); border-radius: 8px; color: var(--bad); white-space: pre-wrap; display: none; }
+#content { padding: 16px 24px 50vh; display: grid; gap: 18px; max-width: 1250px; }
+#status { padding: 40px; color: var(--muted); }
+#status.err { color: var(--bad); white-space: pre-wrap; font-family: ui-monospace, monospace; }
+h2.sect { margin: 6px 0 -6px; font-size: 15px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); display: flex; align-items: center; gap: 10px; }
+
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+.card.dirty { border-color: var(--accent); }
+.card .head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+.card .head h3 { margin: 0; font-size: 16px; }
+.tag { font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--panel2); border: 1px solid var(--border); color: var(--muted); white-space: nowrap; }
+.tag.c { color: var(--custom); border-color: var(--custom); }
+
+/* Wild */
+.wildgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 18px; align-items: start; }
+table.slots { border-collapse: collapse; width: 100%; }
+table.slots td, table.slots th { padding: 2px 6px; border-bottom: 1px solid var(--border); text-align: left; white-space: nowrap; }
+table.slots th { font-weight: 500; color: var(--muted); font-size: 12px; }
+table.slots td.rate { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; width: 44px; }
+table.slots tr.sub td { color: var(--muted); font-size: 11px; text-transform: uppercase; padding-top: 8px; border-bottom: none; }
+.spbtn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid transparent; background: none; border-radius: 6px; padding: 0 6px 0 0; text-align: left; min-width: 150px; }
+.spbtn:hover { border-color: var(--border); background: var(--panel2); }
+.spbtn img, .spbtn .ph { width: 32px; height: 32px; flex: none; }
+.spbtn .ph { display: inline-block; border: 1px dashed var(--bad); border-radius: 6px; }
+.spbtn.none { color: var(--bad); }
+.spbtn .cdot { width: 7px; height: 7px; border-radius: 50%; background: var(--custom); flex: none; }
+.agg { display: grid; gap: 6px; }
+.agg .row { display: flex; align-items: center; gap: 8px; }
+.agg .row img { width: 40px; height: 40px; }
+.agg .row .nm { min-width: 120px; }
+.agg .row .pct { font-weight: 600; font-variant-numeric: tabular-nums; width: 46px; text-align: right; }
+.agg .row .bar { flex: 1; max-width: 160px; height: 6px; background: var(--bar); border-radius: 3px; overflow: hidden; }
+.agg .row .bar > div { height: 100%; background: var(--vanilla); }
+.agg .row .bar > div.c { background: var(--custom); }
+.addm { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* Trainers */
+.tgrid { display: grid; gap: 12px; }
+.trainer .head img.pic { width: 56px; height: 56px; }
+.party { display: grid; gap: 6px; }
+.mon { display: grid; grid-template-columns: 190px 70px 150px 1fr auto; gap: 8px; align-items: center; padding: 4px 0; border-top: 1px solid var(--border); }
+.mon:first-child { border-top: none; }
+.mon .moves { display: grid; grid-template-columns: repeat(4, minmax(90px, 1fr)); gap: 4px; }
+.mon .moves input, .mon input.item { width: 100%; }
+.mon .lvl { display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--muted); }
+.mon .extra { grid-column: 1 / -1; font-size: 11px; color: var(--muted); margin-top: -4px; padding-left: 38px; }
+.phead { display: grid; grid-template-columns: 190px 70px 150px 1fr auto; gap: 8px; font-size: 11px; color: var(--muted); text-transform: uppercase; }
+
+/* Picker */
+#picker { position: fixed; inset: 0; background: rgba(0,0,0,.45); display: none; z-index: 20; align-items: flex-start; justify-content: center; padding: 5vh 20px; }
+#picker.open { display: flex; }
+#picker .box { background: var(--panel); border-radius: 12px; width: min(980px, 100%); max-height: 90vh; display: flex; flex-direction: column; box-shadow: 0 10px 40px rgba(0,0,0,.3); }
+#picker .bar { padding: 12px; border-bottom: 1px solid var(--border); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+#picker .bar input.txt { flex: 1; min-width: 200px; font-size: 15px; padding: 6px 10px; }
+#pgrid { overflow-y: auto; padding: 12px; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px; }
+.pc { display: grid; grid-template-columns: 56px 1fr; gap: 2px 8px; padding: 6px; border: 1px solid var(--border); border-radius: 8px; cursor: pointer; background: var(--panel2); text-align: left; }
+.pc:hover, .pc.kb { border-color: var(--accent); }
+.pc.cur { outline: 2px solid var(--accent); }
+.pc img { width: 56px; height: 56px; grid-row: span 3; }
+.pc .n { font-weight: 600; }
+.pc .s { font-size: 11px; color: var(--muted); }
+.types { display: inline-flex; gap: 3px; }
+.type { font-size: 10px; padding: 0 5px; border-radius: 4px; color: #fff; text-shadow: 0 1px 1px rgba(0,0,0,.4); }
+.used0 { color: var(--warn); }
+
+/* Overview */
+table.ov { border-collapse: collapse; width: 100%; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+table.ov td, table.ov th { padding: 4px 8px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+table.ov th { font-size: 12px; color: var(--muted); font-weight: 500; }
+table.ov img { width: 40px; height: 40px; }
+table.ov .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip { font-size: 12px; padding: 1px 7px; border-radius: 10px; border: 1px solid var(--border); background: var(--panel2); cursor: pointer; white-space: nowrap; }
+.chip:hover { border-color: var(--accent); }
+.none0 { color: var(--warn); font-size: 12px; }
+#toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: var(--text); color: var(--panel); padding: 8px 16px; border-radius: 8px; opacity: 0; transition: opacity .2s; pointer-events: none; z-index: 30; }
+#toast.on { opacity: 1; }
+</style>
+</head>
+<body>
+<aside id="side">
+  <header>
+    <h1>Répartition des Pokémon</h1>
+    <div id="nav">
+      <button class="btn small" data-view="overview">Vue d'ensemble</button>
+      <button class="btn small" data-view="unlinked">Dresseurs sans lieu</button>
+    </div>
+    <div id="region"><img id="regionImg" src="/api/region_map.png" alt="Carte de Hoenn"></div>
+    <div id="regionTip">Clique sur une zone de la carte.</div>
+    <input class="txt" id="q" placeholder="Chercher un lieu ou un dresseur…">
+    <label class="chk"><input type="checkbox" id="allMaps"> Afficher aussi les lieux vides</label>
+  </header>
+  <nav id="list"></nav>
+</aside>
+<main id="main">
+  <div id="top">
+    <div><div class="title" id="title">Chargement…</div><div class="sub" id="subtitle"></div></div>
+    <div class="grow"></div>
+    <div id="stats"></div>
+    <button class="btn" id="revert" disabled>Tout annuler</button>
+    <button class="btn primary" id="save" disabled>Enregistrer</button>
+  </div>
+  <div id="errors"></div>
+  <div id="status">Lecture des fichiers du jeu…</div>
+  <div id="content"></div>
+</main>
+
+<div id="picker"><div class="box">
+  <div class="bar">
+    <input class="txt" id="pq" placeholder="Nom, type (feu, eau…), constante…">
+    <label class="chk"><input type="checkbox" id="pCustom" checked> Pokémon custom uniquement</label>
+    <button class="btn" id="pClose">Fermer (Échap)</button>
+  </div>
+  <div id="pgrid"></div>
+</div></div>
+<div id="toast"></div>
+<datalist id="dlMoves"></datalist>
+<datalist id="dlItems"></datalist>
+
+<script>
+const TYPES = {
+  NORMAL: ['Normal', '#9fa19f'], FIRE: ['Feu', '#e62829'], WATER: ['Eau', '#2980ef'], GRASS: ['Plante', '#3fa129'],
+  ELECTRIC: ['Électrik', '#fac000'], ICE: ['Glace', '#3dcef3'], FIGHTING: ['Combat', '#ff8000'], POISON: ['Poison', '#9141cb'],
+  GROUND: ['Sol', '#915121'], FLYING: ['Vol', '#81b9ef'], PSYCHIC: ['Psy', '#ef4179'], BUG: ['Insecte', '#91a119'],
+  ROCK: ['Roche', '#afa981'], GHOST: ['Spectre', '#704170'], DRAGON: ['Dragon', '#5060e1'], DARK: ['Ténèbres', '#624d4e'],
+  STEEL: ['Acier', '#60a1b8'], FAIRY: ['Fée', '#ef70ef'], STELLAR: ['Stellaire', '#40b5a5'], MYSTERY: ['???', '#68a090'],
+};
+const METHODS = {
+  land_mons: { label: 'Herbes hautes', rate: 20 },
+  water_mons: { label: 'Surf', rate: 4 },
+  rock_smash_mons: { label: 'Éclate-Roc', rate: 20 },
+  fishing_mons: { label: 'Pêche', rate: 30 },
+};
+const RODS = { old_rod: 'Canne', good_rod: 'Super Canne', super_rod: 'Méga Canne' };
+const EVO = { LEVEL: 'Niv.', ITEM: 'Objet', FRIENDSHIP: 'Bonheur', TRADE: 'Échange' };
+
+let D, S, U; // données serveur, état éditable, index d'utilisation
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const clone = o => JSON.parse(JSON.stringify(o));
+const spriteUrl = p => p ? '/api/sprite?p=' + encodeURIComponent(p) : '';
+const sp = id => D.speciesById[id] || { id, name: id === 'SPECIES_NONE' ? '— à choisir —' : id.replace('SPECIES_', ''), types: [], custom: false };
+const isCustom = id => !!D.speciesById[id]?.custom;
+const humanize = (c, p) => c.slice(p.length).toLowerCase().split('_').map(w => w && w[0].toUpperCase() + w.slice(1)).join(' ');
+
+function toast(msg) {
+  const t = $('#toast'); t.textContent = msg; t.classList.add('on');
+  clearTimeout(toast.h); toast.h = setTimeout(() => t.classList.remove('on'), 2600);
+}
+
+// ---------- Chargement ----------
+
+async function load() {
+  const r = await fetch('/api/data', { cache: 'no-store' });
+  const data = await r.json();
+  if (!r.ok) throw new Error((data.errors || []).join('\n'));
+  D = data;
+  D.speciesById = Object.fromEntries(D.species.map(s => [s.id, s]));
+  D.mapById = Object.fromEntries(D.maps.map(m => [m.id, m]));
+  D.trainerById = Object.fromEntries(D.trainers.map(t => [t.id, t]));
+  D.fieldByType = Object.fromEntries(D.wildFields.map(f => [f.type, f]));
+  D.secById = Object.fromEntries(D.sections.map(s => [s.id, s]));
+  D.trainerMaps = {};
+  for (const m of D.maps) for (const t of m.trainers) (D.trainerMaps[t] ||= []).push(m.id);
+  D.custom = D.species.filter(s => s.custom).sort((a, b) => (a.dex ?? 1e4) - (b.dex ?? 1e4));
+  S = { wild: clone(D.wild), parties: {}, dirtyWild: new Set(), dirtyTrainers: new Set() };
+  for (const t of D.trainers) S.parties[t.id] = clone(t.party);
+  $('#dlMoves').innerHTML = D.moves.map(m => `<option value="${esc(m)}">`).join('');
+  $('#dlItems').innerHTML = D.items.map(m => `<option value="${esc(m)}">`).join('');
+  if (!D.wildRoundTrip) showErrors(['Attention : wild_encounters.json ne se réécrit pas à l\'identique, l\'enregistrement reformatera le fichier.']);
+  $('#status').style.display = 'none';
+  computeUsage();
+  buildRegion();
+  route();
+}
+
+// ---------- Index d'utilisation ----------
+
+function wildFor(mapId) { return S.wild.filter(e => e.map === mapId); }
+
+// Pourcentages d'apparition par espèce pour une méthode (et par canne pour la pêche).
+function methodShares(type, block) {
+  const f = D.fieldByType[type];
+  const groups = f.groups ? Object.entries(f.groups) : [[null, f.encounter_rates.map((_, i) => i)]];
+  const out = [];
+  for (const [g, idxs] of groups) {
+    const total = idxs.reduce((a, i) => a + f.encounter_rates[i], 0);
+    const agg = {};
+    for (const i of idxs) {
+      const m = block.mons[i]; if (!m) continue;
+      const a = agg[m.species] ||= { species: m.species, pct: 0, min: 999, max: 0 };
+      a.pct += f.encounter_rates[i] / total * 100;
+      a.min = Math.min(a.min, m.min_level); a.max = Math.max(a.max, m.max_level);
+    }
+    out.push({ group: g, list: Object.values(agg).sort((a, b) => b.pct - a.pct) });
+  }
+  return out;
+}
+
+function computeUsage() {
+  U = { species: {}, maps: {} };
+  const use = id => U.species[id] ||= { wild: [], trainers: [] };
+  for (const enc of S.wild) {
+    const mapStat = U.maps[enc.map] ||= { slots: 0, custom: 0, species: new Set() };
+    for (const type of Object.keys(METHODS)) {
+      if (!enc[type]) continue;
+      for (const { group, list } of methodShares(type, enc[type])) {
+        for (const a of list) {
+          use(a.species).wild.push({ map: enc.map, type, group, pct: a.pct, min: a.min, max: a.max });
+          mapStat.species.add(a.species);
+        }
+      }
+      for (const m of enc[type].mons) { mapStat.slots++; if (isCustom(m.species)) mapStat.custom++; }
+    }
+  }
+  for (const t of D.trainers) {
+    for (const m of S.parties[t.id]) use(m.species).trainers.push({ trainer: t.id, level: m.level });
+    for (const mapId of D.trainerMaps[t.id] || []) {
+      const ms = U.maps[mapId] ||= { slots: 0, custom: 0, species: new Set() };
+      for (const m of S.parties[t.id]) { ms.slots++; if (isCustom(m.species)) ms.custom++; }
+    }
+  }
+}
+
+// ---------- État « modifié » ----------
+
+function markWild(mapId) { S.dirtyWild.add(mapId); afterChange(); }
+function markTrainer(id) {
+  if (JSON.stringify(S.parties[id]) === JSON.stringify(D.trainerById[id].party)) S.dirtyTrainers.delete(id);
+  else S.dirtyTrainers.add(id);
+  afterChange();
+}
+function dirtyCount() { return S.dirtyWild.size + S.dirtyTrainers.size; }
+function afterChange() {
+  computeUsage();
+  updateTop();
+  renderList();
+  paintRegion();
+}
+
+function updateTop() {
+  const n = dirtyCount();
+  $('#save').disabled = !n;
+  $('#revert').disabled = !n;
+  $('#save').textContent = n ? `Enregistrer (${n})` : 'Enregistrer';
+  const placed = D.custom.filter(s => U.species[s.id]?.wild.length || U.species[s.id]?.trainers.length).length;
+  const wildPlaced = D.custom.filter(s => U.species[s.id]?.wild.length).length;
+  let slots = 0, cslots = 0;
+  for (const m of Object.values(U.maps)) { slots += m.slots; cslots += m.custom; }
+  $('#stats').innerHTML = `<span title="Pokémon custom présents au moins une fois (sauvage ou dresseur)"><b>${placed}</b>/${D.custom.length} custom placés</span>
+    <span title="Pokémon custom trouvables à l'état sauvage">${wildPlaced} en sauvage</span>
+    <span title="Part des emplacements (sauvages + équipes des dresseurs liés à un lieu) occupés par un Pokémon custom">${Math.round(cslots / Math.max(1, slots) * 100)} % des emplacements custom</span>`;
+}
+
+// ---------- Carte & liste ----------
+
+function mapsecProgress(secId) {
+  let slots = 0, custom = 0;
+  for (const m of D.maps) if (m.mapsec === secId && U.maps[m.id]) { slots += U.maps[m.id].slots; custom += U.maps[m.id].custom; }
+  return { slots, custom };
+}
+
+function buildRegion() {
+  const box = $('#region');
+  for (const s of D.sections) {
+    if (!s.width || !D.maps.some(m => m.mapsec === s.id)) continue;
+    const d = document.createElement('div');
+    d.className = 'sec'; d.dataset.id = s.id;
+    Object.assign(d.style, {
+      left: (s.x + 1) * 8 / 240 * 100 + '%', top: (s.y + 2) * 8 / 160 * 100 + '%',
+      width: s.width * 8 / 240 * 100 + '%', height: s.height * 8 / 160 * 100 + '%',
+    });
+    d.onmouseenter = () => { $('#regionTip').textContent = s.name.replace(/\w\S*/g, w => w[0] + w.slice(1).toLowerCase()); };
+    d.onclick = () => {
+      const maps = visibleMaps().filter(m => m.mapsec === s.id);
+      const first = maps[0] || D.maps.find(m => m.mapsec === s.id);
+      S.secFilter = s.id;
+      go({ kind: 'map', id: first.id });
+    };
+    box.appendChild(d);
+  }
+  paintRegion();
+}
+
+function paintRegion() {
+  const cur = S.view?.kind === 'map' ? D.mapById[S.view.id]?.mapsec : null;
+  for (const d of document.querySelectorAll('#region .sec')) {
+    const p = mapsecProgress(d.dataset.id);
+    d.className = 'sec' + (p.slots ? ' has' + (p.custom === p.slots ? ' done' : p.custom ? ' part' : '') : '') + (d.dataset.id === cur ? ' on' : '');
+    d.title = p.slots ? `${Math.round(p.custom / p.slots * 100)} % custom` : '';
+  }
+}
+
+function visibleMaps() {
+  const q = $('#q').value.trim().toLowerCase();
+  const all = $('#allMaps').checked;
+  return D.maps.filter(m => {
+    const has = wildFor(m.id).length || m.trainers.length;
+    if (!all && !has) return false;
+    if (!q) return true;
+    if ((m.name + ' ' + m.mapsecName + ' ' + m.id).toLowerCase().includes(q)) return true;
+    return m.trainers.some(t => (t + ' ' + (D.trainerById[t]?.name || '')).toLowerCase().includes(q));
+  });
+}
+
+function renderList() {
+  const order = Object.fromEntries(D.sections.map((s, i) => [s.id, i]));
+  const maps = visibleMaps().sort((a, b) => (order[a.mapsec] ?? 999) - (order[b.mapsec] ?? 999) || a.name.localeCompare(b.name, 'fr', { numeric: true }));
+  const cur = S.view?.kind === 'map' ? S.view.id : null;
+  let html = '', grp = null;
+  for (const m of maps) {
+    if (m.mapsec !== grp) { grp = m.mapsec; html += `<div class="grp" data-sec="${esc(grp)}">${esc(m.mapsecName || grp)}</div>`; }
+    const st = U.maps[m.id];
+    const nWild = wildFor(m.id).length ? (st?.species.size || 0) : 0;
+    const pct = st?.slots ? st.custom / st.slots * 100 : 0;
+    const dirty = S.dirtyWild.has(m.id) || m.trainers.some(t => S.dirtyTrainers.has(t));
+    html += `<a data-id="${m.id}" class="${m.id === cur ? 'on' : ''} ${dirty ? 'dirty' : ''}">
+      <span class="nm">${esc(m.name)}</span>
+      <span class="cnt">${nWild ? '🌿' + nWild : ''} ${m.trainers.length ? '👤' + m.trainers.length : ''}</span>
+      ${st?.slots ? `<span class="prog" title="${Math.round(pct)} % custom"><div style="width:${pct}%"></div></span>` : '<span class="prog" style="visibility:hidden"></span>'}
+    </a>`;
+  }
+  $('#list').innerHTML = html || '<div class="muted" style="padding:12px">Aucun lieu.</div>';
+  $('#list .on')?.scrollIntoView({ block: 'nearest' });
+}
+
+$('#list').addEventListener('click', e => {
+  const a = e.target.closest('a[data-id]');
+  if (a) go({ kind: 'map', id: a.dataset.id });
+});
+$('#q').addEventListener('input', renderList);
+$('#allMaps').addEventListener('change', renderList);
+for (const b of document.querySelectorAll('#nav button')) b.onclick = () => go({ kind: b.dataset.view });
+
+// ---------- Navigation ----------
+
+function go(view) {
+  location.hash = view.kind === 'map' ? view.id : view.kind;
+}
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (D.mapById[h]) S.view = { kind: 'map', id: h };
+  else if (h === 'unlinked') S.view = { kind: 'unlinked' };
+  else S.view = { kind: 'overview' };
+  for (const b of document.querySelectorAll('#nav button')) b.classList.toggle('on', b.dataset.view === S.view.kind);
+  render();
+  renderList();
+  paintRegion();
+  updateTop();
+  $('#main').scrollTop = 0;
+}
+window.addEventListener('hashchange', route);
+
+function render() {
+  if (S.view.kind === 'map') renderMap(S.view.id);
+  else if (S.view.kind === 'unlinked') renderUnlinked();
+  else renderOverview();
+}
+
+// ---------- Rendu des Pokémon ----------
+
+function typesHtml(types) {
+  return `<span class="types">${types.map(t => `<span class="type" style="background:${TYPES[t]?.[1] || '#888'}">${TYPES[t]?.[0] || t}</span>`).join('')}</span>`;
+}
+function evoText(s) {
+  const parts = [];
+  for (const f of s.from || []) parts.push(`← ${sp(f.id).name}${f.method === 'LEVEL' ? ' (niv. ' + f.param + ')' : ''}`);
+  for (const e of s.evos || []) parts.push(`→ ${sp(e.target).name} (${EVO[e.method] || e.method.toLowerCase()} ${e.method === 'ITEM' ? humanize(e.param, 'ITEM_') : e.method === 'LEVEL' ? e.param : ''})`.replace(' )', ')'));
+  return parts.join(' · ');
+}
+function spBtn(id, attrs) {
+  const s = sp(id);
+  const img = s.front ? `<img class="px" loading="lazy" src="${spriteUrl(s.front)}" alt="">` : '<span class="ph"></span>';
+  return `<button class="spbtn ${id === 'SPECIES_NONE' ? 'none' : ''}" ${attrs} title="${esc(s.id)}">${img}<span>${esc(s.name)}</span>${s.custom ? '<span class="cdot" title="custom"></span>' : ''}</button>`;
+}
+
+// ---------- Vue lieu ----------
+
+function renderMap(mapId) {
+  const m = D.mapById[mapId];
+  $('#title').textContent = m.name;
+  $('#subtitle').innerHTML = `${esc(m.mapsecName)} · <span class="mono">${m.id}</span>`;
+  let html = `<h2 class="sect">Pokémon sauvages</h2>`;
+  const encs = wildFor(mapId);
+  encs.forEach((enc, ei) => {
+    if (encs.length > 1) html += `<div class="muted mono">${esc(enc.base_label)}</div>`;
+    for (const type of Object.keys(METHODS)) if (enc[type]) html += wildCard(enc, S.wild.indexOf(enc), type);
+  });
+  const enc = encs[0];
+  const missing = Object.keys(METHODS).filter(t => !enc || !enc[t]);
+  if (missing.length) {
+    html += `<div class="addm">${missing.map(t => `<button class="btn small" data-act="addMethod" data-type="${t}">+ ${METHODS[t].label}</button>`).join('')}</div>`;
+  }
+  html += `<h2 class="sect">Dresseurs <span class="tag">${m.trainers.length}</span></h2>`;
+  html += m.trainers.length ? `<div class="tgrid">${m.trainers.map(trainerCard).join('')}</div>` : '<div class="muted">Aucun dresseur sur cette map.</div>';
+  $('#content').innerHTML = html;
+  $('#content').dataset.map = mapId;
+}
+
+function wildCard(enc, ei, type) {
+  const f = D.fieldByType[type], block = enc[type];
+  const groupOf = {};
+  if (f.groups) for (const [g, idxs] of Object.entries(f.groups)) for (const i of idxs) groupOf[i] = g;
+  const groupTotal = g => (f.groups?.[g] || f.encounter_rates.map((_, i) => i)).reduce((a, i) => a + f.encounter_rates[i], 0);
+  let rows = '', lastG;
+  block.mons.forEach((m, i) => {
+    const g = groupOf[i] ?? null;
+    if (g && g !== lastG) { rows += `<tr class="sub"><td colspan="4">${RODS[g] || g}</td></tr>`; lastG = g; }
+    const pct = f.encounter_rates[i] / groupTotal(g) * 100;
+    rows += `<tr>
+      <td class="rate">${+pct.toFixed(1)} %</td>
+      <td>${spBtn(m.species, `data-act="pickWild" data-e="${ei}" data-t="${type}" data-i="${i}"`)}</td>
+      <td><input type="number" min="1" max="100" value="${m.min_level}" data-act="lvl" data-k="min_level" data-e="${ei}" data-t="${type}" data-i="${i}"></td>
+      <td><input type="number" min="1" max="100" value="${m.max_level}" data-act="lvl" data-k="max_level" data-e="${ei}" data-t="${type}" data-i="${i}"></td>
+    </tr>`;
+  });
+  const agg = methodShares(type, block).map(({ group, list }) => `
+    ${group ? `<div class="muted" style="font-size:11px;text-transform:uppercase">${RODS[group] || group}</div>` : ''}
+    ${list.map(a => {
+      const s = sp(a.species);
+      return `<div class="row">
+        ${s.front ? `<img class="px" loading="lazy" src="${spriteUrl(s.front)}" alt="">` : '<span style="width:40px"></span>'}
+        <span class="nm">${esc(s.name)}<br><span class="muted" style="font-size:12px">niv. ${a.min === a.max ? a.min : a.min + '–' + a.max}</span></span>
+        <span class="pct">${Math.round(a.pct)} %</span>
+        <span class="bar"><div class="${s.custom ? 'c' : ''}" style="width:${a.pct}%"></div></span>
+        <button class="btn small" data-act="replaceAll" data-e="${ei}" data-t="${type}" data-g="${group || ''}" data-sp="${a.species}" title="Remplacer cette espèce sur tous ses emplacements">Remplacer</button>
+      </div>`;
+    }).join('')}`).join('');
+  return `<div class="card">
+    <div class="head"><h3>${METHODS[type].label}</h3>
+      <span class="muted" style="font-size:12px" title="Probabilité de déclencher une rencontre (0-255). Herbe vanilla : 20, surf : 4.">fréquence <input type="number" min="0" max="255" value="${block.encounter_rate}" data-act="rate" data-e="${ei}" data-t="${type}"></span>
+      <span class="grow" style="flex:1"></span>
+      <button class="btn small ghost" data-act="delMethod" data-e="${ei}" data-t="${type}">Supprimer</button>
+    </div>
+    <div class="wildgrid">
+      <table class="slots"><tr><th style="text-align:right">Taux</th><th>Espèce</th><th>Niv. min</th><th>Niv. max</th></tr>${rows}</table>
+      <div class="agg">${agg}</div>
+    </div>
+  </div>`;
+}
+
+function trainerCard(tid) {
+  const t = D.trainerById[tid];
+  if (!t) return `<div class="card muted">${esc(tid)} introuvable dans trainers.party</div>`;
+  const party = S.parties[tid];
+  const rematch = /_[2-9]$/.test(tid);
+  const others = (D.trainerMaps[tid] || []).filter(m => m !== S.view.id).map(m => D.mapById[m].name);
+  const mons = party.map((m, i) => {
+    const extra = [m.nickname && `surnom ${m.nickname}`, m.gender && `sexe ${m.gender}`, ...m.attrs].filter(Boolean);
+    return `<div class="mon">
+      ${spBtn(m.species, `data-act="pickMon" data-tr="${tid}" data-i="${i}"`)}
+      <span class="lvl">Niv. <input type="number" min="1" max="100" value="${m.level ?? ''}" placeholder="100" data-act="monLvl" data-tr="${tid}" data-i="${i}"></span>
+      <input class="txt item" list="dlItems" value="${esc(m.item || '')}" placeholder="Objet tenu" data-act="monItem" data-tr="${tid}" data-i="${i}">
+      <div class="moves">${[0, 1, 2, 3].map(k => `<input class="txt" list="dlMoves" value="${esc(m.moves[k] || '')}" placeholder="${k === 0 && !m.moves.length ? 'auto' : ''}" data-act="monMove" data-tr="${tid}" data-i="${i}" data-k="${k}">`).join('')}</div>
+      <span>${i > 0 ? `<button class="btn small ghost" data-act="monUp" data-tr="${tid}" data-i="${i}" title="Monter">↑</button>` : ''}<button class="btn small ghost" data-act="monDel" data-tr="${tid}" data-i="${i}" title="Retirer" ${party.length <= 1 ? 'disabled' : ''}>✕</button></span>
+      ${extra.length ? `<div class="extra">conservé tel quel : ${esc(extra.join(' · '))}</div>` : ''}
+    </div>`;
+  }).join('');
+  const dirty = S.dirtyTrainers.has(tid);
+  return `<div class="card trainer ${dirty ? 'dirty' : ''}" id="tr-${tid}">
+    <div class="head">
+      ${t.pic ? `<img class="px pic" loading="lazy" src="${spriteUrl(t.pic)}" alt="">` : ''}
+      <div><h3>${esc(t.cls)} ${esc(t.name)}</h3><span class="mono muted">${tid}</span></div>
+      ${t.double ? '<span class="tag">Combat double</span>' : ''}
+      ${rematch ? '<span class="tag">Revanche</span>' : ''}
+      ${t.items ? `<span class="tag" title="Objets utilisés par le dresseur">${esc(t.items)}</span>` : ''}
+      ${others.length ? `<span class="tag">aussi : ${esc(others.join(', '))}</span>` : ''}
+      ${t.readonly ? '<span class="tag" style="color:var(--bad)">non modifiable ici (commentaires ou règles de pool)</span>' : ''}
+      <span style="flex:1"></span>
+      ${dirty ? `<button class="btn small" data-act="trRevert" data-tr="${tid}">Rétablir</button>` : ''}
+    </div>
+    ${t.readonly ? '' : `<div class="phead"><span>Pokémon</span><span>Niveau</span><span>Objet</span><span>Attaques (vide = les 4 dernières apprises)</span><span></span></div>
+    <div class="party">${mons}</div>
+    ${party.length < 6 ? `<button class="btn small" style="margin-top:8px" data-act="monAdd" data-tr="${tid}">+ Pokémon</button>` : ''}`}
+  </div>`;
+}
+
+// ---------- Actions ----------
+
+function rerender() {
+  const y = $('#main').scrollTop;
+  render();
+  $('#main').scrollTop = y;
+}
+
+$('#content').addEventListener('click', async e => {
+  const b = e.target.closest('[data-act]');
+  if (!b || b.tagName === 'INPUT') return;
+  const d = b.dataset, mapId = S.view.id;
+  const enc = d.e != null ? S.wild[+d.e] : null;
+  switch (d.act) {
+    case 'pickWild': {
+      const id = await pick(enc[d.t].mons[+d.i].species);
+      if (!id) return;
+      enc[d.t].mons[+d.i].species = id;
+      markWild(enc.map); break;
+    }
+    case 'replaceAll': {
+      const id = await pick(d.sp);
+      if (!id) return;
+      const f = D.fieldByType[d.t];
+      const idxs = d.g ? f.groups[d.g] : enc[d.t].mons.map((_, i) => i);
+      for (const i of idxs) if (enc[d.t].mons[i].species === d.sp) enc[d.t].mons[i].species = id;
+      markWild(enc.map); break;
+    }
+    case 'delMethod':
+      if (!confirm(`Supprimer toutes les rencontres « ${METHODS[d.t].label} » de ce lieu ?`)) return;
+      delete enc[d.t];
+      if (!Object.keys(METHODS).some(t => enc[t])) S.wild.splice(S.wild.indexOf(enc), 1);
+      markWild(mapId); break;
+    case 'addMethod': {
+      const id = await pick(null);
+      if (!id) return;
+      let target = wildFor(mapId)[0];
+      if (!target) {
+        const m = D.mapById[mapId];
+        target = { map: mapId, base_label: 'g' + m.folder };
+        S.wild.push(target);
+      }
+      const f = D.fieldByType[d.type];
+      target[d.type] = { encounter_rate: METHODS[d.type].rate, mons: f.encounter_rates.map(() => ({ min_level: 5, max_level: 5, species: id })) };
+      // Garde l'ordre des clés du fichier : map, base_label, puis les méthodes.
+      const ordered = { map: target.map, base_label: target.base_label };
+      for (const t of D.wildFields.map(x => x.type)) if (target[t]) ordered[t] = target[t];
+      S.wild[S.wild.indexOf(target)] = ordered;
+      toast('Emplacements créés : ajuste les espèces et les niveaux.');
+      markWild(mapId); break;
+    }
+    case 'pickMon': {
+      const mon = S.parties[d.tr][+d.i];
+      const id = await pick(mon.species);
+      if (!id || id === mon.species) return;
+      mon.species = id;
+      if (mon.moves.length) { mon.moves = []; toast('Attaques vidées : le jeu prendra les 4 dernières apprises par niveau.'); }
+      markTrainer(d.tr); break;
+    }
+    case 'monAdd': {
+      const id = await pick(null);
+      if (!id) return;
+      const party = S.parties[d.tr], last = party[party.length - 1];
+      party.push({ speciesText: '', species: id, nickname: null, gender: null, item: null, level: last?.level ?? 5, levelIdx: 0,
+        attrs: (last?.attrs || []).filter(a => /^IVs\s*:/.test(a)), moves: [] });
+      markTrainer(d.tr); break;
+    }
+    case 'monDel': S.parties[d.tr].splice(+d.i, 1); markTrainer(d.tr); break;
+    case 'monUp': { const p = S.parties[d.tr], i = +d.i; [p[i - 1], p[i]] = [p[i], p[i - 1]]; markTrainer(d.tr); break; }
+    case 'trRevert': S.parties[d.tr] = clone(D.trainerById[d.tr].party); markTrainer(d.tr); break;
+    default: return;
+  }
+  rerender();
+});
+
+$('#content').addEventListener('change', e => {
+  const el = e.target, d = el.dataset;
+  if (!d.act) return;
+  const n = el.value === '' ? null : Math.max(0, Math.round(+el.value));
+  switch (d.act) {
+    case 'lvl': {
+      const enc = S.wild[+d.e], mon = enc[d.t].mons[+d.i];
+      mon[d.k] = Math.min(100, Math.max(1, n || 1));
+      if (mon.min_level > mon.max_level) { if (d.k === 'min_level') mon.max_level = mon.min_level; else mon.min_level = mon.max_level; }
+      markWild(enc.map); break;
+    }
+    case 'rate': { const enc = S.wild[+d.e]; enc[d.t].encounter_rate = Math.min(255, n ?? 0); markWild(enc.map); break; }
+    case 'monLvl': { const m = S.parties[d.tr][+d.i]; m.level = n == null ? null : Math.min(100, Math.max(1, n)); markTrainer(d.tr); break; }
+    case 'monItem': { S.parties[d.tr][+d.i].item = el.value.trim() || null; markTrainer(d.tr); break; }
+    case 'monMove': {
+      const m = S.parties[d.tr][+d.i], moves = [0, 1, 2, 3].map(k => m.moves[k] || '');
+      moves[+d.k] = el.value.trim();
+      m.moves = moves.filter(Boolean);
+      markTrainer(d.tr); break;
+    }
+    default: return;
+  }
+  rerender();
+});
+
+// ---------- Sélecteur d'espèce ----------
+
+let pickResolve = null, pickCurrent = null;
+function pick(current) {
+  pickCurrent = current;
+  $('#picker').classList.add('open');
+  $('#pq').value = '';
+  if (current && !isCustom(current) && current !== 'SPECIES_NONE') $('#pCustom').checked = true;
+  renderPicker();
+  setTimeout(() => $('#pq').focus(), 0);
+  return new Promise(res => { pickResolve = res; });
+}
+function closePicker(val) {
+  $('#picker').classList.remove('open');
+  pickResolve?.(val || null); pickResolve = null;
+}
+function pickerList() {
+  const q = $('#pq').value.trim().toLowerCase();
+  const base = $('#pCustom').checked ? D.custom : D.species;
+  return base.filter(s => !q || (s.name + ' ' + s.id + ' ' + s.types.map(t => TYPES[t]?.[0] + ' ' + t).join(' ')).toLowerCase().includes(q)).slice(0, 300);
+}
+function renderPicker() {
+  const list = pickerList();
+  $('#pgrid').innerHTML = list.map((s, i) => {
+    const u = U.species[s.id] || { wild: [], trainers: [] };
+    const nWild = new Set(u.wild.map(w => w.map)).size;
+    return `<button class="pc ${i === 0 ? 'kb' : ''} ${s.id === pickCurrent ? 'cur' : ''}" data-id="${s.id}">
+      ${s.front ? `<img class="px" loading="lazy" src="${spriteUrl(s.front)}" alt="">` : '<span></span>'}
+      <span class="n">${esc(s.name)}</span>
+      <span>${typesHtml(s.types)} <span class="s">BST ${s.bst || '?'}</span></span>
+      <span class="s ${nWild + u.trainers.length ? '' : 'used0'}">${nWild + u.trainers.length ? `${nWild} lieu${nWild > 1 ? 'x' : ''} · ${u.trainers.length} dresseur${u.trainers.length > 1 ? 's' : ''}` : 'placé nulle part'}</span>
+      ${evoText(s) ? `<span class="s" style="grid-column:1/-1">${esc(evoText(s))}</span>` : ''}
+    </button>`;
+  }).join('') || '<div class="muted">Aucun résultat.</div>';
+}
+$('#pq').addEventListener('input', renderPicker);
+$('#pCustom').addEventListener('change', renderPicker);
+$('#pClose').onclick = () => closePicker();
+$('#picker').addEventListener('click', e => {
+  if (e.target.id === 'picker') return closePicker();
+  const c = e.target.closest('.pc'); if (c) closePicker(c.dataset.id);
+});
+$('#pq').addEventListener('keydown', e => {
+  if (e.key === 'Enter') { const c = $('#pgrid .pc'); if (c) closePicker(c.dataset.id); }
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && $('#picker').classList.contains('open')) closePicker();
+  if ((e.metaKey || e.ctrlKey) && e.key === 's') { e.preventDefault(); if (dirtyCount()) saveAll(); }
+});
+
+// ---------- Vue d'ensemble ----------
+
+function renderOverview() {
+  $('#title').textContent = "Vue d'ensemble";
+  $('#subtitle').textContent = 'Où apparaît chaque Pokémon custom';
+  const onlyMissing = S.ovMissing ?? false;
+  const rows = D.custom.map(s => {
+    const u = U.species[s.id] || { wild: [], trainers: [] };
+    if (onlyMissing && u.wild.length) return '';
+    const byMap = {};
+    for (const w of u.wild) {
+      const k = w.map; const b = byMap[k] ||= { map: k, min: 999, max: 0, methods: new Set() };
+      b.min = Math.min(b.min, w.min); b.max = Math.max(b.max, w.max); b.methods.add(METHODS[w.type].label + (w.group ? ' (' + RODS[w.group] + ')' : '') + ' ' + Math.round(w.pct) + ' %');
+    }
+    const wild = Object.values(byMap).map(b => `<span class="chip" data-map="${b.map}" title="${esc([...b.methods].join(', '))}">${esc(D.mapById[b.map]?.name || b.map)} · ${b.min === b.max ? b.min : b.min + '–' + b.max}</span>`).join('');
+    const tr = u.trainers.map(t => {
+      const tt = D.trainerById[t.trainer], m = (D.trainerMaps[t.trainer] || [])[0];
+      return `<span class="chip" data-map="${m || ''}" data-tr="${t.trainer}" title="${esc(m ? D.mapById[m].name : 'sans lieu')}">${esc(tt.cls + ' ' + tt.name)} · ${t.level ?? '?'}</span>`;
+    }).join('');
+    return `<tr>
+      <td>${s.front ? `<img class="px" loading="lazy" src="${spriteUrl(s.front)}" alt="">` : ''}</td>
+      <td><b>${esc(s.name)}</b><br>${typesHtml(s.types)} <span class="muted" style="font-size:12px">BST ${s.bst}</span><br><span class="muted" style="font-size:12px">${esc(evoText(s))}</span></td>
+      <td><div class="chips">${wild || '<span class="none0">aucun</span>'}</div></td>
+      <td><div class="chips">${tr || '<span class="none0">aucun</span>'}</div></td>
+    </tr>`;
+  }).join('');
+  $('#content').innerHTML = `
+    <label class="chk muted"><input type="checkbox" id="ovMissing" ${onlyMissing ? 'checked' : ''}> Seulement ceux introuvables à l'état sauvage</label>
+    <table class="ov"><tr><th></th><th>Pokémon</th><th>Sauvage (lieu · niveaux)</th><th>Dresseurs (niveau)</th></tr>${rows}</table>`;
+  $('#ovMissing').onchange = e => { S.ovMissing = e.target.checked; renderOverview(); };
+  for (const c of document.querySelectorAll('#content .chip[data-map]')) c.onclick = () => {
+    if (c.dataset.map) { S.scrollTo = c.dataset.tr; go({ kind: 'map', id: c.dataset.map }); }
+    else go({ kind: 'unlinked' });
+  };
+}
+
+// ---------- Dresseurs sans lieu ----------
+
+function renderUnlinked() {
+  const list = D.trainers.filter(t => !D.trainerMaps[t.id] && t.id !== 'TRAINER_NONE' && t.party.length);
+  $('#title').textContent = 'Dresseurs sans lieu';
+  $('#subtitle').textContent = `${list.length} dresseurs qui n'apparaissent dans aucun script de map (Tour de combat, scripts communs, inutilisés…)`;
+  const q = S.unlinkedQ || '';
+  const shown = list.filter(t => !q || (t.id + ' ' + t.name + ' ' + t.cls).toLowerCase().includes(q.toLowerCase())).slice(0, 60);
+  $('#content').innerHTML = `<input class="txt" id="uq" placeholder="Filtrer (nom, classe, constante)…" value="${esc(q)}" style="max-width:360px">
+    <div class="muted" style="font-size:12px">${shown.length < list.length ? `${shown.length} affichés sur ${list.length}, filtre pour en voir d'autres.` : ''}</div>
+    <div class="tgrid">${shown.map(t => trainerCard(t.id)).join('')}</div>`;
+  const uq = $('#uq');
+  uq.oninput = () => { S.unlinkedQ = uq.value; renderUnlinked(); const n = $('#uq'); n.focus(); n.setSelectionRange(n.value.length, n.value.length); };
+}
+
+// ---------- Enregistrement ----------
+
+function showErrors(list) {
+  const el = $('#errors');
+  el.style.display = list.length ? 'block' : 'none';
+  el.textContent = list.join('\n');
+}
+
+async function saveAll() {
+  const payload = { versions: D.versions };
+  if (S.dirtyWild.size) payload.wild = S.wild;
+  payload.trainers = Object.fromEntries([...S.dirtyTrainers].map(id => [id, S.parties[id]]));
+  $('#save').disabled = true; $('#save').textContent = 'Enregistrement…';
+  try {
+    const r = await fetch('/api/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+    const res = await r.json();
+    if (!r.ok) { showErrors(res.errors || ['Erreur inconnue']); updateTop(); return; }
+    showErrors([]);
+    const view = location.hash;
+    await load();
+    location.hash = view;
+    toast('Enregistré dans wild_encounters.json et trainers.party.');
+  } catch (err) {
+    showErrors([String(err)]); updateTop();
+  }
+}
+$('#save').onclick = saveAll;
+$('#revert').onclick = () => {
+  if (!confirm('Annuler toutes les modifications non enregistrées ?')) return;
+  S.wild = clone(D.wild);
+  for (const t of D.trainers) S.parties[t.id] = clone(t.party);
+  S.dirtyWild.clear(); S.dirtyTrainers.clear();
+  afterChange(); rerender(); showErrors([]);
+};
+window.addEventListener('beforeunload', e => { if (D && dirtyCount()) { e.preventDefault(); e.returnValue = ''; } });
+
+// Défilement vers un dresseur après un clic dans la vue d'ensemble.
+new MutationObserver(() => {
+  if (S?.scrollTo) { const el = document.getElementById('tr-' + S.scrollTo); S.scrollTo = null; el?.scrollIntoView({ block: 'center' }); }
+}).observe($('#content'), { childList: true });
+
+load().catch(err => { const s = $('#status'); s.className = 'err'; s.textContent = String(err.stack || err); $('#title').textContent = 'Erreur'; });
+</script>
+</body>
+</html>

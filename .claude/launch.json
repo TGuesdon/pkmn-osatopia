@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "distribution-editor",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["dev_scripts/distribution_editor/server.py", "8643", "--no-open"],
+      "port": 8643
+    }
+  ]
+}
