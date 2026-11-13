@@ -365,6 +365,12 @@
   "normal.pal": "7270c397e6fa555a",
   "shiny.pal": "7270c397e6fa555a"
  },
+ "cycloporth": {
+  "anim_front.png": "ab95dad5d3c227d7",
+  "back.png": "8bfb73529c0129d6",
+  "normal.pal": "8ec271965cdedd50",
+  "shiny.pal": "8ec271965cdedd50"
+ },
  "dagon": {
   "anim_front.png": "cafcd682c2dffbdb",
   "back.png": "1d21c8f51192ca94",
@@ -802,6 +808,12 @@
   "front.png": "a82b659f3e2229b2",
   "normal.pal": "f7471034e402dbf9",
   "shiny.pal": "f7471034e402dbf9"
+ },
+ "masticroc": {
+  "anim_front.png": "f8ffa7a57cd32cf8",
+  "back.png": "189cfcce92105d9f",
+  "normal.pal": "11eb3af3a290cfbb",
+  "shiny.pal": "11eb3af3a290cfbb"
  },
  "metaphorreur": {
   "anim_front.png": "41b76b88c1cdec54",
@@ -1255,6 +1267,12 @@
   "front.png": "61d15e3c3c2c3fdf",
   "normal.pal": "052ded5a15de0cfb",
   "shiny.pal": "c6ca26e983b28bac"
+ },
+ "tremorse": {
+  "anim_front.png": "7e89440d2b05774d",
+  "back.png": "c359829c1aff31c3",
+  "normal.pal": "47a2413360807f22",
+  "shiny.pal": "47a2413360807f22"
  },
  "tronknyde": {
   "anim_front.png": "75c9a8f1b9047997",

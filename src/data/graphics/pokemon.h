@@ -28118,3 +28118,24 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPalette_IlyzaelleDoree[] = INCBIN_U16("graphics/pokemon/ilyzaelle_doree/shiny.gbapal");
     const u8 gMonIcon_IlyzaelleDoree[] = INCBIN_U8("graphics/pokemon/ilyzaelle_doree/icon.4bpp");
     const u8 gMonFootprint_IlyzaelleDoree[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Masticroc[] = INCBIN_U32("graphics/pokemon/masticroc/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Masticroc[] = INCBIN_U32("graphics/pokemon/masticroc/back.4bpp.lz");
+    const u16 gMonPalette_Masticroc[] = INCBIN_U16("graphics/pokemon/masticroc/normal.gbapal");
+    const u16 gMonShinyPalette_Masticroc[] = INCBIN_U16("graphics/pokemon/masticroc/shiny.gbapal");
+    const u8 gMonIcon_Masticroc[] = INCBIN_U8("graphics/pokemon/masticroc/icon.4bpp");
+    const u8 gMonFootprint_Masticroc[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Cycloporth[] = INCBIN_U32("graphics/pokemon/cycloporth/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Cycloporth[] = INCBIN_U32("graphics/pokemon/cycloporth/back.4bpp.lz");
+    const u16 gMonPalette_Cycloporth[] = INCBIN_U16("graphics/pokemon/cycloporth/normal.gbapal");
+    const u16 gMonShinyPalette_Cycloporth[] = INCBIN_U16("graphics/pokemon/cycloporth/shiny.gbapal");
+    const u8 gMonIcon_Cycloporth[] = INCBIN_U8("graphics/pokemon/cycloporth/icon.4bpp");
+    const u8 gMonFootprint_Cycloporth[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Tremorse[] = INCBIN_U32("graphics/pokemon/tremorse/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Tremorse[] = INCBIN_U32("graphics/pokemon/tremorse/back.4bpp.lz");
+    const u16 gMonPalette_Tremorse[] = INCBIN_U16("graphics/pokemon/tremorse/normal.gbapal");
+    const u16 gMonShinyPalette_Tremorse[] = INCBIN_U16("graphics/pokemon/tremorse/shiny.gbapal");
+    const u8 gMonIcon_Tremorse[] = INCBIN_U8("graphics/pokemon/tremorse/icon.4bpp");
+    const u8 gMonFootprint_Tremorse[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints

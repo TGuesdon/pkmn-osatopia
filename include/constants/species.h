@@ -1857,8 +1857,11 @@
 #define SPECIES_BETHEL                                  1737
 #define SPECIES_ILYZAELLE                               1738
 #define SPECIES_ILYZAELLE_DOREE                         1739
+#define SPECIES_MASTICROC                               1740
+#define SPECIES_CYCLOPORTH                              1741
+#define SPECIES_TREMORSE                                1742
 
-#define SPECIES_EGG                                     (SPECIES_ILYZAELLE_DOREE + 1)
+#define SPECIES_EGG                                     (SPECIES_TREMORSE + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 
