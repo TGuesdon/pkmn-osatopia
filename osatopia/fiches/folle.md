@@ -11,7 +11,7 @@
 
 Refonte : les deux espèces existaient avec les stats et le learnset du dex
 d'origine, sans CT. Sexe (`PERCENT_FEMALE(50)`), `.eggCycles = 20`,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`, groupes d'œuf Plante / Fée et
+`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Qulbutoké), groupes d'œuf Plante / Fée et
 `BODY_COLOR_BROWN` sont conservés.
 
 ## Intention

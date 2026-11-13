@@ -27,7 +27,7 @@ avec un côté pirate porté par Pickpocket, Larcin, Sabotage et Ancrage.
 | EV | DéfSpé +1 | Att +2 | Att +2, PV +1 |
 
 Autres champs (valeurs Bitouf) : 50 % femelle, 15 cycles d'œuf,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`. Groupe d'œuf Amorphe, couleur
+`STANDARD_FRIENDSHIP`, `GROWTH_FAST` (comme Skelénox et Polichombr). Groupe d'œuf Amorphe, couleur
 grise (à vérifier sur les sprites).
 
 ## Kit final

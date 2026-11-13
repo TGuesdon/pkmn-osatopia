@@ -9,7 +9,7 @@
 `teachable_learnsets.h`). Pas de capacité custom.
 
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
-`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` ; groupes d'œuf
+`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Abo) ; groupes d'œuf
 `EGG_GROUP_FIELD` + `EGG_GROUP_DRAGON` (comme Abo et Arbok), couleurs
 `BODY_COLOR_GREEN` (Serpentin) et `BODY_COLOR_GRAY` (Serpiplume) d'après les
 sprites.

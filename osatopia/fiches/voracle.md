@@ -16,7 +16,7 @@ Archétype : attaquant spécial fragile et rapide (setup sweeper léger) · Réf
 | Talents | Prédiction (Forewarn), Anticipation (Anticipation), Miroir Magik (Magic Bounce, caché) |
 | Capture / Exp. | 60 / 170 |
 | EV | AtqSpé +2 |
-| Divers | 50 % femelle, groupe Terrestre, 15 cycles, croissance moyenne-lente, bonheur standard, rouge |
+| Divers | 50 % femelle, groupe Terrestre, 15 cycles, croissance moyenne-rapide (comme Natu), bonheur standard, rouge |
 
 Stats sacrifiées : Att (50, inutile) et Déf (50) : un coup physique le met en danger. PV bas (60). DéfSpé 75 pour tenir un peu face aux attaques spéciales. Comparaison : Xatu 470, Lippoutou 455 ; côté custom, Kitsou (450, plus rapide, moins puissant) et Morfrelon (485, plus rapide).
 

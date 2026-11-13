@@ -25,7 +25,7 @@ Lancer Blop et l'évolution liée à la famille Blop.
 | EV | Att +1 | Att +2 |
 
 Autres champs (valeurs Bitouf) : 50 % femelle, 15 cycles d'œuf,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`, groupe d'œuf Terrestre.
+`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Kangourex), groupe d'œuf Terrestre.
 
 Évolution : `EVO_LEVEL` 22 avec `IF_SPECIES_IN_PARTY`, une entrée par membre de
 la famille Blop (Biblop, Blop, Gloutoblop), comme Mantyke avec Rémoraid.

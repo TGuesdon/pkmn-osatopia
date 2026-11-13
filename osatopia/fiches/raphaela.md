@@ -38,7 +38,7 @@ Technicien, en talent caché, valorise les petites attaques prioritaires
 | Évolution | niv. 28 | – |
 
 Autres valeurs (faute d'indication, reprises de Lapino/Grenn) : 50 % femelle,
-15 cycles d'œuf, croissance Medium Slow, amitié standard, groupes d'œuf
+15 cycles d'œuf, croissance Medium Fast (`GROWTH_MEDIUM_FAST`, comme Férosinge), amitié standard, groupes d'œuf
 Eau 1 + Humanoïde, bodyColor bleu.
 
 ## Kit final

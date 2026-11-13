@@ -10,7 +10,7 @@
 custom.
 
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
-`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` ; groupe d'œuf
+`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_ERRATIC` (comme Mangriff) ; groupe d'œuf
 `EGG_GROUP_FIELD` ; couleur `BODY_COLOR_YELLOW`.
 
 ## Intention

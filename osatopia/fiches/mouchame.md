@@ -8,7 +8,7 @@
 `teachable_learnsets.h`). Pas de capacité custom.
 
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
-`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` ; groupe d'œuf
+`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Nosferapti) ; groupe d'œuf
 `EGG_GROUP_BUG`, couleur `BODY_COLOR_BROWN` (inchangée).
 
 ## Intention

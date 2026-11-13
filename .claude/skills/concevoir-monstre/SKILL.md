@@ -257,9 +257,22 @@ asexué, sans œuf, bonheur 0, croissance lente). Pour chaque stade :
   `.abilities` ;
 - remplace aussi les autres placeholders, faute de choix de l'utilisateur, par
   les valeurs de la famille Bitouf : `PERCENT_FEMALE(50)`, `.eggCycles = 15`,
-  `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW`, `EGG_GROUP_FLYING` ou le
+  `STANDARD_FRIENDSHIP`, `EGG_GROUP_FLYING` ou le
   groupe adapté, `.bodyColor` selon le monstre. Signale-le dans ton compte
   rendu ;
+- choisis `.growthRate` (identique pour toute la famille) d'après les
+  Pokémon de référence et la place du monstre, et justifie-le dans la fiche
+  (« `GROWTH_X` (comme Y) ») :
+  - `GROWTH_FAST` : Fée / mignons, petits spectres (Mélofée, Skitty,
+    Skelénox) ;
+  - `GROWTH_MEDIUM_FAST` : remplissage de route, insectes, rongeurs, familles
+    à 2 stades sans prétention (Rattata, Medhyèna, Krabby) ;
+  - `GROWTH_MEDIUM_SLOW` : starters, oiseaux et familles classiques à
+    3 stades (Roucool, Racaillou, Machoc) ;
+  - `GROWTH_SLOW` : pseudo-légendaires, monstres rares ou puissants, gros
+    lents, évolution tardive (Carvanha, Tentacool, Relicanth, Embrylex) ;
+  - `GROWTH_ERRATIC` / `GROWTH_FLUCTUATING` : seulement si la référence
+    principale l'utilise (Mangriff, Coquiperl / Gloupti, Makuhita) ;
 - ajoute `.levelUpLearnset`, `.teachableLearnset` et `.evolutions` avant
   `FOOTPRINT(...)` ;
 - ne touche pas aux champs Pokédex ; les graphismes passent par la

@@ -41,7 +41,7 @@ pêche. À trancher au moment de placer les rencontres.
 | Évolution | niv. 30 | – |
 
 Autres valeurs, faute d'indication (reprises de la famille Bitouf) : 50 %
-femelle, 15 cycles d'œuf, croissance Medium Slow, amitié standard. Groupe
+femelle, 15 cycles d'œuf, croissance Erratic (`GROWTH_ERRATIC`, comme Coquiperl), amitié standard. Groupe
 d'œuf Eau 3 (coquillages), bodyColor gris (Grokillage) et noir (Moumoule).
 
 Comparaison : Coquiperl 35/64/85/74/55/32 (345), Amphinobi 72/95/67/103/71/122

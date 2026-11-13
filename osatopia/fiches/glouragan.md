@@ -14,7 +14,7 @@ Famille miroir de [Kaniglou](kaniglou.md) : même total et même niveau
 d'évolution, mais un profil inversé (robuste et lent contre rapide et offensif).
 
 Valeurs non choisies, reprises de la famille Bitouf : `PERCENT_FEMALE(50)`,
-`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` ; groupe d'œuf
+`.eggCycles = 15`, `STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Teddiursa et Polarhume) ; groupe d'œuf
 `EGG_GROUP_FIELD` ; couleur `BODY_COLOR_BROWN`.
 
 À vérifier : **Bisouglours** (le premier stade) n'existe pas dans DofusDB.

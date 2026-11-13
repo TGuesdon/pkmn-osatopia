@@ -8,7 +8,7 @@
 `teachable_learnsets.h`). Pas de capacité custom.
 
 Valeurs non choisies : `PERCENT_FEMALE(50)`, `.eggCycles = 20`,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` et `EGG_GROUP_BUG`, comme la famille
+`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_FAST` (comme Vorastérie) et `EGG_GROUP_BUG`, comme la famille
 Scorpique ; couleur `BODY_COLOR_BROWN` (conservée du placeholder).
 
 ## Intention

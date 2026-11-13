@@ -9,7 +9,7 @@
 `teachable_learnsets.h`). Pas de capacité custom.
 
 Valeurs non choisies : `PERCENT_FEMALE(50)`, `.eggCycles = 20`,
-`STANDARD_FRIENDSHIP`, `GROWTH_MEDIUM_SLOW` (famille Bitouf) ; groupe d'œuf
+`STANDARD_FRIENDSHIP`, `GROWTH_SLOW` (comme Rapion et Hippopotas) ; groupe d'œuf
 `EGG_GROUP_BUG` (comme Rapion et Drascore), couleur `BODY_COLOR_BROWN`
 (conservée du placeholder).
 

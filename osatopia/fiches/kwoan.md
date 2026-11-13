@@ -12,7 +12,7 @@
 
 Placeholders remplacés par des valeurs choisies pour un squelette : asexué
 (`MON_GENDERLESS`), `.eggCycles = 15`, `STANDARD_FRIENDSHIP`,
-`GROWTH_MEDIUM_SLOW`, `EGG_GROUP_AMORPHOUS`, `BODY_COLOR_WHITE`.
+`GROWTH_MEDIUM_FAST` (remplissage de route, comme Medhyèna et Osselait), `EGG_GROUP_AMORPHOUS`, `BODY_COLOR_WHITE`.
 
 ## Intention
 
