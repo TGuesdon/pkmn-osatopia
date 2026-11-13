@@ -664,8 +664,10 @@ static u8 GetBattleEnvironmentOverride(void)
         switch (GetMonData(&gEnemyParty[0], MON_DATA_SPECIES, NULL))
         {
         case SPECIES_GROUDON:
+        case SPECIES_SOLAR:
             return BATTLE_ENVIRONMENT_GROUDON;
         case SPECIES_KYOGRE:
+        case SPECIES_BETHEL:
             return BATTLE_ENVIRONMENT_KYOGRE;
         case SPECIES_RAYQUAZA:
             return BATTLE_ENVIRONMENT_RAYQUAZA;
@@ -1056,9 +1058,11 @@ void DrawBattleEntryBackground(void)
         switch (GetMonData(&gEnemyParty[0], MON_DATA_SPECIES, NULL))
         {
         case SPECIES_GROUDON:
+        case SPECIES_SOLAR:
             LoadBattleEnvironmentEntryGfx(BATTLE_ENVIRONMENT_CAVE);
             break;
         case SPECIES_KYOGRE:
+        case SPECIES_BETHEL:
             LoadBattleEnvironmentEntryGfx(BATTLE_ENVIRONMENT_UNDERWATER);
             break;
         case SPECIES_RAYQUAZA:

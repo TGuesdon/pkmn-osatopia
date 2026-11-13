@@ -10809,6 +10809,7 @@ FOOTPRINT(Klemor)
        .abilities = { ABILITY_DROUGHT, ABILITY_NONE, ABILITY_NONE },
        .bodyColor = BODY_COLOR_BLACK,
        .isLegendary = TRUE,
+       .cryId = CRY_GROUDON,
        .speciesName = _("Solar"),
        //pokedex
        .natDexNum = NATIONAL_DEX_SOLAR,
@@ -10867,6 +10868,7 @@ FOOTPRINT(Klemor)
        .abilities = { ABILITY_DRIZZLE, ABILITY_NONE, ABILITY_NONE },
        .bodyColor = BODY_COLOR_GREEN,
        .isLegendary = TRUE,
+       .cryId = CRY_KYOGRE,
        .speciesName = _("Bethel"),
        //pokedex
        .natDexNum = NATIONAL_DEX_BETHEL,

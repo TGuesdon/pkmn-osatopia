@@ -6062,6 +6062,8 @@ u16 GetBattleBGM(void)
             return MUS_VS_RAYQUAZA;
         case SPECIES_KYOGRE:
         case SPECIES_GROUDON:
+        case SPECIES_SOLAR:
+        case SPECIES_BETHEL:
             return MUS_VS_KYOGRE_GROUDON;
         case SPECIES_REGIROCK:
         case SPECIES_REGICE:

@@ -8,9 +8,14 @@
 > Vindicte), se téléporte (Étoile de Mer) et pose des glyphes. Sans
 > évolution. Ils remplacent Groudon et Kyogre.
 
-**État** : validée et intégrée (espèces, capacités, sprites de combat). Le
-remplacement de Groudon et Kyogre dans le scénario et les sprites hors combat
-(32×32, générés depuis le renderer Dofus) restent à faire.
+**État** : validée et intégrée. Solar et Bethel remplacent Groudon et Kyogre
+dans le scénario (dialogues, combats de Terra Cave et Marine Cave, cris de
+Sootopolis) et hors combat (sprites 32×32 générés depuis le renderer Dofus,
+palettes `OBJ_EVENT_PAL_TAG_SOLAR` / `BETHEL` ; les palettes `GROUDON` /
+`KYOGRE` servent à leur version endormie, en gris). Ils reprennent les cris,
+la musique, la transition et le décor de combat de Groudon et Kyogre.
+Restent à Groudon et Kyogre : l'intro du jeu et la cinématique de Rayquaza à
+Sootopolis (grands sprites dessinés).
 
 ## Intention
 Archétype : légendaire de météo, attaquant · Références : Groudon, Kyogre ·
