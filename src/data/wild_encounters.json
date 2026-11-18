@@ -994,7 +994,7 @@
                             {
                                 "min_level": 15,
                                 "max_level": 15,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_HALBARDENT"
                             },
                             {
                                 "min_level": 15,
@@ -1024,7 +1024,7 @@
                             {
                                 "min_level": 16,
                                 "max_level": 16,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_HALBARDENT"
                             },
                             {
                                 "min_level": 16,
@@ -1063,12 +1063,12 @@
                             {
                                 "min_level": 15,
                                 "max_level": 15,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_COCHON_DE_FARLE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 15,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_BWAK_FEU"
                             },
                             {
                                 "min_level": 15,
@@ -1078,12 +1078,12 @@
                             {
                                 "min_level": 14,
                                 "max_level": 14,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_COCHON_DE_FARLE"
                             },
                             {
                                 "min_level": 14,
                                 "max_level": 14,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_BWAK_FEU"
                             },
                             {
                                 "min_level": 14,
@@ -1851,62 +1851,62 @@
                             {
                                 "min_level": 6,
                                 "max_level": 6,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 7,
                                 "max_level": 7,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 6,
                                 "max_level": 6,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 6,
                                 "max_level": 6,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 7,
                                 "max_level": 7,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 7,
                                 "max_level": 7,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 5,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 8,
                                 "max_level": 8,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 5,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 8,
                                 "max_level": 8,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 5,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             },
                             {
                                 "min_level": 8,
                                 "max_level": 8,
-                                "species": "SPECIES_PHORREVEUR"
+                                "species": "SPECIES_TIWABBIT"
                             }
                         ]
                     }
@@ -2196,12 +2196,12 @@
                             {
                                 "min_level": 25,
                                 "max_level": 25,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_LAPINO"
                             },
                             {
                                 "min_level": 27,
                                 "max_level": 27,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_WABBIT"
                             },
                             {
                                 "min_level": 25,
@@ -6889,7 +6889,7 @@
                             {
                                 "min_level": 27,
                                 "max_level": 27,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_KITSOU"
                             },
                             {
                                 "min_level": 25,
@@ -7043,7 +7043,7 @@
                             {
                                 "min_level": 27,
                                 "max_level": 27,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_BWAK_TERRE"
                             },
                             {
                                 "min_level": 29,
@@ -7053,7 +7053,7 @@
                             {
                                 "min_level": 29,
                                 "max_level": 29,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_BWAK_TERRE"
                             },
                             {
                                 "min_level": 27,
@@ -7142,7 +7142,7 @@
                             {
                                 "min_level": 27,
                                 "max_level": 27,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_PAMPACTUS"
                             },
                             {
                                 "min_level": 29,
@@ -7152,7 +7152,7 @@
                             {
                                 "min_level": 29,
                                 "max_level": 29,
-                                "species": "SPECIES_TIWABBIT"
+                                "species": "SPECIES_PAMPACTUS"
                             },
                             {
                                 "min_level": 27,
