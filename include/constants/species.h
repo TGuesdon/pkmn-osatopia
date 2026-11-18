@@ -1865,8 +1865,9 @@
 #define SPECIES_TOURTHON                                1745
 #define SPECIES_KRALAMOURE                              1746
 #define SPECIES_KRALAMOURE_GEANT                        1747
+#define SPECIES_GOBUS                                   1748
 
-#define SPECIES_EGG                                     (SPECIES_KRALAMOURE_GEANT + 1)
+#define SPECIES_EGG                                     (SPECIES_GOBUS + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

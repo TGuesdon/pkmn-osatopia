@@ -41779,3 +41779,24 @@ static const u16 sKralamoureGeantTeachableLearnset[] = {
     MOVE_WATER_PULSE,
     MOVE_UNAVAILABLE,
 };
+
+static const u16 sGobusTeachableLearnset[] = {
+    MOVE_DEFENSE_CURL,
+    MOVE_ENDURE,
+    MOVE_EXPLOSION,
+    MOVE_FACADE,
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REFLECT,
+    MOVE_REST,
+    MOVE_ROCK_SLIDE,
+    MOVE_ROLLOUT,
+    MOVE_SHOCK_WAVE,
+    MOVE_SUBSTITUTE,
+    MOVE_THUNDER,
+    MOVE_THUNDERBOLT,
+    MOVE_THUNDER_WAVE,
+    MOVE_TOXIC,
+    MOVE_UNAVAILABLE,
+};

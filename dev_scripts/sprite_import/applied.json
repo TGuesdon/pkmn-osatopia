@@ -578,6 +578,12 @@
   "normal.pal": "0ddbbe46b27232ac",
   "shiny.pal": "0ddbbe46b27232ac"
  },
+ "gobus": {
+  "anim_front.png": "a912ca093362829f",
+  "back.png": "4e3c84ed54d08f9e",
+  "normal.pal": "cb3958dece22bb20",
+  "shiny.pal": "cb3958dece22bb20"
+ },
  "granduk": {
   "anim_front.png": "1ad6053565dc91db",
   "back.png": "de86b3b63e24f5c0",

@@ -1586,6 +1586,14 @@
   "kralamoure": {
    "taille": "petit",
    "outline": 0.4
+  },
+  "gobus": {
+   "dofus": {
+    "id": 2941,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "petit"
   }
  }
 }

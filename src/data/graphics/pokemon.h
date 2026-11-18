@@ -28174,3 +28174,10 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPalette_KralamoureGeant[] = INCBIN_U16("graphics/pokemon/kralamoure_geant/shiny.gbapal");
     const u8 gMonIcon_KralamoureGeant[] = INCBIN_U8("graphics/pokemon/kralamoure_geant/icon.4bpp");
     const u8 gMonFootprint_KralamoureGeant[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Gobus[] = INCBIN_U32("graphics/pokemon/gobus/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Gobus[] = INCBIN_U32("graphics/pokemon/gobus/back.4bpp.lz");
+    const u16 gMonPalette_Gobus[] = INCBIN_U16("graphics/pokemon/gobus/normal.gbapal");
+    const u16 gMonShinyPalette_Gobus[] = INCBIN_U16("graphics/pokemon/gobus/shiny.gbapal");
+    const u8 gMonIcon_Gobus[] = INCBIN_U8("graphics/pokemon/gobus/icon.4bpp");
+    const u8 gMonFootprint_Gobus[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints

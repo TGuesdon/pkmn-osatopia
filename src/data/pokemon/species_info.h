@@ -11486,4 +11486,61 @@ FOOTPRINT(Klemor)
        .teachableLearnset = sKralamoureGeantTeachableLearnset,
        FOOTPRINT(KralamoureGeant)
     },
+
+    [SPECIES_GOBUS] =
+    {
+       .baseHP        = 85,
+       .baseAttack    = 95,
+       .baseDefense   = 90,
+       .baseSpeed     = 30,
+       .baseSpAttack  = 60,
+       .baseSpDefense = 90,
+       .types = MON_TYPES(TYPE_ELECTRIC, TYPE_STEEL),
+       .catchRate = 120,
+       .expYield = 165,
+       .evYield_Defense = 2,
+       .genderRatio = MON_GENDERLESS,
+       .eggCycles = 15,
+       .friendship = STANDARD_FRIENDSHIP,
+       .growthRate = GROWTH_MEDIUM_FAST,
+       .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
+       .abilities = { ABILITY_STURDY, ABILITY_AFTERMATH, ABILITY_STATIC },
+       .bodyColor = BODY_COLOR_BROWN,
+       .speciesName = _("Gobus"),
+       //pokedex
+       .natDexNum = NATIONAL_DEX_GOBUS,
+       .categoryName = _("Bomb"),
+       .height = 6,
+       .weight = 450,
+       .description = COMPOUND_STRING(
+           "A spiked mine left by the Sakai goblins.\n"
+           "It never moves and waits for a foe to\n"
+           "come close. Its glowing eye flares just\n"
+           "before it blows itself up."),
+       .pokemonScale = 390,
+       .pokemonOffset = 10,
+       .trainerScale = 256,
+       .trainerOffset = 0,
+       //graphics
+       .frontPic = gMonFrontPic_Gobus,
+       .frontPicSize = MON_COORDS_SIZE(64, 64),
+       .frontPicYOffset = 0,
+       .frontAnimFrames = ANIM_FRAMES(
+           ANIMCMD_FRAME(0, 1),
+       ),
+       .frontAnimId = ANIM_GROW_VIBRATE,
+       .frontAnimDelay = 0,
+       .enemyMonElevation = 0,
+       .backPic = gMonBackPic_Gobus,
+       .backPicSize = MON_COORDS_SIZE(64, 64),
+       .backPicYOffset = 8,
+       .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+       .palette = gMonPalette_Gobus,
+       .shinyPalette = gMonShinyPalette_Gobus,
+       .iconSprite = gMonIcon_Gobus,
+       .iconPalIndex = 1,
+       .levelUpLearnset = sGobusLevelUpLearnset,
+       .teachableLearnset = sGobusTeachableLearnset,
+       FOOTPRINT(Gobus)
+    },
 };
