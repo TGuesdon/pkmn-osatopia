@@ -905,27 +905,27 @@
                             {
                                 "min_level": 10,
                                 "max_level": 15,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 10,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             }
                         ]
                     },
@@ -1227,27 +1227,27 @@
                             {
                                 "min_level": 10,
                                 "max_level": 15,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 10,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             }
                         ]
                     },
@@ -2453,27 +2453,27 @@
                             {
                                 "min_level": 10,
                                 "max_level": 15,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 10,
                                 "max_level": 20,
-                                "species": "SPECIES_NOSEPASS"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 10,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             }
                         ]
                     }
@@ -5060,62 +5060,62 @@
                             {
                                 "min_level": 30,
                                 "max_level": 30,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 35,
                                 "max_level": 35,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 25,
                                 "max_level": 25,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 40,
                                 "max_level": 40,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 45,
                                 "max_level": 45,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 15,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 50,
                                 "max_level": 50,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 10,
                                 "max_level": 10,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 5,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 10,
                                 "max_level": 10,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 5,
-                                "species": "SPECIES_WYNAUT"
+                                "species": "SPECIES_CRAQUELOPE"
                             }
                         ]
                     },
@@ -7103,27 +7103,27 @@
                             {
                                 "min_level": 10,
                                 "max_level": 15,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 10,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 15,
                                 "max_level": 20,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 25,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 25,
                                 "max_level": 30,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             }
                         ]
                     }
@@ -7356,27 +7356,27 @@
                             {
                                 "min_level": 30,
                                 "max_level": 40,
-                                "species": "SPECIES_GRAVELER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 30,
                                 "max_level": 40,
-                                "species": "SPECIES_GEODUDE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 35,
                                 "max_level": 40,
-                                "species": "SPECIES_GRAVELER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 35,
                                 "max_level": 40,
-                                "species": "SPECIES_GRAVELER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 35,
                                 "max_level": 40,
-                                "species": "SPECIES_GRAVELER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             }
                         ]
                     }
@@ -9693,27 +9693,27 @@
                             {
                                 "min_level": 25,
                                 "max_level": 30,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 25,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 30,
                                 "max_level": 35,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 30,
                                 "max_level": 35,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 35,
                                 "max_level": 40,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             }
                         ]
                     }
@@ -10831,62 +10831,62 @@
                             {
                                 "min_level": 7,
                                 "max_level": 7,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 9,
                                 "max_level": 9,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 5,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 11,
                                 "max_level": 11,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 7,
                                 "max_level": 7,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 9,
                                 "max_level": 9,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 13,
                                 "max_level": 13,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 3,
                                 "max_level": 3,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 5,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 11,
                                 "max_level": 11,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 5,
                                 "max_level": 5,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 11,
                                 "max_level": 11,
-                                "species": "SPECIES_MAREEP"
+                                "species": "SPECIES_CRAQUELOPE"
                             }
                         ]
                     }
@@ -10900,62 +10900,62 @@
                             {
                                 "min_level": 23,
                                 "max_level": 23,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 25,
                                 "max_level": 25,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 27,
                                 "max_level": 27,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 23,
                                 "max_level": 23,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 25,
                                 "max_level": 25,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 29,
                                 "max_level": 29,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 19,
                                 "max_level": 19,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 21,
                                 "max_level": 21,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 27,
                                 "max_level": 27,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 21,
                                 "max_level": 21,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 27,
                                 "max_level": 27,
-                                "species": "SPECIES_PINECO"
+                                "species": "SPECIES_CRAQUEBOULE"
                             }
                         ]
                     }
@@ -10969,62 +10969,62 @@
                             {
                                 "min_level": 16,
                                 "max_level": 16,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 18,
                                 "max_level": 18,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 14,
                                 "max_level": 14,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 16,
                                 "max_level": 16,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 18,
                                 "max_level": 18,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 12,
                                 "max_level": 12,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 14,
                                 "max_level": 14,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 14,
                                 "max_level": 14,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_HOUNDOUR"
+                                "species": "SPECIES_CRAQUELOPE"
                             }
                         ]
                     }
@@ -11038,62 +11038,62 @@
                             {
                                 "min_level": 10,
                                 "max_level": 10,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 12,
                                 "max_level": 12,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 8,
                                 "max_level": 8,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 14,
                                 "max_level": 14,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 10,
                                 "max_level": 10,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 12,
                                 "max_level": 12,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 16,
                                 "max_level": 16,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 6,
                                 "max_level": 6,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 8,
                                 "max_level": 8,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 14,
                                 "max_level": 14,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 8,
                                 "max_level": 8,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 14,
                                 "max_level": 14,
-                                "species": "SPECIES_TEDDIURSA"
+                                "species": "SPECIES_CRAQUELOPE"
                             }
                         ]
                     }
@@ -11107,62 +11107,62 @@
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 24,
                                 "max_level": 24,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 24,
                                 "max_level": 24,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 28,
                                 "max_level": 28,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 18,
                                 "max_level": 18,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_AIPOM"
+                                "species": "SPECIES_CRAQUEBOULE"
                             }
                         ]
                     }
@@ -11176,62 +11176,62 @@
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 24,
                                 "max_level": 24,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 24,
                                 "max_level": 24,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 28,
                                 "max_level": 28,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 18,
                                 "max_level": 18,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_SHUCKLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             }
                         ]
                     }
@@ -11245,62 +11245,62 @@
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 24,
                                 "max_level": 24,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 24,
                                 "max_level": 24,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 28,
                                 "max_level": 28,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 18,
                                 "max_level": 18,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_STANTLER"
+                                "species": "SPECIES_CRAQUEBOULE"
                             }
                         ]
                     }
@@ -11314,62 +11314,62 @@
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 24,
                                 "max_level": 24,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 22,
                                 "max_level": 22,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 24,
                                 "max_level": 24,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 28,
                                 "max_level": 28,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 18,
                                 "max_level": 18,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             },
                             {
                                 "min_level": 20,
                                 "max_level": 20,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUELOPE"
                             },
                             {
                                 "min_level": 26,
                                 "max_level": 26,
-                                "species": "SPECIES_SMEARGLE"
+                                "species": "SPECIES_CRAQUEBOULE"
                             }
                         ]
                     }
