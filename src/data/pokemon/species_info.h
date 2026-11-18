@@ -11656,4 +11656,118 @@ FOOTPRINT(Klemor)
        .teachableLearnset = sGrathTeachableLearnset,
        FOOTPRINT(Grath)
     },
+
+    [SPECIES_AMINITE] =
+    {
+       .baseHP        = 60,
+       .baseAttack    = 40,
+       .baseDefense   = 60,
+       .baseSpeed     = 30,
+       .baseSpAttack  = 55,
+       .baseSpDefense = 65,
+       .types = MON_TYPES(TYPE_GRASS, TYPE_ELECTRIC),
+       .catchRate = 190,
+       .expYield = 64,
+       .evYield_SpDefense = 1,
+       .genderRatio = PERCENT_FEMALE(50),
+       .eggCycles = 15,
+       .friendship = STANDARD_FRIENDSHIP,
+       .growthRate = GROWTH_MEDIUM_FAST,
+       .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
+       .abilities = { ABILITY_EFFECT_SPORE, ABILITY_STATIC, ABILITY_FILTER },
+       .bodyColor = BODY_COLOR_GREEN,
+       .speciesName = _("Aminite"),
+       //pokedex
+       .natDexNum = NATIONAL_DEX_AMINITE,
+       .categoryName = _("Glowshroom"),
+       .height = 5,
+       .weight = 60,
+       .description = COMPOUND_STRING(
+           "This little mushroom lives in the mines\n"
+           "of Incarnam. Its cap glows green in the\n"
+           "dark and sheds spores when touched."),
+       .pokemonScale = 468,
+       .pokemonOffset = 13,
+       .trainerScale = 256,
+       .trainerOffset = 0,
+       //graphics
+       .frontPic = gMonFrontPic_Aminite,
+       .frontPicSize = MON_COORDS_SIZE(64, 64),
+       .frontPicYOffset = 0,
+       .frontAnimFrames = ANIM_FRAMES(
+           ANIMCMD_FRAME(0, 1),
+       ),
+       .frontAnimId = ANIM_GROW_VIBRATE,
+       .frontAnimDelay = 0,
+       .enemyMonElevation = 0,
+       .backPic = gMonBackPic_Aminite,
+       .backPicSize = MON_COORDS_SIZE(64, 64),
+       .backPicYOffset = 8,
+       .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+       .palette = gMonPalette_Aminite,
+       .shinyPalette = gMonShinyPalette_Aminite,
+       .iconSprite = gMonIcon_Aminite,
+       .iconPalIndex = 1,
+       .levelUpLearnset = sAminiteLevelUpLearnset,
+       .teachableLearnset = sAminiteTeachableLearnset,
+       .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_DREMOAN}),
+       FOOTPRINT(Aminite)
+    },
+
+    [SPECIES_DREMOAN] =
+    {
+       .baseHP        = 100,
+       .baseAttack    = 50,
+       .baseDefense   = 80,
+       .baseSpeed     = 55,
+       .baseSpAttack  = 90,
+       .baseSpDefense = 105,
+       .types = MON_TYPES(TYPE_GRASS, TYPE_ELECTRIC),
+       .catchRate = 75,
+       .expYield = 170,
+       .evYield_SpDefense = 2,
+       .genderRatio = PERCENT_FEMALE(50),
+       .eggCycles = 15,
+       .friendship = STANDARD_FRIENDSHIP,
+       .growthRate = GROWTH_MEDIUM_FAST,
+       .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
+       .abilities = { ABILITY_EFFECT_SPORE, ABILITY_STATIC, ABILITY_CURSED_BODY },
+       .bodyColor = BODY_COLOR_WHITE,
+       .speciesName = _("Dremoan"),
+       //pokedex
+       .natDexNum = NATIONAL_DEX_DREMOAN,
+       .categoryName = _("Glowshroom"),
+       .height = 16,
+       .weight = 450,
+       .description = COMPOUND_STRING(
+           "It haunts the Petrified Forest of\n"
+           "Frigost. The ghostly hands on its cap\n"
+           "grab foes and drain their life to keep\n"
+           "its pale glow alive."),
+       .pokemonScale = 256,
+       .pokemonOffset = 1,
+       .trainerScale = 304,
+       .trainerOffset = 3,
+       //graphics
+       .frontPic = gMonFrontPic_Dremoan,
+       .frontPicSize = MON_COORDS_SIZE(64, 64),
+       .frontPicYOffset = 0,
+       .frontAnimFrames = ANIM_FRAMES(
+           ANIMCMD_FRAME(0, 1),
+       ),
+       .frontAnimId = ANIM_GROW_VIBRATE,
+       .frontAnimDelay = 0,
+       .enemyMonElevation = 0,
+       .backPic = gMonBackPic_Dremoan,
+       .backPicSize = MON_COORDS_SIZE(64, 64),
+       .backPicYOffset = 8,
+       .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+       .palette = gMonPalette_Dremoan,
+       .shinyPalette = gMonShinyPalette_Dremoan,
+       .iconSprite = gMonIcon_Dremoan,
+       .iconPalIndex = 2,
+       .levelUpLearnset = sDremoanLevelUpLearnset,
+       .teachableLearnset = sDremoanTeachableLearnset,
+       FOOTPRINT(Dremoan)
+    },
 };

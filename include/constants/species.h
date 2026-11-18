@@ -1868,8 +1868,10 @@
 #define SPECIES_GOBUS                                   1748
 #define SPECIES_PUPUCE                                  1749
 #define SPECIES_GRATH                                   1750
+#define SPECIES_AMINITE                                 1751
+#define SPECIES_DREMOAN                                 1752
 
-#define SPECIES_EGG                                     (SPECIES_GRATH + 1)
+#define SPECIES_EGG                                     (SPECIES_DREMOAN + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

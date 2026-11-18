@@ -1610,6 +1610,27 @@
     "dos": 7
    },
    "taille": "grand"
+  },
+  "aminite": {
+   "dofus": {
+    "id": 4107,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "petit"
+  },
+  "dremoan": {
+   "dofus": {
+    "id": 2908,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "grand",
+   "translucent_over": [
+    70,
+    110,
+    100
+   ]
   }
  }
 }
