@@ -10783,7 +10783,7 @@ FOOTPRINT(Klemor)
        .palette = gMonPalette_CrabeYoloniste,
        .shinyPalette = gMonShinyPalette_CrabeYoloniste,
        .iconSprite = gMonIcon_CrabeYoloniste,
-       .iconPalIndex = 1,
+       .iconPalIndex = 3,
        .levelUpLearnset = sCrabeYolonisteLevelUpLearnset,
        .teachableLearnset = sCrabeYolonisteTeachableLearnset,
        FOOTPRINT(CrabeYoloniste)
