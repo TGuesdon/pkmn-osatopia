@@ -259,9 +259,11 @@ function humanize(c, prefix) {
 }
 
 // Parses `[KEY] = { ... }` blocks at the given indentation into a map.
+// The closing brace may be indented 0–4 spaces: expansion has a few misindented
+// `},` (e.g. MOVE_POWER_SHIFT) that would otherwise swallow the next entry.
 function parseBlocks(text, keyPrefix) {
   const out = {};
-  const re = new RegExp(`^    \\[(${keyPrefix}\\w+)\\]\\s*=\\s*\\{([\\s\\S]*?)^    \\},?`, 'gm');
+  const re = new RegExp(`^    \\[(${keyPrefix}\\w+)\\]\\s*=\\s*\\{([\\s\\S]*?)^ {0,4}\\},?`, 'gm');
   for (const m of text.matchAll(re)) out[m[1]] = m[2];
   return out;
 }
