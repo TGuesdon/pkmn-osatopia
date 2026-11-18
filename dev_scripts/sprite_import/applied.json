@@ -591,6 +591,12 @@
   "normal.pal": "5af48fc6e1b9e1e3",
   "shiny.pal": "5af48fc6e1b9e1e3"
  },
+ "grath": {
+  "anim_front.png": "bc10a1434a12cba2",
+  "back.png": "e82d5b69c1183337",
+  "normal.pal": "f57c59b2e4c76c49",
+  "shiny.pal": "f57c59b2e4c76c49"
+ },
  "grenn": {
   "anim_front.png": "b784f2dc8a5b5185",
   "back.png": "b4d8980070021f2d",
@@ -1012,6 +1018,12 @@
   "front.png": "c3c7be7afc66e35b",
   "normal.pal": "55a4aa3773d18a52",
   "shiny.pal": "55a4aa3773d18a52"
+ },
+ "pupuce": {
+  "anim_front.png": "543b52b2814c345f",
+  "back.png": "8ac832f35391bfe2",
+  "normal.pal": "a1155f3ade35e9ee",
+  "shiny.pal": "a1155f3ade35e9ee"
  },
  "rainikrone": {
   "anim_front.png": "17d56e8d74d4a9a7",

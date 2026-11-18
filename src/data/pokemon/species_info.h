@@ -11543,4 +11543,117 @@ FOOTPRINT(Klemor)
        .teachableLearnset = sGobusTeachableLearnset,
        FOOTPRINT(Gobus)
     },
+
+    [SPECIES_PUPUCE] =
+    {
+       .baseHP        = 50,
+       .baseAttack    = 55,
+       .baseDefense   = 45,
+       .baseSpeed     = 65,
+       .baseSpAttack  = 45,
+       .baseSpDefense = 40,
+       .types = MON_TYPES(TYPE_BUG, TYPE_ELECTRIC),
+       .catchRate = 190,
+       .expYield = 60,
+       .evYield_Speed = 1,
+       .genderRatio = PERCENT_FEMALE(50),
+       .eggCycles = 15,
+       .friendship = STANDARD_FRIENDSHIP,
+       .growthRate = GROWTH_MEDIUM_FAST,
+       .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
+       .abilities = { ABILITY_STATIC, ABILITY_SUPER_LUCK, ABILITY_COMPOUND_EYES },
+       .bodyColor = BODY_COLOR_GRAY,
+       .speciesName = _("Pupuce"),
+       //pokedex
+       .natDexNum = NATIONAL_DEX_PUPUCE,
+       .categoryName = _("Flea"),
+       .height = 4,
+       .weight = 50,
+       .description = COMPOUND_STRING(
+           "One of the fleas of Ecaflip, god of luck.\n"
+           "Its fuzzy hairs build up static as it\n"
+           "hops from cat to cat."),
+       .pokemonScale = 585,
+       .pokemonOffset = 16,
+       .trainerScale = 256,
+       .trainerOffset = 0,
+       //graphics
+       .frontPic = gMonFrontPic_Pupuce,
+       .frontPicSize = MON_COORDS_SIZE(64, 64),
+       .frontPicYOffset = 0,
+       .frontAnimFrames = ANIM_FRAMES(
+           ANIMCMD_FRAME(0, 1),
+       ),
+       .frontAnimId = ANIM_GROW_VIBRATE,
+       .frontAnimDelay = 0,
+       .enemyMonElevation = 0,
+       .backPic = gMonBackPic_Pupuce,
+       .backPicSize = MON_COORDS_SIZE(64, 64),
+       .backPicYOffset = 8,
+       .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+       .palette = gMonPalette_Pupuce,
+       .shinyPalette = gMonShinyPalette_Pupuce,
+       .iconSprite = gMonIcon_Pupuce,
+       .iconPalIndex = 2,
+       .levelUpLearnset = sPupuceLevelUpLearnset,
+       .teachableLearnset = sPupuceTeachableLearnset,
+       .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_GRATH}),
+       FOOTPRINT(Pupuce)
+    },
+
+    [SPECIES_GRATH] =
+    {
+       .baseHP        = 95,
+       .baseAttack    = 85,
+       .baseDefense   = 80,
+       .baseSpeed     = 50,
+       .baseSpAttack  = 85,
+       .baseSpDefense = 65,
+       .types = MON_TYPES(TYPE_BUG, TYPE_ELECTRIC),
+       .catchRate = 75,
+       .expYield = 165,
+       .evYield_HP = 2,
+       .genderRatio = PERCENT_FEMALE(50),
+       .eggCycles = 15,
+       .friendship = STANDARD_FRIENDSHIP,
+       .growthRate = GROWTH_MEDIUM_FAST,
+       .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
+       .abilities = { ABILITY_STATIC, ABILITY_SUPER_LUCK, ABILITY_ROUGH_SKIN },
+       .bodyColor = BODY_COLOR_BLUE,
+       .speciesName = _("Grath"),
+       //pokedex
+       .natDexNum = NATIONAL_DEX_GRATH,
+       .categoryName = _("Big Flea"),
+       .height = 12,
+       .weight = 950,
+       .description = COMPOUND_STRING(
+           "A bloated flea covered in spikes. It\n"
+           "is too heavy to jump, so it shakes its\n"
+           "foes off with a jolt of static."),
+       .pokemonScale = 276,
+       .pokemonOffset = 2,
+       .trainerScale = 256,
+       .trainerOffset = 0,
+       //graphics
+       .frontPic = gMonFrontPic_Grath,
+       .frontPicSize = MON_COORDS_SIZE(64, 64),
+       .frontPicYOffset = 0,
+       .frontAnimFrames = ANIM_FRAMES(
+           ANIMCMD_FRAME(0, 1),
+       ),
+       .frontAnimId = ANIM_GROW_VIBRATE,
+       .frontAnimDelay = 0,
+       .enemyMonElevation = 0,
+       .backPic = gMonBackPic_Grath,
+       .backPicSize = MON_COORDS_SIZE(64, 64),
+       .backPicYOffset = 8,
+       .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+       .palette = gMonPalette_Grath,
+       .shinyPalette = gMonShinyPalette_Grath,
+       .iconSprite = gMonIcon_Grath,
+       .iconPalIndex = 1,
+       .levelUpLearnset = sGrathLevelUpLearnset,
+       .teachableLearnset = sGrathTeachableLearnset,
+       FOOTPRINT(Grath)
+    },
 };

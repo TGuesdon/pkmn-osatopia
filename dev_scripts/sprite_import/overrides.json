@@ -1594,6 +1594,22 @@
     "dos": 7
    },
    "taille": "petit"
+  },
+  "pupuce": {
+   "dofus": {
+    "id": 4291,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "petit"
+  },
+  "grath": {
+   "dofus": {
+    "id": 4295,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "grand"
   }
  }
 }
