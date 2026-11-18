@@ -23,3 +23,16 @@ Priorité : 🔴 l'animation actuelle trompe sur l'effet · 🟠 correcte mais g
 - [ ] 🟢 **Masse Ombre** (Spectre, physique) — actuelle : Os Ombre. Ça convient.
 - [ ] 🟢 **Radicule** (Plante, annule les stats modifiées) — actuelle : Mégafouet. Ça convient ; un nuage blanc (Bain de Smog) pour la remise à zéro serait un plus.
 - [ ] 🟢 **Lait de Coco** (Plante, soin) — actuelle : Lait à Boire. Ça convient ; recolorer en blanc et vert serait un plus.
+
+## Rencontres sauvages hors `wild_encounters.json`
+
+- [ ] **Barpau (Route 119)** : `sWildFeebas` est codé en dur dans `src/wild_encounter.c` (`SPECIES_FEEBAS`, niv. 20–25, 6 cases de pêche). Le remplacer par un monstre Osatopia (ou retirer le mécanisme).
+- [ ] **Combats sauvages scriptés encore vanilla** :
+  - Kecleon (`data/scripts/kecleon.inc`, `data/maps/Route120/scripts.inc`), niv. 30.
+  - Voltorbe ×3 à New Mauville (`data/maps/NewMauville_Inside/scripts.inc`), niv. 25 : jure avec les monstres Électrik Osatopia de la zone.
+  - Électrode ×2 au Repaire Aqua (`data/maps/AquaHideout_B1F/scripts.inc`), niv. 30.
+  - Simularbre (`BattleFrontier_OutsideEast`), Regirock / Regice / Registeel (`DesertRuins`, `IslandCave`, `AncientTomb`).
+  - Latios / Latias errants (`src/roamer.c`).
+  - Tarsal capturé par Timmy (`StartWallyTutorialBattle`, `src/battle_setup.c`) et Zigzaton du premier combat (`src/battle_controllers.c`).
+  - Dons à vérifier : œuf d'Okéoké (Vermilava), Morphéo (Institut Météo), Terhal (Steven), fossiles Lilia / Anorith (Devon).
+- [ ] **Pierres d'évolution des Bwak** : aucune Pierre Glace, Pierre Vent ni Pierre Terre n'est placée sur la carte, donc Kwak Glace, Kwak Vent et Kwak Terre sont inobtenables. Les placer (objets au sol, cachés ou boutique).
