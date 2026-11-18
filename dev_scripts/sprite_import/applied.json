@@ -20,6 +20,12 @@
   "normal.pal": "cee222d69e4032d7",
   "shiny.pal": "cee222d69e4032d7"
  },
+ "aminite": {
+  "anim_front.png": "04390c6837f4a476",
+  "back.png": "68eaed5a854cd0a1",
+  "normal.pal": "90992745a6f9f8c1",
+  "shiny.pal": "90992745a6f9f8c1"
+ },
  "arakne": {
   "anim_front.png": "938f8fde0cf3cea8",
   "back.png": "bbdb6f8e69b832c1",
@@ -454,6 +460,12 @@
   "normal.pal": "d8c0f09144357bf1",
   "shiny.pal": "d8c0f09144357bf1"
  },
+ "dremoan": {
+  "anim_front.png": "868a9b686199a5ea",
+  "back.png": "bfd9f9e51aae4df4",
+  "normal.pal": "e27683b7ece2ad42",
+  "shiny.pal": "e27683b7ece2ad42"
+ },
  "ecurouille": {
   "anim_front.png": "984e12646dec3f24",
   "back.png": "8069f4f806c61a84",
@@ -578,12 +590,24 @@
   "normal.pal": "0ddbbe46b27232ac",
   "shiny.pal": "0ddbbe46b27232ac"
  },
+ "gobus": {
+  "anim_front.png": "a912ca093362829f",
+  "back.png": "4e3c84ed54d08f9e",
+  "normal.pal": "cb3958dece22bb20",
+  "shiny.pal": "cb3958dece22bb20"
+ },
  "granduk": {
   "anim_front.png": "1ad6053565dc91db",
   "back.png": "de86b3b63e24f5c0",
   "front.png": "1ba707de2a026859",
   "normal.pal": "5af48fc6e1b9e1e3",
   "shiny.pal": "5af48fc6e1b9e1e3"
+ },
+ "grath": {
+  "anim_front.png": "bc10a1434a12cba2",
+  "back.png": "e82d5b69c1183337",
+  "normal.pal": "f57c59b2e4c76c49",
+  "shiny.pal": "f57c59b2e4c76c49"
  },
  "grenn": {
   "anim_front.png": "b784f2dc8a5b5185",
@@ -1006,6 +1030,12 @@
   "front.png": "c3c7be7afc66e35b",
   "normal.pal": "55a4aa3773d18a52",
   "shiny.pal": "55a4aa3773d18a52"
+ },
+ "pupuce": {
+  "anim_front.png": "543b52b2814c345f",
+  "back.png": "8ac832f35391bfe2",
+  "normal.pal": "a1155f3ade35e9ee",
+  "shiny.pal": "a1155f3ade35e9ee"
  },
  "rainikrone": {
   "anim_front.png": "17d56e8d74d4a9a7",
