@@ -4114,7 +4114,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
        .palette = gMonPalette_Metaphorreur,
        .shinyPalette = gMonShinyPalette_Metaphorreur,
-       .iconSprite = gMonIcon_Gobgob,
+       .iconSprite = gMonIcon_Metaphorreur,
        .iconPalIndex = 3,
        .levelUpLearnset = sMetaphorreurLevelUpLearnset,
        .teachableLearnset = sMetaphorreurTeachableLearnset,
@@ -11538,7 +11538,7 @@ FOOTPRINT(Klemor)
        .palette = gMonPalette_Gobus,
        .shinyPalette = gMonShinyPalette_Gobus,
        .iconSprite = gMonIcon_Gobus,
-       .iconPalIndex = 1,
+       .iconPalIndex = 3,
        .levelUpLearnset = sGobusLevelUpLearnset,
        .teachableLearnset = sGobusTeachableLearnset,
        FOOTPRINT(Gobus)
@@ -11651,7 +11651,7 @@ FOOTPRINT(Klemor)
        .palette = gMonPalette_Grath,
        .shinyPalette = gMonShinyPalette_Grath,
        .iconSprite = gMonIcon_Grath,
-       .iconPalIndex = 1,
+       .iconPalIndex = 4,
        .levelUpLearnset = sGrathLevelUpLearnset,
        .teachableLearnset = sGrathTeachableLearnset,
        FOOTPRINT(Grath)
@@ -11765,7 +11765,7 @@ FOOTPRINT(Klemor)
        .palette = gMonPalette_Dremoan,
        .shinyPalette = gMonShinyPalette_Dremoan,
        .iconSprite = gMonIcon_Dremoan,
-       .iconPalIndex = 2,
+       .iconPalIndex = 3,
        .levelUpLearnset = sDremoanLevelUpLearnset,
        .teachableLearnset = sDremoanTeachableLearnset,
        FOOTPRINT(Dremoan)
