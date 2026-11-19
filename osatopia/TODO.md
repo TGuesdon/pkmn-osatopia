@@ -35,4 +35,4 @@ Priorité : 🔴 l'animation actuelle trompe sur l'effet · 🟠 correcte mais g
   - Latios / Latias errants (`src/roamer.c`).
   - Tarsal capturé par Timmy (`StartWallyTutorialBattle`, `src/battle_setup.c`) et Zigzaton du premier combat (`src/battle_controllers.c`).
   - Dons à vérifier : œuf d'Okéoké (Vermilava), Morphéo (Institut Météo), Terhal (Steven), fossiles Lilia / Anorith (Devon).
-- [ ] **Pierres d'évolution des Bwak** : aucune Pierre Glace, Pierre Vent ni Pierre Terre n'est placée sur la carte, donc Kwak Glace, Kwak Vent et Kwak Terre sont inobtenables. Les placer (objets au sol, cachés ou boutique).
+- [x] **Pierres d'évolution des Bwak** : deux exemplaires de chaque au sol : Pierre Glace (Grotte Tréfonds à marée basse, salle de glace et salle basse), Pierre Terre (Grotte Granite B1F et B2F), Pierre Vent (Chutes Météore 1F, deux recoins).

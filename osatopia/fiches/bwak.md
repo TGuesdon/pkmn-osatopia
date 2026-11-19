@@ -21,8 +21,12 @@ types, la répartition des stats et quelques attaques changent.
 | Terre | `SPECIES_BWAK_TERRE` | `SPECIES_KWAKERE_TERRE` | Bwak Terre → Kwak Terre | `ITEM_EARTH_STONE` |
 
 Pierre Vent et Pierre Terre : ajoutées par le commit `869e6c9818` (icônes
-provisoires). Aucune des quatre pierres n'est encore placée sur la carte pour
-les Bwak (la Pierre Glace n'existe nulle part dans Émeraude).
+provisoires). Placement (deux exemplaires de chaque) : Pierre Feu au Chemin
+Ardent + échange du Tesson Rouge Route 124 (vanilla) ; Pierre Glace dans la
+Grotte Tréfonds à marée basse (`ShoalCave_LowTideIceRoom`,
+`ShoalCave_LowTideLowerRoom`) ; Pierre Terre dans la Grotte Granite
+(`GraniteCave_B1F`, `GraniteCave_B2F`) ; Pierre Vent dans deux recoins du 1F
+des Chutes Météore (`MeteorFalls_1F_1R`).
 
 ## Intention
 
