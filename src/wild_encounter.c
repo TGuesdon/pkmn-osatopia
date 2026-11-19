@@ -476,6 +476,21 @@ u8 PickWildMonNature(void)
     return Random() % NUM_NATURES;
 }
 
+// Osatopia: chance for wild Pokémon to have their Hidden Ability (see P_WILD_HIDDEN_ABILITY_ODDS).
+static void TryGiveWildMonHiddenAbility(u16 species)
+{
+    u32 abilityNum = NUM_NORMAL_ABILITY_SLOTS; // first hidden ability slot
+
+    if (P_WILD_HIDDEN_ABILITY_ODDS == 0)
+        return;
+    if (GetSpeciesAbility(species, abilityNum) == ABILITY_NONE)
+        return;
+    if (Random() % P_WILD_HIDDEN_ABILITY_ODDS != 0)
+        return;
+
+    SetMonData(&gEnemyParty[0], MON_DATA_ABILITY_NUM, &abilityNum);
+}
+
 void CreateWildMon(u16 species, u8 level)
 {
     bool32 checkCuteCharm = TRUE;
@@ -507,10 +522,13 @@ void CreateWildMon(u16 species, u8 level)
             gender = MON_FEMALE;
 
         CreateMonWithGenderNatureLetter(&gEnemyParty[0], species, level, USE_RANDOM_IVS, gender, PickWildMonNature(), 0);
-        return;
+    }
+    else
+    {
+        CreateMonWithNature(&gEnemyParty[0], species, level, USE_RANDOM_IVS, PickWildMonNature());
     }
 
-    CreateMonWithNature(&gEnemyParty[0], species, level, USE_RANDOM_IVS, PickWildMonNature());
+    TryGiveWildMonHiddenAbility(species);
 }
 #ifdef BUGFIX
 #define TRY_GET_ABILITY_INFLUENCED_WILD_MON_INDEX(wildPokemon, type, ability, ptr, count) TryGetAbilityInfluencedWildMonIndex(wildPokemon, type, ability, ptr, count)
