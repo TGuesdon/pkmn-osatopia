@@ -3838,12 +3838,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regirock = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
+    .paletteTag = OBJ_EVENT_PAL_TAG_CROQUELEUR,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_2,
+    .paletteSlot = PALSLOT_NPC_SPECIAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3851,18 +3851,18 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regirock = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Regi,
+    .images = sPicTable_Croqueleur,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regice = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
+    .paletteTag = OBJ_EVENT_PAL_TAG_GROLLOUM,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_3,
+    .paletteSlot = PALSLOT_NPC_SPECIAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3870,18 +3870,18 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regice = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Regi,
+    .images = sPicTable_Grolloum,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Registeel = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
+    .paletteTag = OBJ_EVENT_PAL_TAG_OUGAH,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_4,
+    .paletteSlot = PALSLOT_NPC_SPECIAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3889,7 +3889,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Registeel = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Regi,
+    .images = sPicTable_Ougah,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

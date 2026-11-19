@@ -384,6 +384,10 @@
 // Osatopia : Solar et Bethel remplacent Groudon et Kyogre (GROUDON/KYOGRE restent leur version endormie, en gris)
 #define OBJ_EVENT_PAL_TAG_SOLAR                   0x1170
 #define OBJ_EVENT_PAL_TAG_BETHEL                  0x1171
+// Osatopia : Croqueleur, Ougah et Grolloum remplacent Regirock, Registeel et Regice
+#define OBJ_EVENT_PAL_TAG_CROQUELEUR              0x1172
+#define OBJ_EVENT_PAL_TAG_OUGAH                   0x1173
+#define OBJ_EVENT_PAL_TAG_GROLLOUM                0x1174
 // Osatopia : Ilyzaelle remplace Rayquaza
 #define OBJ_EVENT_PAL_TAG_ILYZAELLE               0x1172
 

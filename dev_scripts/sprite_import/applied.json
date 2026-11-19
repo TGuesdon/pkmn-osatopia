@@ -371,6 +371,12 @@
   "normal.pal": "0c511eeeaf9236e1",
   "shiny.pal": "0c511eeeaf9236e1"
  },
+ "croqueleur": {
+  "anim_front.png": "f725da4695c24c49",
+  "back.png": "b93e6c8713e297f8",
+  "normal.pal": "360c8e5ff0b09c71",
+  "shiny.pal": "360c8e5ff0b09c71"
+ },
  "crustorail": {
   "anim_front.png": "d59753d411af5b83",
   "back.png": "6424d801577e4278",
@@ -629,6 +635,12 @@
   "front.png": "09bf6c4ec65dcce2",
   "normal.pal": "f05c07a30e24731d",
   "shiny.pal": "f05c07a30e24731d"
+ },
+ "grolloum": {
+  "anim_front.png": "d2142ef7f52e8239",
+  "back.png": "caf33a65bc8a3bf0",
+  "normal.pal": "cf4ad3bcf754a864",
+  "shiny.pal": "cf4ad3bcf754a864"
  },
  "gwo_tofu": {
   "anim_front.png": "571ddea3ef1b9cc7",
@@ -988,6 +1000,12 @@
   "front.png": "0f2ffdcbb3431fdd",
   "normal.pal": "b989c8c8a57a35cc",
   "shiny.pal": "b989c8c8a57a35cc"
+ },
+ "ougah": {
+  "anim_front.png": "bb81be118ee42003",
+  "back.png": "ad16ff0d573eb9f6",
+  "normal.pal": "9e689183589598fd",
+  "shiny.pal": "9e689183589598fd"
  },
  "ouroboulos": {
   "anim_front.png": "a028427499b25b44",

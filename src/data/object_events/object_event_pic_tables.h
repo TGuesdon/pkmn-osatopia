@@ -980,16 +980,41 @@ static const struct SpriteFrameImage sPicTable_Fossil[] = {
     obj_frame_tiles(gObjectEventPic_Fossil),
 };
 
-static const struct SpriteFrameImage sPicTable_Regi[] = {
-    obj_frame_tiles(gObjectEventPic_Regi),
-    obj_frame_tiles(gObjectEventPic_Regi),
-    obj_frame_tiles(gObjectEventPic_Regi),
-    obj_frame_tiles(gObjectEventPic_Regi),
-    obj_frame_tiles(gObjectEventPic_Regi),
-    obj_frame_tiles(gObjectEventPic_Regi),
-    obj_frame_tiles(gObjectEventPic_Regi),
-    obj_frame_tiles(gObjectEventPic_Regi),
-    obj_frame_tiles(gObjectEventPic_Regi),
+// Osatopia : sPicTable_Regi remplacé par Croqueleur, Ougah et Grolloum
+static const struct SpriteFrameImage sPicTable_Croqueleur[] = {
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+    obj_frame_tiles(gObjectEventPic_Croqueleur),
+};
+
+static const struct SpriteFrameImage sPicTable_Ougah[] = {
+    obj_frame_tiles(gObjectEventPic_Ougah),
+    obj_frame_tiles(gObjectEventPic_Ougah),
+    obj_frame_tiles(gObjectEventPic_Ougah),
+    obj_frame_tiles(gObjectEventPic_Ougah),
+    obj_frame_tiles(gObjectEventPic_Ougah),
+    obj_frame_tiles(gObjectEventPic_Ougah),
+    obj_frame_tiles(gObjectEventPic_Ougah),
+    obj_frame_tiles(gObjectEventPic_Ougah),
+    obj_frame_tiles(gObjectEventPic_Ougah),
+};
+
+static const struct SpriteFrameImage sPicTable_Grolloum[] = {
+    obj_frame_tiles(gObjectEventPic_Grolloum),
+    obj_frame_tiles(gObjectEventPic_Grolloum),
+    obj_frame_tiles(gObjectEventPic_Grolloum),
+    obj_frame_tiles(gObjectEventPic_Grolloum),
+    obj_frame_tiles(gObjectEventPic_Grolloum),
+    obj_frame_tiles(gObjectEventPic_Grolloum),
+    obj_frame_tiles(gObjectEventPic_Grolloum),
+    obj_frame_tiles(gObjectEventPic_Grolloum),
+    obj_frame_tiles(gObjectEventPic_Grolloum),
 };
 
 static const struct SpriteFrameImage sPicTable_RayquazaStill[] = {

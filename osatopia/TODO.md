@@ -31,7 +31,7 @@ Priorité : 🔴 l'animation actuelle trompe sur l'effet · 🟠 correcte mais g
   - Kecleon (`data/scripts/kecleon.inc`, `data/maps/Route120/scripts.inc`), niv. 30.
   - Voltorbe ×3 à New Mauville (`data/maps/NewMauville_Inside/scripts.inc`), niv. 25 : jure avec les monstres Électrik Osatopia de la zone.
   - Électrode ×2 au Repaire Aqua (`data/maps/AquaHideout_B1F/scripts.inc`), niv. 30.
-  - Simularbre (`BattleFrontier_OutsideEast`), Regirock / Regice / Registeel (`DesertRuins`, `IslandCave`, `AncientTomb`).
+  - Simularbre (`BattleFrontier_OutsideEast`). Regirock / Regice / Registeel sont remplacés par Croqueleur, Grolloum et Ougah (`osatopia/fiches/regis.md`).
   - Latios / Latias errants (`src/roamer.c`).
   - Zigzaton du premier combat (`src/battle_controllers.c`).
   - Dons à vérifier : œuf d'Okéoké (Vermilava), Morphéo (Institut Météo), Terhal (Steven), fossiles Lilia / Anorith (Devon).

@@ -37,6 +37,7 @@ nom français de conception.
 | Hantâme | Soul Haunt | `MOVE_HANTAME` |
 | Enlacement | Embrace | `MOVE_ENLACEMENT` |
 | Kracheau | Inkspit | `MOVE_KRACHEAU` |
+| Banquise | Pack Ice | `MOVE_BANQUISE` |
 
 ## Talents
 | Nom de conception (fiches) | Nom en jeu | Constante |
