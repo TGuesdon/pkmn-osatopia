@@ -26,13 +26,18 @@ Priorité : 🔴 l'animation actuelle trompe sur l'effet · 🟠 correcte mais g
 
 ## Rencontres sauvages hors `wild_encounters.json`
 
-- [ ] **Barpau (Route 119)** : `sWildFeebas` est codé en dur dans `src/wild_encounter.c` (`SPECIES_FEEBAS`, niv. 20–25, 6 cases de pêche). Le remplacer par un monstre Osatopia (ou retirer le mécanisme).
-- [ ] **Combats sauvages scriptés encore vanilla** :
-  - Kecleon (`data/scripts/kecleon.inc`, `data/maps/Route120/scripts.inc`), niv. 30.
-  - Voltorbe ×3 à New Mauville (`data/maps/NewMauville_Inside/scripts.inc`), niv. 25 : jure avec les monstres Électrik Osatopia de la zone.
-  - Électrode ×2 au Repaire Aqua (`data/maps/AquaHideout_B1F/scripts.inc`), niv. 30.
-  - Simularbre (`BattleFrontier_OutsideEast`). Regirock / Regice / Registeel sont remplacés par Croqueleur, Grolloum et Ougah (`osatopia/fiches/regis.md`).
-  - Latios / Latias errants (`src/roamer.c`).
-  - Zigzaton du premier combat (`src/battle_controllers.c`).
-  - Dons à vérifier : œuf d'Okéoké (Vermilava), Morphéo (Institut Météo), Terhal (Steven), fossiles Lilia / Anorith (Devon).
+- [x] **Barpau (Route 119)** : `sWildFeebas` (6 cases de pêche, niv. 20–25) donne désormais **Tilamproie**.
+- [x] **Dons, échanges et combats scriptés remplacés** :
+  - Dons : Terhal → **Sinistrofu** (Steven), Morphéo → **Dolbinos** + Aimant (Institut Météo), œuf d'Okéoké → **Timansot** (Vermilava), fossiles Racine / Griffe → **Soldalia** / **Phorreveur** (Devon), starters de Johto → **Tifoux / Titardo / Tronknyde** (labo, Pokédex complété).
+  - Échanges (`src/data/trade.h`) : Chacha ← Tigrimas (Mérouville), Pupuce ← Mouchame (Cimetronelle), Germinion ← Dragoune (Pacifiville), Scarafeuille Noir ← Écurouille (Zone de Combat).
+  - Combats : Kecleon → **Maltrio** niv. 30, Voltorbe / Électrode → **Gobus**, Simularbre → **Abraknyde** niv. 40.
+  - Code : Zigzaton prêté à Timmy et Zigzaton du premier combat → **Boufton**.
+- [x] **Sprites hors combat** (32×32, rendus Dofus réduits, palette propre) : Maltrio (`OBJ_EVENT_GFX_MALTRIO`, Routes 119/120 et Cimetronelle), Abraknyde à la place de l'arbre Simularbre (`OBJ_EVENT_GFX_SUDOWOODO`), Boufton à la place du Zigzaton qui poursuit Seko (`OBJ_EVENT_GFX_ZIGZAGOON_1`).
+- [x] **Reflet du pont de la Route 120** (`OBJ_EVENT_GFX_KECLEON_BRIDGE_SHADOW`) : silhouette 16×16 de Maltrio.
+- [x] **Pokémon de compagnie** (sprites hors combat, cris et répliques) : Zigzaton → Boufton, Skitty → Chacha, Goélise (dont PEEKO) → Tofu, Azurill / Azumarill → Biblop / Blop, Pikachu → Dokachu (PEKACHU devient DOKACHOU), Medhyèna des sbires → Chienchien Enragé, Kecleon → Écurouille (Lilycove, Route 117) et Chienchien Noir (Sootopolis, `OBJ_EVENT_GFX_CHIENCHIEN_NOIR`), Vigoroth déménageurs → Koalak Immature, Tarsal / Kirlia et Dusclops (Palais et Pike de la Zone de Combat) → Tigrimas et Fantomayte.
+- [ ] **Encore vanilla côté décor** : Mew (Île Lointaine), décoration de base secrète « toy TV shaped like a SKITTY », dresseurs qui parlent de « BIRD POKéMON ». Les constantes d'enum (`INGAME_TRADE_SEEDOT`…) et les labels de script gardent aussi les noms vanilla.
+- [x] **Regirock / Regice / Registeel** : remplacés par Croqueleur, Grolloum et Ougah (`osatopia/fiches/regis.md`).
+- [ ] **Encore vanilla, à concevoir** :
+  - Latios / Latias errants (`src/roamer.c`) et à l'Île du Sud.
+  - Îles événementielles (Mew, Deoxys, Lugia, Ho-Oh), œuf Pichu (Cadeau Mystère), rencontres du Pike et de la Pyramide (Zone de Combat).
 - [x] **Pierres d'évolution des Bwak** : deux exemplaires de chaque au sol : Pierre Glace (Grotte Tréfonds à marée basse, salle de glace et salle basse), Pierre Terre (Grotte Granite B1F et B2F), Pierre Vent (Chutes Météore 1F, deux recoins).

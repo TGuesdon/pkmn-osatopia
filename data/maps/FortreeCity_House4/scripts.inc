@@ -56,7 +56,7 @@ FortreeCity_House4_EventScript_Wingull::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_WINGULL, CRY_MODE_NORMAL
+	playmoncry SPECIES_TOFU, CRY_MODE_NORMAL
 	msgbox FortreeCity_House4_Text_Wingull, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -73,12 +73,12 @@ FortreeCity_House4_Text_GoBirdPokemon:
 	.string "Go, BIRD POKéMON!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
-	.string "Heheh, I asked my WINGULL to run\n"
+	.string "Heheh, I asked my TOFU to run\n"
 	.string "an errand for me.$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 	.string "Good!\n"
-	.string "Welcome back, WINGULL!\p"
+	.string "Welcome back, TOFU!\p"
 	.string "Huh? What is this?\n"
 	.string "What is it holding?\p"
 	.string "A MENTAL HERB?\n"
@@ -87,9 +87,9 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 	.string "have it.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
-	.string "Thanks to my WINGULL, I have friends\n"
+	.string "Thanks to my TOFU, I have friends\n"
 	.string "who live far away.$"
 
 FortreeCity_House4_Text_Wingull:
-	.string "WINGULL: Pihyoh!$"
+	.string "TOFU: Piou piou!$"
 

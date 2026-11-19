@@ -247,11 +247,13 @@
 #define OBJ_EVENT_GFX_OW_MON                     240
 #define OBJ_EVENT_GFX_LIGHT_SPRITE               241
 #define OBJ_EVENT_GFX_APRICORN_TREE              242
+#define OBJ_EVENT_GFX_MALTRIO                    243 // Osatopia : remplace Kecleon révélé par le Devon Scope
+#define OBJ_EVENT_GFX_CHIENCHIEN_NOIR            244 // Osatopia : compagnon du maître de Casse-Brique (Sootopolis)
 
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        243
+#define NUM_OBJ_EVENT_GFX                        245
 
 
 // These are dynamic object gfx ids.
@@ -390,6 +392,19 @@
 #define OBJ_EVENT_PAL_TAG_GROLLOUM                0x1174
 // Osatopia : Ilyzaelle remplace Rayquaza
 #define OBJ_EVENT_PAL_TAG_ILYZAELLE               0x1172
+// Osatopia : Maltrio (ex-Kecleon), Abraknyde (ex-Simularbre), Boufton (Route 101, ex-Zigzaton)
+#define OBJ_EVENT_PAL_TAG_MALTRIO                 0x1173
+#define OBJ_EVENT_PAL_TAG_ABRAKNYDE               0x1174
+#define OBJ_EVENT_PAL_TAG_BOUFTON                 0x1175
+// Osatopia : Pokémon de compagnie
+#define OBJ_EVENT_PAL_TAG_CHACHA                    0x1176
+#define OBJ_EVENT_PAL_TAG_TOFU                      0x1177
+#define OBJ_EVENT_PAL_TAG_BIBLOP                    0x1178
+#define OBJ_EVENT_PAL_TAG_DOKACHU                   0x1179
+#define OBJ_EVENT_PAL_TAG_ECUROUILLE                0x117A
+#define OBJ_EVENT_PAL_TAG_TIGRIMAS                  0x117B
+#define OBJ_EVENT_PAL_TAG_FANTOMAYTE                0x117C
+#define OBJ_EVENT_PAL_TAG_CHIENCHIEN_NOIR           0x117D
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
