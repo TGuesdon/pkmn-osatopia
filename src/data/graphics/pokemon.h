@@ -28209,3 +28209,24 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPalette_Dremoan[] = INCBIN_U16("graphics/pokemon/dremoan/shiny.gbapal");
     const u8 gMonIcon_Dremoan[] = INCBIN_U8("graphics/pokemon/dremoan/icon.4bpp");
     const u8 gMonFootprint_Dremoan[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Croqueleur[] = INCBIN_U32("graphics/pokemon/croqueleur/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Croqueleur[] = INCBIN_U32("graphics/pokemon/croqueleur/back.4bpp.lz");
+    const u16 gMonPalette_Croqueleur[] = INCBIN_U16("graphics/pokemon/croqueleur/normal.gbapal");
+    const u16 gMonShinyPalette_Croqueleur[] = INCBIN_U16("graphics/pokemon/croqueleur/shiny.gbapal");
+    const u8 gMonIcon_Croqueleur[] = INCBIN_U8("graphics/pokemon/croqueleur/icon.4bpp");
+    const u8 gMonFootprint_Croqueleur[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Ougah[] = INCBIN_U32("graphics/pokemon/ougah/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Ougah[] = INCBIN_U32("graphics/pokemon/ougah/back.4bpp.lz");
+    const u16 gMonPalette_Ougah[] = INCBIN_U16("graphics/pokemon/ougah/normal.gbapal");
+    const u16 gMonShinyPalette_Ougah[] = INCBIN_U16("graphics/pokemon/ougah/shiny.gbapal");
+    const u8 gMonIcon_Ougah[] = INCBIN_U8("graphics/pokemon/ougah/icon.4bpp");
+    const u8 gMonFootprint_Ougah[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints
+
+    const u32 gMonFrontPic_Grolloum[] = INCBIN_U32("graphics/pokemon/grolloum/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Grolloum[] = INCBIN_U32("graphics/pokemon/grolloum/back.4bpp.lz");
+    const u16 gMonPalette_Grolloum[] = INCBIN_U16("graphics/pokemon/grolloum/normal.gbapal");
+    const u16 gMonShinyPalette_Grolloum[] = INCBIN_U16("graphics/pokemon/grolloum/shiny.gbapal");
+    const u8 gMonIcon_Grolloum[] = INCBIN_U8("graphics/pokemon/grolloum/icon.4bpp");
+    const u8 gMonFootprint_Grolloum[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp"); // snorlax for those who don't have footprints

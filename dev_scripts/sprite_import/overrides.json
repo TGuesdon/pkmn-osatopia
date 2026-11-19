@@ -1633,6 +1633,30 @@
     100
    ],
    "visible_alpha": 0.45
+  },
+  "croqueleur": {
+   "dofus": {
+    "id": 5664,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "grand"
+  },
+  "ougah": {
+   "dofus": {
+    "id": 1159,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "grand"
+  },
+  "grolloum": {
+   "dofus": {
+    "id": 2942,
+    "face": 3,
+    "dos": 7
+   },
+   "taille": "grand"
   }
  }
 }

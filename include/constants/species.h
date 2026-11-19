@@ -1870,8 +1870,11 @@
 #define SPECIES_GRATH                                   1750
 #define SPECIES_AMINITE                                 1751
 #define SPECIES_DREMOAN                                 1752
+#define SPECIES_CROQUELEUR                              1753
+#define SPECIES_OUGAH                                   1754
+#define SPECIES_GROLLOUM                                1755
 
-#define SPECIES_EGG                                     (SPECIES_DREMOAN + 1)
+#define SPECIES_EGG                                     (SPECIES_GROLLOUM + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

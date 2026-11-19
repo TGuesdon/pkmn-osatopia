@@ -21760,6 +21760,25 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_Octazooka,
     },
 
+    [MOVE_BANQUISE] =
+    {
+        .name = COMPOUND_STRING("Pack Ice"),
+        .description = COMPOUND_STRING(
+            "Freezing waves sap the foe.\n"
+            "Half the damage heals user."),
+        .effect = EFFECT_ABSORB,
+        .power = 75,
+        .type = TYPE_ICE,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .argument = { .absorbPercentage = 50 },
+        .healingMove = B_HEAL_BLOCKING >= GEN_6,
+        .battleAnimScript = gBattleAnimMove_FreezeDry,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

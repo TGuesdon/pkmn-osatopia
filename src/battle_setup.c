@@ -548,12 +548,15 @@ void StartRegiBattle(void)
     switch (species)
     {
     case SPECIES_REGIROCK:
+    case SPECIES_CROQUELEUR:
         transitionId = B_TRANSITION_REGIROCK;
         break;
     case SPECIES_REGICE:
+    case SPECIES_GROLLOUM:
         transitionId = B_TRANSITION_REGICE;
         break;
     case SPECIES_REGISTEEL:
+    case SPECIES_OUGAH:
         transitionId = B_TRANSITION_REGISTEEL;
         break;
     default:
