@@ -226,6 +226,8 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnionRoomAttendant;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maltrio;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChienchienNoir;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Red;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Leaf;
@@ -494,6 +496,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
     [OBJ_EVENT_GFX_APRICORN_TREE] =            &gObjectEventGraphicsInfo_ApricornTree,
+    [OBJ_EVENT_GFX_MALTRIO] =                  &gObjectEventGraphicsInfo_Maltrio,
+    [OBJ_EVENT_GFX_CHIENCHIEN_NOIR] =          &gObjectEventGraphicsInfo_ChienchienNoir,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

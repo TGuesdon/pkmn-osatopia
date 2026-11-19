@@ -39,7 +39,7 @@ FallarborTown_Mart_EventScript_Skitty::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	playmoncry SPECIES_CHACHA, CRY_MODE_NORMAL
 	msgbox FallarborTown_Mart_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -47,7 +47,7 @@ FallarborTown_Mart_EventScript_Skitty::
 
 FallarborTown_Mart_Text_DecidingSkittyEvolve:
 	.string "I'm having a hard time deciding if I\n"
-	.string "should make my SKITTY evolve or not.\p"
+	.string "should make my CHACHA evolve or not.\p"
 	.string "I only have to use this MOON STONE,\n"
 	.string "but it's so hard to decide…\p"
 	.string "If I make it evolve, it will become\n"
@@ -55,7 +55,7 @@ FallarborTown_Mart_Text_DecidingSkittyEvolve:
 	.string "But it will look so different, too.$"
 
 FallarborTown_Mart_Text_Skitty:
-	.string "SKITTY: Miyao?$"
+	.string "CHACHA: Miyao?$"
 
 FallarborTown_Mart_Text_SellNuggetIFound:
 	.string "This NUGGET I found here…\n"

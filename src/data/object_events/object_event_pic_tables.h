@@ -1082,15 +1082,15 @@ static const struct SpriteFrameImage sPicTable_Leaf[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_SudowoodoTree[] = {
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 1),
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 1),
-    overworld_frame(gObjectEventPic_SudowoodoTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 0),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 0),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 1),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 0),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 0),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 0),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 0),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 1),
+    overworld_frame(gObjectEventPic_SudowoodoTree, 4, 4, 2),
 };
 
 static const struct SpriteFrameImage sPicTable_RayquazaCutscene[] = {
@@ -1268,6 +1268,43 @@ static const struct SpriteFrameImage sPicTable_AzurillOld[] = {
     overworld_frame(gObjectEventPic_AzurillOld, 2, 2, 1),
     overworld_frame(gObjectEventPic_AzurillOld, 2, 2, 2),
     overworld_frame(gObjectEventPic_AzurillOld, 2, 2, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_Maltrio[] = {
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Maltrio, 4, 4, 2),
+};
+
+// Osatopia : silhouette 16x16 de Maltrio pour le reflet sous le pont de la Route 120
+static const struct SpriteFrameImage sPicTable_MaltrioBridgeShadow[] = {
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 0),
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 1),
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 2),
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 0),
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 0),
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 1),
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 1),
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 2),
+    overworld_frame(gObjectEventPic_MaltrioBridgeShadow, 2, 2, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_ChienchienNoir[] = {
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 0),
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 1),
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 2),
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 0),
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 0),
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 1),
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 1),
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 2),
+    overworld_frame(gObjectEventPic_ChienchienNoir, 2, 2, 2),
 };
 
 static const struct SpriteFrameImage sPicTable_KecleonOld[] = {

@@ -290,7 +290,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaAttack::
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop, MSGBOX_DEFAULT
 	closemessage
 	waitse
-	playmoncry SPECIES_KIRLIA, CRY_MODE_NORMAL
+	playmoncry SPECIES_TIGRIMAS, CRY_MODE_NORMAL
 	waitmoncry
 	pike_getstatus
 	call_if_eq VAR_RESULT, PIKE_STATUS_TOXIC, BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedToxic
@@ -304,11 +304,11 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaAttack::
 	applymovement LOCALID_PIKE_ROOM_NPC_2, BattleFrontier_BattlePikeRoomNormal_Movement_MonFaceNPC
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_KIRLIA, CRY_MODE_NORMAL
+	playmoncry SPECIES_TIGRIMAS, CRY_MODE_NORMAL
 	waitmoncry
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough, MSGBOX_DEFAULT
 	waitse
-	playmoncry SPECIES_KIRLIA, CRY_MODE_NORMAL
+	playmoncry SPECIES_TIGRIMAS, CRY_MODE_NORMAL
 	waitmoncry
 	closemessage
 	applymovement LOCALID_PIKE_ROOM_NPC_2, BattleFrontier_BattlePikeRoomNormal_Movement_MonMoveAside
@@ -321,7 +321,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack::
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop, MSGBOX_DEFAULT
 	closemessage
 	waitse
-	playmoncry SPECIES_DUSCLOPS, CRY_MODE_NORMAL
+	playmoncry SPECIES_FANTOMAYTE, CRY_MODE_NORMAL
 	waitmoncry
 	pike_getstatus
 	call_if_eq VAR_RESULT, PIKE_STATUS_FREEZE, BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsUsedIceBeam
@@ -333,11 +333,11 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack::
 	applymovement LOCALID_PIKE_ROOM_NPC_2, BattleFrontier_BattlePikeRoomNormal_Movement_MonFaceNPC
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_DUSCLOPS, CRY_MODE_NORMAL
+	playmoncry SPECIES_FANTOMAYTE, CRY_MODE_NORMAL
 	waitmoncry
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough, MSGBOX_DEFAULT
 	waitse
-	playmoncry SPECIES_DUSCLOPS, CRY_MODE_NORMAL
+	playmoncry SPECIES_FANTOMAYTE, CRY_MODE_NORMAL
 	waitmoncry
 	closemessage
 	applymovement LOCALID_PIKE_ROOM_NPC_2, BattleFrontier_BattlePikeRoomNormal_Movement_MonMoveAside
@@ -696,29 +696,29 @@ BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop:
 	.string "Now, now!\n"
-	.string "KIRLIA, stop that!$"
+	.string "TIGRIMAS, stop that!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
 	.string "Now, now!\n"
-	.string "DUSCLOPS, stop that!$"
+	.string "FANTOMAYTE, stop that!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
-	.string "KIRLIA used TOXIC!$"
+	.string "TIGRIMAS used TOXIC!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis:
-	.string "KIRLIA used HYPNOSIS!$"
+	.string "TIGRIMAS used HYPNOSIS!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave:
-	.string "KIRLIA used THUNDER WAVE!$"
+	.string "TIGRIMAS used THUNDER WAVE!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp:
-	.string "KIRLIA used WILL-O-WISP!$"
+	.string "TIGRIMAS used WILL-O-WISP!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
-	.string "DUSCLOPS used WILL-O-WISP!$"
+	.string "FANTOMAYTE used WILL-O-WISP!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
-	.string "DUSCLOPS used ICE BEAM!$"
+	.string "FANTOMAYTE used ICE BEAM!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 	.string "Look here!\n"
@@ -726,11 +726,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
 	.string "I must apologize to you…\p"
-	.string "My KIRLIA has a TIMID nature…$"
+	.string "My TIGRIMAS has a TIMID nature…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
 	.string "I must apologize to you…\p"
-	.string "My DUSCLOPS has a TIMID nature…$"
+	.string "My FANTOMAYTE has a TIMID nature…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
 	.string "It attacks without warning if it is\n"

@@ -461,7 +461,7 @@ LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
 	.string "adorable WATER SPORT appeal!$"
 
 LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
-	.string "Oh, no… My sweet AZURILL was\n"
+	.string "Oh, no… My sweet BIBLOP was\n"
 	.string "distracted by another POKéMON.$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
