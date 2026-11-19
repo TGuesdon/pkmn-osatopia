@@ -33,6 +33,6 @@ Priorité : 🔴 l'animation actuelle trompe sur l'effet · 🟠 correcte mais g
   - Électrode ×2 au Repaire Aqua (`data/maps/AquaHideout_B1F/scripts.inc`), niv. 30.
   - Simularbre (`BattleFrontier_OutsideEast`), Regirock / Regice / Registeel (`DesertRuins`, `IslandCave`, `AncientTomb`).
   - Latios / Latias errants (`src/roamer.c`).
-  - Tarsal capturé par Timmy (`StartWallyTutorialBattle`, `src/battle_setup.c`) et Zigzaton du premier combat (`src/battle_controllers.c`).
+  - Zigzaton du premier combat (`src/battle_controllers.c`).
   - Dons à vérifier : œuf d'Okéoké (Vermilava), Morphéo (Institut Météo), Terhal (Steven), fossiles Lilia / Anorith (Devon).
 - [ ] **Pierres d'évolution des Bwak** : aucune Pierre Glace, Pierre Vent ni Pierre Terre n'est placée sur la carte, donc Kwak Glace, Kwak Vent et Kwak Terre sont inobtenables. Les placer (objets au sol, cachés ou boutique).
