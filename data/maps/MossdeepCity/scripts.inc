@@ -324,11 +324,11 @@ MossdeepCity_Text_WhatToDoWithWeirdRock:
 
 MossdeepCity_Text_WailmerWatching:
 	.string "Around MOSSDEEP, you can see wild\n"
-	.string "WAILMER.\p"
+	.string "GÉLIKAN.\p"
 	.string "It's called, uh…\n"
 	.string "What was it now…\p"
-	.string "WAI, WAI, WAI…\p"
-	.string "WAILMER watching!$"
+	.string "GÉ, GÉ, GÉ…\p"
+	.string "GÉLIKAN watching!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
 	.string "The island's SPACE CENTER has been\n"
