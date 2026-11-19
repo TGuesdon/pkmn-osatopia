@@ -7,9 +7,11 @@ OKLab, both ways (are the icon's colours found in the sprite? are the sprite's c
 icon?), and the closest palette wins. An icon whose PNG palette is one of pal0-5 (as the regenerated
 ones are) keeps that palette.
 
-Regeneration (--src): the front artwork is downscaled with the battle sprite pipeline, then indexed on
-the palette that reproduces it best. The palettes have few dark or brown tones, so colours are matched
-with a lifted lightness and more weight on hue, and a dark outline keeps the silhouette readable.
+Regeneration (--src): the front artwork is downscaled with the battle sprite pipeline (plus the
+monster's « icon » overrides, e.g. a higher visible_alpha to drop a glow that would swallow the
+silhouette at 32x32), then indexed on the palette that reproduces it best. The palettes have few dark
+or brown tones, so colours are matched with a lifted lightness and more weight on hue, and a dark
+outline keeps the silhouette readable.
 
   python3 dev_scripts/sprite_import/icon_palettes.py                  list palette changes
   python3 dev_scripts/sprite_import/icon_palettes.py --src <dir> [names...]
@@ -90,7 +92,7 @@ def best_palette(icon_idx, sprite_lab, lab_pals):
 
 def generate_icon(art_path, cfg, lab_pals):
     """Returns (icon indices 64x32 with both frames, palette index)."""
-    cfg = {**cfg, **cfg.get("front", {}), "scale": 1.0, "place": {"size": ICON - 4, "bottom": ICON - 4}}
+    cfg = {**cfg, **cfg.get("front", {}), **cfg.get("icon", {}), "scale": 1.0, "place": {"size": ICON - 4, "bottom": ICON - 4}}
     rgb, opaque, _ = to_sprite(load_art(art_path, cfg), cfg)
     # to_sprite centres a 64x64 canvas; the icon is its top-middle 32x32
     rgb, opaque = rgb[:ICON, 16:16 + ICON], opaque[:ICON, 16:16 + ICON]

@@ -21,10 +21,10 @@
   "shiny.pal": "cee222d69e4032d7"
  },
  "aminite": {
-  "anim_front.png": "04390c6837f4a476",
-  "back.png": "68eaed5a854cd0a1",
-  "normal.pal": "90992745a6f9f8c1",
-  "shiny.pal": "90992745a6f9f8c1"
+  "anim_front.png": "2f4184ab9d1669a8",
+  "back.png": "442374eb8efb97b8",
+  "normal.pal": "f2905c84b805568c",
+  "shiny.pal": "f2905c84b805568c"
  },
  "arakne": {
   "anim_front.png": "938f8fde0cf3cea8",
@@ -461,10 +461,10 @@
   "shiny.pal": "d8c0f09144357bf1"
  },
  "dremoan": {
-  "anim_front.png": "868a9b686199a5ea",
-  "back.png": "bfd9f9e51aae4df4",
-  "normal.pal": "e27683b7ece2ad42",
-  "shiny.pal": "e27683b7ece2ad42"
+  "anim_front.png": "e1e09bcd31912eb2",
+  "back.png": "b93f2d1b1a68086b",
+  "normal.pal": "e68e1d7ad2c87338",
+  "shiny.pal": "e68e1d7ad2c87338"
  },
  "ecurouille": {
   "anim_front.png": "984e12646dec3f24",

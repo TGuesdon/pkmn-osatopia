@@ -1617,7 +1617,8 @@
     "face": 3,
     "dos": 7
    },
-   "taille": "petit"
+   "taille": "petit",
+   "visible_alpha": 0.45
   },
   "dremoan": {
    "dofus": {
@@ -1630,7 +1631,8 @@
     70,
     110,
     100
-   ]
+   ],
+   "visible_alpha": 0.45
   }
  }
 }
