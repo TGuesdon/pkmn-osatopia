@@ -103,7 +103,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_MULOUBARD
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -116,11 +116,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
+SPECIES_PICHON
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -133,7 +133,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_GOB_TROTTEUR
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -146,7 +146,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+SPECIES_MOUMOULE
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -159,7 +159,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_MULOUBARD
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -172,7 +172,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+SPECIES_RAUL_MOPS
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -185,7 +185,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_MAITRE_CORBAC
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -231,7 +231,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_CHIENCHIEN_NOIR
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -296,7 +296,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+SPECIES_BACTERRIB
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -322,7 +322,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_GOBET
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -335,11 +335,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Poochyena
+SPECIES_MULOUBARD
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -352,11 +352,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_MULOUBARD
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
+SPECIES_PICHON
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -369,15 +369,15 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_GOB_TROTTEUR
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
+SPECIES_BACTERRIB
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -390,7 +390,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+SPECIES_DAGON
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -403,11 +403,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CORBAC
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
+SPECIES_VIRUSTINE
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -420,7 +420,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+SPECIES_MOFETTE
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -433,7 +433,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -446,7 +446,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+SPECIES_PICHON
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -459,11 +459,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_MULOUBARD
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
+SPECIES_BACTERRIB
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -476,7 +476,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+SPECIES_GELIKAN
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -489,7 +489,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+SPECIES_BACTERRIB
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -502,7 +502,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_GELIKAN
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -533,11 +533,11 @@ Items: Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
+SPECIES_MULOUBARD
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Golbat
+SPECIES_MOUMOULE
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -563,11 +563,11 @@ Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Carvanha
+SPECIES_GELIKAN
 Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Mightyena
+SPECIES_MULOUBARD
 Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -580,11 +580,11 @@ Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Sharpedo
+SPECIES_TOURTHON
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Mightyena
+SPECIES_GELIKAN
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -598,15 +598,15 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
+SPECIES_KRALAMOURE_GEANT
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Crobat
+SPECIES_MAITRE_CORBAC
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Sharpedo
+SPECIES_RAUL_MOPS
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -2033,15 +2033,15 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
+SPECIES_LEOLHYENE
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Mightyena
+SPECIES_GOB_TROTTEUR
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Numel
+SPECIES_MOFETTE
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2484,7 +2484,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+SPECIES_MOFETTE
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3190,11 +3190,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_MULOUBARD
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3207,7 +3207,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+SPECIES_PICHON
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8855,15 +8855,15 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Camerupt
+SPECIES_SCORDION
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Mightyena
+SPECIES_MAITRE_CORBAC
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Golbat
+SPECIES_HALBARDENT
 Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9968,11 +9968,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
+SPECIES_GOB_TROTTEUR
 Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Golbat
+SPECIES_CAAPSALOOCKE
 Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -9985,11 +9985,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Wailmer
+SPECIES_MOFETTE
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10002,11 +10002,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Wailmer
+SPECIES_MOUMOULE
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10019,11 +10019,11 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_CHIENCHIEN_ENRAGE
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Numel
+SPECIES_BWAK_FEU
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -10149,7 +10149,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10240,11 +10240,11 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Poochyena
+SPECIES_LEOLHYENE
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10257,7 +10257,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
+SPECIES_SCORDION
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10270,7 +10270,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10283,7 +10283,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
+SPECIES_LEOLHYENE
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10296,7 +10296,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
+SPECIES_KWAKERE_FEU
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10386,11 +10386,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Poochyena
+SPECIES_GOB_TROTTEUR
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10403,19 +10403,19 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer
 
-Numel
+SPECIES_MOFETTE
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Poochyena
+SPECIES_CHIENCHIEN_ENRAGE
 Level: 20
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Numel
+SPECIES_HALBARDENT
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -10481,15 +10481,15 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
+SPECIES_LEOLHYENE
 Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Crobat
+SPECIES_MAITRE_CORBAC
 Level: 38
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Camerupt
+SPECIES_CRAPEUR
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -10503,15 +10503,15 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
+SPECIES_CHIENCHIEN_ENRAGE
 Level: 24
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 24
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Camerupt
+SPECIES_CRAPEUR
 Level: 25
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -12637,7 +12637,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12650,7 +12650,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_LEOLHYENE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12663,7 +12663,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+SPECIES_MOFETTE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12676,11 +12676,11 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
+SPECIES_SCORPIQUE
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12693,11 +12693,11 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
+SPECIES_SCORPIQUE
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Numel
+SPECIES_BWAK_FEU
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12710,7 +12710,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
+SPECIES_LEOLHYENE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12723,7 +12723,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_GOB_TROTTEUR
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12736,7 +12736,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+SPECIES_LEOLHYENE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12749,7 +12749,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12762,7 +12762,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
+SPECIES_HALBARDENT
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12775,7 +12775,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
+SPECIES_SCORPIQUE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12788,7 +12788,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+SPECIES_MOFETTE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12801,7 +12801,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12814,7 +12814,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
+SPECIES_LEOLHYENE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12827,7 +12827,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+SPECIES_CRAPEUR
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12840,7 +12840,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
+SPECIES_SCORPIQUE
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12853,19 +12853,19 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+SPECIES_MOFETTE
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Mightyena
+SPECIES_LEOLHYENE
 Level: 28
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Zubat
+SPECIES_CAAPSALOOCKE
 Level: 30
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Camerupt
+SPECIES_HALBARDENT
 Level: 33
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -12896,15 +12896,15 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
+SPECIES_LEOLHYENE
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Crobat
+SPECIES_CRAPEUR
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Camerupt
+SPECIES_OBSIDIANTRE
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
